@@ -1,0 +1,113 @@
+ 
+
+ship "Drak Shadow Vessal"
+	sprite "ship/dmc"
+	licenses
+		"special"
+	attributes
+		category "Heavy Warship"
+		"shields" 900000
+		"shield generation" 150
+		"hull" 300000
+		"hull repair rate" 50
+		"energy generation" 1500
+		"energy capacity" 540000
+		"mass" 900
+		"cargo space" 10
+		"required crew" 1
+		"bunks" 1
+		"fuel capacity" 1000
+		"ramscoop" 1090
+		"cloak" .1
+
+		"drag" 5.0
+
+		"outfit space" 0
+		"weapon capacity" 0
+		"engine capacity" 0
+
+		"heat dissipation" 100
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"Shadow Systems"
+		"Cutting Beam"
+		"Cutting Beams"
+		"Defense Field"
+
+	engine -7 36
+	engine 7 36
+	gun 0 -26 "Cutting Beam"
+	turret 0 -26 "Cutting Beams"
+	turret 0 -26 "Defense Field"
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	description "Unknown Drak Vessel"
+	description "	To purchase this ship you must be of the Drak race."
+
+outfit "Shadow Systems"
+	category "Systems"
+	"jump speed" 180
+	"jump drive" 1
+	"afterburner thrust" 50
+	"thrust" 50
+	"reverse thrust" 50
+	"turn" 1500
+	description "unknown"
+
+outfit "Cutting Beam"
+	category "Guns"
+	thumbnail "outfit/unknown"
+	"gun ports" -1
+	weapon
+		sprite "projectile/cb"
+			"frame rate" 12
+		sound "laser"
+		"hit effect" "electron impact"
+		"inaccuracy" .01
+		"velocity" 1000
+		"lifetime" 1
+		"reload" 1
+		"shield damage" 5000
+		"hull damage" 500
+	description "."
+
+outfit "Cutting Beams"
+	category "Turrets"
+	thumbnail "outfit/unknown"
+	"turret mounts" -1
+	weapon
+		sprite "projectile/cb"
+			"frame rate" 12
+		sound "laser"
+		"hit effect" "electron impact"
+		"inaccuracy" .01
+		"velocity" 1000
+		"lifetime" 1
+		"reload" 1
+		"shield damage" 5000
+		"hull damage" 500
+	description "."
+
+outfit "Defense Field"
+	category "Turrets"
+	thumbnail "outfit/unknown"
+	"turret mounts" -1
+	weapon
+		"hit effect" "defense weapons"
+		"velocity" 1000
+		"lifetime" 1
+		"reload" 1
+		"inaccuracy" .01
+		"anti-missile" 200
+	description "."
+
+effect "defense weapons"
+	sprite "projectile/cb"
+		"no repeat"
+		"frame rate" 12
+	"lifetime" 21
+	"velocity scale" 1

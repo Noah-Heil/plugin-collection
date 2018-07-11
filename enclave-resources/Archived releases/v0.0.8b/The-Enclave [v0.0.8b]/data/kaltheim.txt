@@ -1,0 +1,379 @@
+# Weapons:
+
+outfit "Heat Redistribution Ray"
+	category "Turrets"
+	cost 500000
+	thumbnail "outfit/Heat Ray"
+	"mass" 35
+	"outfit space" -35
+	"weapon capacity" -35
+	"turret mounts" -1
+	weapon
+		sprite "projectile/banisher"
+			"frame rate" 60
+		sound "flamethrower"
+		"hit effect" "heat ray hit"
+		"inaccuracy" .4
+		"velocity" 590
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 3.3
+		"firing heat" -1
+		"shield damage" 0
+		"hull damage" .52
+		"heat damage" 100
+		"piercing" 0.7
+	description "The Heat Redistribution Ray is the Kaltheim's primary cooling method; by using some very complicated physics, they are able to trap superhot particles within a beam, which can then be fired at an enemy ship. The excess heat required for this weapon is sourced from the other outfits installed on a ship, providing the cooling effect."
+	description "	This weapon is entirely unhindered by shields, instead piercing through to transmit heat directly to the enemy ship's hull. As a result of the increased heat upon it, this often causes the hull to begin to warp, causing a small amount of damage."
+	
+effect "heat ray hit"
+	sprite "effect/explosion/medium"
+		"no repeat"
+		"frame rate" 15
+		"random start frame"
+	"lifetime" 28
+	"random angle" 360
+	"random spin" 3
+	"random frame rate" 5
+	"velocity scale" 0
+	
+	
+outfit "Phase Missile Launcher"
+	category "Secondary Weapons"
+	cost 5000000
+	thumbnail "outfit/Phase Launcher"
+	"mass" 30
+	"outfit space" -30
+	"weapon capacity" -30
+	"gun ports" -1
+	"phase capacity" 100
+	weapon
+		sprite "projectile/phase"
+			"random start frame"
+			"frame rate" 2
+		sound "pulse"
+		ammo "Phase Missile"
+		icon "icon/phase"
+		"fire effect" "ionic afterburner"
+		"hit effect" "seeker impact"
+		"inaccuracy" 4
+		"velocity" 12
+		"lifetime" 300
+		"reload" 30
+		"firing energy" 1
+		"firing heat" 15
+		"firing force" 250
+		"acceleration" 1.2
+		"drag" .1
+		"turn" 3
+		"homing" 4
+		"radar tracking" .9
+		"shield damage" 100
+		"ion damage" 8
+		"hull damage" 70
+		"hit force" 25
+		"missile strength" 24
+		"piercing" 1
+	description "The Phase Missile is a terrifying weapon designed by the Kaltheim to warp in and out of this plane of existence as it flies, allowing it to dodge anti-missile systems entirely. However, this universe-swap technology severely limits the projectile's range."
+	
+outfit "Phase Missile"
+	category "Ammunition"
+	cost 80000
+	thumbnail "outfit/Phase"
+	"mass" .2
+	"phase capacity" -1
+	description "The Phase Missile is ammunition for the Phase Missile Launcher- without the launcher, you cannot install Phase Missiles. Each launcher can store up to 100 Phase Missiles."
+
+	
+outfit "Kelvin Beam"
+	category "Guns"
+	cost 2100000
+	thumbnail "outfit/Kelvin Beam"
+	"mass" 30
+	"outfit space" -30
+	"weapon capacity" -30
+	"gun ports" -1
+	weapon
+		sprite "projectile/kelvin"
+			"frame rate" 30
+		sound "disruptor"
+		"hit effect" "electron impact"
+		"inaccuracy" .4
+		"velocity" 500
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 6.8
+		"firing heat" 2.1
+		"shield damage" 5
+		"hull damage" 4.7
+	description "The Kelvin Beam is the Kaltheim's primary weapon. While it is only a simple beam weapon, it can deal out huge chunks of damage."
+	
+outfit "Kelvin Turret"
+	category "Turrets"
+	cost 4500000
+	thumbnail "outfit/Kelvin Turret"
+	mass "69"
+	"outfit space" -69
+	"weapon capacity" -69
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/kelvin"
+			"frame rate" 30
+		sound "disruptor"
+		"hit effect" "electron impact"
+		"inaccuracy" .4
+		"velocity" 500
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 8.3
+		"firing heat" 4.7
+		"shield damage" 7.9
+		"hull damage" 8.6
+
+
+# Shields:	
+	
+outfit "Tundra-Class Shield Generator"
+	category "Systems"
+	cost 520000
+	thumbnail "outfit/tundra_shields"
+	"mass" 25
+	"outfit space" -25
+	"shield generation" 1.3
+	"shield energy" 1.3
+	"shield heat" -3
+	description "The Tundra-Class Shield Generator is the smallest Kaltheim shield system. Designed to absorb energy from the projectiles which it deflects, this allows smaller Kaltheim ships to operate only on relatively small generators. The dissipation effects used by Kaltheim shields also allow them to cool their ships when being fired on."
+	
+
+outfit "Glacial-Class Shield Generator"
+	category "Systems"
+	cost 1100000
+	thumbnail "outfit/glacial_shields"
+	"mass" 50
+	"outfit space" -50
+	"shield generation" 2.8
+	"shield energy" 2.8
+	"shield heat" -7
+	description "The Glacial-Class Shield Generator is the next step up in Kaltheim shielding technology. It employs better cooling, energy absorption and shield generation than Tundra shields in order to provide a more efficient shielding system for larger Kaltheim ships."
+
+
+outfit "Boreal-Class Shield Generator"
+	category "Systems"
+	cost 1650000
+	thumbnail "outfit/boreal_shields"
+	"mass" 75
+	"outfit space" -75
+	"shield generation" 4.4
+	"shield energy" 4.4
+	"shield heat" -11.5
+	description "This is the largest set of shields devised by the Kaltheim so far."
+	
+
+# Power:
+
+outfit "Floe Reactor"
+	category "Power"
+	cost 2000000
+	thumbnail "outfit/floe_core"
+	"mass" 35
+	"outfit space" -35
+	"energy generation" 5.3
+	"cooling" 6
+	description "The Floe reactor is the Kaltheim's primary power source for their smaller ships. As with almost all Kaltheim outfits, it cools the ship it is installed on in addition to generating power."
+	
+
+outfit "Iceberg Reactor"
+	category "Power"
+	cost 15000000
+	thumbnail "outfit/iceberg_core"
+	"mass" 120
+	"outfit space" -120
+	"energy generation" 22
+	"cooling" 25
+	description "The Iceberg reactor is a typical Kaltheim system- equipped to cool the ship it's installed upon whilst performing its primary function. This is the largest reactor designed by the Kaltheim so far, beating out the older Floe reactor by an enormous margin."
+
+
+outfit "Polar Batteries"
+	category "Power"
+	cost 750000
+	thumbnail "outfit/polar_battery"
+	"mass" 50
+	"outfit space" -50
+	"energy capacity" 10000
+	description "The Kaltheim's Polar batteries are a simple energy storage unit, albeit far more efficient than human technology."
+	
+	
+# Ships:
+
+ship "Tyar'linhalf 67-G"
+	sprite "ship/Tyar'linhalf 67-G"
+	attributes
+		category "Heavy Warship"
+		"cost" 40000000
+		"shields" 40600
+		"hull" 18300
+		"required crew" 112
+		"bunks" 169
+		"mass" 1150
+		"drag" 18.7
+		"heat dissipation" .2
+		"fuel capacity" 600
+		"cargo space" 65
+		"outfit space" 884
+		"weapon capacity" 364
+		"engine capacity" 200
+		"ramscoop" 3
+		weapon
+			"blast radius" 350
+			"shield damage" 5400
+			"hull damage" 1200
+			"hit force" 6600
+	outfits
+		"Heat Redistribution Ray" 2
+		"Kelvin Turret" 2
+		"Phase Missile Launcher" 5
+		"Phase Missile" 500
+		
+		"Iceberg Reactor"
+		"Polar Batteries"
+		"Glacial-Class Shield Generator"
+		"Boreal-Class Shield Generator"
+		
+		Hyperdrive
+		"A525 Atomic Steering"
+		"A860 Atomic Thruster"
+		
+	engine -15 187
+	engine 15 187
+	engine -60 202.5
+	engine 60 202.5
+	gun -24 -132.5 "Phase Missile Launcher"
+	gun -18 -126 "Phase Missile Launcher"
+	gun 18 -126 "Phase Missile Launcher"
+	gun 24 -132.5 "Phase Missile Launcher"
+	gun 0 -202 "Phase Missile Launcher"
+	turret 17.5 30 "Heat Redistribution Ray"
+	turret -17.5 30 "Heat Redistribution Ray"
+	turret 20 153 "Kelvin Turret"
+	turret -20 153 "Kelvin Turret"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "big explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "This is the Kaltheim's largest warship. Devised only relatively recently, it is designed for just one thing: the invasion of human space."
+	
+	
+ship "Kru'urlin 89-B"
+	sprite "ship/Kru'urlin 89-B"
+	attributes
+		category "Light Warship"
+		"cost" 2000000
+		"shields" 19000
+		"hull" 7500
+		"required crew" 12
+		"bunks" 12
+		"mass" 145
+		"drag" 3.0
+		"heat dissipation" .2
+		"fuel capacity" 400
+		"cargo space" 20
+		"outfit space" 421
+		"weapon capacity" 182
+		"engine capacity" 91
+		"ramscoop" 3
+		weapon
+			"blast radius" 80
+			"shield damage" 800
+			"hull damage" 400
+			"hit force" 1200
+	outfits
+		"Phase Missile Launcher" 2
+		"Kelvin Beam" 2
+		"Heat Redistribution Ray"
+		"Phase Missile" 200
+		
+		"Floe Reactor"
+		"Tundra-Class Shield Generator" 2
+		"Polar Batteries"
+		
+		Hyperdrive
+		"A375 Atomic Steering"
+		"A370 Atomic Thruster"
+		
+	engine 0 72.5
+	gun 35 0 "Phase Missile Launcher"
+	gun 30.5 -10 "Kelvin Beam"
+	gun -35 0 "Phase Missile Launcher"
+	gun -30.5 -10 "Kelvin Beam"
+	turret 0 2 "Heat Redistribution Ray"
+	explode "tiny explosion" 50
+	explode "small explosion" 30
+	explode "medium explosion" 20
+	"final explode" "final explosion small"
+	description "The Kru'urlin 89-B is a small Kaltheim warship, designed to be able to hop in and out of systems quickly in order to somewhat shred defences before the larger warships arrive."
+	
+	
+ship "Lenmig'sraor 52-T"
+	sprite "ship/Lenmig'sraor 52-T"
+	attributes
+		category "Medium Warship"
+		"cost" 20000000
+		"shields" 18030
+		"hull" 8255
+		"required crew" 42
+		"bunks" 93
+		"mass" 755
+		"drag" 10.1
+		"heat dissipation" .6
+		"fuel capacity" 700
+		"cargo space" 36
+		"outfit space" 752
+		"weapon capacity" 325
+		"engine capacity" 156
+		"ramscoop" 3
+		weapon
+			"blast radius" 320
+			"shield damage" 4000
+			"hull damage" 2000
+			"hit force" 6000
+	outfits
+		"Phase Missile Launcher" 2
+		"Kelvin Beam" 4
+		"Heat Redistribution Ray" 3
+		"Phase Missile" 200
+		
+		"Iceberg Reactor"
+		"Glacial-Class Shield Generator" 2
+		"Polar Batteries"
+		
+		Hyperdrive
+		"A520 Atomic Thruster"
+		"A525 Atomic Steering"
+		
+	engine -52.25 117.5
+	engine -37.75 117
+	engine -15.75 94.5
+	engine 0.75 127.5
+	engine 16.25 95
+	engine 40.25 117
+	engine 54.75 117.5
+	gun -51.75 -66 "Kelvin Beam"
+	gun -37.25 -66 "Kelvin Beam"
+	gun -11.75 -89.5 "Phase Missile Launcher"
+	gun 15.75 -89.5 "Phase Missile Launcher"
+	gun 40.75 -66 "Kelvin Beam"
+	gun 55.25 -66 "Kelvin Beam"
+	turret -45.75 74 "Heat Redistribution Ray"
+	turret 14.25 69 "Heat Redistribution Ray"
+	turret 68.25 74 "Heat Redistribution Ray"
+	explode "tiny explosion" 80
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "The Lenmig'sraor 52-T is a somewhat antiquated Kaltheim design, from the days before they began ramping up for the invasion. The original versions were equipped with a number of fighter bays, but in the run-up to war many were heavily modified to become hunter-killers, sacrificing the fighters in favour of more maneuverability as well as more gun slots and turrets."
+	description "	While the old versions of the ship are rarely seen nowadays, when they are deemed suitable for a battle they are a major force on the battlefield."

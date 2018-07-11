@@ -1,0 +1,94 @@
+mission "Acorn Conspiracy 1"
+	name "The Acorn Shortage"
+	description "The hai are in a state of panic. They are running low on acorns and can't seem to grow more trees."
+	landing
+	source
+		attributes "hai"
+		random < 40
+	to offer
+		has "main plot: completed"
+		has "First Contact: Unfettered: offered"
+	on offer
+		conversation
+			`When you land you can see that their is a sort of panic going on.`
+			`	You find a telescreen that's not crammed with giant squirrels and watch the newscast to find that there is some sort of acorn shortage.`
+			choice
+				`	(Find someone to explain what's happening)`
+				goto find
+				`	(Leave)`
+				decline
+			
+			label find
+			`You visit the local governmental office. When you walk in the human governor for this planet greets you.`
+			`	"Hello there! How may I help you?"`
+			`	"What's happening here?" you ask "Well," he replies "It seems that the Hai are having a catastophic acorn shortage. Being large squirrels, that makes up most of their diet. So you can see how that would cause problems."
+			choice
+				`	"Can I do anything to help?"`
+				goto help
+				`	"Well, I'm sorry to hear that. Unfortunantly, I can't help them."
+				goto cant
+			
+			label help
+			`	"Well you could see the Hai scientists. They may have leads to what's causing the problem."`
+			accept
+			
+			label cant
+			`	"Well that's too bad. They could really use whatever help they could get. Are you sure you can't?"`
+			choice
+				`	"I'm sorry, I just cant. This really isn't my field of expertise."
+				decline
+				`	"Well... I guess I could... What can I do?"`
+				
+	on accept
+		log "The Hai are having an acorn shortage. I want to help get to the bottom of this"
+		set "Acorn Shortage 1"
+		fail
+		
+mission "Acorn Conspiracy 2"
+	name "Seeing the Scientists"
+	description "The hai are in a state of panic. They are running low on acorns and can't seem to grow more trees."
+	landing
+	source
+		planet "Greenwater"
+	destination "Hai-home"
+	to offer
+		has "Acorn Shortage 1"
+	on offer
+		conversation
+			`Upon landing on Greenwater, you find the planet's directory and search for the Science Division.`
+			`	When you figure out the location, you take a taxi to the building.`
+			`	When you enter, a few Hai are there to greet you. they seem to be expecting you. "Are you captain <first> <last>? Come with us please"`
+			`	"We were told you want to help us get to the bottom of this shortage"`
+			choice
+				`	"Yes I do"`
+				goto yes
+				`	"Yeah I am. Do you know anything about the shortage?"`
+				goto know
+			label yes
+			`	"Ah very good. Right through here please"`
+			label know
+			`	You are brought into a room full of graphs and charts "This is the data we have compiled about the shortage." They motion towards a chart but you arent really paying attention.`
+			`	You go and look at one of the charts. It's clearly more complicated than your brain can comprehend. The scientists see you peering at the wrong chart and direct you to the correct one.`
+			`	"As you can see, the number of acorns and oak trees has been steadily falling since a few months ago. Numbers today ae so low, that the Hai government has declared a State of Emergency."`
+			choice
+				`	"Have you any idea what's happening with the trees?"`
+				`	"Do you know why the numbers just suddenly started falling?"`
+			`	"That's the problem. We don't. We were hoping you could find out."`
+			`	The other scientist, who until now has been silent, chimes in.`
+			`	"We need you to go around testing the remaining trees in 3 of the most affected areas. We hope to find what's causing their drop in numbers."`
+			`	"Can you do this for us?"`
+			choice
+				`	"Of course!"`
+				accept
+				`	"Sorry, all this sciency stuff seems a tad bit out of my league."`
+				decline
+		on complete
+			conversation
+				`	You have reached your first stop. You take the equipment the scientists gave you and start tesing trees. A few Hai approach you.`
+				`	"What are you doing?" one asks. "I'm testing trees to see why they've been dying."`
+				`	"Dying? The trees haven't been dying. They just... disappear."`
+				`	"Disappear?" you ask. "Correct. They seem to go away in the night." Something fishy's going on here, and you're going to find out what.`
+			set "Acorn Shortage 2"
+#the payment below is just a small taxi fee. gotta pay your driver don't ya?
+			payment -150
+			

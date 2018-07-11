@@ -1,0 +1,192 @@
+fleet "Large Republic"
+	variant 1
+		"Carrier"
+		"Lance" 4
+		"Combat Drone" 6
+		"Battlecruiser" 2
+		"Rainmaker" 2
+		"Gunboat" 2
+		"Battleship"
+		"Destroyer" 3
+	variant 3
+		"Cruiser"
+		"Combat Drone" 4
+		"Frigate"
+		"Rainmaker"
+		"Navy Freighter" 2
+	variant 7
+		"Nesasio"
+		"Patrol Boat"2
+	variant 7
+		"Nesasio" 2
+	variant 4
+		"Battlecruiser"
+		"Destroyer" 2
+	variant 5
+		"Destroyer" 3
+	variant 1
+		"Battleship" 2
+		"Battlecruiser" 3
+		
+fleet "Large Syndicate"
+	variant 1
+		"Vanguard"
+		"Sentinel"
+	variant 1
+		"Vanguard"
+		"Quicksilver (Proton)" 2
+		"Sentinel"
+	variant 2
+		"Sentinel" 2
+		
+fleet "Small Republic"
+	variant 5
+		"Gunboat"
+		"Rainmaker"
+		"Patrol Boat"
+	variant 4
+		"Frigate"
+		"Patrol Boat 2"
+	variant 6
+		"Gunboat"
+		"Patrol Boat"
+	variant 7
+		"Patrol Boat" 2
+	variant 7
+		"Patrol Boat"
+		"Rainmaker"
+		
+fleet "Republic Freight"
+	government "Republic"
+	names "republic capital"
+	cargo 4
+	personality
+		confusion 20
+		timid frugal appeasing
+	variant 1
+		"Frigate" 2
+		"Rainmaker" 2
+		"Gunboat" 2
+		"Navy Frieghter"
+	variant 3
+		"Cruiser"
+		"Combat Drone" 4
+		"Frigate"
+		"Rainmaker"
+		"Navy Freighter" 3
+	variant 2
+		"Gunboat" 2
+		"Navy Freighter"
+	variant 2
+		"Navy Freighter" 2
+		"Gunboat" 2
+		"Rainmaker"
+	variant 3
+		"Frigate" 3
+		"Gunboat" 3
+		"Rainmaker" 2
+		"Navy Freighter" 2
+		
+
+fleet "Large Oathkeeper"
+	variant 10
+		"Viscount"
+		"Lance" 2
+		"Carrier" 2
+		"Lance" 8
+		"Combat Drone" 12
+		"Cruiser"2
+		"Combat Drone" 8
+		"Frigate" 4
+		"Rainmaker" 6
+		"Gunboat" 4
+	variant 11
+		"Battlecruiser" 2
+		"Destroyer" 3
+
+fleet "Large Republic"
+	variant 10
+		"Viscount"
+		"Lance" 2
+		"Carrier" 2
+		"Lance" 8
+		"Combat Drone" 12
+		"Cruiser"2
+		"Combat Drone" 8
+		"Frigate" 4
+		"Rainmaker" 6
+		"Gunboat" 4
+	variant 11
+		"Battlecruiser" 2
+		"Destroyer" 3
+		
+fleet "Small Pug"
+	variant 2
+		"Pug Mazdar"
+		"Pug Zambor"
+	variant 1
+		"Pug Mazdar" 2
+		"Pug Zambor" 2
+		"Pug Zibruka"
+
+fleet "Large Pug"
+	variant 1
+		"Pug Mazdar"
+		"Pug Zambor"
+		"Pug Zibruka" 2
+	variant 2
+		"Pug Embor"
+		"Pug Zambor" 2
+	variant 3
+		"Pug Embor"
+		"Pug Mazdar"
+		"Pug Zambor" 3
+		"Pug Zibruka"
+	variant 2
+		"Pug Embor" 2
+		"Pug Enfolta" 2
+		"Pug Zibruka" 2
+	variant 1
+		"Pug Embor" 2
+		"Pug Enfolta" 2
+		"Pug Zambor" 4
+		
+fleet "Small Free Worlds"
+	variant 1
+		"Qrow" 2
+	variant 1
+		"Qrow"
+		"Argosy" 2
+
+fleet "Small Independent"
+	add variant 1
+		"Qrow" 2
+		
+fleet "Large Free Worlds"
+	variant 2
+		"Qrow" 2
+		"Bastion"
+	variant 2
+		"Qrow" 2
+		"Argosy"
+		"Bastion"
+	variant 1
+		"Qrow" 2
+		"Falcon"
+		
+fleet "Korath Home"
+	add variant 12
+		"Korath Seedship"
+	add variant 12
+		"Korath Seedship" 2
+
+
+fleet "Kor Efret Home"
+	personality
+		timid
+	add variant
+		"Korath Seedship"
+	add variant
+		"Korath Seedship" 2
+
+

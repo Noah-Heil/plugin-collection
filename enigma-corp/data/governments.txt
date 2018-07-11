@@ -1,0 +1,37 @@
+# Copyright (c) 2016 by Jonathan Steck
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+government "Enigma Corp"
+	color 0 1 0
+	swizzle 3
+	"player reputation" 10
+	"attitude toward"
+		"Outer Ring Mining" .5
+		"Deep Sky" .01
+		"Merchant" .01
+		"Hai (Unfettered)" .01
+		"Coalition" .01
+		"Heliarch" .01
+		"Pug" -.01
+		"Korath" -.01
+		"Kor Sestor" -.01
+		"Quarg" -.01
+	"bribe" .05
+	"fine" 0
+	"friendly hail" "friendly civilian"
+	"hostile hail" "hostile civilian"
+
+government "Lovelace Labs"
+	swizzle 0
+	"player reputation" -1000
+	"attitude toward"
+		"Pirate" -.01
+	"friendly hail" "friendly navy"
+	"hostile hail" "hostile navy"

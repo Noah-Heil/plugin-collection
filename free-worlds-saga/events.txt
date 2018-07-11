@@ -1,0 +1,73 @@
+# Copyright (c) 2015 by Ian Clark
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+
+event "FWS: transmission received"
+	"reputation: Navy Intelligence" = 100
+	government "Syndicate"
+		"attitude toward"
+			"Syndicate (Extremist)" 0.1
+	government "Republic"
+		"attitude toward"
+			"Syndicate (Extremist)" 0.1
+	government "Merchant"
+		"attitude toward"
+			"Syndicate (Extremist)" 0.1
+	government "Pirate"
+		"attitude toward"
+			"Syndicate (Extremist)" 0.1
+	government "Syndicate (Extremist)"
+		"attitude toward"
+			"Syndicate" 0.1
+			"Republic" 0.1
+			"Merchant" 0.1
+			"Pirate" 0.1
+
+event "FWS: transmission decoded"
+	"reputation: Syndicate (Extremist)" = 1
+	system Algenib
+		fleet "Small Core Pirates" 1500
+		fleet "Large Core Pirates" 2000
+		fleet "Syndicate Extremists" 200
+
+event "FWS: extremists advance"
+	government "Syndicate"
+		"attitude toward"
+			"Syndicate (Extremist)" -0.5
+	government "Republic"
+		"attitude toward"
+			"Syndicate (Extremist)" -0.5
+	government "Navy"
+		"attitude toward"
+			"Syndicate (Extremist)" -0.5
+	government "Navy (Oathkeeper)"
+		"attitude toward"
+			"Syndicate (Extremist)" -0.5
+	government "Merchant"
+		"attitude toward"
+			"Syndicate (Extremist)" -0.5
+	government "Pirate"
+		"attitude toward"
+			"Syndicate (Extremist)" 0.5
+	government "Syndicate (Extremist)"
+		"attitude toward"
+			"Syndicate" -0.5
+			"Republic" -0.5
+			"Merchant" -0.5
+			"Navy" -0.5
+			"Navy (Oathkeeper)" -0.5
+			"Pirate" 0.5
+	"reputation: Syndicate (Extremist)" = -100
+	system Algenib
+		government "Syndicate (Extremist)"
+		fleet "Syndicate Extremists" 200
+	system Gienah
+		government "Syndicate (Extremist)"
+		fleet "Syndicate Extremists" 200

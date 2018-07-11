@@ -1,0 +1,213 @@
+# Copyright (c) 2016 by various
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+shipyard "Betelgeuse Basics"
+	"Skybus"
+	"Sky Dinghy"
+
+shipyard "Betelgeuse Advanced"
+	"Archangel"
+
+shipyard "Lionheart Advanced"
+	"Archangel"
+	"Swooping Raven"
+
+shipyard "Southbound Basics"
+	"Vagrant"
+
+shipyard "Southbound Advanced"
+	"Hauler IV"
+	"Therum"
+	"Junior Osprey"
+
+shipyard "Tarazed Basics"
+	"Wren"
+	"Junior Osprey"
+
+shipyard "Megaparsec Basics"
+	"Arrowhead"
+
+shipyard "Syndicate Basics"
+	"Light Dart"
+	"FTek Girl Scout"
+
+shipyard "Syndicate Advanced"
+	"Heavy Dart"
+	"Star Princess"
+	"FTek Destroyer"
+
+shipyard "Northern Pirates"
+	"Modified Firebird"
+	"Dark Berserker"
+
+shipyard "Southern Pirates"
+	"Black Hawk"
+
+shipyard "Luxury Ships"
+	"Star Princess"
+
+
+
+planet Earth
+	outfitter "Capital Planet"
+
+planet Valhalla
+	outfitter "Capital Planet"
+
+planet Foundry
+	outfitter "Capital Planet"
+
+planet Bourne
+	outfitter "Capital Planet"
+
+outfitter "Capital Planet"
+	"Sizeable Map"
+
+outfitter "Basic Outfits"
+	"SC015s Shield Capacitor"
+	"XF-111 Ship Core"
+	"FTek Tiny Shield System"
+
+outfitter "Common Outfits"
+	"SC015s Shield Capacitor"
+	"SC030s Shield Capacitor"
+	"SC060s Shield Capacitor"
+	"XF-111 Ship Core"
+	"FTek Tiny Shield System"
+
+outfitter "Pirate Outfits"
+	"XF-111 Ship Core"
+	"XF-333 Ship Core"
+	"Extended Bunk Room"
+	"Intelligent Rocket Launcher"
+	"Intelligent Rocket"
+
+planet Zenith
+	outfitter "Northern Pirates"
+
+planet Haven
+	outfitter "Northern Pirates"
+
+planet Freedom
+	outfitter "Northern Pirates"
+
+outfitter "Northern Pirates"
+	"Boarding Cannon"
+	"Interference Shielding"
+
+planet Stormhold
+	outfitter "Core Pirates"
+
+planet "Deadman's Cove"
+	outfitter "Core Pirates"
+
+planet Covert
+	outfitter "Core Pirates"
+
+planet "Buccaneer Bay"
+	outfitter "Core Pirates"
+
+outfitter "Core Pirates"
+	"Interference Hull"
+
+outfitter "Deep Sky Basics"
+	"SC030s Shield Capacitor"
+	"SC060s Shield Capacitor"
+	"XF-111 Ship Core"
+	"XF-333 Ship Core"
+	"FTek Tiny Shield System"
+	"FTek Small Shield System"
+
+outfitter "Deep Sky Advanced"
+	"SC030s Shield Capacitor"
+	"SC060s Shield Capacitor"
+	"SC120s Shield Capacitor"
+	"SC240s Shield Capacitor"
+	"Ship Armory"
+	"XF-111 Ship Core"
+	"XF-333 Ship Core"
+	"XF-555 Ship Core"
+	"Extended Bunk Room"
+	"FTek Tiny Shield System"
+	"FTek Small Shield System"
+	"FTek Medium Shield System"
+
+outfitter "Lovelace Basics"
+	"SC030s Shield Capacitor"
+	"FTek Tiny Shield System"
+
+outfitter "Lovelace Advanced"
+	"SC030s Shield Capacitor"
+	"Boarding Cannon"
+	"Ship Armory"
+	"XF-111 Ship Core"
+	"XF-333 Ship Core"
+	"Extended Bunk Room"
+	"FTek Tiny Shield System"
+	"FTek Small Shield System"
+
+outfitter "Syndicate Basics"
+	"SC030s Shield Capacitor"
+	"FTek021 Rechargable Battery"
+	"XF-111 Ship Core"
+	"XF-333 Ship Core"
+	"FTek Active Blaster"
+	"FTek Tiny Shield System"
+	"FTek Small Shield System"
+	
+
+outfitter "Syndicate Advanced"
+	"SC030s Shield Capacitor"
+	"SC060s Shield Capacitor"
+	"SC120s Shield Capacitor"
+	"FTek021 Rechargable Battery"
+	"Ship Armory"
+	"XF-111 Ship Core"
+	"XF-333 Ship Core"
+	"Extended Bunk Room"
+	"FTek Active Blaster"
+	"FTek Active Blaster Turret"
+	"FTek Heavy Blaster"
+	"FTek Tiny Shield System"
+	"FTek Small Shield System"
+	"FTek Medium Shield System"
+	"FTek Large Shield System"
+	"FTek Huge Shield System"
+
+outfitter "Ammo South"
+	"Soaker Missile"
+
+outfitter "Kraz Basics"
+	"SC030s Shield Capacitor"
+	"FTek Heavy Blaster"
+
+outfitter "Kraz Advanced"
+	"SC030s Shield Capacitor"
+	"SC060s Shield Capacitor"
+	"Extended Bunk Room"
+	"Soaker Missile"
+	"Soaker Missile Launcher"
+	"Energy Chaingun"
+	"FTek Heavy Blaster"
+	"FTek Heavy Blaster Turret"
+	"FTek Tiny Shield System"
+	"FTek Small Shield System"
+	"FTek Medium Shield System"
+
+outfitter "Delta V Basics"
+	"Soaker Missile"
+	"Soaker Missile Launcher"
+
+outfitter "Delta V Advanced"
+	"Soaker Missile"
+	"Soaker Missile Launcher"
+	"Energy Chaingun"
+	"FTek Small Shield System"
+	"FTek Medium Shield System"

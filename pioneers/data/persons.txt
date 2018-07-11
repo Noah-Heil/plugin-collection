@@ -1,0 +1,231 @@
+# Copyright (c) 2018 by various
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+government "Red Pioneers"
+	swizzle 6
+	"player reputation" 1
+	
+ship "Crven"
+	"never disabled"
+	sprite "ship/kar ik vot 349"
+	attributes
+		category "Heavy Warship"
+		"cost" 41280000
+		"shields" 163200
+		"hull" 78100
+		"automaton" 1
+		"mass" 1350
+		"drag" 16.8
+		"heat dissipation" .5
+		"fuel capacity" 40000
+		"outfit space" 105400
+		"weapon capacity" 44700
+		"engine capacity" 17300
+		"ramscoop" 500
+		weapon
+			"blast radius" 450
+			"shield damage" 6400
+			"hull damage" 3200
+			"hit force" 9600
+	outfits
+		" Thunderhead Launcher " 4
+		"Wanderer Anti-Missile" 2
+		"Korath Repeater Turret" 4
+		"Korath Slicer Turret" 2
+		"Triple Plasma Core" 2
+		"Plasma Core"
+		"Systems Core (Large)" 5
+		"Large Heat Shunt" 12
+		"Small Heat Shunt" 6
+		"Thruster (Stellar Class)" 5
+		"Steering (Stellar Class)" 5
+		Hyperdrive
+		"Jump Drive"
+	engine -24 237
+	engine 24 237
+	gun -8 -212
+	gun 8 -212
+	gun -16 -158
+	gun 16 -158
+	turret -37 -150 "Korath Slicer Turret"
+	turret 37 -150 "Korath Slicer Turret"
+	turret -38 -132 "Korath Repeater Turret"
+	turret 38 -132 "Korath Repeater Turret"
+	turret -40 -111 "Korath Repeater Turret"
+	turret 40 -111 "Korath Repeater Turret"
+	turret -102 188 "Wanderer Anti-Missile"
+	turret 102 188 "Wanderer Anti-Missile"
+	explode "tiny explosion" 120
+	explode "small explosion" 60
+	explode "medium explosion" 70
+	explode "big explosion" 50
+	explode "huge explosion" 15
+	"final explode" "final explosion large"
+	
+person "Pioneer Crven"
+	government "Red Pioneers"
+	frequency 3000
+	personality
+		plunders
+	phrase
+		word
+			"Between you and me, I don't exist."
+			"I heard there was a gateway to another galaxy somewhere around here..."
+			"I know the perfect trade route in the entire galaxy... But I'm not going to tell you!"
+	ship "Crven"
+	
+outfit " Thunderhead Launcher "
+	category "Secondary Weapons"
+	cost 450000
+	thumbnail "outfit/thunderhead launcher"
+	"mass" 14
+	"outfit space" -26
+	"weapon capacity" -26
+	"gun ports" -1
+	"thunderhead capacity" 40
+	weapon
+		sprite "projectile/thunderhead"
+			"no repeat"
+			"frame rate" .1
+		sound "thunderhead"
+		"submunition" "Thunderhead" 5
+		"split range" 600
+		"fire effect" "meteor fire"
+		"die effect" "missile death"
+		"hit effect" "medium explosion"
+		"inaccuracy" 10
+		"velocity" 4
+		"lifetime" 400
+		"reload" 75
+		"firing energy" 18
+		"firing heat" 36
+		"acceleration" 1.1
+		"drag" .1
+		"turn" 2
+		"homing" 4
+		"infrared tracking" .9
+		"radar tracking" .6
+		"missile strength" 12
+
+government "Encrypted Frequency"
+	swizzle 2
+	"player reputation" -1
+	
+person "le troll"
+	government "Encrypted Frequency"
+	frequency 216000
+	personality
+		disables
+	phrase
+		word
+			"lol u mad?"
+	ship "Star Barge" "le troll"
+		"never disabled"
+		attributes
+			category "Light Freighter"
+			"cost" 210000
+			"shields" 600
+			"hull" 1000
+			"required crew" 1
+			"bunks" 3
+			"mass" 70
+			"drag" 2.4
+			"heat dissipation" .7
+			"fuel capacity" 300
+			"cargo space" 50
+			"outfit space" 130
+			"weapon capacity" 20
+			"engine capacity" 40
+			weapon
+				"blast radius" 16
+				"shield damage" 160
+				"hull damage" 80
+				"hit force" 240
+		outfits
+			"Nuclear Missile"
+		
+			"nGVF-BB Fuel Cell"
+			"LP036a Battery Pack"
+			"D14-RN Shield Generator"
+		
+			"Chipmunk Plasma Thruster"
+			"Chipmunk Plasma Steering"
+			"Hyperdrive"
+		
+		engine -9 38
+		engine 9 38
+		gun 0 0 "Nuclear Missile"
+		turret 0 -8
+		explode "tiny explosion" 10
+		explode "small explosion" 10
+		
+government Reaver
+	"player reputation" 1
+	color .85 .85 .85
+	swizzle 0
+person "Darcy Manoel"
+	government Reaver
+	personality
+		plunders
+	phrase
+		word
+			"I hope you're enjoying my plugin! Come collab with me some time!"
+	ship "Reaver Firebird"
+		"final explode" "final explosion huge"
+		attributes
+			"cargo space" 27
+			"engine capacity" 183
+			"fuel capacity" 400
+			"gun ports" 4
+			"heat dissipation" 0.7
+			"hull repair rate" 7.1
+			"outfit space" 862
+			"required crew" 8
+			"shield energy" 0.36
+			"shield generation" 0.9
+			"turret mounts" 2
+			"weapon capacity" 261
+			bunks 25
+			category "Medium Warship"
+			cost 3920000
+			drag 4.8
+			hull 29300
+			mass 710
+			ramscoop 6
+			shields 6600
+		explode "small explosion" 73
+		explode "medium explosion" 49
+		explode "large explosion" 17
+		explode "huge explosion" 11
+		gun -28 -27 "Thrasher Cannon"
+		gun -39 -13 "Inhibitor Cannon"
+		gun 28 -27 "Thrasher Cannon"
+		gun 39 -13 "Inhibitor Cannon"
+		outfits
+			"Blue Sun Reactor"
+			"Fuel Pod"
+			"Jump Drive"
+			"Korath Disruptor" 2
+			"Korath Slicer" 4
+			"Large Heat Shunt"
+			"Large Repair Module" 5
+			"Large Shield Module"
+			"Outfits Expansion"
+			"Quantum Key Stone"
+			"Small Repair Module"
+			"Steering (Lunar Class)"
+			"Steering (Planetary Class)"
+			"Thruster (Asteroid Class)"
+			"Thruster (Lunar Class)" 2
+			"Wanderer Ramscoop"
+			"Yellow Sun Reactor"
+		sprite ship/rfirebird
+		turret -5 3 "Anti-Missile Turret"
+		turret 5 3 "Anti-Missile Turret"

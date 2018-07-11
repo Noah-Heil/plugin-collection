@@ -1,0 +1,129 @@
+# Copyright (c) 2016 by Jonathan Steck
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+fleet "Small Enigma Merchants"
+	government "Enigma Corp"
+	names "civilian"
+	cargo 4
+	personality
+		confusion 20
+		timid
+	variant 20
+		"Scout (EC Merchant)"
+	variant 20
+		"Heavy Shuttle (EC Merchant)" 3
+	variant 20
+		"Star Barge (EC Merchant)" 3
+	variant 15
+		"Clipper (EC Merchant)" 2
+	variant 15
+		"Freighter (EC Merchant)" 2
+	variant 15
+		"Argosy (EC Merchant)" 2
+	variant 15
+		"Quicksilver (EC Merchant)"
+		"Freighter (EC Merchant)"
+	variant 15
+		"Clipper (EC Merchant)" 2
+		"Freighter (EC Merchant)"
+	variant 15
+		"Quicksilver (EC Merchant)"
+		"Star Barge (EC Merchant)" 2
+	variant 15
+		"Freighter (EC Merchant)"
+		"Heavy Shuttle (EC Merchant)" 2
+	variant 15
+		"Argosy (EC Merchant)"
+		"Freighter (EC Merchant)"
+	variant 10
+		"Quicksilver (EC Merchant)" 2
+		"Clipper (EC Merchant)" 3
+	variant 10
+		"Argosy (EC Merchant)" 2
+		"Freighter (EC Merchant)" 2
+	variant 10
+		"Quicksilver (EC Merchant)" 2
+		"Argosy (EC Merchant" 2
+	variant 5
+		"Freighter (EC Merchant)" 5
+	variant 5
+		"Clipper (EC Merchant)" 4
+	variant 5
+		"Clipper (EC Merchant)" 2
+		"Star Barge (EC Merchant)" 4
+	variant 5
+		"Argosy (EC Merchant)" 4
+	variant 1
+		"Quicksilver (EC Merchant)" 3
+		
+fleet "Large Enigma Merchants"
+	government "Enigma Corp"
+	names "civilian"
+	cargo 5
+	personality
+		confusion 10
+		timid
+	variant 20
+		"Blackbird (EC Merchant)" 3
+	variant 20
+		"Corvette (EC Merchant)" 3
+	variant 20
+		"Osprey (EC Merchant)" 3
+	variant 20
+		"Aerie (EC Merchant)" 3
+	variant 20
+		"Behemoth (EC Merchant)"
+	variant 20
+		"Bulk Freighter (EC Merchant)"
+	variant 15
+		"Behemoth (EC Merchant)" 2
+	variant 15
+		"Bulk Freighter (EC Merchant)" 2
+	variant 15
+		"Behemoth (EC Merchant)"
+		"Bulk Freighter (EC Merchant)"
+	variant 15
+		"Behemoth (EC Merchant)"
+		"Vanguard (EC Merchant)"
+	variant 15
+		"Behemoth (EC Merchant)"
+		"Corvette (EC Merchant)" 2
+	variant 15
+		"Bulk Freighter (EC Merchant)"
+		"Osprey (EC Merchant)" 2
+	variant 15
+		"Bulk Freighter (EC Merchant)"
+		"Osprey (EC Merchant)" 2
+	variant 10
+		"Aerie (EC Merchant)" 2
+		"Corvette (EC Merchant)"
+	variant 10
+		"Osprey (EC Merchant)" 2
+		"Aerie (EC Merchant)" 2
+	variant 10
+		"Blackbird (EC Merchant)" 2
+		"Osprey (EC Merchant)" 2
+	variant 5
+		"Vanguard (EC Merchant)"
+		"Blackbird (EC Merchant)" 2
+	variant 5
+		"Vanguard (EC Merchant)" 2
+	variant 5
+		"Corvette (EC Merchant)" 2
+		"Bulk Freighter (EC Merchant)"
+		"Behemoth (EC Merchant)"
+	variant 5
+		"Vanguard (EC Merchant)"
+		"Osprey (EC Merchant)" 2
+		"Corvette (EC Merchant)" 2
+	variant 5
+		"Osprey (EC Merchant)" 2
+		"Corvette (EC Merchant)" 2
+		"Aerie (EC Merchant)" 2

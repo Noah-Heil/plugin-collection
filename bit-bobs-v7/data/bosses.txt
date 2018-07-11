@@ -1,0 +1,182 @@
+government "????????????????"
+	swizzle 2
+	"player reputation" -25
+	"bribe" 0
+
+outfit "Helicopter Autocannon"
+	category "Guns"
+	cost 170000
+	thumbnail "outfit/autocannon"
+	"mass" 29
+	"outfit space" -29
+	"weapon capacity" -29
+	"gun ports" -1
+	weapon
+		sprite "projectile/machineshot"
+		sound "piercer"
+		"hit effect" "proton impact"
+		"inaccuracy" 2.5
+		"velocity" 35
+		"lifetime" 15
+		"reload" 3
+		"firing energy" 6
+		"firing force" 3
+		"firing heat" 20
+		"hit force" 18
+		"shield damage" 11.04
+		"hull damage" 9.2
+	description "Kind of like the normal autocannon, but has a lot of spread to make up for the fact that the AA-44 has a gigantic blind spot with normal guns."
+
+outfit "Helichopper"
+	category "Turrets"
+	cost 0
+	thumbnail "outfit/unknown"
+	"mass" 0
+	"outfit space" 0
+	"weapon capacity" 0
+	"turret mounts" -1
+	weapon
+		"phasing"
+		"turret turn" 50
+		"velocity" 150
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 0
+		"firing heat" 0
+		"hit force" 50
+		"shield damage" 25
+		"hull damage" 25
+
+ship "Model AA-44"
+	noun "helicopter"
+	sprite "ship/attack helicopter"
+		"frame time" 1
+		"delay" 1
+		"random start frame"
+	"never disabled"
+	attributes
+		category "Heavy Warship"
+		"cost" 1000000000
+		"shields" 25000
+		"hull" 12500
+		"required crew" 2
+		"bunks" 2
+		"mass" 10
+		"drag" 10
+		"heat dissipation" 0.8
+		"fuel capacity" 1800
+		"cargo space" 0
+		"outfit space" 5
+		"weapon capacity" 5
+		"engine capacity" 5
+		"energy capacity" 10000
+		"energy generation" 5000
+		weapon
+			"blast radius" 0
+			"shield damage" 0
+			"hull damage" 0
+			"hit force" 30000
+	outfits
+		"Hyperdrive"
+		"Add Outfit Space" 500
+		"Add Reverse Thrust" 10
+		"Add Thrust" 10
+		"Add Steering" 435
+		"Add Weapon" 235
+		"Liquid Helium Cooler"
+		"Helicopter Autocannon" 8
+		"Helichopper"
+		"Drak Anti-Missile Field"
+	
+	gun 72 -56
+	gun 81 -55
+	gun 91 -55.5
+	gun 98.5 -54.5
+	gun -72 -56
+	gun -81 -55
+	gun -91 -55.5
+	gun -98.5 -54.5
+	turret 0 0
+	turret 0 0
+	explode "nuke explosion" 30
+	explode "nuke residue fast" 50
+	explode "nuke residue slow" 50
+	"final explode" "final explosion large"
+
+
+ship "Unknown Train"
+	noun "train"
+	sprite "ship/train"
+	"never disabled"
+	attributes
+		category "Medium Warship"
+		"hull" 30000
+		"required crew" 2
+		"bunks" 2
+		"mass" 100
+		"drag" 8.2
+		"heat dissipation" .8
+		"cargo space" 40
+		"reverse thrust" 25
+		"thrust" 50
+		"turn" 50
+		"energy capacity" 400000
+		"fuel capacity" 1000
+		"inscrutable" 1
+		"gaslining" 1
+	outfits
+		"Train Charge"
+		"Train Hit" 10
+	gun 0 0 "Train Charge"
+	turret 0 0 "Train Hit"
+	turret 0 0 "Train Hit"
+	turret 0 0 "Train Hit"
+	turret 0 0 "Train Hit"
+	turret 0 0 "Train Hit"
+	turret 0 0 "Train Hit"
+	turret 0 0 "Train Hit"
+	turret 0 0 "Train Hit"
+	turret 0 0 "Train Hit"
+	turret 0 0 "Train Hit"
+	explode "heavy rocket hit" 50
+	explode "nuke explosion" 5
+	"final explode" "nuke explosion"
+	
+outfit "Train Charge"
+	category "Guns"
+	cost 0
+	thumbnail "outfit/unknown"
+	"mass" 0
+	"outfit space" -0
+	"weapon capacity" -0
+	"gun ports" -1
+	weapon
+		"phasing"
+		"velocity" 1440
+		"lifetime" 1
+		"reload" 1
+		"firing force" -100
+		"shield damage" 0
+		"hull damage" 0
+
+outfit "Train Hit"
+	category "Turrets"
+	cost 0
+	thumbnail "outfit/unknown"
+	"mass" 0
+	"outfit space" 0
+	"weapon capacity" 0
+	"turret mounts" -1
+	weapon
+		sprite "projectile/proton"
+		"phasing"
+		"hit effect" "small explode"
+		"turret turn" 50
+		"velocity" 25
+		"lifetime" 5
+		"reload" 1
+		"firing energy" 0
+		"firing heat" 0
+		"hit force" 100
+		"shield damage" 50
+		"hull damage" 50

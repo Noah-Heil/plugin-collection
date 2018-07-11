@@ -1,0 +1,15 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: project-andromeda
+Upstream-Contact: Rafael Ramawadh <rkvramawadh@gmail.com>
+Source: https://github.com/Disiuze/project-andromeda
+
+Files: *
+Copyright: Rafael Ramawadh <rkvramawadh@gmail.com>
+License: GPL-3+
+
+Files:
+ images/ui/andromeda*
+Copyright: NASA
+License: public-domain
+ From NASA, and therefore in the public domain because they were created by
+ government employees while doing work for the government.

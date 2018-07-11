@@ -1,0 +1,34 @@
+shipyard "XSZ Shipyard- Basic"
+	"Bloodhound"
+	"Fregter"
+	
+shipyard "Ascendancy"
+	"Ravager"
+	"Strike Drone"
+	"Anteater"
+	
+outfitter "Ascendancy Miniaturised"
+	"Miniaturised Beam Laser"
+	"EM Core"
+	
+outfitter "Ascendancy Basics"
+	"Infra-Core"
+	"Violet Core"
+	
+outfitter "Ascendancy Advanced"
+	"X-Core"
+	"Gamma Core"
+	
+outfitter "Enclave Outfits"
+	"Railgun"
+	"Ball-bearing"
+	"Heavy Electron Turret"
+	
+outfitter "XSZ Basics"
+	"Spark-Class Power Pack"
+	"Kindle-Class Power Pack"
+	"Conflagration-Class Power Pack"
+	"Blaze-Class Power Pack"
+
+outfitter "XSZ Advanced"
+	"HFS-8B1 Particle Cannon"

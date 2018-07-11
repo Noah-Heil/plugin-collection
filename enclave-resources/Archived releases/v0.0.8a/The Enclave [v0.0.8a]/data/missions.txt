@@ -1,0 +1,8 @@
+mission "Pug in Enclave galaxy"
+	invisible
+	landing
+	npc kill
+		government Pug
+		personality heroic vindictive staying
+		system "Pug Morbosa"
+		ship "Arfecta (De-Cloaked)" "Yot Hort"

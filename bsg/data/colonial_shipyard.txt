@@ -1,0 +1,3273 @@
+
+ship "Ares Class Destroyer"
+	sprite "ship/destroyer_aegaeon"
+	licenses
+		"Major"
+	attributes
+		category "Light Warship"
+		"cost" 150000000
+		"shields" 18000
+		"hull" 225000
+		"mass" 35440
+		"cargo space" 175
+		"required crew" 271
+		"bunks" 300
+		"fuel capacity" 1400
+
+		"drag" 653
+
+		"outfit space" 4679
+		"weapon capacity" 1138
+		"engine capacity" 3906
+
+		"heat dissipation" .5
+		weapon
+			"blast radius" 3000
+			"shield damage" 15000
+			"hull damage" 15000
+			"hit force" 4500
+	outfits
+		"BGM-237 Medusa" 196
+
+		"FTL Drive Celestus D-Class" 2
+		"R.C.S. Thrusters RT5-B/42" 4
+		"Sub-Light Engines K09-12-C"
+		"Sub-Light Engines K10-19-D-ETAM"
+
+		"H.A.C. MK38/14-A2" 2
+
+		"Pulse Rifle AR-MD86" 350
+		"Fragmentation Grenades" 350
+		"Auto-Nano-Defense-System" 20
+		"Security Station" 4
+
+		"Batteries CMEPS65 L-I"
+		"Reactor MG-74B D.T." 3
+		"Reactor WF-68/C D.M." 2
+
+		"Damage Control Teams" 5
+
+		"Colonial Defense Program v3.8"
+		"DRADIS Array DPG/AESA-31"
+		"ECM/Tartarus RT/CDW-32/4A"
+		"FCS AN/SPS-63 MK06"
+		"Liquid Helium Cooler" 8
+		"Network TI v2.6D"
+
+		"Launch System SLBM-36/B2" 2
+
+		"D.A.C. MM30/2K-T" 8
+		"N.A.C. MK15/5-A" 8
+		"N.A.C. MK21/10-E" 7
+		"P.D.C. MK163/94-B" 4
+
+	engine -20 204
+	engine 20 204
+	engine -0 204
+
+	gun -6 -200 "H.A.C. MK38/14-A2"
+	gun 6 -200 "H.A.C. MK38/14-A2"
+
+	turret 0 -70 "N.A.C. MK21/10-E"
+	turret -5 -45 "N.A.C. MK21/10-E"
+	turret 5 -45 "N.A.C. MK21/10-E"
+	turret -5 16 "N.A.C. MK21/10-E"
+	turret 5 16 "N.A.C. MK21/10-E"
+	turret -5 6 "N.A.C. MK21/10-E"
+	turret 5 6 "N.A.C. MK21/10-E"
+
+	turret -28 16 "N.A.C. MK15/5-A"
+	turret 28 16 "N.A.C. MK15/5-A"
+	turret -28 13 "N.A.C. MK15/5-A"
+	turret 28 13 "N.A.C. MK15/5-A"
+	turret -28 10 "N.A.C. MK15/5-A"
+	turret 28 10 "N.A.C. MK15/5-A"
+	turret -28 7 "N.A.C. MK15/5-A"
+	turret 28 7 "N.A.C. MK15/5-A"
+
+	turret -37 8 "D.A.C. MM30/2K-T"
+	turret 37 8 "D.A.C. MM30/2K-T"
+	turret -37 10 "D.A.C. MM30/2K-T"
+	turret 37 10 "D.A.C. MM30/2K-T"
+	turret -37 12 "D.A.C. MM30/2K-T"
+	turret 37 12 "D.A.C. MM30/2K-T"
+	turret -37 14 "D.A.C. MM30/2K-T"
+	turret 37 14 "D.A.C. MM30/2K-T"
+
+	turret -64 14 "P.D.C. MK163/94-B"
+	turret 64 14 "P.D.C. MK163/94-B"
+	turret -64 20 "P.D.C. MK163/94-B"
+	turret 64 20 "P.D.C. MK163/94-B"
+
+	gun -62 -20 "Launch System SLBM-36/B2"
+	gun 62 -20 "Launch System SLBM-36/B2"
+
+	drone -46 -92 left
+	drone 46 -92 right
+
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "big explosion" 40
+	explode "huge explosion" 10
+	description "The Colonial Destroyer's are smaller than the Battlestars but are weaponized with additional missile banks for ship to ship combat."
+	description "Like the battlestars, destroyser also have a pair of Raptor bays, and good shield generation capability."
+	description "Destoyers are also equiped with powerful afterburners capible of bringing the ship to top speed in a matter of seconds, though the energy cost is quite high."
+	description "Command officers keep in mind, there is a heafty cost to maintian a ship of this size, [Min Crew 35k] [Full Crew and Pilots just over 70k] credits a day."
+
+ship "Berzerk Class Heavy Cruiser"
+	sprite "ship/gunstar_berzerker"
+	licenses
+		"Lieutenant Colonel"
+	attributes
+		category "Medium Warship"
+		"cost" 18350000000
+		"shields" 22500
+		"hull" 480000
+		"mass" 107285
+		"cargo space" 500
+		"required crew" 700
+		"bunks" 700
+		"fuel capacity" 2900
+
+		"drag" 1171
+
+		"outfit space" 11408
+		"weapon capacity" 956
+		"engine capacity" 3913
+
+		"heat dissipation" .31
+		weapon
+			"blast radius" 3000
+			"shield damage" 15000
+			"hull damage" 15000
+			"hit force" 4500
+	outfits
+		"FTL Drive Celestus D-Class" 2
+		"R.C.S. Thrusters RT9-D/17" 4
+		"Sub-Light Engines K10-19-D"
+		"Sub-Light Engines K10-19-D-ETAM"
+
+		"H.A.C. MK38/14-A2" 2
+
+		"Auto-Nano-Defense-System" 10
+		"Pulse Rifle AR-MD86" 1000
+		"Fragmentation Grenades" 1000
+		"Security Station" 25
+
+		"Batteries CMEPS59 L-I" 40
+		"Reactor R6-A D.T." 6
+		"Reactor WF-68/C D.M." 2
+
+		"Damage Control Teams" 30
+
+		"Colonial Defense Program v3.8"
+		"DRADIS Array RT/WTS-10"
+		"ECM/Gorgon RT/CDW-35/2C"
+		"FCS AN/SPS-68 MK38"
+		"G.R.A.N.D. v1.03"
+		"Liquid Helium Cooler" 5
+		"Network TI v2.8"
+
+		"N.A.C. MK15/5-A" 12
+		"N.A.C. MK42/22-B" 12
+		"P.D.C. MK163/94-B" 4
+
+	engine -34 252
+	engine 34 252
+	engine -24 252
+	engine 24 252
+
+	gun -5 -259 "H.A.C. MK38/14-A2"
+	gun 5 -259 "H.A.C. MK38/14-A2"
+
+	turret -40 -136 "P.D.C. MK163/94-B"
+	turret 40 -136 "P.D.C. MK163/94-B"
+	turret -48 174 "P.D.C. MK163/94-B"
+	turret 48 174 "P.D.C. MK163/94-B"
+
+	turret -40 -130 "N.A.C. MK42/22-B"
+	turret 37 -42 "N.A.C. MK42/22-B"
+	turret -37 24 "N.A.C. MK42/22-B"
+	turret 37 46 "N.A.C. MK42/22-B"
+	turret -37 -20 "N.A.C. MK42/22-B"
+	turret 40 -130 "N.A.C. MK42/22-B"
+	turret -37 46 "N.A.C. MK42/22-B"
+	turret 37 -20 "N.A.C. MK42/22-B"
+	turret -37 2 "N.A.C. MK42/22-B"
+	turret 37 2 "N.A.C. MK42/22-B"
+	turret -37 -42 "N.A.C. MK42/22-B"
+	turret 37 24 "N.A.C. MK42/22-B"
+
+	turret 62 -42 "N.A.C. MK15/5-A"
+	turret -62 2 "N.A.C. MK15/5-A"
+	turret 62 46 "N.A.C. MK15/5-A"
+	turret -62 -20 "N.A.C. MK15/5-A"
+	turret 48 174 "N.A.C. MK15/5-A"
+	turret -62 46 "N.A.C. MK15/5-A"
+	turret 62 24 "N.A.C. MK15/5-A"
+	turret -62 -42 "N.A.C. MK15/5-A"
+	turret 62 -20 "N.A.C. MK15/5-A"
+	turret -48 174 "N.A.C. MK15/5-A"
+	turret 62 2 "N.A.C. MK15/5-A"
+	turret -62 24 "N.A.C. MK15/5-A"
+
+	drone 0 0
+	drone 0 0
+	drone 0 0
+	drone 0 0
+	drone 0 0
+
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "big explosion" 40
+	explode "huge explosion" 10
+	description "The Colonial Heavy Cruiser is an offensive weapons platform. It is the lightest ship to carry the mk38's H.A.C. 36 inch forward cannons."
+	description "Hull plating and frame design allows the Berzerk class to withstand nearly 20% more than the Valkyrie Battlestar."
+	description "As with the Talos Cruiser, the heavy cruiser is equiped with after burners and a powerful Reaction Control System, to keep the ship in optimal firing possions."
+	description "Typical Airwing Embarked Craft:"
+	description "Viper MkII Tatical Star Fighters (20; 1 squadron of 20)"
+	description "Raptor Multi-Mission Support Craft (5; 1 squadron of 5)"
+	description "Please keep in mind that crew costs [Skeleton Crew over 50k] and [Full Crew and Pilots over 102k] run credits per day."
+
+ship "Cobra"
+	sprite "ship/cobra"
+	attributes
+		category "Fighter"
+		"cost" 13000
+		"shields" 3000
+		"hull" 1800
+		"mass" 81
+		"required crew" 1
+		"bunks" 1
+		"fuel capacity" 400
+
+		"drag" 9.4
+
+		"outfit space" 171
+		"weapon capacity" 65
+		"engine capacity" 105
+
+		"hull repair rate" .05
+		"heat dissipation" .3
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"ASIM-54C Lightning Javelin" 68
+		"Chaft/Flare Clip" 4
+
+		"Propulsion System A60"
+		"R.C.S. Thrusters CS01-P1"
+		"Turbo-Thruster CS04-AC01"
+
+		"A.C. MM30/1K-G" 2
+		
+		"Launch System XUGCL-2U" 2
+
+		"ALMH-64 Lightning Javelin"
+		"DRADIS Array VT/CIV-04"
+		"ECM/TEWS CN-07/D2"
+		"FCS AA/AAQ-04 CIV"
+
+		"Chaft/Flare CSL/QTY-4"
+
+	engine 0 35
+	engine 10 35
+	engine -10 35
+	gun -21 11 "Launch System XUGCL-2U"
+	gun 21 11 "Launch System XUGCL-2U"
+	gun -9 -8 "A.C. MM30/1K-G"
+	gun 9 -8 "A.C. MM30/1K-G"
+	turret 0 34 "Chaft/Flare CSL/QTY-4"
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	description "Cilvilian version of the Mark II Colonial Viper."
+
+ship "Columbia Class Battlestar"
+	sprite "ship/battlestar_jupiter"
+	licenses
+		"Commander"
+	attributes
+		category "Heavy Warship"
+		"cost" 179377000000
+		"shields" 36000
+		"hull" 800000
+		"mass" 497140
+		"cargo space" 3000
+		"required crew" 1868
+		"bunks" 4500
+		"fuel capacity" 3500
+
+		"drag" 2610
+
+		"outfit space" 11940
+		"weapon capacity" 1754
+		"engine capacity" 3122
+
+		"heat dissipation" .31
+		weapon
+			"blast radius" 3000
+			"shield damage" 15000
+			"hull damage" 15000
+			"hit force" 4500
+	outfits
+		"BGMN-793 Nemesis" 20
+
+		"FTL Drive Celestus C-Class" 2
+		"R.C.S. Thrusters RT5-B/42" 12
+		"Sub-Light Engines K6-59-F"
+
+		"Pulse Rifle AR-MD86" 6000
+		"Fragmentation Grenades" 6000
+		"Security Station" 2
+
+		"Batteries CEMPB47 L-I" 40
+		"Reactor R4-B D.T." 5
+		"Reactor WF-67/B D.M." 3
+
+		"Launch System SLBMN-20/N"
+
+		"Damage Control Teams" 150
+
+		"Colonial Defense Program v3.8"
+		"DRADIS Array RT/WTS-10"
+		"FCS AN/SPS-63 MK06"
+		"Liquid Helium Cooler" 6
+
+		"H.N.A.C. MK86/16-K9" 8
+		"N.A.C. MK15/5-A" 20
+		"P.D.C. MK163/94-B" 3
+
+	engine -14 350
+	engine 14 350
+	engine -50 378
+	engine 50 378
+	engine -67 414
+	engine 67 414
+
+	gun 0 -230 "Launch System SLBMN-20/N"
+
+	turret 0 -200 "P.D.C. MK163/94-B"
+	turret 0 0 "P.D.C. MK163/94-B"
+	turret 0 200 "P.D.C. MK163/94-B"
+
+	turret -10 0 "H.N.A.C. MK86/16-K9"
+	turret -10 -30 "H.N.A.C. MK86/16-K9"
+	turret 10 150 "H.N.A.C. MK86/16-K9"
+	turret 10 0 "H.N.A.C. MK86/16-K9"
+	turret 10 120 "H.N.A.C. MK86/16-K9"
+	turret 10 -30 "H.N.A.C. MK86/16-K9"
+	turret -10 150 "H.N.A.C. MK86/16-K9"
+	turret -10 120 "H.N.A.C. MK86/16-K9"
+
+	turret 165 -30 "N.A.C. MK15/5-A"
+	turret -165 54 "N.A.C. MK15/5-A"
+	turret 165 -18 "N.A.C. MK15/5-A"
+	turret -165 -6 "N.A.C. MK15/5-A"
+	turret 165 -6 "N.A.C. MK15/5-A"
+	turret -165 6 "N.A.C. MK15/5-A"
+	turret 165 6 "N.A.C. MK15/5-A"
+	turret -165 18  "N.A.C. MK15/5-A"
+	turret 165 78 "N.A.C. MK15/5-A"
+	turret -165 -18 "N.A.C. MK15/5-A"
+	turret 165 18 "N.A.C. MK15/5-A"
+	turret -165 30 "N.A.C. MK15/5-A"
+	turret 165 30 "N.A.C. MK15/5-A"
+	turret -165 42 "N.A.C. MK15/5-A"
+	turret 165 54 "N.A.C. MK15/5-A"
+	turret -165 -30 "N.A.C. MK15/5-A"
+	turret 165 42 "N.A.C. MK15/5-A"
+	turret -165 66 "N.A.C. MK15/5-A"
+	turret 165 66 "N.A.C. MK15/5-A"
+	turret -165 78 "N.A.C. MK15/5-A"
+
+	drone -122 -144
+	drone 122 -144
+	drone -122 184
+	drone 122 184
+	drone -122 -144
+	drone 122 -144
+	drone -122 184
+	drone 122 184
+	drone -122 -144
+	drone 122 -144
+	drone -122 184
+	drone 122 184
+	drone -122 -144
+	drone 122 -144
+	drone -122 184
+	drone 122 184
+	drone -122 -144
+	drone 122 -144
+	drone -122 184
+	drone 122 184
+
+	fighter -180 -140 left
+	fighter 180 -140 right
+	fighter -180 125 left
+	fighter 180 125 right
+	fighter -180 -140 left
+	fighter 180 -140 right
+	fighter -180 125 left
+	fighter 180 125 right
+	fighter -180 -140 left
+	fighter 180 -140 right
+	fighter -180 125 left
+	fighter 180 125 right
+	fighter -180 -140 left
+	fighter 180 -140 right
+	fighter -180 125 left
+	fighter 180 125 right
+	fighter -180 -140 left
+	fighter 180 -140 right
+	fighter -180 125 left
+	fighter 180 125 right
+
+	fighter -180 -140 left
+	fighter 180 -140 right
+	fighter -180 125 left
+	fighter 180 125 right
+	fighter -180 -140 left
+	fighter 180 -140 right
+	fighter -180 125 left
+	fighter 180 125 right
+	fighter -180 -140 left
+	fighter 180 -140 right
+	fighter -180 125 left
+	fighter 180 125 right
+	fighter -180 -140 left
+	fighter 180 -140 right
+	fighter -180 125 left
+	fighter 180 125 right
+	fighter -180 -140 left
+	fighter 180 -140 right
+	fighter -180 125 left
+	fighter 180 125 right
+
+	fighter -180 -140 left
+	fighter 180 -140 right
+	fighter -180 125 left
+	fighter 180 125 right
+	fighter -180 -140 left
+	fighter 180 -140 right
+	fighter -180 125 left
+	fighter 180 125 right
+	fighter -180 -140 left
+	fighter 180 -140 right
+	fighter -180 125 left
+	fighter 180 125 right
+	fighter -180 -140 left
+	fighter 180 -140 right
+	fighter -180 125 left
+	fighter 180 125 right
+	fighter -180 -140 left
+	fighter 180 -140 right
+	fighter -180 125 left
+	fighter 180 125 right
+
+	fighter -180 -140 left
+	fighter 180 -140 right
+	fighter -180 125 left
+	fighter 180 125 right
+	fighter -180 -140 left
+	fighter 180 -140 right
+	fighter -180 125 left
+	fighter 180 125 right
+	fighter -180 -140 left
+	fighter 180 -140 right
+	fighter -180 125 left
+	fighter 180 125 right
+	fighter -180 -140 left
+	fighter 180 -140 right
+	fighter -180 125 left
+	fighter 180 125 right
+	fighter -180 -140 left
+	fighter 180 -140 right
+	fighter -180 125 left
+	fighter 180 125 right
+
+	fighter -180 -140 left
+	fighter 180 -140 right
+	fighter -180 125 left
+	fighter 180 125 right
+	fighter -180 -140 left
+	fighter 180 -140 right
+	fighter -180 125 left
+	fighter 180 125 right
+	fighter -180 -140 left
+	fighter 180 -140 right
+	fighter -180 125 left
+	fighter 180 125 right
+	fighter -180 -140 left
+	fighter 180 -140 right
+	fighter -180 125 left
+	fighter 180 125 right
+	fighter -180 -140 left
+	fighter 180 -140 right
+	fighter -180 125 left
+	fighter 180 125 right
+
+	fighter -180 -140 left
+	fighter 180 -140 right
+	fighter -180 125 left
+	fighter 180 125 right
+	fighter -180 -140 left
+	fighter 180 -140 right
+	fighter -180 125 left
+	fighter 180 125 right
+	fighter -180 -140 left
+	fighter 180 -140 right
+	fighter -180 125 left
+	fighter 180 125 right
+	fighter -180 -140 left
+	fighter 180 -140 right
+	fighter -180 125 left
+	fighter 180 125 right
+	fighter -180 -140 left
+	fighter 180 -140 right
+	fighter -180 125 left
+	fighter 180 125 right
+
+	fighter -180 -140 left
+	fighter 180 -140 right
+	fighter -180 125 left
+	fighter 180 125 right
+	fighter -180 -140 left
+	fighter 180 -140 right
+	fighter -180 125 left
+	fighter 180 125 right
+	fighter -180 -140 left
+	fighter 180 -140 right
+	fighter -180 125 left
+	fighter 180 125 right
+	fighter -180 -140 left
+	fighter 180 -140 right
+	fighter -180 125 left
+	fighter 180 125 right
+	fighter -180 -140 left
+	fighter 180 -140 right
+	fighter -180 125 left
+	fighter 180 125 right
+
+	fighter -180 -140 left
+	fighter 180 -140 right
+	fighter -180 125 left
+	fighter 180 125 right
+	fighter -180 -140 left
+	fighter 180 -140 right
+	fighter -180 125 left
+	fighter 180 125 right
+	fighter -180 -140 left
+	fighter 180 -140 right
+	fighter -180 125 left
+	fighter 180 125 right
+	fighter -180 -140 left
+	fighter 180 -140 right
+	fighter -180 125 left
+	fighter 180 125 right
+	fighter -180 -140 left
+	fighter 180 -140 right
+	fighter -180 125 left
+	fighter 180 125 right
+
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "big explosion" 40
+	explode "huge explosion" 10
+	description "The Columbia Class Battlestar, designed on independent systems that are not networked, resulting in a much larger crew requirement.  This design allows the ship to withstand massive EMP and Ionizing attacks."
+	description "Unique to all class of battlestars both former and those that followed, the Columbia Class has the largest turret shells measuring a staggering 72 inchs, while equipped with only eight, they made up in capabilities over quanity."
+	description "Typical Airwing Embarked Craft:"
+	description "Viper mkII Tatical Star Fighters (60; 3 squadrons of 20)"
+	description "Viper mkVII Tatical Star Fighters (100; 5 squadrons of 20)"
+	description "Raptor Multi-Mission Support Craft (20; 4 squadrons of 5)"
+	description "Standard Colonial Shuttle (5)"
+	description "Command officers keep in mind, there is a heafty cost to maintian a ship of this size, [Min Crew nearly 200k] [Full Crew and Pilots over 600k] credits a day."
+
+ship "Eris Class Bomber"
+	sprite "ship/col_bomber"
+	licenses
+		"Captain"
+	attributes
+		category "Interceptor"
+		"cost" 20000
+		"shields" 14000
+		"hull" 22000
+		"mass" 20000
+		"cargo space" 10
+		"required crew" 4
+		"bunks" 8
+		"fuel capacity" 900
+
+		"drag" 93.1
+
+		"outfit space" 1046
+		"weapon capacity" 288
+		"engine capacity" 436
+
+		"hull repair rate" .05
+		"hull energy" .05
+		"hull heat" .05
+		"shield generation" .05
+		"shield energy" .05
+		"shield heat" .05
+		"heat dissipation" .8
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"PM8-v2c" 320
+
+		"FTL Drive Celestus R-Class" 1
+		"R.C.S. Thrusters RT4-11" 1
+		"Sub-Light Engines S04-22-D"
+		"Sub-Light Engines S04-23-D-ETAM"
+
+		"A.C. MEC-A12" 4
+
+		"Auto-Nano-Defense-System" 8
+		"Pulse Rifle AR-MD86" 8
+		"Fragmentation Grenades" 8
+		"Security Station" 1
+
+		"Generator PG72-400R" 1
+		"Reactor MG-79C D.T." 1
+
+		"Launch System PM8-v2" 10
+
+		"Colonial Defense Program v3.8"
+		"DRADIS Array DPG/AESA-31"
+		"ECM/Tartarus RT/CDW-32/4A"
+		"FCS AI/POS-2 MK3"
+		"Liquid Helium Cooler" 1
+		"Network TI v2.6I"
+		"PM8H-v2c Mines" 10
+
+		"P.D.C. C10 Remote Turret" 2
+
+	gun 4 0 "Launch System PM8-v2"
+	gun -4 0 "Launch System PM8-v2"
+	gun 4 15 "Launch System PM8-v2"
+	gun -4 15 "Launch System PM8-v2"
+	gun 4 30 "Launch System PM8-v2"
+	gun -4 30 "Launch System PM8-v2"
+	gun 4 45 "Launch System PM8-v2"
+	gun -4 45 "Launch System PM8-v2"
+	gun 4 60 "Launch System PM8-v2"
+	gun -4 60 "Launch System PM8-v2"
+
+	gun 17 -30 "A.C. MEC-A12"
+	gun -17 -30 "A.C. MEC-A12"
+	gun 21 -30 "A.C. MEC-A12"
+	gun -21 -30 "A.C. MEC-A12"
+
+	turret 19 92 "P.D.C. C10 Remote Turret"
+	turret -19 92 "P.D.C. C10 Remote Turret"
+
+	engine -19 122
+	engine 0 122
+	engine 19 122
+
+	fighter 0 60
+
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	description "Eris Class Bomber."
+	description "High Speed and deployment of Proximity Mines."
+	description "The Eris is the only interceptor class ship that also contains one drop bay for a Viper mk.II or mk.VII"
+
+
+ship "Flattop Wrecker"
+	sprite "ship/salvager"
+	attributes
+		category "Light Freighter"
+		"cost" 190000
+		"shields" 4000
+		"hull" 6000
+		"mass" 32000
+		"cargo space" 180
+		"required crew" 16
+		"bunks" 40
+		"fuel capacity" 1700
+		"ramscoop" 10
+
+		"drag" 249.8
+
+		"outfit space" 224
+		"weapon capacity" 64
+		"engine capacity" 224
+
+		"hull repair rate" .2
+		"heat dissipation" .3
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"Chaft/Flare Clip" 132
+
+		"FTL Drive Avalon B-Class"
+		"R.C.S. Thrusters RT4-11" 2
+		"Sub-Light Thruster RM22-D01"
+
+		"ALMH-64 Chaft/Flare Clip" 2
+		"DRADIS Array VB/CIV-03"
+		"FCS TN/VPS-18 MK10"
+		
+		"Chaft/Flare CSL/QTY-4" 1
+		"D.A.C. MM30/2K-T" 4
+
+	engine -40 176
+	engine -14 186
+	engine 14 186
+	engine 40 176
+
+	turret -54 149 "D.A.C. MM30/2K-T"
+	turret -54 124 "D.A.C. MM30/2K-T"
+	turret -54 99 "D.A.C. MM30/2K-T"
+	turret -54 74 "D.A.C. MM30/2K-T"
+	turret 12 24 "Chaft/Flare CSL/QTY-4"
+
+	fighter -48 -135 over
+	fighter 0 -130 over
+	fighter 48 -140 over
+	drone 0 -35 over
+	drone 58 -60 over left
+	drone -52 0
+
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	description "The Flat Top Wrecker is good at recovery and repair of fighter and drone craft."
+	description "Often found onboard under repair will be three Cobra fighters and three Preditor support craft. "
+
+
+ship "Heavy Freighter 3B"
+	sprite "ship/col_freighter_heavy"
+	attributes
+		category "Heavy Freighter"
+		"cost" 250000
+		"shields" 2000
+		"hull" 4000
+		"mass" 322
+		"cargo space" 0
+		"required crew" 4
+		"bunks" 10
+		"fuel capacity" 1800
+
+		"drag" 66
+
+		"outfit space" 292
+		"weapon capacity" 35
+		"engine capacity" 126
+
+		"heat dissipation" .9
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"Chaft/Flare Clip" 68
+
+		"FTL Drive Avalon B-Class"
+		"R.C.S. Thrusters CS05-P8"
+		"Sub-Light Thruster SC08-A03"
+
+		"ALMH-64 Chaft/Flare Clip"
+		"DRADIS Array VT/CIV-04"
+		"FCS AA/AAQ-04 CIV"
+		"HHC-200 Heavy Cargo Container" 16
+
+		"Chaft/Flare CSL/QTY-4" 2
+		"D.A.C. MM30/2K-T" 2
+
+	engine -16 155
+	engine 16 155
+	turret -21 140 "Chaft/Flare CSL/QTY-4"
+	turret 21 140 "Chaft/Flare CSL/QTY-4"
+	turret -21 -130 "D.A.C. MM30/2K-T"
+	turret 21 -130 "D.A.C. MM30/2K-T"
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	description "Colonial Heavy Freighter"
+
+ship "Heavy Freighter 9F"
+	sprite "ship/col_freighter_heavy"
+	attributes
+		category "Heavy Freighter"
+		"cost" 500000
+		"shields" 2000
+		"hull" 8000
+		"mass" 522
+		"cargo space" 0
+		"required crew" 3
+		"bunks" 15
+		"fuel capacity" 2200
+
+		"drag" 115
+
+		"outfit space" 896
+		"weapon capacity" 37
+		"engine capacity" 320
+
+		"heat dissipation" 2.7
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"Chaft/Flare Clip" 136
+
+		"FTL Drive Avalon B-Class"
+		"Propulsion System B11"
+		"R.C.S. Thrusters CS05-P8" 4
+		"Sub-Light Thruster RM06-B03"
+
+		"Generator PG72-400R" 3
+
+		"Damage Control Teams" 1
+
+		"ALMH-64 Chaft/Flare Clip" 2
+		"DRADIS Array VT/CIV-04"
+		"FCS AB/CIV-02 MGS"
+		"HHC-200 Heavy Cargo Container" 64
+
+		"Chaft/Flare CSL/QTY-4" 2
+		"D.A.C. MM30/2K-T" 2
+
+	engine -16 155
+	engine 16 155
+	turret -21 140 "Chaft/Flare CSL/QTY-4"
+	turret 21 140 "Chaft/Flare CSL/QTY-4"
+	turret -21 -130 "D.A.C. MM30/2K-T"
+	turret 21 -130 "D.A.C. MM30/2K-T"
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	description "Colonial Heavy Freighter after years of service has been overhalled with reinforced hull, expanded shield generation systems, and far more powerful engines capable of moving three times as much cargo as its earlier design."
+
+ship "Katana Class Battlestar"
+	sprite "ship/battlestar_anubis"
+		"frame rate" 45
+	"never disabled"
+	licenses
+		"Admiral"
+	attributes
+		category "Heavy Warship"
+		"cost" 1196001558000
+		"shields" 1000000
+		"shield generation" 5
+		"shield energy" 5
+		"hull" 5000000
+		"hull repair rate" 5
+		"hull energy" 5
+		"heat generation" 5
+		"energy capacity" 1000000
+		"energy generation" 1
+		"solar collection" 1
+		"mass" 1000000
+		"cargo space" 4040
+		"required crew" 6396
+		"bunks" 7500
+		"fuel capacity" 4000
+		"ramscoop" 1
+
+		"drag" 7000
+
+		"outfit space" 16710
+		"weapon capacity" 1954
+		"engine capacity" 5144
+
+		"heat dissipation" .5
+		weapon
+			"blast radius" 32075
+			"shield damage" 320750
+			"hull damage" 160350
+			"hit force" 481100
+	outfits
+		"AIM-21B Wasp" 210
+		"BGM-237 Medusa" 98
+		"BGMN-793 Nemesis" 20
+		
+		"FTL Drive Olympus A-Class" 2
+		"Fwd. Arrest Thrusters K12-09" 2
+		"R.C.S. Thrusters RT9-D/17" 16
+		"Sub-Light Engines K8-72-H"
+
+		"H.A.C. MK38/14-A4" 2
+
+		"Auto-Nano-Defense-System" 340
+		"Pulse Rifle AR-MD86" 8500
+		"Fragmentation Grenades" 8500
+		"Security Station" 60
+
+		"Batteries CMEPS92 Q.K." 60
+		"Reactor MB-91E T.T." 6
+		"Reactor XT-11/D2 D.M." 4
+
+		"Launch System SIM-15/A5" 2
+		"Launch System SLBM-36/B2" 1
+		"Launch System SLBMN-20/N" 1
+
+		"Damage Control Teams" 100
+
+		"Colonial Defense Program v3.8"
+		"DRADIS Array RT/WTS-18"
+		"ECM/Hades RT/CDW-37/4B"
+		"FCS AN/SPS-92 MK36"
+		"G.R.A.N.D. v1.03" 2
+		"Liquid Helium Cooler" 15
+		"Network VI v1.3"
+		
+		"N.A.C. MK19/7-H" 14
+		"N.A.C. MK21/10-F" 8
+		"P.D.C. MK163/94-B" 4
+
+	engine -36 498
+	engine 36 498
+	engine -94 484
+	engine 94 484
+
+	gun -24 -500 "H.A.C. MK38/14-A4"
+	gun 24 -500 "H.A.C. MK38/14-A4"
+
+	turret -40 -500 "N.A.C. MK21/10-F"
+	turret 40 -500 "N.A.C. MK21/10-F"
+	turret -64 -454 "N.A.C. MK19/7-H"
+	turret 64 -454 "N.A.C. MK19/7-H"
+
+	turret -106 -280 "N.A.C. MK19/7-H"
+	turret 106 -280 "N.A.C. MK19/7-H"
+
+	turret -194 -80 "N.A.C. MK19/7-H"
+	turret 194 -80 "N.A.C. MK19/7-H"
+	turret -194 -15 "N.A.C. MK19/7-H"
+	turret 194 -15 "N.A.C. MK19/7-H"
+	turret -194 50 "N.A.C. MK19/7-H"
+	turret 194 50 "N.A.C. MK19/7-H"
+	turret -194 115 "N.A.C. MK19/7-H"
+	turret 194 115 "N.A.C. MK19/7-H"
+	turret -194 180 "N.A.C. MK19/7-H"
+	turret 194 180 "N.A.C. MK19/7-H"
+
+	turret -132 -51 "N.A.C. MK21/10-F"
+	turret 132 -51 "N.A.C. MK21/10-F"
+	turret 132 31 "N.A.C. MK21/10-F"
+	turret -132 31 "N.A.C. MK21/10-F"
+	turret -132 117 "N.A.C. MK21/10-F"
+	turret 132 117 "N.A.C. MK21/10-F"
+
+	gun -20 0 "Launch System SIM-15/A5"
+	gun 20 0 "Launch System SIM-15/A5"
+	gun -20 10 "Launch System SLBM-36/B2"
+	gun 20 10 "Launch System SLBMN-20/N"
+
+	turret -194 -80 "P.D.C. MK163/94-B"
+	turret 194 -80 "P.D.C. MK163/94-B"
+	turret -194 180 "P.D.C. MK163/94-B"
+	turret 194 180 "P.D.C. MK163/94-B"
+
+	fighter -194 -65 left
+	fighter 194 -65 right
+	fighter -194 -40 left
+	fighter 194 -40 right
+	fighter -194 -15 left
+	fighter 194 -15 right
+	fighter -194 10 left
+	fighter 194 10 right
+	fighter -194 35 left
+	fighter 194 35 right
+	fighter -194 65 left
+	fighter 194 65 right
+	fighter -194 90 left
+	fighter 194 90 right
+	fighter -194 115 left
+	fighter 194 115 right
+	fighter -194 140 left
+	fighter 194 140 right
+	fighter -194 165 left
+	fighter 194 165 right
+
+	fighter -194 -65 left
+	fighter 194 -65 right
+	fighter -194 -40 left
+	fighter 194 -40 right
+	fighter -194 -15 left
+	fighter 194 -15 right
+	fighter -194 10 left
+	fighter 194 10 right
+	fighter -194 35 left
+	fighter 194 35 right
+	fighter -194 65 left
+	fighter 194 65 right
+	fighter -194 90 left
+	fighter 194 90 right
+	fighter -194 115 left
+	fighter 194 115 right
+	fighter -194 140 left
+	fighter 194 140 right
+	fighter -194 165 left
+	fighter 194 165 right
+
+	fighter -194 -65 left
+	fighter 194 -65 right
+	fighter -194 -40 left
+	fighter 194 -40 right
+	fighter -194 -15 left
+	fighter 194 -15 right
+	fighter -194 10 left
+	fighter 194 10 right
+	fighter -194 35 left
+	fighter 194 35 right
+	fighter -194 65 left
+	fighter 194 65 right
+	fighter -194 90 left
+	fighter 194 90 right
+	fighter -194 115 left
+	fighter 194 115 right
+	fighter -194 140 left
+	fighter 194 140 right
+	fighter -194 165 left
+	fighter 194 165 right
+
+	fighter -194 -65 left
+	fighter 194 -65 right
+	fighter -194 -40 left
+	fighter 194 -40 right
+	fighter -194 -15 left
+	fighter 194 -15 right
+	fighter -194 10 left
+	fighter 194 10 right
+	fighter -194 35 left
+	fighter 194 35 right
+	fighter -194 65 left
+	fighter 194 65 right
+	fighter -194 90 left
+	fighter 194 90 right
+	fighter -194 115 left
+	fighter 194 115 right
+	fighter -194 140 left
+	fighter 194 140 right
+	fighter -194 165 left
+	fighter 194 165 right
+
+	fighter -194 -65 left
+	fighter 194 -65 right
+	fighter -194 -40 left
+	fighter 194 -40 right
+	fighter -194 -15 left
+	fighter 194 -15 right
+	fighter -194 10 left
+	fighter 194 10 right
+	fighter -194 35 left
+	fighter 194 35 right
+	fighter -194 65 left
+	fighter 194 65 right
+	fighter -194 90 left
+	fighter 194 90 right
+	fighter -194 115 left
+	fighter 194 115 right
+	fighter -194 140 left
+	fighter 194 140 right
+	fighter -194 165 left
+	fighter 194 165 right
+
+	fighter -194 -65 left
+	fighter 194 -65 right
+	fighter -194 -40 left
+	fighter 194 -40 right
+	fighter -194 -15 left
+	fighter 194 -15 right
+	fighter -194 10 left
+	fighter 194 10 right
+	fighter -194 35 left
+	fighter 194 35 right
+	fighter -194 65 left
+	fighter 194 65 right
+	fighter -194 90 left
+	fighter 194 90 right
+	fighter -194 115 left
+	fighter 194 115 right
+	fighter -194 140 left
+	fighter 194 140 right
+	fighter -194 165 left
+	fighter 194 165 right
+
+	fighter -194 -65 left
+	fighter 194 -65 right
+	fighter -194 -40 left
+	fighter 194 -40 right
+	fighter -194 -15 left
+	fighter 194 -15 right
+	fighter -194 10 left
+	fighter 194 10 right
+	fighter -194 35 left
+	fighter 194 35 right
+	fighter -194 65 left
+	fighter 194 65 right
+	fighter -194 90 left
+	fighter 194 90 right
+	fighter -194 115 left
+	fighter 194 115 right
+	fighter -194 140 left
+	fighter 194 140 right
+	fighter -194 165 left
+	fighter 194 165 right
+
+	fighter -194 -65 left
+	fighter 194 -65 right
+	fighter -194 -40 left
+	fighter 194 -40 right
+	fighter -194 -15 left
+	fighter 194 -15 right
+	fighter -194 10 left
+	fighter 194 10 right
+	fighter -194 35 left
+	fighter 194 35 right
+	fighter -194 65 left
+	fighter 194 65 right
+	fighter -194 90 left
+	fighter 194 90 right
+	fighter -194 115 left
+	fighter 194 115 right
+	fighter -194 140 left
+	fighter 194 140 right
+	fighter -194 165 left
+	fighter 194 165 right
+
+	fighter -194 -65 left
+	fighter 194 -65 right
+	fighter -194 -40 left
+	fighter 194 -40 right
+	fighter -194 -15 left
+	fighter 194 -15 right
+	fighter -194 10 left
+	fighter 194 10 right
+	fighter -194 35 left
+	fighter 194 35 right
+	fighter -194 65 left
+	fighter 194 65 right
+	fighter -194 90 left
+	fighter 194 90 right
+	fighter -194 115 left
+	fighter 194 115 right
+	fighter -194 140 left
+	fighter 194 140 right
+	fighter -194 165 left
+	fighter 194 165 right
+
+	fighter -194 -65 left
+	fighter 194 -65 right
+	fighter -194 -40 left
+	fighter 194 -40 right
+	fighter -194 -15 left
+	fighter 194 -15 right
+	fighter -194 10 left
+	fighter 194 10 right
+	fighter -194 35 left
+	fighter 194 35 right
+	fighter -194 65 left
+	fighter 194 65 right
+	fighter -194 90 left
+	fighter 194 90 right
+	fighter -194 115 left
+	fighter 194 115 right
+	fighter -194 140 left
+	fighter 194 140 right
+	fighter -194 165 left
+	fighter 194 165 right
+
+	fighter -194 -65 left
+	fighter 194 -65 right
+	fighter -194 -40 left
+	fighter 194 -40 right
+	fighter -194 -15 left
+	fighter 194 -15 right
+	fighter -194 10 left
+	fighter 194 10 right
+	fighter -194 35 left
+	fighter 194 35 right
+	fighter -194 65 left
+	fighter 194 65 right
+	fighter -194 90 left
+	fighter 194 90 right
+	fighter -194 115 left
+	fighter 194 115 right
+	fighter -194 140 left
+	fighter 194 140 right
+	fighter -194 165 left
+	fighter 194 165 right
+
+	fighter -194 -65 left
+	fighter 194 -65 right
+	fighter -194 -40 left
+	fighter 194 -40 right
+	fighter -194 -15 left
+	fighter 194 -15 right
+	fighter -194 10 left
+	fighter 194 10 right
+	fighter -194 35 left
+	fighter 194 35 right
+	fighter -194 65 left
+	fighter 194 65 right
+	fighter -194 90 left
+	fighter 194 90 right
+	fighter -194 115 left
+	fighter 194 115 right
+	fighter -194 140 left
+	fighter 194 140 right
+	fighter -194 165 left
+	fighter 194 165 right
+
+	fighter -194 -65 left
+	fighter 194 -65 right
+	fighter -194 -40 left
+	fighter 194 -40 right
+	fighter -194 -15 left
+	fighter 194 -15 right
+	fighter -194 10 left
+	fighter 194 10 right
+	fighter -194 35 left
+	fighter 194 35 right
+	fighter -194 65 left
+	fighter 194 65 right
+	fighter -194 90 left
+	fighter 194 90 right
+	fighter -194 115 left
+	fighter 194 115 right
+	fighter -194 140 left
+	fighter 194 140 right
+	fighter -194 165 left
+	fighter 194 165 right
+
+	fighter -194 -65 left
+	fighter 194 -65 right
+	fighter -194 -40 left
+	fighter 194 -40 right
+	fighter -194 -15 left
+	fighter 194 -15 right
+	fighter -194 10 left
+	fighter 194 10 right
+	fighter -194 35 left
+	fighter 194 35 right
+	fighter -194 65 left
+	fighter 194 65 right
+	fighter -194 90 left
+	fighter 194 90 right
+	fighter -194 115 left
+	fighter 194 115 right
+	fighter -194 140 left
+	fighter 194 140 right
+	fighter -194 165 left
+	fighter 194 165 right
+
+	fighter -194 -65 left
+	fighter 194 -65 right
+	fighter -194 -40 left
+	fighter 194 -40 right
+	fighter -194 -15 left
+	fighter 194 -15 right
+	fighter -194 10 left
+	fighter 194 10 right
+	fighter -194 35 left
+	fighter 194 35 right
+	fighter -194 65 left
+	fighter 194 65 right
+	fighter -194 90 left
+	fighter 194 90 right
+	fighter -194 115 left
+	fighter 194 115 right
+	fighter -194 140 left
+	fighter 194 140 right
+	fighter -194 165 left
+	fighter 194 165 right
+
+	fighter -194 -65 left
+	fighter 194 -65 right
+	fighter -194 -40 left
+	fighter 194 -40 right
+	fighter -194 -15 left
+	fighter 194 -15 right
+	fighter -194 10 left
+	fighter 194 10 right
+	fighter -194 35 left
+	fighter 194 35 right
+	fighter -194 65 left
+	fighter 194 65 right
+	fighter -194 90 left
+	fighter 194 90 right
+	fighter -194 115 left
+	fighter 194 115 right
+	fighter -194 140 left
+	fighter 194 140 right
+	fighter -194 165 left
+	fighter 194 165 right
+
+	fighter -194 -65 left
+	fighter 194 -65 right
+	fighter -194 -40 left
+	fighter 194 -40 right
+	fighter -194 -15 left
+	fighter 194 -15 right
+	fighter -194 10 left
+	fighter 194 10 right
+	fighter -194 35 left
+	fighter 194 35 right
+	fighter -194 65 left
+	fighter 194 65 right
+	fighter -194 90 left
+	fighter 194 90 right
+	fighter -194 115 left
+	fighter 194 115 right
+	fighter -194 140 left
+	fighter 194 140 right
+	fighter -194 165 left
+	fighter 194 165 right
+
+	fighter -194 -65 left
+	fighter 194 -65 right
+	fighter -194 -40 left
+	fighter 194 -40 right
+	fighter -194 -15 left
+	fighter 194 -15 right
+	fighter -194 10 left
+	fighter 194 10 right
+	fighter -194 35 left
+	fighter 194 35 right
+	fighter -194 65 left
+	fighter 194 65 right
+	fighter -194 90 left
+	fighter 194 90 right
+	fighter -194 115 left
+	fighter 194 115 right
+	fighter -194 140 left
+	fighter 194 140 right
+	fighter -194 165 left
+	fighter 194 165 right
+
+	drone -194 -65 left
+	drone 194 -65 right
+	drone -194 -40 left
+	drone 194 -40 right
+	drone -194 -15 left
+	drone 194 -15 right
+	drone -194 10 left
+	drone 194 10 right
+	drone -194 35 left
+	drone 194 35 right
+	drone -194 65 left
+	drone 194 65 right
+	drone -194 90 left
+	drone 194 90 right
+	drone -194 115 left
+	drone 194 115 right
+	drone -194 140 left
+	drone 194 140 right
+	drone -194 165 left
+	drone 194 165 right
+
+	drone -194 -65 left
+	drone 194 -65 right
+	drone -194 -40 left
+	drone 194 -40 right
+	drone -194 -15 left
+	drone 194 -15 right
+	drone -194 10 left
+	drone 194 10 right
+	drone -194 35 left
+	drone 194 35 right
+	drone -194 65 left
+	drone 194 65 right
+	drone -194 90 left
+	drone 194 90 right
+	drone -194 115 left
+	drone 194 115 right
+	drone -194 140 left
+	drone 194 140 right
+	drone -194 165 left
+	drone 194 165 right
+
+	drone -194 -65 left
+	drone 194 -65 right
+	drone -194 -40 left
+	drone 194 -40 right
+	drone -194 -15 left
+	drone 194 -15 right
+	drone -194 10 left
+	drone 194 10 right
+	drone -194 35 left
+	drone 194 35 right
+	drone -194 65 left
+	drone 194 65 right
+	drone -194 90 left
+	drone 194 90 right
+	drone -194 115 left
+	drone 194 115 right
+	drone -194 140 left
+	drone 194 140 right
+	drone -194 165 left
+	drone 194 165 right
+
+	fighter -194 -65
+	fighter 194 -65
+	fighter -194 -40
+	fighter 194 -40
+	fighter -194 -15
+	fighter 194 -15
+	fighter -194 10
+	fighter 194 10
+	fighter -194 35
+	fighter 194 35
+	fighter -194 65
+	fighter 194 65
+	fighter -194 90
+	fighter 194 90
+
+	explode "tiny explosion" 70
+	explode "small explosion" 60
+	explode "medium explosion" 50
+	explode "big explosion" 40
+	explode "huge explosion" 30
+	description "Katana / Nova II Class Battlestar carries some of the most advanced technology used by the colonies in the past 60 years.  Her hull and armor plating uses a revolutionary metallurgy process, making it the strongest of any colonial battlestar while her upgraded weapons and fire-control system give the Katana the ability to take on a large number of separate targets."
+	description "This battlestar is also equipped with revolutionary new power plants and engines, both FTL and Sub-Light, as well as double the number of Viper launch tubes as the Mecury Class."
+	description "With Mercury and Valkyrie Classes forming a potent and effective backbone for the fleet the Katana Nova II Class acts as a specialized command and control flagship."
+	description "Typical Airwing Embarked Craft:"
+	description "Viper MkVII Tatical Star Fighters (340; 17 squadrons of 20)"
+	description "Viper MkVIII Tatical Star Fighters (20; 1 squadron of 20 Stealth)"
+	description "Raptor Multi-Mission Support Craft (50; 10 squadrons of 5)"
+	description "Scimitar Bomber / Missile Platform (10; 2 squadrons of 5)"
+	description "Specter Assault Craft (6)"
+	description "Standard Colonial Shuttle (8)"
+	description "Admiral keep in mind that crew costs [Skeleton Crew 385k] and [Full Crew and Pilots 800k] run credits per day."
+
+ship "Light Freighter 3M"
+	sprite "ship/col_freighter_light"
+	attributes
+		category "Light Freighter"
+		"cost" 250000
+		"shields" 1500
+		"hull" 2000
+		"mass" 322
+		"cargo space" 0
+		"required crew" 3
+		"bunks" 10
+		"fuel capacity" 1800
+
+		"drag" 7
+
+		"outfit space" 163
+		"weapon capacity" 18
+		"engine capacity" 122
+
+		"heat dissipation" .4
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"Chaft/Flare Clip" 66
+
+		"FTL Drive Avalon B-Class"
+		"R.C.S. Thrusters CS01-P1"
+		"Turbo-Thruster CS04-AC01"
+
+		"ALMH-64 Chaft/Flare Clip"
+		"DRADIS Array VT/CIV-04"
+		"FCS AA/AAQ-04 CIV"
+		"HHC-200 Heavy Cargo Container" 6
+
+		"Chaft/Flare CSL/QTY-4"
+		"D.A.C. MM30/2K-T"
+
+	engine 0 110
+	turret 0 74 "Chaft/Flare CSL/QTY-4"
+	turret 0 -4 "D.A.C. MM30/2K-T"
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	description "Colonial Light Freighter, often is used for high value cargo as it is one of the very few freighters that has an afterburner installed by manufacture."
+	description "While it is of the lightest armored its speed allows for some of the fastest cargo deliveries as well as the ability to out run most threats."
+
+ship "Luxury Liner CC"
+	sprite "ship/pass_cc"
+	attributes
+		category "Transport"
+		"cost" 210000
+		"shields" 6000
+		"hull" 6000
+		"mass" 3000
+		"cargo space" 50
+		"required crew" 10
+		"bunks" 60
+		"fuel capacity" 1600
+
+		"drag" 37.4
+
+		"outfit space" 161
+		"weapon capacity" 7
+		"engine capacity" 122
+
+		"hull repair rate" .05
+		"heat dissipation" .6
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"Chaft/Flare Clip" 68
+
+		"FTL Drive Avalon B-Class"
+		"R.C.S. Thrusters CS01-P1"
+		"Sub-Light Thruster SC08-A03"
+
+		"Auto-Nano-Defense-System" 2
+		"Pulse Rifle AR-MD86" 10
+		"Security Station" 2
+
+		"Generator PG72-400R" 2
+
+		"ALMH-64 Chaft/Flare Clip"
+		"DRADIS Array VT/CIV-04"
+		"ECM/TEWS CN-07/D2"
+		"FCS AA/AAQ-04 CIV"
+		"Liquid Nitrogen Cooler"
+
+		"Chaft/Flare CSL/QTY-4" 2
+
+
+	turret -8 90 "Chaft/Flare CSL/QTY-4"
+	turret 8 90 "Chaft/Flare CSL/QTY-4"
+
+	drone 0 -40
+	drone 0 40
+
+	engine 0 142
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	description "Caxxon Caprica Luxury Liner, has picked up military contracts for troop and equipment carriers, seating for 50 troops and an equal number of tons in cargo."
+	description "While incapable of being armed other than defensive chaft and flare systems, it has had electronics package upgraded and its hold has been redesigned to carry two Predator escorts."
+
+ship "Luxury Liner OC"
+	sprite "ship/pass_oc"
+	attributes
+		category "Transport"
+		"cost" 195000
+		"shields" 6500
+		"hull" 4000
+		"mass" 3000
+		"cargo space" 200
+		"required crew" 7
+		"bunks" 220
+		"fuel capacity" 1600
+
+		"drag" 34.8
+
+		"outfit space" 113
+		"weapon capacity" 5
+		"engine capacity" 120
+
+		"hull repair rate" .05
+		"heat dissipation" .62
+		weapon
+			"blast radius" 13
+			"shield damage" 130
+			"hull damage" 65
+			"hit force" 185
+	outfits
+		"Chaft/Flare Clip" 68
+
+		"FTL Drive Avalon B-Class"
+		"R.C.S. Thrusters CS01-P1"
+		"Sub-Light Thruster SC08-A03"
+
+		"Security Station" 2
+
+#		"Generator PG72-400R" 1
+
+		"ALMH-64 Chaft/Flare Clip"
+		"DRADIS Array VT/CIV-04"
+		"FCS AA/AAQ-04 CIV"
+		"Liquid Nitrogen Cooler"
+
+		"Chaft/Flare CSL/QTY-4" 2
+
+	turret -8 90 "Chaft/Flare CSL/QTY-4"
+	turret 8 90 "Chaft/Flare CSL/QTY-4"
+
+	engine 0 142
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	description "Olimpic Carrier Luxury Liner, safest way to travel, seating for over 200 passengers in comfort and nearly a ton of cargo space for each."
+	description "While the luxury liner is unarmed and incapable of being armed, Olimpic Carrier boasts the greatest shielding of the luxury liners."
+
+ship "Luxury Liner PG"
+	sprite "ship/pass_pg"
+	attributes
+		category "Transport"
+		"cost" 190000
+		"shields" 5000
+		"hull" 4000
+		"mass" 2900
+		"cargo space" 75
+		"required crew" 5
+		"bunks" 150
+		"fuel capacity" 1400
+
+		"drag" 36.1
+
+		"outfit space" 113
+		"weapon capacity" 5
+		"engine capacity" 120
+
+		"hull repair rate" .05
+		"heat dissipation" .6
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"Chaft/Flare Clip" 68
+
+		"FTL Drive Avalon B-Class"
+		"R.C.S. Thrusters CS01-P1"
+		"Sub-Light Thruster SC08-A03"
+
+		"Security Station" 2
+
+		"ALMH-64 Chaft/Flare Clip"
+		"DRADIS Array VT/CIV-04"
+		"FCS AA/AAQ-04 CIV"
+		"Liquid Nitrogen Cooler"
+
+		"Chaft/Flare CSL/QTY-4" 2
+
+	turret -8 90 "Chaft/Flare CSL/QTY-4"
+	turret 8 90 "Chaft/Flare CSL/QTY-4"
+
+	fighter 0 60 under
+
+	engine 0 142
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	description "Pan Galatic Luxury Liner, Inter Planitary Travel in comfort, seating for nearly 150 passengers and a half ton of cargo for each."
+	description "While the luxury liner is unarmed and incapable of being armed, its sizable hold is large enough to carry one Cobra escort."
+
+ship "Mercury Class Battlestar"
+	sprite "ship/battlestar_mercury"
+		"frame rate" 45
+	licenses
+		"Rear Admiral"
+	attributes
+		category "Heavy Warship"
+		"cost" 496258000000
+		"shields" 90000
+		"hull" 1800000
+		"mass" 620470
+		"cargo space" 3500
+		"required crew" 5700
+		"bunks" 6500
+		"fuel capacity" 2800
+
+		"drag" 2993
+
+		"outfit space" 12231
+		"weapon capacity" 2094
+		"engine capacity" 4858
+
+		"heat dissipation" .3
+		weapon
+			"blast radius" 18000
+			"shield damage" 180000
+			"hull damage" 90000
+			"hit force" 270000
+	outfits
+		"BGM-235 Havoc" 40
+
+		"FTL Drive Celestus D-Class" 2
+		"Fwd. Arrest Thrusters K10-17" 2
+		"R.C.S. Thrusters RT9-B/14" 12
+		"Sub-Light Engines K7-04-H"
+
+		"H.A.C. MK38/14-A2" 2
+
+		"Auto-Nano-Defense-System" 340
+		"Pulse Rifle AR-MD86" 7000
+		"Fragmentation Grenades" 7000
+		"Security Station" 60
+
+		"Batteries CMEPS65 L-I" 40
+		"Reactor TM-2C D.T." 4
+		"Reactor XJ-32/F D.M." 2
+
+		"Launch System SLBM-20/D1" 2
+
+		"Damage Control Teams" 50
+
+		"Colonial Defense Program v3.8"
+		"DRADIS Array RT/WTS-15"
+		"ECM/Gorgon RT/CDW-35/2C"
+		"FCS AN/SPS-68 MK38"
+		"G.R.A.N.D. v1.03"
+		"Liquid Helium Cooler"
+		"Network TI v3.1"
+
+		"N.A.C. MK21/10-E" 22
+		"P.D.C. MK163/94-B" 4
+
+	engine -36 490
+	engine 36 490
+	engine -94 476
+	engine 94 476
+
+	gun -24 -508 "H.A.C. MK38/14-A2"
+	gun 24 -508 "H.A.C. MK38/14-A2"
+
+	turret -40 -500 "N.A.C. MK21/10-E"
+	turret 40 -500 "N.A.C. MK21/10-E"
+	turret -64 -454 "N.A.C. MK21/10-E"
+	turret 64 -454 "N.A.C. MK21/10-E"
+
+	turret -106 -280 "N.A.C. MK21/10-E"
+	turret 106 -280 "N.A.C. MK21/10-E"
+
+	turret -194 -80 "N.A.C. MK21/10-E"
+	turret 194 -80 "N.A.C. MK21/10-E"
+	turret -194 -15 "N.A.C. MK21/10-E"
+	turret 194 -15 "N.A.C. MK21/10-E"
+	turret -194 50 "N.A.C. MK21/10-E"
+	turret 194 50 "N.A.C. MK21/10-E"
+	turret -194 115 "N.A.C. MK21/10-E"
+	turret 194 115 "N.A.C. MK21/10-E"
+	turret -194 180 "N.A.C. MK21/10-E"
+	turret 194 180 "N.A.C. MK21/10-E"
+
+	turret -132 -51 "N.A.C. MK21/10-E"
+	turret 132 -51 "N.A.C. MK21/10-E"
+	turret 132 31 "N.A.C. MK21/10-E"
+	turret -132 31 "N.A.C. MK21/10-E"
+	turret -132 117 "N.A.C. MK21/10-E"
+	turret 132 117 "N.A.C. MK21/10-E"
+
+	gun -20 10 "Launch System SLBM-20/D1"
+	gun 20 10 "Launch System SLBM-20/D1"
+
+	turret -194 -80 "P.D.C. MK163/94-B"
+	turret 194 -80 "P.D.C. MK163/94-B"
+	turret -194 180 "P.D.C. MK163/94-B"
+	turret 194 180 "P.D.C. MK163/94-B"
+
+	fighter -194 -65 left
+	fighter 194 -65 right
+	fighter -194 -40 left
+	fighter 194 -40 right
+	fighter -194 -15 left
+	fighter 194 -15 right
+	fighter -194 10 left
+	fighter 194 10 right
+	fighter -194 35 left
+	fighter 194 35 right
+	fighter -194 65 left
+	fighter 194 65 right
+	fighter -194 90 left
+	fighter 194 90 right
+	fighter -194 115 left
+	fighter 194 115 right
+	fighter -194 140 left
+	fighter 194 140 right
+	fighter -194 165 left
+	fighter 194 165 right
+
+	fighter -194 -65 left
+	fighter 194 -65 right
+	fighter -194 -40 left
+	fighter 194 -40 right
+	fighter -194 -15 left
+	fighter 194 -15 right
+	fighter -194 10 left
+	fighter 194 10 right
+	fighter -194 35 left
+	fighter 194 35 right
+	fighter -194 65 left
+	fighter 194 65 right
+	fighter -194 90 left
+	fighter 194 90 right
+	fighter -194 115 left
+	fighter 194 115 right
+	fighter -194 140 left
+	fighter 194 140 right
+	fighter -194 165 left
+	fighter 194 165 right
+
+	fighter -194 -65 left
+	fighter 194 -65 right
+	fighter -194 -40 left
+	fighter 194 -40 right
+	fighter -194 -15 left
+	fighter 194 -15 right
+	fighter -194 10 left
+	fighter 194 10 right
+	fighter -194 35 left
+	fighter 194 35 right
+	fighter -194 65 left
+	fighter 194 65 right
+	fighter -194 90 left
+	fighter 194 90 right
+	fighter -194 115 left
+	fighter 194 115 right
+	fighter -194 140 left
+	fighter 194 140 right
+	fighter -194 165 left
+	fighter 194 165 right
+
+	fighter -194 -65 left
+	fighter 194 -65 right
+	fighter -194 -40 left
+	fighter 194 -40 right
+	fighter -194 -15 left
+	fighter 194 -15 right
+	fighter -194 10 left
+	fighter 194 10 right
+	fighter -194 35 left
+	fighter 194 35 right
+	fighter -194 65 left
+	fighter 194 65 right
+	fighter -194 90 left
+	fighter 194 90 right
+	fighter -194 115 left
+	fighter 194 115 right
+	fighter -194 140 left
+	fighter 194 140 right
+	fighter -194 165 left
+	fighter 194 165 right
+
+	fighter -194 -65 left
+	fighter 194 -65 right
+	fighter -194 -40 left
+	fighter 194 -40 right
+	fighter -194 -15 left
+	fighter 194 -15 right
+	fighter -194 10 left
+	fighter 194 10 right
+	fighter -194 35 left
+	fighter 194 35 right
+	fighter -194 65 left
+	fighter 194 65 right
+	fighter -194 90 left
+	fighter 194 90 right
+	fighter -194 115 left
+	fighter 194 115 right
+	fighter -194 140 left
+	fighter 194 140 right
+	fighter -194 165 left
+	fighter 194 165 right
+	
+	fighter -194 -65 left
+	fighter 194 -65 right
+	fighter -194 -40 left
+	fighter 194 -40 right
+	fighter -194 -15 left
+	fighter 194 -15 right
+	fighter -194 10 left
+	fighter 194 10 right
+	fighter -194 35 left
+	fighter 194 35 right
+	fighter -194 65 left
+	fighter 194 65 right
+	fighter -194 90 left
+	fighter 194 90 right
+	fighter -194 115 left
+	fighter 194 115 right
+	fighter -194 140 left
+	fighter 194 140 right
+	fighter -194 165 left
+	fighter 194 165 right
+
+	fighter -194 -65 left
+	fighter 194 -65 right
+	fighter -194 -40 left
+	fighter 194 -40 right
+	fighter -194 -15 left
+	fighter 194 -15 right
+	fighter -194 10 left
+	fighter 194 10 right
+	fighter -194 35 left
+	fighter 194 35 right
+	fighter -194 65 left
+	fighter 194 65 right
+	fighter -194 90 left
+	fighter 194 90 right
+	fighter -194 115 left
+	fighter 194 115 right
+	fighter -194 140 left
+	fighter 194 140 right
+	fighter -194 165 left
+	fighter 194 165 right
+
+	fighter -194 -65 left
+	fighter 194 -65 right
+	fighter -194 -40 left
+	fighter 194 -40 right
+	fighter -194 -15 left
+	fighter 194 -15 right
+	fighter -194 10 left
+	fighter 194 10 right
+	fighter -194 35 left
+	fighter 194 35 right
+	fighter -194 65 left
+	fighter 194 65 right
+	fighter -194 90 left
+	fighter 194 90 right
+	fighter -194 115 left
+	fighter 194 115 right
+	fighter -194 140 left
+	fighter 194 140 right
+	fighter -194 165 left
+	fighter 194 165 right
+
+	fighter -194 -65 left
+	fighter 194 -65 right
+	fighter -194 -40 left
+	fighter 194 -40 right
+	fighter -194 -15 left
+	fighter 194 -15 right
+	fighter -194 10 left
+	fighter 194 10 right
+	fighter -194 35 left
+	fighter 194 35 right
+	fighter -194 65 left
+	fighter 194 65 right
+	fighter -194 90 left
+	fighter 194 90 right
+	fighter -194 115 left
+	fighter 194 115 right
+	fighter -194 140 left
+	fighter 194 140 right
+	fighter -194 165 left
+	fighter 194 165 right
+
+	fighter -194 -65 left
+	fighter 194 -65 right
+	fighter -194 -40 left
+	fighter 194 -40 right
+	fighter -194 -15 left
+	fighter 194 -15 right
+	fighter -194 10 left
+	fighter 194 10 right
+	fighter -194 35 left
+	fighter 194 35 right
+	fighter -194 65 left
+	fighter 194 65 right
+	fighter -194 90 left
+	fighter 194 90 right
+	fighter -194 115 left
+	fighter 194 115 right
+	fighter -194 140 left
+	fighter 194 140 right
+	fighter -194 165 left
+	fighter 194 165 right
+	
+	drone -194 -65 left
+	drone 194 -65 right
+	drone -194 -40 left
+	drone 194 -40 right
+	drone -194 -15 left
+	drone 194 -15 right
+	drone -194 10 left
+	drone 194 10 right
+	drone -194 35 left
+	drone 194 35 right
+	drone -194 65 left
+	drone 194 65 right
+	drone -194 90 left
+	drone 194 90 right
+	drone -194 115 left
+	drone 194 115 right
+	drone -194 140 left
+	drone 194 140 right
+	drone -194 165 left
+	drone 194 165 right
+	
+	drone -194 -65 left
+	drone 194 -65 right
+	drone -194 -40 left
+	drone 194 -40 right
+	drone -194 -15 left
+	drone 194 -15 right
+	drone -194 10 left
+	drone 194 10 right
+	drone -194 35 left
+	drone 194 35 right
+	drone -194 65 left
+	drone 194 65 right
+	drone -194 90 left
+	drone 194 90 right
+	drone -194 115 left
+	drone 194 115 right
+	drone -194 140 left
+	drone 194 140 right
+	drone -194 165 left
+	drone 194 165 right
+
+	fighter -194 -65
+	fighter 194 -65
+	fighter -194 -40
+	fighter 194 -40
+	fighter -194 -15
+	fighter 194 -15
+	fighter -194 10
+	fighter 194 10
+	fighter -194 35
+	fighter 194 35
+	fighter -194 65
+	fighter 194 65
+	fighter -194 90
+	fighter 194 90
+
+	explode "tiny explosion" 70
+	explode "small explosion" 60
+	explode "medium explosion" 50
+	explode "big explosion" 40
+	explode "huge explosion" 30
+	
+	description "The Block 02 Mercury Class Battlestar was an upgrade over the block 01 rather than redesign another class from scratch. From the exterior there is no visible difference than the block 01, however the electronic package, engines and power plant were far more efficient."
+	description "With the improvements internally, this led to more space available which in turn allowed for anincrease in the ship's air wing and crew space."
+	description "Typical Airwing Embarked Craft:"
+	description "Viper MkVII Tatical Star Fighters (200; 10 squadrons of 20)"
+	description "Raptor Multi-Mission Support Craft (20; 4 squadrons of 5)"
+	description "Scimitar Bomber / Missile Platform (20; 4 squadrons of 5)"
+	description "Specter Assault Craft (5)"
+	description "Standard Colonial Shuttle (5)"
+	description "Command officers keep in mind, there is a heafty cost to maintian a ship of this size, [Min Crew 260k] [Full Crew and Pilots 770k] credits a day."
+
+ship "Mining Ship"
+	sprite "ship/mining"
+	attributes
+		category "Light Freighter"
+		"cost" 190000
+		"shields" 4000
+		"hull" 6000
+		"mass" 6995
+		"cargo space" 90
+		"required crew" 4
+		"bunks" 12
+		"fuel capacity" 1700
+		"ramscoop" 10
+
+		"drag" 59.8
+
+		"outfit space" 200
+		"weapon capacity" 68
+		"engine capacity" 193
+
+		"hull repair rate" .2
+		"heat dissipation" .6
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"Chaft/Flare Clip" 76
+
+		"FTL Drive Avalon B-Class"
+		"R.C.S. Thrusters CS05-P8" 2
+		"Sub-Light Thruster RM06-B03"
+
+		"ALMH-64 Chaft/Flare Clip"
+		"DRADIS Array VB/CIV-03"
+		"FCS TN/VPS-18 MK10"
+		
+		"Chaft/Flare CSL/QTY-4" 3
+		"D.A.C. MM30/2K-T" 4
+
+	engine 0 186
+	turret 0 64 "Chaft/Flare CSL/QTY-4"
+	turret 0 -37 "Chaft/Flare CSL/QTY-4"
+	turret 0 -138 "Chaft/Flare CSL/QTY-4"
+
+
+	turret -60 64 "D.A.C. MM30/2K-T"
+	turret 60 64 "D.A.C. MM30/2K-T"
+	turret -60 -138 "D.A.C. MM30/2K-T"
+	turret 60 -138 "D.A.C. MM30/2K-T"
+
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	description "Munitions Factory Ship"
+	description "Asteroid Mining Ship"
+
+ship "Nyx Class Interceptor"
+	sprite "ship/guardian"
+	licenses
+		"Captain"
+	attributes
+		category "Interceptor"
+		"cost" 50
+		"shields" 12000
+		"hull" 30000
+		"mass" 5440
+		"cargo space" 50
+		"required crew" 3
+		"bunks" 12
+		"fuel capacity" 1400
+
+		"drag" 122
+
+		"outfit space" 1909
+		"weapon capacity" 614
+		"engine capacity" 777
+
+		"heat dissipation" .75
+		weapon
+			"blast radius" 3000
+			"shield damage" 15000
+			"hull damage" 15000
+			"hit force" 4500
+	outfits
+		"BGM-235 Havoc" 12
+
+		"FTL Drive Celestus R-Class" 2
+		"Fwd. Arrest Thrusters D02-19"
+		"Sub-Light Engines S04-22-D"
+		"Sub-Light Engines S04-23-D-ETAM"
+		"R.C.S. Thrusters RT4-11" 2
+
+		"H.A.C. MK10/2-A" 2
+
+		"Auto-Nano-Defense-System" 12
+		"Pulse Rifle AR-MD86" 12
+		"Fragmentation Grenades" 12
+
+		"Generator PG72-400R" 3
+		"Reactor MG-79C D.T." 2
+
+		"Launch System SLBM-19/A4" 2
+
+		"Colonial Defense Program v3.8"
+		"DRADIS Array DPG/AESA-31"
+		"ECM/Tartarus RT/CDW-32/4A"
+		"FCS AI/POS-2 MK3"
+		"Liquid Helium Cooler" 2
+		"Network TI v2.9I"
+
+		"D.A.C. MM30/2K-T" 8
+		"N.A.C. MK08/9-R" 4
+		"P.D.C. C10 Remote Turret" 12
+
+	gun -4 -96 "H.A.C. MK10/2-A"
+	gun 4 -96 "H.A.C. MK10/2-A"
+	turret 0 -62 "N.A.C. MK08/9-R"
+	turret 0 -28 "N.A.C. MK08/9-R"
+	turret -25 20 "N.A.C. MK08/9-R"
+	turret 25 20 "N.A.C. MK08/9-R"
+
+	turret -8 -62 "P.D.C. C10 Remote Turret"
+	turret 8 -62 "P.D.C. C10 Remote Turret"
+	turret -8 -60 "P.D.C. C10 Remote Turret"
+	turret 8 -60 "P.D.C. C10 Remote Turret"
+	turret -8 -58 "P.D.C. C10 Remote Turret"
+	turret 8 -58 "P.D.C. C10 Remote Turret"
+
+	gun -30 -4 "Launch System SLBM-19/A4"
+	gun 30 -4 "Launch System SLBM-19/A4"
+
+	turret -21 -4 "P.D.C. C10 Remote Turret"
+	turret 21 -4 "P.D.C. C10 Remote Turret"
+	turret -21 -2 "P.D.C. C10 Remote Turret"
+	turret 21 -2 "P.D.C. C10 Remote Turret"
+	turret -21 0 "P.D.C. C10 Remote Turret"
+	turret 21 0 "P.D.C. C10 Remote Turret"
+
+	turret -17 5 "D.A.C. MM30/2K-T"
+	turret 17 5 "D.A.C. MM30/2K-T"
+	turret -17 8 "D.A.C. MM30/2K-T"
+	turret 17 8 "D.A.C. MM30/2K-T"
+	turret -17 11 "D.A.C. MM30/2K-T"
+	turret 17 11 "D.A.C. MM30/2K-T"
+	turret -17 14 "D.A.C. MM30/2K-T"
+	turret 17 14 "D.A.C. MM30/2K-T"
+
+	engine -10 104
+	engine 10 104
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	description "Nyx Class Interceptor is the smallest of the military grade ships.  The ship has been hardened in shielding and plating allowing it to withstand incredible punishment."
+	description "Unlike most other military grade ships, the Nyx Class is the only one not capable of housing any support ships."
+
+ship "P.A.C.I. m82"
+	sprite "ship/paci"
+	attributes
+		category "Interceptor"
+		"cost" 83300
+		"shields" 2600
+		"hull" 800
+		"mass" 101
+		"required crew" 1
+		"bunks" 2
+		"fuel capacity" 400
+
+		"cargo space" 2
+
+		"drag" 7
+
+		"outfit space" 309
+		"weapon capacity" 121
+		"engine capacity" 117
+
+		"hull repair rate" .1
+		"heat dissipation" .42
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"AGM-88 Arke" 20
+		"AIM-9D Pilium" 12
+		"ASIM-54C Lightning Javelin" 68
+		"Chaft/Flare Clip" 4
+
+		"Propulsion System A60"
+		"R.C.S. Thrusters RT4-C/03"
+		"Turbo-Thruster CS04-AC01"
+
+		"A.C. MM30/1K-G"
+
+		"Generator PG72-400R"
+
+		"Launch System SIM-05/C2" 2
+		"Launch System XGMA-2G" 2
+		"Launch System XUGCL-2U" 2
+
+		"ALMH-16 Arke"
+		"ALMH-64 Lightning Javelin"
+		"DRADIS Array VB/CIV-03"
+		"ECM/TEWS CN-07/D2"
+		"FCS AB/CIV-02 MGS"
+
+		"Chaft/Flare CSL/QTY-4"
+
+	gun -6 -48 "A.C. MM30/1K-G"
+	gun -10 -34 "Launch System SIM-05/C2"
+	gun 10 -34 "Launch System SIM-05/C2"
+	gun -20 -30 "Launch System XGMA-2G"
+	gun 20 -30 "Launch System XGMA-2G"
+	gun -30 -26 "Launch System XUGCL-2U"
+	gun 30 -26 "Launch System XUGCL-2U"
+	turret 0 46 "Chaft/Flare CSL/QTY-4"
+	engine 6 8
+	engine -6 8
+	explode "tiny explosion" 20
+	explode "small explosion" 10
+	explode "medium explosion" 5
+	description "Planitary Atmospheric Combat Interceptor"
+	description "One of the few active ships that is not equiped nor has the space to equip an FTL drive unless other systems are ripped out."
+	description "For its size and cost, the PACI is one of the most offensive ships in colonial space."
+
+ship "Predator"
+	sprite "ship/raptor"
+	attributes
+		category "Drone"
+		"automaton" 0
+		"cost" 2600000
+		"shields" 3000
+		"hull" 5000
+		"mass" 615
+		"drag" 10
+		"hull repair rate" .05
+		"heat dissipation" .15
+		"outfit space" 243
+		"weapon capacity" 99
+		"engine capacity" 127
+		"required crew" 2
+		"bunks" 8
+		"fuel capacity" 1200
+	outfits
+		"AGM-88 Arke" 24
+		"Chaft/Flare Clip" 68
+
+		"FTL Drive Avalon B-Class"
+		"Propulsion System A60"
+		"R.C.S. Thrusters CS01-P1"
+		"Sub-Light Thruster CS02-P01"
+
+		"A.C. MM30/1K-G" 2
+
+		"Launch System XGMA-2G" 4
+
+		"ALMH-16 Arke"
+		"ALMH-64 Chaft/Flare Clip"
+		"DRADIS Array VT/CIV-04"
+		"ECM/TEWS CN-07/D2"
+		"FCS AA/AAQ-04 CIV"
+
+		"Chaft/Flare CSL/QTY-4"
+
+	engine -4 22
+	engine 4 22
+
+	gun -7 -16 "A.C. MM30/1K-G"
+	gun 7 -16 "A.C. MM30/1K-G"
+	gun -7 -5 "Launch System XGMA-2G"
+	gun 7 -5 "Launch System XGMA-2G"
+	gun -7 6 "Launch System XGMA-2G"
+	gun 7 6 "Launch System XGMA-2G"
+
+	turret 0 22 "Chaft/Flare CSL/QTY-4"
+
+	explode "tiny explosion" 15
+	description "Predator Multi-purpose combat support ship based on the military Raptor. Classified systems removed and replaced with cilvilian counterparts."
+
+ship "Raptor"
+	sprite "ship/raptor"
+	"never disabled"
+	licenses
+		"Captain"
+	attributes
+		category "Drone"
+		"automaton" 0
+		"cost" 3000000
+		"shields" 2000
+		"hull" 5400
+		"mass" 2615
+		"drag" 30
+		"hull repair rate" .05
+		"heat dissipation" .1
+		"outfit space" 283
+		"weapon capacity" 106
+		"engine capacity" 130
+		"required crew" 1
+		"bunks" 10
+		"fuel capacity" 1200
+	outfits
+		"AGM-88 Arke" 64
+		"Chaft/Flare Clip" 48
+
+		"FTL Drive Celestus R-Class"
+		"R.C.S. Thrusters RT2-12"
+		"Sub-Light Thruster RM06-B03"
+
+		"A.C. MEC-A12" 2
+
+		"Fragmentation Grenades" 10
+		"Pulse Rifle AR-MD86" 10
+
+		"Launch System AGML-16G" 4
+
+		"DRADIS Array DPG/AESA-59"
+		"ECM/TEWS VN-13/N5"
+		"FCS AA/AAQ-10 ATS"
+
+		"Chaft/Flare VA/ALE-24"
+
+	engine -4 22
+	engine 4 22
+
+	gun -7 -16 "A.C. MEC-A12"
+	gun 7 -16 "A.C. MEC-A12"
+	gun -7 -5 "Launch System AGML-16G"
+	gun 7 -5 "Launch System AGML-16G"
+	gun -7 6 "Launch System AGML-16G"
+	gun 7 6 "Launch System AGML-16G"
+
+	turret 0 22 "Chaft/Flare VA/ALE-24"
+
+	explode "tiny explosion" 15
+	description "Raptor ECM Support Ship, Specializing in Anti-Missile Technologies."
+
+ship "Refitted Super Freighter"
+	sprite "ship/battlestar_jupiter"
+	attributes
+		category "Heavy Freighter"
+		"cost" 9377000000
+		"shields" 36000
+		"hull" 800000
+		"mass" 497140
+		"cargo space" 256600
+		"required crew" 8
+		"bunks" 400
+		"fuel capacity" 3500
+
+		"drag" 2610
+
+		"outfit space" 12027
+		"weapon capacity" 180
+		"engine capacity" 2932
+
+		"heat dissipation" 36.08
+		weapon
+			"blast radius" 3000
+			"shield damage" 15000
+			"hull damage" 15000
+			"hit force" 4500
+	outfits
+		"FTL Drive Celestus C-Class" 1
+		"R.C.S. Thrusters RT5-B/42" 10
+		"Sub-Light Engines K6-59-F"
+
+#		"Pulse Rifle AR-MD86" 6000
+#		"Fragmentation Grenades" 6000
+#		"Security Station" 2
+
+#		"Batteries CEMPB47 L-I" 40
+		"Reactor R4-B D.T." 5
+		"Reactor WF-67/B D.M." 3
+
+		"Salvaged Title"
+
+#		"Colonial Defense Program v3.8"
+#		"DRADIS Array RT/WTS-10"
+#		"FCS AN/SPS-63 MK06"
+		"HHC-200 Heavy Cargo Container" 900
+		"Liquid Helium Cooler" 8
+
+		"D.A.C. MM30/2K-T" 8
+		"P.D.C. MK163/94-B" 3
+
+	engine -14 350
+	engine 14 350
+	engine -50 378
+	engine 50 378
+	engine -67 414
+	engine 67 414
+
+	turret 0 -200 "P.D.C. MK163/94-B"
+	turret 0 0 "P.D.C. MK163/94-B"
+	turret 0 200 "P.D.C. MK163/94-B"
+
+	turret 165 -30 "D.A.C. MM30/2K-T"
+	turret -165 -30 "D.A.C. MM30/2K-T"
+	turret 165 6 "D.A.C. MM30/2K-T"
+	turret -165 6 "D.A.C. MM30/2K-T"
+	turret 165 42 "D.A.C. MM30/2K-T"
+	turret -165 42 "D.A.C. MM30/2K-T"
+	turret 165 78 "D.A.C. MM30/2K-T"
+	turret -165 78 "D.A.C. MM30/2K-T"
+
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "big explosion" 40
+	explode "huge explosion" 10
+	description "A former Columbia class battlestar hull, flagged as scrap or salvage by the colonial military, sold to the cilvian sector and gutted, for massive storage and cargo containers."
+	description "While it retains the military grade anti-missile point defence cannons, all offensive weapons were removed and some replaced with 30mm turrets."
+
+ship "Scimitar Bomber"
+	sprite "ship/scimitar"
+	"never disabled"
+	licenses
+		"Admiral"
+	attributes
+		category "Drone"
+		"automaton" 0
+		"cost" 5477000
+		"shields" 3000
+		"hull" 7200
+		"mass" 3719
+		"drag" 29
+		"hull repair rate" .05
+		"heat dissipation" .1
+		"outfit space" 520
+		"weapon capacity" 225
+		"engine capacity" 143
+		"required crew" 2
+		"bunks" 2
+		"fuel capacity" 1200
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"AGM-88 Arke" 64
+		"AGM-88N Elektra" 12
+		"ASIM-54C Lightning Javelin" 64
+		"Chaft/Flare Clip" 24
+		
+		"FTL Drive Celestus R-Class"
+		"R.C.S. Thrusters RT4-11"
+		"Sub-Light Thruster RM06-B03"
+		
+		"A.C. MEC-A12"
+		"H.A.C. MK10/2-A" 2
+		
+		"Fragmentation Grenades" 2
+		"Pulse Rifle AR-MD86" 2
+		
+		"Launch System ASIML-9U" 2
+		"Launch System AGML-16G" 2
+		"Launch System AGML-16GN" 6
+		
+		"ALMH-16 Arke" 2
+		"DRADIS Array DPG/AESA-59"
+		"ECM/TEWS VN-13/N5"
+		"FCS AA/BAQ-15 ATS"
+		
+		"Chaft/Flare VA/ALE-24"
+	
+	engine -4 22
+	engine 4 22
+	gun -12 -9 "Launch System ASIML-9U"
+	gun 12 -9 "Launch System ASIML-9U"
+	gun -7 -16 "Launch System AGML-16GN"
+	gun 7 -16 "Launch System AGML-16GN"
+	gun -7 -5 "Launch System AGML-16GN"
+	gun 7 -5 "Launch System AGML-16GN"
+	gun -7 6 "Launch System AGML-16GN"
+	gun 7 6 "Launch System AGML-16GN"
+	gun -2 -14 "Launch System AGML-16G"
+	gun 2 -14 "Launch System AGML-16G"
+	gun -25 -17 "H.A.C. MK10/2-A"
+	gun 25 -17 "H.A.C. MK10/2-A"
+	gun -3 -45 "A.C. MEC-A12"
+	turret 0 22 "Chaft/Flare VA/ALE-24"
+
+	explode "tiny explosion" 15
+	description "The Scimitar project arose from the perceived need of a craft designed specifically to carry a large amount of ordance.  Using the proven Raptor airframe with a stronger power plant and thruster to compensate for the additional weight."
+	description "Passenger and electronics compartment refited for weapons bay and control systems, in addition to the internal missile systems, external missile racks and larger auto cannons were installed."
+
+ship "Scorpion"
+	sprite "ship/heavyftr"
+	attributes
+		category "Interceptor"
+		"cost" 250000
+		"shields" 2700
+		"cargo space" 10
+		"hull" 4000
+		"mass" 1575
+		"required crew" 2
+		"bunks" 4
+		"fuel capacity" 1200
+
+		"drag" 18.525
+
+		"outfit space" 308
+		"weapon capacity" 159
+		"engine capacity" 141
+
+		"hull repair rate" .2
+		"heat dissipation" .8
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"AGM-88 Arke" 40
+		"Chaft/Flare Clip" 4
+
+		"FTL Drive Celestus R-Class"
+		"Propulsion System B11"
+		"R.C.S. Thrusters CS05-P8"
+		"Turbo-Thruster CS09-AC02"
+
+		"A.C. MM30/1K-G" 4
+
+		"Launch System XGMA-2G" 4
+
+		"ALMH-16 Arke" 2
+		"DRADIS Array VT/CIV-04"
+		"ECM/TEWS CN-07/D2"
+		"FCS AB/CIV-02 MGS"
+
+		"D.A.C. MM30/2K-T" 2
+		"Chaft/Flare CSL/QTY-4"
+
+	engine -25 42
+	engine 25 42
+
+	turret 0 46 "Chaft/Flare CSL/QTY-4"
+	gun -38 16 "Launch System XGMA-2G"
+	gun -26 16 "Launch System XGMA-2G"
+	gun 38 16 "Launch System XGMA-2G"
+	gun 26 16 "Launch System XGMA-2G"
+	gun -12 0 "A.C. MM30/1K-G"
+	gun 12 0 "A.C. MM30/1K-G"
+	gun -48 0 "A.C. MM30/1K-G"
+	gun 48 0 "A.C. MM30/1K-G"
+	turret -7 -34 "D.A.C. MM30/2K-T"
+	turret 7 -34 "D.A.C. MM30/2K-T"
+
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	description "Colonial Strike Fighter/Bomber, Equiped with four 30mm Auto Cannons, Anti-Ship Missile Batteries, Advanced Missile Defense System and a Tail Stinger a Multi Directional AP Auto Cannon turret."
+	description "Each Scorpion also comes equiped with twin fuel pods mounted under each wing allowing additional firing of weapons and afterburner uses."
+
+ship "Star Jumper"
+	sprite "ship/jumper"
+	attributes
+		category "Transport"
+		"cost" 33000
+		"shields" 1000
+		"hull" 4800
+		"mass" 5
+		"cargo space" 15
+		"required crew" 1
+		"bunks" 2
+		"fuel capacity" 400
+		"drag" 4.2
+		"hull repair rate" .1
+		"heat dissipation" .9
+		"outfit space" 84
+		"engine capacity" 120
+	outfits
+		"FTL Drive Avalon B-Class"
+		"R.C.S. Thrusters CS01-P1"
+		"Turbo-Thruster CS04-AC01"
+
+		"Red Star Laser Cannon" 2
+
+		"Salvaged Title"
+
+
+	gun -9 -68 "Red Star Laser Cannon"
+	gun 9 -68 "Red Star Laser Cannon"
+	engine -39 66
+	engine 39 66
+	explode "tiny explosion" 15
+	description "Two Seater Private Ship, Now equiped with twin Red Star Laser Cannon's!"
+	description "Sold as is, but its cheap!"
+	description "Two engince a couple of bulkhead frame parts and an escape pod welded up with paint slapped on."
+
+ship "Specter Assault Craft"
+	sprite "ship/shuttlem2"
+	licenses
+		"Captain"
+	attributes
+		category "Fighter"
+		"cost" 20000
+		"shields" 3200
+		"hull" 2400
+		"mass" 100
+		"cargo space" 10
+		"required crew" 5
+		"bunks" 100
+		"fuel capacity" 900
+
+		"drag" 17.4
+
+		"outfit space" 321
+		"weapon capacity" 116
+		"engine capacity" 127
+
+		"hull repair rate" .05
+		"hull energy" .05
+		"hull heat" .05
+		"shield generation" .05
+		"shield energy" .05
+		"shield heat" .05
+		"heat dissipation" .15
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"AIM-9D Pilium" 6
+		"Chaft/Flare Clip" 24
+		"PM8-v2c" 16
+	
+		"FTL Drive Celestus R-Class"
+		"R.C.S. Thrusters RT4-C/03"
+		"Sub-Light Thruster SC08-A03"
+
+		"Fragmentation Grenades" 100
+		"Pulse Rifle AR-MD86" 100
+
+		"Launch System PM8-v2"
+		"Launch System SIM-05/C2"
+
+		"DRADIS Array DPG/AESA-25"
+		"ECM/TEWS VN-13/N5"
+
+		"Chaft/Flare VA/ALE-24"
+		"P.D.C. C10 Remote Turret" 4
+	engine -7 36
+	engine 7 36
+	
+	turret 0 30 "Chaft/Flare VA/ALE-24"
+	gun 0 28 "Launch System PM8-v2"
+	gun 0 28 "Launch System SIM-05/C2"
+
+	turret -3 3 "P.D.C. C10 Remote Turret"
+	turret 3 3 "P.D.C. C10 Remote Turret"
+	turret -4 9 "P.D.C. C10 Remote Turret"
+	turret 4 9 "P.D.C. C10 Remote Turret"
+
+
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	description "Specter Assault Craft"
+
+ship "Shuttle mk.II"
+	sprite "ship/bsg_transport"
+	attributes
+		category "Fighter"
+		"cost" -2000000
+		"shields" 2200
+		"hull" 2000
+		"mass" 3300
+		"cargo space" 100
+		"required crew" 4
+		"bunks" 100
+		"fuel capacity" 900
+
+		"drag" 18.4
+
+		"outfit space" 93
+		"weapon capacity" 0
+		"engine capacity" 121
+
+		"hull repair rate" .05
+		"hull energy" .05
+		"hull heat" .05
+		"shield generation" .05
+		"shield energy" .05
+		"shield heat" .05
+		"heat dissipation" .15
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"FTL Drive Celestus R-Class"
+		"R.C.S. Thrusters RT4-C/03"
+		"Sub-Light Thruster SC08-A03"
+
+		"Fragmentation Grenades" 100
+		"Pulse Rifle AR-MD86" 100
+
+		"DRADIS Array DPG/AESA-25"
+
+	engine -7 36
+	engine 7 36
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	description "Colonial Shuttle mk.II"
+
+ship "Talos Class Cruiser"
+	sprite "ship/defender_erebus"
+	licenses
+		"Captain"
+	attributes
+		category "Light Warship"
+		"cost" 150000000
+		"shields" 12000
+		"hull" 180000
+		"mass" 25440
+		"cargo space" 200
+		"required crew" 271
+		"bunks" 300
+		"fuel capacity" 3000
+
+		"drag" 499
+
+		"outfit space" 2521
+		"weapon capacity" 426
+		"engine capacity" 2998
+
+		"heat dissipation" .1
+		weapon
+			"blast radius" 3000
+			"shield damage" 15000
+			"hull damage" 15000
+			"hit force" 4500
+	outfits
+		"ASIM-54C Lightning Javelin" 192
+
+		"FTL Drive Celestus D-Class" 2
+		"R.C.S. Thrusters RT5-B/42" 2
+		"Sub-Light Engines F4-99-D"
+		"Sub-Light Engines F4-99-D-ETAM"
+
+		"H.A.C. MK10/2-A" 2
+
+		"Pulse Rifle AR-MD86" 400
+		"Fragmentation Grenades" 400
+		"Auto-Nano-Defense-System" 20
+		"Security Station" 4
+
+		"Batteries CMEPS65 L-I"
+		"Reactor MG-74B D.T." 2
+		"Reactor WF-68/C D.M." 2
+
+		"Launch System ASIML-9U" 2
+
+		"Damage Control Teams" 10
+
+		"ALMH-64 Lightning Javelin" 2
+		"Colonial Defense Program v3.8"
+		"DRADIS Array DPG/AESA-31"
+		"ECM/Tartarus RT/CDW-32/4A"
+		"FCS AN/SPS-63 MK05"
+		"Liquid Helium Cooler" 6
+		"Network TI v2.4C"
+
+		"D.A.C. MM30/2K-T" 8
+		"N.A.C. MK08/9-R" 4
+		"P.D.C. C10 Remote Turret" 6
+
+	engine -37 170
+	engine -30 170
+	engine 30 170
+	engine 37 170
+
+	gun -4 -164 "H.A.C. MK10/2-A"
+	gun 4 -164 "H.A.C. MK10/2-A"
+
+	turret 0 -92 "N.A.C. MK08/9-R"
+	turret 0 -40 "N.A.C. MK08/9-R"
+	turret -45 36 "N.A.C. MK08/9-R"
+	turret 45 36 "N.A.C. MK08/9-R"
+
+	turret -29 13 "D.A.C. MM30/2K-T"
+	turret 29 13 "D.A.C. MM30/2K-T"
+	turret -29 18 "D.A.C. MM30/2K-T"
+	turret 29 18 "D.A.C. MM30/2K-T"
+	turret -29 23 "D.A.C. MM30/2K-T"
+	turret 29 23 "D.A.C. MM30/2K-T"
+	turret -29 28 "D.A.C. MM30/2K-T"
+	turret 29 28 "D.A.C. MM30/2K-T"
+
+	turret -55 28 "P.D.C. C10 Remote Turret"
+	turret 55 28 "P.D.C. C10 Remote Turret"
+	turret -55 30 "P.D.C. C10 Remote Turret"
+	turret 55 30 "P.D.C. C10 Remote Turret"
+	turret -55 32 "P.D.C. C10 Remote Turret"
+	turret 55 32 "P.D.C. C10 Remote Turret"
+
+	gun -53 -16 "Launch System ASIML-9U"
+	gun 53 -16 "Launch System ASIML-9U"
+
+	drone -40 -80 left
+	drone 40 -80 right
+	drone -40 -80 left
+	drone 40 -80 right
+	drone 0 120
+
+	fighter 0 120
+	fighter 0 120
+	fighter 0 120
+	fighter 0 120
+	fighter 0 120
+	fighter 0 120
+	fighter 0 120
+	fighter 0 120
+	fighter 0 120
+	fighter 0 120
+	fighter 0 120
+	fighter 0 120
+	fighter 0 120
+	fighter 0 120
+	fighter 0 120
+
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "big explosion" 40
+	explode "huge explosion" 10
+	description "The Talos Class Cruiser, often refered to as the Arch-Angel, for they are purposed as Search and Recovery.  The ship has the highest shiled to mass ratio in the colonial fleet, enough space for a second set of crew to man most ships they are sent to recover."
+	description "Cruisers are also equiped with a pair of powerful afterburners capible of bringing the ship to sub-light speeds in a matter of seconds, though the energy cost is quite high."
+	description "Typical Airwing Embarked Craft:"
+	description "Viper MkII Tatical Star Fighters (10; 1/2 squadron of 20)"
+	description "Raptor Multi-Mission Support Craft (5; 1 squadron of 5)"
+	description "Standard Colonial Shuttle (5)"
+	description "As a reminder Colonial Shuttles are to be maintained in ready status, not used as mobile cargo containers."
+	description "Command officers whil less than most military ships, there is still a heafty cost to maintian a ship of this size, [Min Crew just over 21k] [Full Crew and Pilots just over 42k] credits a day."
+
+ship "Valkyrie Class Battlestar"
+	sprite "ship/battlestar_odin"
+	licenses
+		"Colonel"
+	attributes
+		category "Medium Warship"
+		"cost" 66850000000
+		"shields" 40000
+		"hull" 400000
+		"mass" 157230
+		"cargo space" 700
+		"required crew" 1268
+		"bunks" 1300
+		"fuel capacity" 3500
+
+		"drag" 1200
+
+		"outfit space" 8295
+		"weapon capacity" 998
+		"engine capacity" 3608
+
+		"heat dissipation" .39
+		weapon
+			"blast radius" 3000
+			"shield damage" 15000
+			"hull damage" 15000
+			"hit force" 4500
+	outfits
+		"BGM-235 Havoc" 6
+		"BGMN-793 Nemesis" 6
+
+		"R.C.S. Thrusters RT9-D/17" 4
+		"FTL Drive Celestus F-Class" 2
+		"Sub-Light Engines K10-19-D"
+
+		"Auto-Nano-Defense-System" 40
+		"Pulse Rifle AR-MD86" 1600
+		"Fragmentation Grenades" 1600
+		"Security Station" 15
+
+		"Reactor MG-74B D.T." 4
+		"Reactor XJ-10/B D.M." 2
+		"Batteries CMEPS65 L-I" 25
+
+		"Launch System SLBM-19/A4"
+		"Launch System SLBMN-19/A4"
+
+		"Damage Control Teams" 10
+
+		"Colonial Defense Program v3.8"
+		"DRADIS Array RT/WTS-18"
+		"ECM/Shadow RT/CDW-34/3S"
+		"FCS AN/SPS-79 MK42"
+		"G.R.A.N.D. v1.03"
+		"Liquid Helium Cooler" 6
+		"Network TI v2.8"
+
+		"N.A.C. MK15/5-A" 16
+		"N.A.C. MK42/22-B" 8
+		"P.D.C. MK163/94-B" 6
+
+
+	engine -17 238
+	engine 15 238
+	engine -34 220
+	engine 34 220
+
+	turret -6 -240 "N.A.C. MK42/22-B"
+	turret 4 -240 "N.A.C. MK42/22-B"
+
+	turret -22 -220 "N.A.C. MK15/5-A"
+	turret 20 -220 "N.A.C. MK15/5-A"
+	turret -22 -220 "P.D.C. MK163/94-B"
+	turret 20 -220 "P.D.C. MK163/94-B"
+
+	turret -26 -150 "N.A.C. MK42/22-B"
+	turret 24 -150 "N.A.C. MK42/22-B"
+
+	turret -40 -100 "N.A.C. MK42/22-B"
+	turret 38 -100 "N.A.C. MK42/22-B"
+
+	gun -6 -97 "Launch System SLBM-19/A4"
+	gun 4 -97 "Launch System SLBMN-19/A4"
+
+	turret -85 -35 "N.A.C. MK15/5-A"
+	turret 84 -35 "N.A.C. MK15/5-A"
+
+	turret -67 -43 "N.A.C. MK42/22-B"
+	turret 65 -43 "N.A.C. MK42/22-B"
+
+	turret -11 -40 "N.A.C. MK42/22-B"
+	turret 9 -40 "N.A.C. MK42/22-B"
+
+	turret -28 -14 "N.A.C. MK42/22-B"
+	turret 26 -14 "N.A.C. MK42/22-B"
+	turret -28 -14 "P.D.C. MK163/94-B"
+	turret 26 -14 "P.D.C. MK163/94-B"
+
+	turret -8 -5 "N.A.C. MK42/22-B"
+	turret 6 -5 "N.A.C. MK42/22-B"
+
+	turret -67 7 "N.A.C. MK42/22-B"
+	turret 65 7 "N.A.C. MK42/22-B"
+
+	turret -85 27 "N.A.C. MK15/5-A"
+	turret 84 27 "N.A.C. MK15/5-A"
+
+	turret -85 41 "N.A.C. MK15/5-A"
+	turret 84 41 "N.A.C. MK15/5-A"
+	turret -85 41 "P.D.C. MK163/94-B"
+	turret 84 41 "P.D.C. MK163/94-B"
+
+	fighter -57 -90
+	fighter 55 -90
+	fighter -67 -90
+	fighter 65 -90
+	fighter -77 -90
+	fighter 75 -90
+
+	fighter -57 -90
+	fighter 55 -90
+	fighter -67 -90
+	fighter 65 -90
+	fighter -77 -90
+	fighter 75 -90
+
+	fighter -57 -90
+	fighter 55 -90
+	fighter -67 -90
+	fighter 65 -90
+	fighter -77 -90
+	fighter 75 -90
+
+	fighter -57 -90
+	fighter 55 -90
+	fighter -67 -90
+	fighter 65 -90
+	fighter -77 -90
+	fighter 75 -90
+
+	fighter -57 -90
+	fighter 55 -90
+	fighter -67 -90
+	fighter 65 -90
+	fighter -77 -90
+	fighter 75 -90
+
+	fighter -57 -90
+	fighter 55 -90
+	fighter -67 -90
+	fighter 65 -90
+	fighter -77 -90
+	fighter 75 -90
+
+	fighter -57 -90
+	fighter 55 -90
+	fighter -67 -90
+	fighter 65 -90
+	fighter -77 -90
+	fighter 75 -90
+
+	fighter -57 -90
+	fighter 55 -90
+	fighter -67 -90
+	fighter 65 -90
+	fighter -77 -90
+	fighter 75 -90
+
+	fighter -57 -90
+	fighter 55 -90
+	fighter -67 -90
+	fighter 65 -90
+	fighter -77 -90
+	fighter 75 -90
+
+	fighter -57 -90
+	fighter 55 -90
+	fighter -67 -90
+	fighter 65 -90
+	fighter -77 -90
+	fighter 75 -90
+
+	fighter -57 -90
+	fighter 55 -90
+	fighter -67 -90
+	fighter 65 -90
+	fighter -77 -90
+	fighter 75 -90
+
+	fighter -57 -90
+	fighter 55 -90
+	fighter -67 -90
+	fighter 65 -90
+	fighter -77 -90
+	fighter 75 -90
+
+	fighter -57 -90
+	fighter 55 -90
+	fighter -67 -90
+	fighter 65 -90
+	fighter -77 -90
+	fighter 75 -90
+
+	fighter -67 -90
+	fighter 65 -90
+
+	drone -67 50
+	drone 65 50
+	drone -67 50
+	drone 65 50
+	drone -67 50
+	drone 65 50
+	drone -67 50
+	drone 65 50
+	drone -67 50
+	drone 65 50
+
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "big explosion" 40
+	explode "huge explosion" 10
+	description "The Valkyrie Class Battlestar is one of the smaller Battlestars. Weapons load out is mostly designed for deploying fighters and raptors while staying at range. As with other Battlestars it too is equiped with multi warhead silos, capible of launching Nuclear and conventional."
+	description "Origonal use of this class was defending teritories, and the ability to carry four squadrons of Vipers fighters does allow it to play offensive when needed.  The Valkyrie's electronic systems are of the most advanced in the fleet allowing it to become invisible to other ships nearly at will."
+	description "Command officers there is still a heafty cost to maintian a ship of this size, [Min Crew just over 73k] [Full Crew and Pilots just over 150k] credits a day."
+
+ship "Viper mk.II"
+	sprite "ship/viperm2"
+	licenses
+		"Captain"
+	attributes
+		category "Fighter"
+		"cost" 4000
+		"shields" 2000
+		"hull" 2000
+		"mass" 81
+		"required crew" 1
+		"bunks" 1
+		"fuel capacity" 400
+
+		"drag" 9.4
+
+		"outfit space" 217
+		"weapon capacity" 79
+		"engine capacity" 99
+
+		"hull repair rate" .05
+		"heat dissipation" .3
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"AGM-88 Arke" 32
+		"ASIM-54C Lightning Javelin" 32
+		"Chaft/Flare Clip" 22
+
+		"R.C.S. Thrusters RT2-09"
+		"Turbo-Thruster VM2-D15"
+
+		"A.C. MEC-A06" 2
+
+		"Fragmentation Grenades"
+		"Pulse Rifle AR-MD86"
+		
+		"Launch System AGML-16G" 2
+		"Launch System ASIML-9U" 1
+
+		"DRADIS Array DPG/AESA-31"
+		"ECM/TEWS VN-13/N2"
+		"FCS TN/VPS-8 MK2"
+
+		"Chaft/Flare VA/ALE-22"
+
+	engine 0 35
+	engine 10 35
+	engine -10 35
+	gun -15 21 "Launch System AGML-16G"
+	gun 15 21 "Launch System AGML-16G"
+	gun 0 -5 "Launch System ASIML-9U"
+	gun -9 -8 "A.C. MEC-A06"
+	gun 9 -8 "A.C. MEC-A06"
+	turret 0 34 "Chaft/Flare VA/ALE-22"
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	description "Colonial Viper Mark II"
+
+ship "Viper mk.VII"
+	sprite "ship/viperm7"
+	"never disabled"
+	licenses
+		"Colonel"
+	attributes
+		category "Fighter"
+		"cost" 4368000
+		"shields" 4500
+		"hull" 3000
+		"mass" 381.7
+		"required crew" 1
+		"bunks" 1
+		"fuel capacity" 500
+
+		"drag" 11.5
+
+		"outfit space" 256
+		"weapon capacity" 106
+		"engine capacity" 109
+
+		"hull repair rate" .1
+		"heat dissipation" .29
+		weapon
+			"blast radius" 9
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 80
+	outfits
+		"ASIM-54C Lightning Javelin" 32
+		"ASIM-61AN Kalama" 4
+		"Chaft/Flare Clip" 34
+		
+		"R.C.S. Thrusters RT2-12"
+		"Turbo-Thruster VM4-D02"
+		
+		"A.C. MEC-A12" 3
+		
+		"Fragmentation Grenades"
+		"Pulse Rifle AR-MD86"
+		
+		"Launch System ASIML-9U"
+		"Launch System ASIML-7UN" 2
+		
+		"DRADIS Array DPG/AESA-63"
+		"ECM/TEWS VN-23/N7A"
+		"FCS TN/VPS-18 MK10"
+		
+		"Chaft/Flare VA/ALE-34"
+		
+	engine 0 37
+	engine 4 37
+	engine -4 37
+	gun -12 9 "Launch System ASIML-7UN"
+	gun 12 9 "Launch System ASIML-7UN"
+	gun -18 -2 "A.C. MEC-A12"
+	gun 0 2 "A.C. MEC-A12"
+	gun 18 -2 "A.C. MEC-A12"
+	gun 0 -12 "Launch System ASIML-9U"
+	turret 0 34 "Chaft/Flare VA/ALE-34"
+
+	explode "tiny explosion" 20
+	explode "small explosion" 10
+	explode "medium explosion" 5
+	description "Viper Mk.VII Tatical Star Fighter"
+
+

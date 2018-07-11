@@ -1,0 +1,9 @@
+
+shipyard "Navy Advanced"
+	"Battleship"
+	"Navy Freighter"
+	"Battlecruiser"
+	
+shipyard "Navy Basic"
+	"Patrol Boat"
+	"Nesasio"

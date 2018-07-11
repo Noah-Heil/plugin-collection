@@ -1,0 +1,3222 @@
+# BSG Out Fitter
+#
+# *************************** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****
+# ********** GUNS *********** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****
+# *************************** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****
+
+outfit "Red Star Laser Cannon"
+	category "Guns"
+	cost 45
+	thumbnail "outfit/unknown"
+	mass 1
+	"outfit space" -1
+	"gun ports" -1
+	"energy capacity" 4
+	weapon
+		sprite "projectile/laser"
+			"frame rate" 1
+		sound "laser"
+		"hit effect" "beam laser impact"
+		"inaccuracy" 6
+		"velocity" 300
+		"lifetime" 1
+		"reload" 1
+		"firing energy" .1
+		"firing heat" .2
+	description "On closer inspection, you have discovered that this laser cannon is several high powered lights focused through a colored lense with a set of car speakers attached to make sound."
+	description "There is a chance that it might do as much damage to a ship as a heating pad.  On a good note there is part of a roll of duct tape still unused.  To bad the ship this was mounted on was sold as is."
+	
+
+outfit "A.C. MM30/1K-G"
+	category "Guns"
+	cost 30000
+	thumbnail "outfit/unknown"
+	mass 40
+	"outfit space" -11
+	"weapon capacity" -14
+	"gun ports" -1
+	"energy capacity" 90
+	weapon
+		sprite "projectile/30mm"
+			"frame rate" 4
+			"random start frame"
+		sound "flakfire"
+		"hit effect" "flak impact"
+		"inaccuracy" 1.2
+		"velocity" 20
+		"lifetime" 32
+		"reload" 2
+		"firing energy" 2
+		"firing force" .1
+		"firing heat" 1
+		"hit force" .1
+		"shield damage" 4
+		"hull damage" 5
+		"heat damage" 1
+		stream
+	description "Manson A.C. MM30 / 1K-G Auto Cannon."
+	description "Rapid Fire AP 30mm Rounds."
+
+outfit "A.C. MEC-A06"
+	category "Guns"
+	cost 74000
+	thumbnail "outfit/unknown"
+	mass 160
+	"outfit space" -12
+	"weapon capacity" -12
+	"gun ports" -1
+	"energy capacity" 120
+	weapon
+		sprite "projectile/tracer"
+			"frame rate" 10
+			"random start frame"
+		"fire effect" "flak fire"
+		"fire effect" "muzzle fire"
+		"hit effect" "flak impact"
+		sound "flakfire"
+		"inaccuracy" 0.1
+		"velocity" 25
+		"lifetime" 24
+		"reload" 5
+		"firing energy" 12
+		"firing heat" 35
+		"hit force" .5
+		"shield damage" 20
+		"hull damage" 17
+		"heat damage" 2
+		"piercing" .05
+		cluster
+	description "Sams MEC-A06 Auto Cannon"
+
+outfit "A.C. MEC-A12"
+	category "Guns"
+	cost 94000
+	thumbnail "outfit/unknown"
+	mass 160
+	"outfit space" -17
+	"weapon capacity" -17
+	"gun ports" -1
+	"energy capacity" 150
+	weapon
+		sprite "projectile/tracer"
+			"frame rate" 10
+			"random start frame"
+		"fire effect" "flak fire"
+		"fire effect" "muzzle fire"
+		"hit effect" "flak impact"
+		sound "flakfire"
+		"inaccuracy" 0.1
+		"velocity" 25
+		"lifetime" 24
+		"reload" 3
+		"firing energy" 12
+		"firing heat" 35
+		"hit force" .5
+		"shield damage" 20
+		"hull damage" 17
+		"heat damage" 2
+		"piercing" .05
+		cluster
+	description "Sams MEC-A12 Auto Cannon"
+
+outfit "H.A.C. MK10/2-A"
+	category "Guns"
+	cost 163000
+	thumbnail "outfit/unknown"
+	mass 160
+	"outfit space" -17
+	"weapon capacity" -17
+	"gun ports" -1
+	"energy capacity" 150
+	weapon
+		sprite "projectile/plaster"
+			"frame rate" 4
+			"random start frame"
+		sound "flakfire"
+		"fire effect" "flak fire"
+		"fire effect" "muzzle fire"
+		"hit effect" "small explosion"
+		"inaccuracy" .05
+		"velocity" 18.8
+		"lifetime" 32
+		"reload" 60
+		"burst reload" 15
+		"burst count" 4
+		"firing energy" 18
+		"firing force" 1
+		"firing heat" 51
+		"hit force" .8
+		"shield damage" 390
+		"hull damage" 310
+		"heat damage" 9
+		"piercing" .1
+		cluster
+	description "Samms H.A.C. MK10/2-A Class 8 Heavy Assault Cannon."
+	description "Quad Firing APHE Warhead 8in."
+
+outfit "H.A.C. MK38/14-A2"
+	category "Guns"
+	cost 250000000
+	thumbnail "outfit/unknown"
+	mass 1800
+	"outfit space" -160
+	"weapon capacity" -60
+	"gun ports" -1
+	"energy capacity" 7000
+	"required crew" 8
+	weapon
+		sprite "projectile/plaster"
+			"frame rate" 4
+			"random start frame"
+		sound "flakfire"
+		"fire effect" "flak fire"
+		"fire effect" "tiny explosion"
+		"hit effect" "small explosion"
+		"inaccuracy" .05
+		"velocity" 18.9
+		"lifetime" 130
+		"reload" 60
+		"burst reload" 10
+		"burst count" 2
+		"firing energy" 7500
+		"firing force" 1
+		"firing heat" 750
+		"hit force" 3.6
+		"shield damage" 8500
+		"hull damage" 3500
+		"heat damage" 850
+		"piercing" .05
+		cluster
+	description "Samms MK38 / 14-A2 Class 15 Heavy Assault Cannon."
+	description "Dual Firing APHE Warhead 36in."
+	description "Devastating damage at a very long range is what the MK38 is all about.  Rounds leaving the barrel so hot the air is igniting behind them as fired.  Only the most robust capital ships can withstand the impact from these guns.  The only draw back they have is the massive requirements to install and the Navigation system must aim the guns for Fire Control."
+
+outfit "H.A.C. MK38/14-A4"
+	category "Guns"
+	cost 250000000
+	thumbnail "outfit/unknown"
+	mass 2500
+	"outfit space" -200
+	"weapon capacity" -100
+	"gun ports" -1
+	"energy capacity" 10000
+	"required crew" 12
+	weapon
+		sprite "projectile/plaster"
+			"frame rate" 4
+			"random start frame"
+		sound "flakfire"
+		"fire effect" "flak fire"
+		"fire effect" "tiny explosion"
+		"hit effect" "small explosion"
+		"inaccuracy" .05
+		"velocity" 18.9
+		"lifetime" 130
+		"reload" 60
+		"burst reload" 10
+		"burst count" 4
+		"firing energy" 7500
+		"firing force" 1
+		"firing heat" 750
+		"hit force" 3.6
+		"shield damage" 8500
+		"hull damage" 3500
+		"heat damage" 850
+		"piercing" .05
+		cluster
+	description "Samms MK38 / 14-A4 Class 15 Heavy Assault Cannon."
+	description "Quad Firing APHE Warhead 36in."
+	description "Devastating damage at a very long range is what the MK38 is all about.  Rounds leaving the barrel so hot the air is igniting behind them as fired.  Only the most robust capital ships can withstand the impact from these guns.  The only draw back they have is the massive requirements to install and the Navigation system must aim the guns for Fire Control."
+
+# *************************** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****
+# ********* TURRETS ********* ***** ***** ***** ***** ***** ***** ***** ***** ***** *****
+# *************************** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****
+
+outfit "D.A.C. MM30/2K-T"
+	category "Turrets"
+	cost 1100000
+	thumbnail "outfit/unknown"
+	mass 40
+	"outfit space" -20
+	"weapon capacity" -15
+	"engine capacity" -1
+	"turret mounts" -1
+	"energy capacity" 20000
+	"required crew" 1
+	weapon
+		sprite "projectile/30mm"
+			"frame rate" 4
+			"random start frame"
+		sound "flakfire"
+		"hit effect" "flak impact"
+		"inaccuracy" 1.2
+		"velocity" 20
+		"lifetime" 32
+		"reload" 10
+		"firing energy" 2
+		"firing force" .1
+		"firing heat" 1
+		"hit force" .1
+		"shield damage" 16
+		"hull damage" 20
+		"heat damage" 3
+		stream
+	description "Samms D.A.C. MM30 / 2K-T Defensive Auto Cannon."
+	description "Chain Firing AP 30mm Rounds."
+
+outfit "H.N.A.C. MK86/16-K9"
+	category "Turrets"
+	cost 250000000
+	thumbnail "outfit/unknown"
+	mass 2500
+	"outfit space" -240
+	"weapon capacity" -125
+	"engine capacity" -1
+	"turret mounts" -1
+	"energy capacity" 20000
+	"required crew" 18
+	weapon
+		sprite "projectile/plaster"
+			"frame rate" 4
+			"random start frame"
+		sound "flakfire"
+		"fire effect" "flak fire" 4
+		"fire effect" "muzzle fire"
+		"hit effect" "small explosion"
+		"inaccuracy" .3
+		"velocity" 18.9
+		"lifetime" 80
+		"reload" 120
+		"burst reload" 10
+		"burst count" 2
+		"firing energy" 13500
+		"firing force" 4
+		"firing heat" 1150
+		"hit force" 5.1
+		"shield damage" 4800
+		"hull damage" 2020
+		"heat damage" 390
+		"piercing" .05
+		stream
+	description "Samms MK86 / 16-K9 Class 04 Heavy Naval Assault Cannon."
+	description "Dual Firing APHE Warhead 72in."
+
+outfit "N.A.C. MK08/9-R"
+	category "Turrets"
+	cost 8000000
+	thumbnail "outfit/unknown"
+	mass 410
+	"outfit space" -38
+	"weapon capacity" -19
+	"engine capacity" -1
+	"turret mounts" -1
+	"energy capacity" 1500
+	"required crew" 2
+	weapon
+		sprite "projectile/claster"
+			"frame rate" 4
+			"random start frame"
+		sound "flakfire"
+		"fire effect" "flak fire"
+		"fire effect" "muzzle fire"
+		"hit effect" "flak impact"
+		"inaccuracy" .1
+		"velocity" 60
+		"lifetime" 12
+		"reload" 20
+		"burst reload" 6
+		"burst count" 2
+		"firing energy" 718
+		"firing force" .2
+		"firing heat" 720
+		"hit force" 1.8
+		"shield damage" 47
+		"hull damage" 61
+		"heat damage" 13
+		"piercing" .01
+		stream
+	description "Krupp MK08 / 9-R Class 03 Naval Auto Cannon"
+	description "Dual Firing APHE Warhead 6inch."
+
+outfit "N.A.C. MK15/5-A"
+	category "Turrets"
+	cost 250000000
+	thumbnail "outfit/unknown"
+	mass 840
+	"outfit space" -48
+	"weapon capacity" -25
+	"engine capacity" -1
+	"turret mounts" -1
+	"energy capacity" 1500
+	"required crew" 6
+	weapon
+		sprite "projectile/claster"
+			"frame rate" 4
+			"random start frame"
+		sound "flakfire"
+		"fire effect" "flak fire"
+		"fire effect" "muzzle fire"
+		"hit effect" "flak impact"
+		"inaccuracy" .1
+		"velocity" 60
+		"lifetime" 12
+		"reload" 10
+		"burst reload" 5
+		"burst count" 4
+		"firing energy" 718
+		"firing force" .2
+		"firing heat" 720
+		"hit force" 1.8
+		"shield damage" 47
+		"hull damage" 61
+		"heat damage" 13
+		"piercing" .01
+		stream
+	description "Krupp MK15 / 5-A Class 05 Naval Auto Cannon"
+	description "Quad Firing APHE Warhead 8.25in."
+
+outfit "N.A.C. MK19/7-H"
+	category "Turrets"
+	cost 275000000
+	thumbnail "outfit/unknown"
+	mass 1240
+	"outfit space" -58
+	"weapon capacity" -32
+	"engine capacity" -1
+	"turret mounts" -1
+	"energy capacity" 1700
+	"required crew" 7
+	weapon
+		sprite "projectile/claster"
+			"frame rate" 4
+			"random start frame"
+		sound "flakfire"
+		"fire effect" "flak fire"
+		"fire effect" "muzzle fire"
+		"hit effect" "flak impact"
+		"inaccuracy" .1
+		"velocity" 60
+		"lifetime" 15
+		"reload" 10
+		"burst reload" 3
+		"burst count" 8
+		"firing energy" 718
+		"firing force" .2
+		"firing heat" 720
+		"hit force" 1.8
+		"shield damage" 47
+		"hull damage" 61
+		"heat damage" 13
+		"piercing" .01
+		stream
+	description "Krupp MK19 / 7-H Class 05 Naval Auto Cannon"
+	description "Quad Firing APHE Warhead 12.5in."
+
+outfit "N.A.C. MK21/10-E"
+	category "Turrets"
+	cost 248000000
+	thumbnail "outfit/unknown"
+	mass 1855
+	"outfit space" -98
+	"weapon capacity" -54
+	"engine capacity" -1
+	"turret mounts" -1
+	"energy capacity" 1400
+	"required crew" 10
+	weapon
+		sprite "projectile/claster"
+			"frame rate" 4
+			"random start frame"
+		sound "flakfire"
+		"fire effect" "flak fire"
+		"fire effect" "muzzle fire"
+		"hit effect" "tiny explosion"
+		"inaccuracy" .1
+		"velocity" 23
+		"lifetime" 62
+		"reload" 40
+		"burst reload" 5
+		"burst count" 2
+		"firing energy" 1462
+		"firing force" .5
+		"firing heat" 900
+		"hit force" 1.8
+		"shield damage" 405
+		"hull damage" 390
+		"heat damage" 35
+		"piercing" .02
+		stream
+	description "Krupp MK21 / 10-E Class 10 Naval Auto Cannon"
+	description "Dual Firing APHE Warhead 20in."
+
+outfit "N.A.C. MK21/10-F"
+	category "Turrets"
+	cost 350000000
+	thumbnail "outfit/unknown"
+	mass 1875
+	"outfit space" -100
+	"weapon capacity" -55
+	"engine capacity" -1
+	"turret mounts" -1
+	"energy capacity" 1500
+	"required crew" 8
+	weapon
+		sprite "projectile/plaster"
+			"frame rate" 4
+			"random start frame"
+		sound "flakfire"
+		"fire effect" "flak fire"
+		"fire effect" "muzzle fire"
+		"hit effect" "tiny explosion"
+		"inaccuracy" .1
+		"velocity" 23
+		"lifetime" 63
+		"reload" 15
+		"burst reload" 4
+		"burst count" 4
+		"firing energy" 1462
+		"firing force" .5
+		"firing heat" 900
+		"hit force" 1.8
+		"shield damage" 415
+		"hull damage" 395
+		"heat damage" 39
+		"piercing" .03
+		stream
+	description "Krupp MK21 / 10-F Class 10 Naval Auto Cannon"
+	description "Quad Firing APHE Warhead 20in."
+
+outfit "N.A.C. MK42/22-B"
+	category "Turrets"
+	cost 120000000
+	thumbnail "outfit/unknown"
+	mass 1275
+	"outfit space" -80
+	"weapon capacity" -35
+	"engine capacity" -1
+	"turret mounts" -1
+	"energy capacity" 1100
+	"required crew" 6
+	weapon
+		sprite "projectile/plaster"
+			"frame rate" 4
+			"random start frame"
+		sound "flakfire"
+		"fire effect" "flak fire"
+		"fire effect" "muzzle fire"
+		"hit effect" "tiny explosion"
+		"inaccuracy" .1
+		"velocity" 23
+		"lifetime" 62
+		"reload" 40
+		"burst reload" 4
+		"burst count" 4
+		"firing energy" 1462
+		"firing force" .5
+		"firing heat" 900
+		"hit force" 1.1
+		"shield damage" 265
+		"hull damage" 310
+		"heat damage" 25
+		"piercing" .02
+		stream
+	description "Krupp MK42 / 22-B Class 08 Naval Auto Cannon"
+	description "Quad Firing APHE Warhead 20in."
+
+outfit "P.D.C. C10 Remote Turret"
+	category "Turrets"
+	cost 75000
+	thumbnail "outfit/heavy anti-missile"
+	"mass" 80
+	"outfit space" -36
+	"weapon capacity" -20
+	"engine capacity" -1
+	"turret mounts" -1
+	"energy capacity" 6000
+	weapon
+		"hit effect" "big explosion"
+		sound "flakfire"
+		"velocity" 550
+		"lifetime" 1
+		"reload" 1.5
+		"burst reload" 2
+		"burst count" 4
+		"firing energy" 8.75
+		"firing heat" 30
+		"anti-missile" 35
+	description "Thraxton PDC-C10 Remote Defense Turret"
+	description "Quad Firing HE Warhead 5.5in."
+	description "Anti-Missile Burst System"
+
+outfit "P.D.C. MK163/94-B"
+	category "Turrets"
+	cost 8500000
+	thumbnail "outfit/heavy anti-missile"
+	"mass" 720
+	"outfit space" -36
+	"weapon capacity" -20
+	"turret mounts" -1
+	"engine capacity" -1
+	"energy capacity" 6000
+	"required crew" 8
+	weapon
+		"hit effect" "big explosion"
+		sound "flakfire"
+		"velocity" 550
+		"lifetime" 1
+		"reload" 1.5
+		"burst reload" 2
+		"burst count" 4
+		"firing energy" 8.75
+		"firing heat" 30
+		"anti-missile" 150
+	description "MK163 / 94-B Class 03 Point Defense Cannon"
+	description "Quad Firing HE Warhead 5.5in."
+	description "Anti-Missile Burst System"
+
+outfit "P.D.C. MK163/98-D"
+	category "Turrets"
+	cost 8500000
+	thumbnail "outfit/heavy anti-missile"
+	"mass" 720
+	"outfit space" -36
+	"weapon capacity" -20
+	"engine capacity" -1
+	"turret mounts" -1
+	"energy capacity" 6000
+	"required crew" 8
+	weapon
+		"hit effect" "big explosion"
+		sound "flakfire"
+		"velocity" 550
+		"lifetime" 1
+		"reload" 3
+		"burst reload" 1.5
+		"burst count" 8
+		"firing energy" 8.75
+		"firing heat" 30
+		"anti-missile" 150
+	description "MK163 / 94-B Class 03 Point Defense Cannon"
+	description "Quad Firing HE Warhead 5.5in."
+	description "Anti-Missile Burst System"
+
+outfit "Chaft/Flare CSL/QTY-4"
+	category "Turrets"
+	cost 61000
+	"mass" 3
+	"outfit space" -2
+	"weapon capacity" -2
+	"turret mounts" -1
+	"energy capacity" 100
+	"chaft/flare capacity" 4
+	weapon
+		"hit effect" "tiny explosion"
+		sound "flakfire"
+		ammo "Chaft/Flare Clip"
+		"velocity" 150
+		"lifetime" 1
+		"reload" 6
+		"firing energy" .5
+		"firing heat" .1
+		"anti-missile" 1000
+	description "CSL/QTY-4 Chaft/Flare Dispenser System"
+	description "Launches debris to destroy incoming missiles, unlike most anti-missile systems this one can only stop a few before depleted."
+
+outfit "Chaft/Flare VA/ALE-22"
+	category "Turrets"
+	cost 61000
+	"mass" 4
+	"outfit space" -2
+	"weapon capacity" -2
+	"turret mounts" -1
+	"energy capacity" 200
+	"chaft/flare capacity" 22
+	weapon
+		"hit effect" "tiny explosion"
+		sound "flakfire"
+		ammo "Chaft/Flare Clip"
+		"velocity" 150
+		"lifetime" 1
+		"reload" 2
+		"firing energy" .5
+		"firing heat" .1
+		"anti-missile" 1000
+	description "VA/ALE-22 Chaft/Flare Dispenser System"
+	description "Launches debris to destroy incoming missiles, unlike most anti-missile systems this one can only stop a few before depleted."
+
+outfit "Chaft/Flare VA/ALE-24"
+	category "Turrets"
+	cost 65000
+	"mass" 4
+	"outfit space" -2
+	"weapon capacity" -2
+	"turret mounts" -1
+	"energy capacity" 200
+	"chaft/flare capacity" 24
+	weapon
+		"hit effect" "tiny explosion"
+		sound "flakfire"
+		ammo "Chaft/Flare Clip"
+		"velocity" 150
+		"lifetime" 1
+		"reload" 2
+		"firing energy" .5
+		"firing heat" .1
+		"anti-missile" 1000
+	description "VA/ALE-24 Chaft/Flare Dispenser System, capacity and rate of fire has been increased over the VA/ALE-22"
+	description "Launches debris to destroy incoming missiles, unlike most anti-missile systems this one can only stop a few before depleted."
+
+outfit "Chaft/Flare VA/ALE-34"
+	category "Turrets"
+	cost 75000
+	"mass" 4
+	"outfit space" -2
+	"weapon capacity" -2
+	"turret mounts" -1
+	"energy capacity" 200
+	"chaft/flare capacity" 34
+	weapon
+		"hit effect" "tiny explosion"
+		sound "flakfire"
+		ammo "Chaft/Flare Clip"
+		"velocity" 150
+		"lifetime" 1
+		"reload" 2
+		"firing energy" .5
+		"firing heat" .1
+		"anti-missile" 1000
+	description "VA/ALE-34 Chaft/Flare Dispenser System"
+	description "Launches debris to destroy incoming missiles, unlike most anti-missile systems this one can only stop a few before depleted."
+
+effect "disrupter impact"
+	sprite "effect/disrupter impact"
+		"no repeat"
+		"frame rate" 20
+	sound "explosion tiny"
+	"lifetime" 21
+	"random angle" 360
+	"random velocity" .1
+	"random spin" 4
+	"velocity scale" -.05
+
+effect "flak fire"
+	sprite "effect/flak fire"
+		"no repeat"
+		"frame rate" 30
+	"lifetime" 15
+	"random angle" 60
+	"random spin" 5
+	"random velocity" 2
+
+effect "muzzle fire"
+	sprite "projectile/muzfire"
+		"random start frame"
+		"frame rate" 30
+	"lifetime" 1
+
+effect "flak impact"
+	sprite "effect/flak impact"
+		"no repeat"
+		"frame rate" 20
+	sound "explosion tiny"
+	"lifetime" 21
+	"random angle" 360
+	"random velocity" .1
+	"random spin" 4
+	"velocity scale" -.05
+
+# *************************** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****
+# **** SECONDARY WEAPONS **** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****
+# *************************** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****
+
+outfit "Launch System SIM-15/A5"
+	category "Secondary Weapons"
+	cost 2500000
+	thumbnail "outfit/medusa launcher"
+	"mass" 3600
+	"outfit space" -100
+	"weapon capacity" -73
+	"gun ports" -1
+	"required crew" 16
+	"energy capacity" 10000
+	"wasp capacity" 105
+	weapon
+		sprite "projectile/medusa"
+			"frame rate" 5
+		sound "rocket"
+		icon "icon/bemp"
+		ammo "AIM-21B Wasp"
+		"fire effect" "meteor fire"
+		"die effect" "missile death"
+		"inaccuracy" 6
+		"velocity" 10
+		"lifetime" 300
+		"split range" 500
+		"reload" 60
+		"burst reload" 5
+		"burst count" 5
+		"acceleration" 1.8
+		"drag" .1
+		"turn" 6
+		"homing" 4
+		"tracking" 1
+		"firing energy" 3500
+		"firing heat" 1100
+		"firing fuel" 5
+		"submunition" "WaspStage1" 3
+		cluster
+	description "Raphael SIM-15/A5 Lauch System"
+	description "AIM-21B Wasp Air-Defense Guided Missile"
+
+outfit "WaspStage1"
+	weapon
+		sprite "projectile/medusa"
+			"frame rate" 5
+		"inaccuracy" 6
+		"lifetime" 200
+		"split range" 500
+		"acceleration" 1.8
+		"drag" .1
+		"turn" 6
+		"homing" 4
+		"tracking" 1
+		"submunition" "WaspWarhead" 3
+
+outfit "WaspWarhead"
+	weapon
+		sprite "projectile/medusawh"
+			"frame rate" 5
+		"fire effect" "meteor fire"
+		"die effect" "missile death"
+		"inaccuracy" 1
+		"lifetime" 100
+		"split range" 500
+		"acceleration" 1.8
+		"drag" .1
+		"drag" .1
+		"turn" 6
+		"homing" 4
+		"optical tracking" 0.75
+		"trigger radius" 15
+		"blast radius" 25
+		"shield damage" 600
+		"hull damage" 550
+		"heat damage" 320
+		"slowing damage" 10
+		"missile strength" 75
+
+outfit "Launch System SLBM-36/B2"
+	category "Secondary Weapons"
+	cost 4725000
+	thumbnail "outfit/medusa launcher"
+	"mass" 9800
+	"outfit space" -200
+	"weapon capacity" -98
+	"gun ports" -1
+	"required crew" 8
+	"energy capacity" 10000
+	"medusa capacity" 98
+	weapon
+		sprite "projectile/missile"
+			"frame rate" 5
+		sound "rocket"
+		icon "icon/bbio"
+		ammo "BGM-237 Medusa"
+		"fire effect" "meteor fire"
+		"die effect" "missile death"
+		"inaccuracy" 6
+		"velocity" 5
+		"lifetime" 600
+		"split range" 800
+		"reload" 400
+		"acceleration" 1.8
+		"drag" .1
+		"turn" 6
+		"homing" 4
+		"tracking" 1
+		"firing energy" 5000
+		"firing heat" 2000
+		"firing fuel" 15
+		"submunition" "SLBM-36/B2 Stage 1" 6
+	description "Zenith SLBM-36/B2 Lauch System"
+	description "BGM-237 Medusa Guided Ballistic Missile"
+
+outfit "SLBM-36/B2 Stage 1"
+	weapon
+		sprite "projectile/medusa"
+			"frame rate" 5
+		"inaccuracy" 6
+		"lifetime" 100
+		"split range" 500
+		"acceleration" 1.8
+		"drag" .1
+		"turn" 6
+		"homing" 4
+		"tracking" 1
+		"submunition" "SLBM-36/B2 Stage 2" 4
+
+outfit "SLBM-36/B2 Stage 2"
+	weapon
+		sprite "projectile/medusa"
+			"frame rate" 5
+		"inaccuracy" 240
+		"lifetime" 500
+		"split range" 500
+		"acceleration" 1.8
+		"drag" .1
+		"turn" 6
+		"homing" 4
+		"split range" 400
+		"optical tracking" 0.75
+		"radar tracking" 0.95
+		"submunition" "SLBM-36/B2 Warhead" 8
+		"missile strength" 250
+
+outfit "SLBM-36/B2 Warhead"
+	weapon
+		sprite "projectile/medusawh"
+			"frame rate" 5
+		"fire effect" "meteor fire"
+		"die effect" "missile death"
+		"inaccuracy" 1
+		"lifetime" 200
+		"acceleration" 1.8
+		"drag" .1
+		"drag" .1
+		"turn" 6
+		"homing" 4
+		"split range" 400
+		"optical tracking" 0.75
+		"trigger radius" 50
+		"blast radius" 100
+		"shield damage" 1000
+		"hull damage" 1000
+		"heat damage" 500
+		"disruption damage" .25
+		"missile strength" 125
+
+outfit "Launch System SLBM-19/A4"
+	category "Secondary Weapons"
+	cost 45000000
+	thumbnail "outfit/bsnuke"
+	"mass" 5000
+	"outfit space" -95
+	"weapon capacity" -65
+	"gun ports" -1
+	"required crew" 5
+	"energy capacity" 5000
+	"havoc capacity" 6
+	weapon
+		sprite "projectile/bsnuke"
+			"frame rate" 5
+		sound "rocket"
+		icon "icon/bemp"
+		ammo "BGM-235 Havoc"
+		"hit effect" "small explosion"
+		"fire effect" "meteor fire"
+		"die effect" "missile death"
+		"inaccuracy" 4
+		"velocity" 5
+		"lifetime" 1000
+		"reload" 600
+		"firing energy" 7500
+		"firing heat" 9500
+		"firing fuel" 35
+		"submunition" "NukeStage1" 4
+		"acceleration" 1.8
+		"drag" .1
+		"turn" 6
+		"homing" 4
+		"tracking" 1
+		"shield damage" 8000
+		"hull damage" 4000
+		"heat damage" 1500
+		"disruption damage" .25
+		"missile strength" 155
+	description "Zenith SLBM-20/D1 Launch System"
+
+outfit "Launch System SLBMN-19/A4"
+	category "Secondary Weapons"
+	cost 45000000
+	thumbnail "outfit/bsnuke"
+	"mass" 5000
+	"outfit space" -95
+	"weapon capacity" -65
+	"gun ports" -1
+	"required crew" 5
+	"energy capacity" 5000
+	"nemesis capacity" 6
+	weapon
+		sprite "projectile/bsnuke"
+			"frame rate" 5
+		sound "rocket"
+		icon "icon/bnuk"
+		ammo "BGMN-793 Nemesis"
+		"hit effect" "small explosion"
+		"fire effect" "meteor fire"
+		"die effect" "missile death"
+		"inaccuracy" 4
+		"velocity" 5
+		"lifetime" 1000
+		"reload" 600
+		"firing energy" 7500
+		"firing heat" 9500
+		"firing fuel" 35
+		"submunition" "NukeStage1" 4
+		"acceleration" 1.8
+		"drag" .1
+		"turn" 6
+		"homing" 4
+		"tracking" 1
+		"shield damage" 8000
+		"hull damage" 4000
+		"heat damage" 1500
+		"disruption damage" .25
+		"missile strength" 155
+	description "Zenith SLBM-20/D1 Launch System"
+
+outfit "Launch System SLBM-20/D1"
+	category "Secondary Weapons"
+	cost 135000000
+	thumbnail "outfit/bsnuke"
+	"mass" 12000
+	"outfit space" -250
+	"weapon capacity" -170
+	"gun ports" -1
+	"required crew" 18
+	"energy capacity" 25000
+	"havoc capacity" 20
+	weapon
+		sprite "projectile/bsnuke"
+			"frame rate" 5
+		sound "rocket"
+		icon "icon/bemp"
+		ammo "BGM-235 Havoc"
+		"hit effect" "small explosion"
+		"fire effect" "meteor fire"
+		"die effect" "missile death"
+		"inaccuracy" 4
+		"velocity" 5
+		"lifetime" 1000
+		"reload" 600
+		"firing energy" 7500
+		"firing heat" 9500
+		"firing fuel" 35
+		"submunition" "NukeStage1" 4
+		"acceleration" 1.8
+		"drag" .1
+		"turn" 6
+		"homing" 4
+		"tracking" 1
+		"shield damage" 8000
+		"hull damage" 4000
+		"heat damage" 1500
+		"disruption damage" .25
+		"missile strength" 155
+	description "Zenith SLBM-20/D1 Launch System"
+
+outfit "Launch System SLBMN-20/N"
+	category "Secondary Weapons"
+	cost 135000000
+	thumbnail "outfit/bsnuke"
+	"mass" 12000
+	"outfit space" -250
+	"weapon capacity" -170
+	"gun ports" -1
+	"required crew" 18
+	"energy capacity" 25000
+	"nemesis capacity" 20
+	weapon
+		sprite "projectile/bsnuke"
+			"frame rate" 5
+		sound "rocket"
+		icon "icon/bnuk"
+		ammo "BGMN-793 Nemesis"
+		"hit effect" "nuke explosion"
+		"hit effect" "nuke residue fast" 10
+		"hit effect" "nuke residue slow" 10
+		"fire effect" "meteor fire"
+		"die effect" "missile death"
+		"inaccuracy" 4
+		"velocity" 5
+		"lifetime" 100
+		"split range" 500
+		"reload" 600
+		"firing energy" 7500
+		"firing heat" 9500
+		"firing fuel" 35
+		"submunition" "NukeStage1" 4
+		"acceleration" 1.8
+		"drag" .1
+		"turn" 6
+		"homing" 4
+		"piercing" 1
+		"tracking" 1
+	description "Zenith SLBMN-20/N Launch System"
+	description "BGMN-793 Nemesis Nuclear Guided Ballistic Missile"
+
+outfit "NukeStage1"
+	weapon
+		sprite "projectile/bsnuke"
+			"frame rate" 5
+		sound "rocket"
+		"hit effect" "nuke explosion"
+		"hit effect" "nuke residue fast" 10
+		"hit effect" "nuke residue slow" 10
+		"fire effect" "meteor fire"
+		"die effect" "missile death"
+		"inaccuracy" 8
+		"velocity" 5
+		"lifetime" 100
+		"split range" 500
+		"submunition" "NukeStage2" 4
+		"acceleration" 1.8
+		"drag" .1
+		"turn" 6
+		"homing" 4
+		"infrared tracking" 0.75
+		"optical tracking" 0.95
+		"radar tracking" 0.85
+
+outfit "NukeStage2"
+	weapon
+		sprite "projectile/bsnuke"
+			"frame rate" 5
+		sound "rocket"
+		"hit effect" "nuke explosion"
+		"hit effect" "nuke residue fast" 10
+		"hit effect" "nuke residue slow" 10
+		"fire effect" "meteor fire"
+		"die effect" "missile death"
+		"inaccuracy" 16
+		"velocity" 5
+		"lifetime" 500
+		"split range" 500
+		"submunition" "NukeWarhead" 8
+		"acceleration" 1.8
+		"drag" .1
+		"turn" 6
+		"homing" 4
+		"infrared tracking" 0.75
+		"optical tracking" 0.95
+		"radar tracking" 0.85
+
+outfit "NukeWarhead"
+	weapon
+		sprite "projectile/bsnuke"
+			"frame rate" 5
+		"hit effect" "nuke explosion"
+		"hit effect" "nuke residue fast" 10
+		"hit effect" "nuke residue slow" 10
+		"fire effect" "meteor fire"
+		"die effect" "missile death"
+		"inaccuracy" 240
+		"velocity" 5
+		"lifetime" 200
+		"acceleration" 1.8
+		"drag" .1
+		"turn" 6
+		"homing" 4
+		"optical tracking" 0.75
+		"infrared tracking" 0.95
+		"radar tracking" 0.85
+		"trigger radius" 70
+		"blast radius" 100
+		"hull damage" 625
+		"heat damage" 7500
+		"hit force" 100
+		"piercing" 1
+		"missile strength" 75
+
+outfit "Launch System AGML-16G"
+	category "Secondary Weapons"
+	cost 81000
+	thumbnail "outfit/meteor launcher"
+	"mass" 160
+	"engine capacity" -2
+	"outfit space" -34
+	"weapon capacity" -17
+	"gun ports" -1
+	"arke capacity" 16
+	weapon
+		sprite "projectile/javelin"
+		sound "javelin"
+		ammo "AGM-88 Arke"
+		icon "icon/bbio"
+		"fire effect" "flak fire"
+		"hit effect" "tiny explosion"
+		"live effect" "smoke" 6
+		"inaccuracy" 1
+		"velocity" 12
+		"lifetime" 150
+		"reload" 20
+		"acceleration" 2
+		"drag" .01
+		"turn" 6
+		"homing" 4
+		"optical tracking" 0.55
+		"infrared tracking" 0.75
+		"radar tracking" 0.95
+		"firing energy" .2
+		"firing heat" 9
+		"shield damage" 52
+		"hull damage" 32
+		"hit force" 5
+		"piercing" .5
+		"missile strength" 19
+		stream
+	description "Hawke AGML-16G Launch System"
+	description "AGM-88 [Arke] Guided Missile"
+
+outfit "Launch System AGML-16GN"
+	category "Secondary Weapons"
+	cost 65000
+	thumbnail "outfit/bsnuke"
+	"mass" 160
+	"engine capacity" -2
+	"outfit space" -34
+	"weapon capacity" -17
+	"gun ports" -1
+	"elektra capacity" 2
+	weapon
+		sprite "projectile/javelin"
+		sound "javelin"
+		ammo "AGM-88N Elektra"
+		icon "icon/bnuk"
+		"hit effect" "huge explosion"
+		"live effect" "smoke" 6
+		"inaccuracy" 1
+		"velocity" 12
+		"lifetime" 150
+		"reload" 90
+		"acceleration" 2
+		"drag" .01
+		"turn" 6
+		"homing" 4
+		"optical tracking" 0.55
+		"infrared tracking" 0.75
+		"radar tracking" 0.95
+		"firing energy" .2
+		"firing heat" 9
+		"hull damage" 6000
+		"hit force" 5
+		"piercing" 1
+		"missile strength" 190
+		stream
+	description "Hawke AGML-16GN Launch System"
+	description "AGM-88N [Elektra] Nuclear Guided Missile"
+
+outfit "Launch System ASIML-9U"
+	category "Secondary Weapons"
+	cost 81000
+	thumbnail "outfit/meteor launcher"
+	"mass" 160
+	"engine capacity" -2
+	"outfit space" -34
+	"weapon capacity" -17
+	"gun ports" -1
+	"lightning capacity" 32
+	weapon
+		sprite "projectile/javelin"
+		sound "javelin"
+		ammo "ASIM-54C Lightning Javelin"
+		icon "icon/javelin"
+		"fire effect" "flak fire"
+		"hit effect" "tiny explosion"
+		"live effect" "smoke" 6
+		"inaccuracy" 1
+		"velocity" 12
+		"lifetime" 150
+		"acceleration" 2
+		"drag" .01
+		"reload" 7.5
+		"firing energy" .2
+		"firing heat" 9
+		"shield damage" 52
+		"hull damage" 32
+		"hit force" 5
+		"piercing" .5
+		"missile strength" 19
+	description "Yamashi ASIML-9U Launch System"
+	description "ASIM-54C Lightning Javelin Unguided Missile"
+
+outfit "Launch System ASIML-7UN"
+	category "Secondary Weapons"
+	cost 65000
+	thumbnail "outfit/bsnuke"
+	"mass" 160
+	"engine capacity" -2
+	"outfit space" -34
+	"weapon capacity" -17
+	"gun ports" -1
+	"kalama capacity" 2
+	weapon
+		sprite "projectile/javelin"
+		sound "javelin"
+		ammo "ASIM-61AN Kalama"
+		icon "icon/bnuk"
+		"hit effect" "huge explosion"
+		"live effect" "smoke" 6
+		"inaccuracy" 1
+		"velocity" 12
+		"lifetime" 150
+		"acceleration" 2
+		"drag" .01
+		"reload" 60
+		"firing energy" .2
+		"firing heat" 9
+		"hull damage" 6000
+		"hit force" 5
+		"piercing" 1
+		"missile strength" 190
+		stream
+	description "Zenith ASIML-7UN Launch System"
+	description "ASIM-61AN [Kalama] Nuclear Unguided Missile"
+
+outfit "Launch System SIM-05/C2"
+	category "Secondary Weapons"
+	cost 81000
+	thumbnail "outfit/meteor launcher"
+	"mass" 160
+	"engine capacity" -2
+	"outfit space" -34
+	"weapon capacity" -17
+	"gun ports" -1
+	"pilium capacity" 6
+	weapon
+		sprite "projectile/javelin"
+		sound "javelin"
+		ammo "AIM-9D Pilium"
+		icon "icon/bbio"
+		"fire effect" "flak fire"
+		"hit effect" "tiny explosion"
+		"live effect" "smoke" 6
+		"inaccuracy" 1
+		"velocity" 12
+		"lifetime" 150
+		"reload" 20
+		"acceleration" 2
+		"drag" .01
+		"turn" 6
+		"homing" 4
+		"optical tracking" 0.55
+		"infrared tracking" 0.75
+		"radar tracking" 0.95
+		"firing energy" .2
+		"firing heat" 9
+		"shield damage" 100
+		"hull damage" 100
+		"hit force" 5
+		"disruption damage" 50000
+		"heat damage" 50000
+		"ion damage" 50000
+		"slowing damage" 50000
+		"missile strength" 150
+		stream
+	description "SIM-05/C2 Vertical Launch System"
+	description "Defensive Guided Missile [Pilium] EMP Generator"
+
+outfit "Launch System PM8-v2"
+	category "Secondary Weapons"
+	cost 2473000
+	thumbnail "outfit/korath minelayer"
+	"mass" 160
+	"outfit space" -34
+	"weapon capacity" -17
+	"energy capacity" 500
+	"gun ports" -1
+	"minelayer capacity" 16
+	weapon
+		sprite "projectile/korath minelayer"
+			"frame rate" .6
+			"no repeat"
+		sound "minelayer"
+		ammo "PM8-v2c"
+		icon "icon/minelayer"
+		"fire effect" "minelayerfire"
+		"hit effect" "huge explosion"
+		"die effect" "minelayer split" 5
+		"submunition" "PMSub" 8
+		"inaccuracy" 10
+		"velocity" 3
+		"lifetime" 100
+		"reload" 240
+		"firing energy" 36
+		"firing heat" 36
+		"acceleration" .16
+		"drag" .04
+		"turn" 2
+		"homing" 4
+		"infrared tracking" .9
+		"missile strength" 35
+		"shield damage" -3200
+		"hull damage" -2400
+		"hit force" 150
+		"stream"
+	description "PM8-v2 Minelayer launches cluster systems that split into 8 proximity mines."
+
+outfit "PMSub"
+	weapon
+		sprite "projectile/korath mine"
+			"frame rate" 1
+			"no repeat"
+		"hit effect" "big explosion"
+		"die effect" "tiny explosion"
+		"inaccuracy" 360
+		"lifetime" 3000
+		"random lifetime" 60
+		"acceleration" .00001
+		"velocity" 2
+		"random velocity" 5
+		"drag" .05
+		"shield damage" 340
+		"hull damage" 260
+		"hit force" 40
+		"missile strength" 42
+
+outfit "Launch System XGMA-2G"
+	category "Secondary Weapons"
+	cost 81000
+	thumbnail "outfit/meteor launcher"
+	"mass" 160
+	"engine capacity" -2
+	"outfit space" -34
+	"weapon capacity" -17
+	"gun ports" -1
+	"arke capacity" 2
+	weapon
+		sprite "projectile/javelin"
+		sound "javelin"
+		ammo "AGM-88 Arke"
+		icon "icon/bbio"
+		"fire effect" "flak fire"
+		"hit effect" "tiny explosion"
+		"live effect" "smoke" 6
+		"inaccuracy" 1
+		"velocity" 12
+		"lifetime" 150
+		"reload" 30
+		"acceleration" 2
+		"drag" .01
+		"turn" 6
+		"homing" 4
+		"optical tracking" 0.55
+		"infrared tracking" 0.75
+		"radar tracking" 0.95
+		"firing energy" .2
+		"firing heat" 9
+		"shield damage" 152
+		"hull damage" 92
+		"hit force" 5
+		"piercing" .5
+		"missile strength" 19
+		stream
+	description "Hawke XGMA-2G Launch System"
+	description "AGM-88 [Arke] Guided Missile"
+
+outfit "Launch System XUGCL-2U"
+	category "Secondary Weapons"
+	cost 31000
+	thumbnail "outfit/meteor launcher"
+	"mass" 160
+	"engine capacity" -2
+	"outfit space" -34
+	"weapon capacity" -17
+	"gun ports" -1
+	"lightning capacity" 2
+	weapon
+		sprite "projectile/javelin"
+		sound "javelin"
+		ammo "ASIM-54C Lightning Javelin"
+		icon "icon/javelin"
+		"fire effect" "flak fire"
+		"hit effect" "tiny explosion"
+		"live effect" "smoke" 6
+		"inaccuracy" 1
+		"velocity" 18
+		"lifetime" 100
+		"acceleration" 2
+		"drag" .01
+		"reload" 10
+		"firing energy" .2
+		"firing heat" 9
+		"shield damage" 52
+		"hull damage" 32
+		"hit force" 5
+		"piercing" .5
+		"missile strength" 19
+	description "Yamashi ASIML-9U Launch System"
+	description "ASIM-54C Lightning Javelin Unguided Missile"
+
+effect "minelayerfire"
+	sprite "effect/minelayersplit"
+		"no repeat"
+		"frame rate" 3
+	"lifetime" 61
+	"random angle" 5
+	"random spin" 10
+	"random velocity" .5
+	"velocity scale" 1.2
+
+effect "minelayersplit"
+	sprite "effect/minelayer split"
+		"no repeat"
+		"frame rate" 6
+	sound "mine deploy"
+	"lifetime" 31
+	"random angle" 360
+	"random spin" 5
+	"random velocity" 2.5
+	"velocity scale" .8
+
+# *************************** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****
+# ******* AMMUNITION ******** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****
+# *************************** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****
+
+outfit "AIM-21B Wasp"
+	category "Ammunition"
+	cost 750
+	thumbnail "outfit/medusa"
+	"mass" 1
+	"wasp capacity" -1
+	description "AIM-21B [Wasp] Air-Defense Guided Missile"
+
+outfit "AIM-9D Pilium"
+	category "Ammunition"
+	cost 750
+	thumbnail "outfit/medusa"
+	"mass" 1
+	"pilium capacity" -1
+	description "AIM-9D [Pilium] Guided Missile"
+
+outfit "AGM-88 Arke"
+	category "Ammunition"
+	cost 5750
+	thumbnail "outfit/javelin"
+	"mass" .5
+	"arke capacity" -1
+	description "ASIM-54C [Arke] Unguided Missile"
+
+outfit "AGM-88N Elektra"
+	category "Ammunition"
+	cost 180000
+	thumbnail "outfit/bsnuke"
+	"mass" 5
+	"elektra capacity" -1
+	description "ASIM-61AN [Elektra] Nuclear Unguided Missile"
+
+outfit "ASIM-54C Lightning Javelin"
+	category "Ammunition"
+	cost 750
+	thumbnail "outfit/javelin"
+	"mass" .25
+	"lightning capacity" -1
+	description "ASIM-54C [Lightning Javelin] Unguided Missile"
+
+outfit "ASIM-61AN Kalama"
+	category "Ammunition"
+	cost 175000
+	thumbnail "outfit/bsnuke"
+	"mass" 4
+	"kalama capacity" -1
+	description "ASIM-61AN [Kalama] Nuclear Unguided Missile"
+
+outfit "BGM-235 Havoc"
+	category "Ammunition"
+	cost 5000
+	thumbnail "outfit/medusa"
+	"mass" 3
+	"havoc capacity" -1
+	description "BGM-235 [Havoc] Ballistic Guided Missile"
+
+outfit "BGM-237 Medusa"
+	category "Ammunition"
+	cost 75000
+	thumbnail "outfit/medusa"
+	"mass" 4
+	"medusa capacity" -1
+	description "BGM-237 [Medusa] Ballistic Guided Missile"
+
+outfit "BGMN-793 Nemesis"
+	category "Ammunition"
+	cost 250000
+	thumbnail "outfit/bsnuke"
+	"mass" 8
+	"nemesis capacity" -1
+	description "BGMN-793 [Nemesis] Nuclear Guided Ballistic Missile"
+
+outfit "Chaft/Flare Clip"
+	category "Ammunition"
+	cost 20
+	"mass" .01
+	"chaft/flare capacity" -1
+
+outfit "PM8-v2c"
+	category "Ammunition"
+	cost 4500
+	thumbnail "outfit/korath mine"
+	"mass" 1
+	"minelayer capacity" -1
+	description "PM8-v2 Mine, each mine splits into eight submunitions after it is deployed."
+
+# *************************** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****
+# ********* SYSTEMS ********* ***** ***** ***** ***** ***** ***** ***** ***** ***** *****
+# *************************** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****
+
+outfit "ALMH-16 Arke"
+	category "Systems"
+	cost 65000
+	"mass" 10
+	"outfit space" 8
+	"arke capacity" 16
+	description "ALMH-16 [Arke] Missile Defense."
+	description "Auto Load Munitions Hopper stores an addtional 64 loads for the AGM-88 Arke System."
+
+outfit "ALMH-64 Chaft/Flare Clip"
+	category "Systems"
+	cost 65000
+	"mass" 10
+	"outfit space" 8
+	"chaft/flare capacity" 64
+	description "ALMH-64 [Chaft/Flare Clip] Missile Defense."
+	description "Auto Load Munitions Hopper stores an addtional 64 loads for the Chaft/Flare Clip System."
+
+outfit "ALMH-64 Lightning Javelin"
+	category "Systems"
+	cost 65000
+	"mass" 10
+	"outfit space" 8
+	"lightning capacity" 64
+	description "ALMH-68 [Lightning Javelin] Unguided Missile"
+	description "Auto Load Missile Hopper stores an addtional 64 Missiles for the ASIML-9U Launch System."
+
+outfit "PM8H-v2c Mines"
+	category "Systems"
+	cost 65000
+	"mass" 10
+	"outfit space" 8
+	"minelayer capacity" 16
+	description "PM8H-v2c [Mines] Stationary Explosives"
+	description "Auto Load Mine Hopper stores an addtional 16 Mines for the PM8-v2 Launch System."
+
+outfit "Colonial Defense Program v3.8"
+	category "Systems"
+	cost 137750000
+	"mass" 1
+	"outfit space" 1
+	"energy generation" -20
+	"cloaking fuel" -.95
+	"jump speed" 5
+	description "Colonial Defense Command Navigation Program v3.8, Compatible with RT/CDW-37/4B ECM/Cloak."
+	description "Military upgrade to Cloaking systems on ship reduce fuel consumption of the ECM generators, as well as assists in calculations for the FTL engines."
+	description "This software and component upgrade, little no space other than to run one computer system."
+
+outfit "DRADIS Array DPG/AESA-25"
+	category "Systems"
+	cost 185000
+	thumbnail "outfit/outfit scanner"
+	"mass" 30
+	"outfit space" -5
+	"energy generation" -2
+	"cargo scan" 140
+	"outfit scan" 340
+	description "DPG/AESA-25 DRADIS Array"
+	description "Tracks upto 175 targets, ship and cargo scanning system."
+
+outfit "DRADIS Array DPG/AESA-31"
+	category "Systems"
+	cost 185000
+	thumbnail "outfit/outfit scanner"
+	"mass" 30
+	"outfit space" -5
+	"energy generation" -2
+	"cargo scan" 150
+	"outfit scan" 300
+	description "DPG/AESA-31 DRADIS Array"
+	description "Tracks upto 150 targets, ship and cargo scanning system."
+
+outfit "DRADIS Array DPG/AESA-59"
+	category "Systems"
+	cost 625000
+	thumbnail "outfit/outfit scanner"
+	"mass" 30
+	"outfit space" -5
+	"energy generation" -2
+	"cargo scan" 220
+	"outfit scan" 420
+	description "DPG/AESA-59 DRADIS Array"
+	description "Tracks upto 375 targets, ship and cargo scanning system."
+
+outfit "DRADIS Array DPG/AESA-63"
+	category "Systems"
+	cost 940000
+	thumbnail "outfit/outfit scanner"
+	"mass" 30
+	"outfit space" -5
+	"energy generation" -2
+	"cargo scan" 300
+	"outfit scan" 500
+	description "DPG/AESA-63 DRADIS Array"
+	description "Tracks upto 300 targets, ship and cargo scanning system."
+
+outfit "DRADIS Array RT/WTS-10"
+	category "Systems"
+	cost 4225000
+	thumbnail "outfit/outfit scanner"
+	"mass" 210
+	"outfit space" -46
+	"energy generation" -20
+	"cargo scan" 1300
+	"outfit scan" 3000
+	description "RT/WTS-15 [Paranal] High-Precision DRADIS Array"
+	description "Tracks upto 3,750 targets, ship and cargo scanning system."
+
+outfit "DRADIS Array RT/WTS-15"
+	category "Systems"
+	cost 4998000
+	thumbnail "outfit/outfit scanner"
+	"mass" 230
+	"outfit space" -48
+	"energy generation" -20
+	"cargo scan" 1500
+	"outfit scan" 4000
+	description "RT/WTS-15 [Aegis] High-Precision DRADIS Array"
+	description "Tracks upto 5,250 targets, ship and cargo scanning system."
+
+outfit "DRADIS Array RT/WTS-18"
+	category "Systems"
+	cost 6698000
+	thumbnail "outfit/outfit scanner"
+	"mass" 250
+	"outfit space" -50
+	"energy generation" -20
+	"cargo scan" 1600
+	"outfit scan" 5000
+	description "RT/WTS-18 [Aegis II] High-Precision Phased DRADIS Array"
+	description "Tracks upto 5,825 targets, ship and cargo scanning system."
+
+outfit "DRADIS Array VB/CIV-03"
+	category "Systems"
+	cost 125000
+	thumbnail "outfit/outfit scanner"
+	"mass" 25
+	"outfit space" -4
+	"energy generation" -1
+	"outfit scan" 120
+	description "DRADIS Array VB/CIV-04"
+	description "Tracks upto 110 targets, extended range ship scanning system."
+
+outfit "DRADIS Array VT/CIV-04"
+	category "Systems"
+	cost 125000
+	thumbnail "outfit/outfit scanner"
+	"mass" 25
+	"outfit space" -4
+	"energy generation" -.2
+	"cargo scan" 30
+	"outfit scan" 90
+	description "DRADIS Array VT/CIV-04"
+	description "Tracks upto 150 targets, ship and cargo scanning system."
+
+outfit "ECM/Tartarus RT/CDW-32/4A"
+	category "Systems"
+	cost 44250000
+	"mass" 52
+	"outfit space" -17
+	"energy capacity" 3000
+	"cloaking fuel" 1
+	"radar jamming" 79
+	"scan interference" 79
+	"required crew" 4
+	description "Huijari RT/CDW-32/4A [Tartarus] Electronic Warfare Suite"
+	description "This system at great resource cost, renders the ship undetectable."
+
+outfit "ECM/Shadow RT/CDW-34/3S"
+	category "Systems"
+	cost 61950000
+	"mass" 53
+	"outfit space" -16
+	"engine capacity" -2
+	"energy capacity" 3500
+	"cloak" .1
+	"cloaking energy" 120
+	"cloaking fuel" 1
+	"radar jamming" 120
+	"scan interference" 70
+	"required crew" 3
+	description "Huijari RT/CDW-35/2C [Shadow] Electronic Warfare Suite"
+	description "This system at great resource cost, renders the ship undetectable."
+
+outfit "ECM/Gorgon RT/CDW-35/2C"
+	category "Systems"
+	cost 51950000
+	"mass" 53
+	"outfit space" -18
+	"energy capacity" 3500
+	"cloaking fuel" 1
+	"radar jamming" 89
+	"scan interference" 89
+	"required crew" 3
+	description "Huijari RT/CDW-35/2C [Gorgon] Electronic Warfare Suite"
+	description "This system at great resource cost, renders the ship undetectable."
+
+outfit "ECM/Hades RT/CDW-37/4B"
+	category "Systems"
+	cost 62250000
+	"mass" 54
+	"outfit space" -19
+	"energy capacity" 4000
+	"cloak" .01
+	"cloaking energy" 1
+	"cloaking fuel" 1
+	"radar jamming" 99
+	"scan interference" 99
+	"required crew" 2
+	description "Huijari RT/CDW-37/4B [Hades] Electronic Warfare Suite"
+	description "This system at great resource cost, renders the ship undetectable."
+
+outfit "ECM/TEWS CN-07/D2"
+	category "Systems"
+	cost 170000
+	"mass" 25
+	"outfit space" -8
+	"energy capacity" 50
+	"radar jamming" 2
+	"scan interference" 2
+	description "CN-07/D2 Tactical Electronic Warning System and Counter Measures "
+
+outfit "ECM/TEWS VN-13/N2"
+	category "Systems"
+	cost 170000
+	"mass" 25
+	"outfit space" -12
+	"energy capacity" 50
+	"radar jamming" 4
+	"scan interference" 4
+	description "VN-13/N2 Tactical Electronic Warning System and Counter Measures "
+
+outfit "ECM/TEWS VN-13/N5"
+	category "Systems"
+	cost 210000
+	"mass" 25
+	"outfit space" -14
+	"energy capacity" 100
+	"radar jamming" 16
+	"scan interference" 2
+	description "VN-13/N5 Tactical Electronic Warning System and Counter Measures "
+
+outfit "ECM/TEWS VN-23/N7A"
+	category "Systems"
+	cost 250000
+	"mass" 25
+	"outfit space" -14
+	"energy capacity" 100
+	"radar jamming" 9
+	"scan interference" 9
+	description "VN-23/N7A Tactical Electronic Warning System and Counter Measures "
+
+outfit "FCS AA/AAQ-04 CIV"
+	category "Systems"
+	cost 498500
+	"mass" 26
+	"outfit space" -3
+	"energy capacity" 200
+	"engine capacity" -1
+	"weapon capacity" -1
+	"shield energy" 2
+	"shield generation" .15
+	"shield heat" .5
+	"hull repair rate" .1
+	description "Leighs FCS AA/AAQ-04 CIV Fire Control System"
+	description "Shield generation and power distribution system"
+
+outfit "FCS AA/AAQ-10 ATS"
+	category "Systems"
+	cost 2698500
+	"mass" 28
+	"outfit space" -4
+	"energy capacity" 500
+	"engine capacity" -1
+	"weapon capacity" -2
+	"shield energy" 4
+	"shield generation" .2
+	"shield heat" 1
+	"hull repair rate" .1
+	description "Wolf FCS AA/AAQ-10 ATS Fire Control System"
+	description "Shield generation and power distribution system"
+
+outfit "FCS AA/BAQ-15 ATS"
+	category "Systems"
+	cost 2998500
+	"mass" 28
+	"outfit space" -4
+	"energy capacity" 500
+	"engine capacity" -2
+	"weapon capacity" -2
+	"shield energy" 2
+	"shield generation" .25
+	"shield heat" 1
+	"hull repair rate" .35
+	description "Wolf FCS AA/BAQ-15 ATS Fire Control System"
+	description "Shield generation and power distribution system"
+
+outfit "FCS AB/CIV-02 MGS"
+	category "Systems"
+	cost 3798500
+	"mass" 30
+	"outfit space" -3
+	"energy capacity" 500
+	"engine capacity" -3
+	"weapon capacity" -3
+	"shield energy" 2
+	"shield generation" .5
+	"shield heat" 1
+	"hull repair rate" .15
+	"required crew" -2
+	description "Wolf FCS AA/BAQ-15 ATS Fire Control System"
+	description "Shield generation and power distribution system"
+
+outfit "FCS AI/POS-2 MK3"
+	category "Systems"
+	cost 3778500
+	"mass" 128
+	"outfit space" -44
+	"energy capacity" 500
+	"engine capacity" -2
+	"weapon capacity" -2
+	"shield energy" 2
+	"shield generation" 3.333333
+	"shield heat" 1
+	"hull repair rate" .35
+	description "Wolf FCS AA/BAQ-15 ATS Fire Control System"
+	description "Shield generation and power distribution system"
+
+outfit "FCS AN/SPS-63 MK05"
+	category "Systems"
+	cost 63500000
+	"mass" 490
+	"outfit space" -120
+	"energy capacity" 25000
+	"engine capacity" -5
+	"weapon capacity" -22
+	"shield energy" 166
+	"shield generation" 19
+	"shield heat" 133
+	"required crew" -10
+	description "AN/SPS-68 MK38 Fire Control System"
+	description "Shield generation and power distribution system"
+	description "Automated system reduces weapons crew requirements two per location, excluding the operators in CIC."
+
+outfit "FCS AN/SPS-63 MK06"
+	category "Systems"
+	cost 63500000
+	"mass" 494
+	"outfit space" -120
+	"energy capacity" 27500
+	"engine capacity" -3
+	"weapon capacity" -24
+	"shield energy" 176
+	"shield generation" 31
+	"shield heat" 131
+	"required crew" -20
+	description "AN/SPS-68 MK38 Fire Control System"
+	description "Shield generation and power distribution system"
+	description "Automated system reduces weapons crew requirements two per location, excluding the operators in CIC."
+
+outfit "FCS AN/SPS-68 MK38"
+	category "Systems"
+	cost 63500000
+	"mass" 498
+	"outfit space" -120
+	"energy capacity" 35000
+	"engine capacity" -3
+	"weapon capacity" -26
+	"shield energy" 178
+	"shield generation" 36
+	"shield heat" 133
+	"required crew" -30
+	description "AN/SPS-68 MK38 Fire Control System"
+	description "Shield generation and power distribution system"
+	description "Automated system reduces weapons crew requirements two per location, excluding the operators in CIC."
+
+outfit "FCS AN/SPS-79 MK42"
+	category "Systems"
+	cost 67500000
+	"mass" 502
+	"outfit space" -120
+	"energy capacity" 42500
+	"engine capacity" -4
+	"weapon capacity" -28
+	"shield energy" 201
+	"shield generation" 51
+	"shield heat" 162
+	"required crew" -30
+	description "AN/SPS-79 MK42 Fire Control System"
+	description "Shield generation and power distribution system"
+	description "Automated system reduces weapons crew requirements two per location, excluding the operators in CIC."
+
+outfit "FCS AN/SPS-92 MK36"
+	category "Systems"
+	cost 82000000
+	"mass" 578
+	"outfit space" -140
+	"energy capacity" 50000
+	"engine capacity" -4
+	"weapon capacity" -32
+	"shield energy" 800
+	"shield generation" 161.5
+	"shield heat" 600
+	"required crew" -30
+	description "AN/SPS-92 MK36 Fire Control System"
+	description "Shield generation and power distribution system"
+	description "Automated system reduces weapons crew requirements two per location, excluding the operators in CIC."
+
+outfit "FCS TN/VPS-8 MK2"
+	category "Systems"
+	cost 1698500
+	"mass" 28
+	"outfit space" -4
+	"energy capacity" 300
+	"engine capacity" -2
+	"weapon capacity" -2
+	"shield energy" 2
+	"shield generation" 1
+	"shield heat" 1
+	"hull repair rate" .1
+	description "Wolf FCS TN/VPS-8 MK2 Fire Control System"
+	description "Shield generation and power distribution system"
+
+outfit "FCS TN/VPS-18 MK10"
+	category "Systems"
+	cost 2998500
+	"mass" 28
+	"outfit space" -4
+	"energy capacity" 500
+	"engine capacity" -2
+	"weapon capacity" -2
+	"shield energy" 2
+	"shield generation" 1.5
+	"shield heat" 1
+	"hull repair rate" .15
+	description "Wolf FCS TN/VPS-18 MK10 Fire Control System"
+	description "Shield generation and power distribution system"
+
+outfit "G.R.A.N.D. v1.03"
+	category "Systems"
+	cost 217945000
+	thumbnail "outfit/grand"
+	"mass" 2500
+	"outfit space" -250
+	"hull repair rate" 50
+	"hull energy" 50
+	"hull heat" 50
+	"capture defense" .2
+	description "Greystone's Robotic Automated Nanite Defences, a ship wide system capable of reparing most physical damage to the ship very quickly.  Due to the size of this system it is almost exclusivly limited to Battlestars."
+	description "All previous defects have been removed from the systems including the Nanites changing from welding to cutting modes after an EMP strike."
+
+outfit "Network TI v2.4C"
+	category "Systems"
+	cost 27375000
+	"mass" 20
+	"outfit space" -7
+	"energy capacity" 600
+	"energy generation" -44
+	"required crew" -400
+	description "Mnemosyne Technologies Tactical Operations Interface v2.4C"
+	description "With a large portion of the ship ran by this VI, the crew requirements have been vastly reduced."
+
+outfit "Network TI v2.5"
+	category "Systems"
+	cost 57375000
+	"mass" 21
+	"outfit space" -8
+	"energy capacity" 600
+	"energy generation" -55
+	"required crew" -2500
+	description "Mnemosyne Technologies Tactical Operations Interface v2.5"
+	description "With a large portion of the ship ran by this VI, the crew requirements have been vastly reduced."
+
+outfit "Network TI v2.6D"
+	category "Systems"
+	cost 27375000
+	"mass" 20
+	"outfit space" -7
+	"energy capacity" 600
+	"energy generation" -45
+	"required crew" -500
+	description "Mnemosyne Technologies Tactical Operations Interface v2.6D"
+	description "With a large portion of the ship ran by this VI, the crew requirements have been vastly reduced."
+
+outfit "Network TI v2.6I"
+	category "Systems"
+	cost 7375000
+	"mass" 6
+	"outfit space" -17
+	"energy capacity" 500
+	"energy generation" -25
+	"required crew" -11
+	description "Mnemosyne Technologies Tactical Operations Interface v2.6D"
+	description "With a large portion of the ship ran by this VI, the crew requirements have been vastly reduced."
+
+outfit "Network TI v2.8"
+	category "Systems"
+	cost 67375000
+	"mass" 20
+	"outfit space" -7
+	"energy capacity" 700
+	"energy generation" -65
+	"required crew" -1150
+	description "Mnemosyne Technologies Tactical Operations Interface v2.8"
+	description "With a large portion of the ship ran by this VI, the crew requirements have been vastly reduced."
+
+outfit "Network TI v2.9I"
+	category "Systems"
+	cost 6375000
+	"mass" 8
+	"outfit space" -17
+	"energy capacity" 700
+	"energy generation" -35
+	"required crew" -42
+	description "Mnemosyne Technologies Tactical Operations Interface v2.9I"
+	description "With a large portion of the ship ran by this VI, the crew requirements have been vastly reduced."
+
+outfit "Network TI v3.1"
+	category "Systems"
+	cost 77375000
+	"mass" 21
+	"outfit space" -9
+	"energy capacity" 600
+	"energy generation" -55
+	"required crew" -2750
+	description "Mnemosyne Technologies Tactical Operations Interface v3.1"
+	description "With a large portion of the ship ran by this VI, the crew requirements have been vastly reduced."
+
+outfit "Network VI v1.3"
+	category "Systems"
+	cost 97375000
+	"mass" 22
+	"outfit space" -10
+	"energy capacity" 500
+	"energy generation" -50
+	"required crew" -3000
+	description "Mnemosyne Technologies Virtual Intelligence Tactical Operations Interface v1.3"
+	description "This network is one step away from artifical intelligence, but is not possible to become self aware."
+	description "With a large portion of the ship ran by this VI, the crew requirements have been vastly reduced."
+
+outfit "External Mounting Assembly"
+	category "Systems"
+	cost 1000
+	thumbnail "outfit/green screwdriver"
+	"mass" 5
+	"outfit space" 20
+	"cargo space" 2
+	"weapon capacity" 2
+	"engine capacity" 2
+	"drag" 3
+	"heat generation" 2
+	"heat dissipation" -.05
+	description "You now may mount additional systems externally on your ship! Purchace as many as you like, they are inexpensive, and forget those rumors about our products causing reduction in ship controlls and over heating!"
+
+outfit "HHC-200 Heavy Cargo Container"
+	category "Systems"
+	cost 200000
+	thumbnail "outfit/unknown"
+	"mass" 200
+	"shields" -10
+	"heat dissipation" -.04
+	"drag" .05
+	"outfit space" -10
+	"cargo space" 200
+	"hull" 10
+	"energy generation" -.1
+	description "Huge Cargo Container for massive holdings. Due the size, weight and materials of these containers they tend to weaken most shield systems as the field is now expanded, however the containers are quite durable and help reinforce the hull. Containers now include minor thrust packs to assist in loading and unloading of materials."
+
+# *************************** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****
+# ********** POWER ********** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****
+# *************************** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****
+
+outfit "Batteries CEMPB47 L-I"
+	category "Power"
+	thumbnail "outfit/medium battery"
+	"energy capacity" 15900
+	"mass" 1620
+	"outfit space" -145
+	"required crew" 1
+	description "CMEPS59 Lithium-Ion Batteries"
+	description "50 cells per battery, used as emergency power incase of reactor failure, providing shipwide needs until primary or auxiliary power is restored."
+
+outfit "Batteries CMEPS59 L-I"
+	category "Power"
+	thumbnail "outfit/medium battery"
+	"energy capacity" 18500
+	"mass" 1440
+	"outfit space" -146
+	description "CMEPS59 Lithium-Ion Batteries"
+	description "50 cells per battery, used as emergency power incase of reactor failure, providing shipwide needs until primary or auxiliary power is restored."
+
+outfit "Batteries CMEPS65 L-I"
+	category "Power"
+	thumbnail "outfit/medium battery"
+	"energy capacity" 19900
+	"mass" 1460
+	"outfit space" -147
+	description "CMEPS65 Lithium-Ion Batteries"
+	description "50 cells per battery, used as emergency power incase of reactor failure, providing shipwide needs until primary or auxiliary power is restored."
+
+outfit "Batteries CMEPS92 Q.K."
+	category "Power"
+	cost 2250000
+	thumbnail "outfit/medium battery"
+	"energy capacity" 25000
+	"mass" 1432
+	"outfit space" -148
+	description "CMEPS92 Quadium-Krellide Batteries"
+	description "50 cells per battery, used as emergency power incase of reactor failure, providing shipwide needs until primary or auxiliary power is restored."
+
+outfit "Generator PG72-400R"
+	category "Power"
+	cost 348000
+	thumbnail "outfit/small bio"
+	"energy capacity" 1500
+	"energy generation" 2.5
+	"heat generation" 1.2
+	"mass" 30
+	"outfit space" -19
+	"ramscoop" 4
+	description "Pioneer PG72-400R Generator"
+
+outfit "Reactor MB-91E T.T."
+	category "Power"
+	cost 298000000
+	thumbnail "outfit/triple plasma core"
+	"energy capacity" 125000
+	"energy generation" 596.5
+	"heat generation" 141.5
+	"mass" 4200
+	"outfit space" -308
+	"ramscoop" 81
+	"required crew" 16
+	description "Halidyne-Danforth MB-91E Triple-Tylium Fusion Reactor"
+	description "Total power output generated: 12.5 YJ / 12.5 billion TJ"
+	description "Designed as a primary power reactor on ships, it has been decovered that the waste product for these reactors can be converted to alternitive fuel supply."
+
+outfit "Reactor MG-74B D.T."
+	category "Power"
+	cost 348000000
+	thumbnail "outfit/double plasma core"
+	"energy capacity" 150000
+	"energy generation" 479.9
+	"heat generation" 184.9
+	"mass" 3000
+	"outfit space" -302
+	"ramscoop" 25
+	"required crew" 40
+	description "Werner-Lathrop MG-74B Dual-Tylium Fusion Reactor"
+	description "Total power output generated: 2.5 YJ / 2.5 billion TJ"
+	description "Designed as a primary power reactor on ships, it has been decovered that the waste product for these reactors can be converted to alternitive fuel supply."
+
+outfit "Reactor MG-79C D.T."
+	category "Power"
+	cost 48000000
+	thumbnail "outfit/double plasma core"
+	"energy capacity" 50000
+	"energy generation" 249.9
+	"heat generation" 94.9
+	"mass" 1000
+	"outfit space" -152
+	"ramscoop" 16
+	"required crew" 4
+	description "Werner-Lathrop MG-79C Dual-Tylium Fusion Reactor"
+	description "Total power output generated: 1.5 YJ / 1.5 billion TJ"
+	description "Designed as a primary power reactor on ships, it has been decovered that the waste product for these reactors can be converted to alternitive fuel supply."
+
+outfit "Reactor R4-B D.T."
+	category "Power"
+	cost 218000000
+	thumbnail "outfit/double plasma core"
+	"energy capacity" 100000
+	"energy generation" 336.9
+	"heat generation" 87.9
+	"mass" 4200
+	"outfit space" -302
+	"ramscoop" 36
+	"required crew" 35
+	description "Werner-Lathrop R4-B Dual-Tylium Fusion Reactor"
+	description "Total power output generated: 1.9 YJ / 1.9 billion TJ"
+	description "Designed as a primary power reactor on ships, it has been decovered that the waste product for these reactors can be converted to alternitive fuel supply."
+
+outfit "Reactor R6-A D.T."
+	category "Power"
+	cost 248000000
+	thumbnail "outfit/double plasma core"
+	"energy capacity" 110000
+	"energy generation" 339.9
+	"heat generation" 84.9
+	"mass" 4000
+	"outfit space" -304
+	"ramscoop" 49
+	"required crew" 20
+	description "Werner-Lathrop R6-A Dual-Tylium Fusion Reactor"
+	description "Total power output generated: 1.9 YJ / 1.9 billion TJ"
+	description "Designed as a primary power reactor on ships, it has been decovered that the waste product for these reactors can be converted to alternitive fuel supply."
+
+outfit "Reactor TM-2C D.T."
+	category "Power"
+	cost 272000000
+	thumbnail "outfit/double plasma core"
+	"energy capacity" 117500
+	"energy generation" 399.9
+	"heat generation" 14.9
+	"mass" 4100
+	"outfit space" -306
+	"ramscoop" 64
+	"required crew" 18
+	description "Werner-Lathrop R6-A Dual-Tylium Fusion Reactor"
+	description "Total power output generated: 1.9 YJ / 1.9 billion TJ"
+	description "Designed as a primary power reactor on ships, it has been decovered that the waste product for these reactors can be converted to alternitive fuel supply."
+
+outfit "Reactor WF-67/B D.M."
+	category "Power"
+	cost 84500000
+	thumbnail "outfit/bright cloud"
+	"energy capacity" 26000
+	"energy generation" 56.75
+	"heat generation" 22.75
+	"mass" 2402
+	"outfit space" -103
+	"solar collection" 6
+	"required crew" 8
+	description "Dyson-Atkins WF-67/B Dideuterium-Monoxide Fusion Reactor"
+	description "Total power output generated: 2.4 ZJ"
+	description "Intended as an auxiliary power supply on ships, these shielded power houses tend to run cooler and need less maintance than the primary reactors."
+
+outfit "Reactor WF-68/C D.M."
+	category "Power"
+	cost 84500000
+	thumbnail "outfit/bright cloud"
+	"energy capacity" 28000
+	"energy generation" 59.75
+	"heat generation" 23.75
+	"mass" 2302
+	"outfit space" -104
+	"solar collection" 6.25
+	"required crew" 6
+	description "Dyson-Atkins WF-68/C Dideuterium-Monoxide Fusion Reactor"
+	description "Total power output generated: 2.4 ZJ"
+	description "Intended as an auxiliary power supply on ships, these shielded power houses tend to run cooler and need less maintance than the primary reactors."
+
+outfit "Reactor XJ-10/B D.M."
+	category "Power"
+	cost 94500000
+	thumbnail "outfit/bright cloud"
+	"energy capacity" 30000
+	"energy generation" 43.75
+	"heat generation" 21.75
+	"mass" 2332
+	"outfit space" -105
+	"solar collection" 4.75
+	"required crew" 15
+	description "Dyson-Atkins XJ-32/F Dideuterium-Monoxide Fusion Reactor"
+	description "Total power output generated: 2.4 ZJ"
+	description "Intended as an auxiliary power supply on ships, these shielded power houses tend to run cooler and need less maintance than the primary reactors."
+
+outfit "Reactor XJ-32/F D.M."
+	category "Power"
+	cost 94500000
+	thumbnail "outfit/bright cloud"
+	"energy capacity" 30000
+	"energy generation" 71.75
+	"heat generation" 24.75
+	"mass" 2362
+	"outfit space" -106
+	"solar collection" 6.75
+	"required crew" 5
+	description "Dyson-Atkins XJ-32/F Dideuterium-Monoxide Fusion Reactor"
+	description "Total power output generated: 2.4 ZJ"
+	description "Intended as an auxiliary power supply on ships, these shielded power houses tend to run cooler and need less maintance than the primary reactors."
+
+outfit "Reactor XT-11/D2 D.M."
+	category "Power"
+	cost 108500000
+	thumbnail "outfit/bright cloud"
+	"energy capacity" 32000
+	"energy generation" 118.25
+	"heat generation" 47.5
+	"mass" 2432
+	"outfit space" -108
+	"solar collection" 7.25
+	"required crew" 4
+	description "Dyson-Atkins XT-11/D2 Dideuterium-Monoxide Fusion Reactor"
+	description "Total power output generated: 4.8 ZJ"
+	description "Intended as an auxiliary power supply on ships, these shielded power houses tend to run cooler and need less maintance than the primary reactors."
+
+# *************************** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****
+# ********* ENGINES ********* ***** ***** ***** ***** ***** ***** ***** ***** ***** *****
+# *************************** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****
+
+outfit "FTL Drive Avalon B-Class"
+	category "Engines"
+	cost 583000
+	thumbnail "outfit/ftl_jump"
+	"mass" 140
+	"engine capacity" -20
+	"outfit space" -10
+	"jump speed" .01
+	"jump drive" 1
+	description "Avalon B-Class FTL Drive"
+
+outfit "FTL Drive Celestus C-Class"
+	category "Engines"
+	cost 183000000
+	thumbnail "outfit/ftl_jump"
+	"mass" 4170
+	"engine capacity" -51
+	"outfit space" -10
+	"jump speed" 90
+	"jump drive" 1
+	"required crew" 12
+	description "Celestus C-Class FTL Drive"
+
+outfit "FTL Drive Celestus D-Class"
+	category "Engines"
+	cost 183000000
+	thumbnail "outfit/ftl_jump"
+	"mass" 4300
+	"engine capacity" -53
+	"outfit space" -10
+	"jump speed" 105
+	"jump drive" 1
+	"required crew" 10
+	description "Celestus D-Class FTL Drive"
+
+outfit "FTL Drive Celestus F-Class"
+	category "Engines"
+	cost 203000000
+	thumbnail "outfit/ftl_jump"
+	"mass" 3300
+	"engine capacity" -43
+	"outfit space" -30
+	"jump speed" 85
+	"jump drive" 1
+	"required crew" 6
+	description "Celestus F-Class FTL Drive"
+
+outfit "FTL Drive Celestus R-Class"
+	category "Engines"
+	cost 6700000
+	thumbnail "outfit/ftl_jump"
+	"mass" 140
+	"engine capacity" -20
+	"outfit space" -10
+	"jump speed" 4
+	"jump drive" 1
+	description "Celestus R-Class FTL Drive"
+
+outfit "FTL Drive Olympus A-Class"
+	category "Engines"
+	cost 223000000
+	thumbnail "outfit/ftl_jump"
+	"mass" 4420
+	"engine capacity" -55
+	"outfit space" -10
+	"scram drive" 150
+	"hyperdrive" 1
+	"jump speed" 120
+	"jump drive" 1
+	"required crew" 8
+	description "Olympus A-Class FTL Drive"
+
+outfit "Fwd. Arrest Thrusters D02-19"
+	category "Engines"
+	"cost" 72000
+	thumbnail "outfit/reverse thruster"
+	"mass" 780
+	"outfit space" -29
+	"energy capacity" 3700
+	"engine capacity" -233
+	"reverse thrust" 186
+	"reverse thrusting energy" 36.6
+	"reverse thrusting heat" 54
+	description "Kyeser D02-19 Bow-mounted Forward Arrest Thrusters"
+
+outfit "Fwd. Arrest Thrusters K10-04"
+	category "Engines"
+	"cost" 720000
+	thumbnail "outfit/reverse thruster"
+	"mass" 6000
+	"outfit space" -39
+	"energy capacity" 39000
+	"engine capacity" -233
+	"reverse thrust" 2026
+	"reverse thrusting energy" 236.6
+	"reverse thrusting heat" 454
+	"required crew" 5
+	description "Kyeser K10-04 Bow-mounted Forward Arrest Thrusters"
+
+outfit "Fwd. Arrest Thrusters K10-17"
+	category "Engines"
+	"cost" 720000
+	thumbnail "outfit/reverse thruster"
+	"mass" 6000
+	"outfit space" -40
+	"energy capacity" 40000
+	"engine capacity" -235
+	"reverse thrust" 2826
+	"reverse thrusting energy" 296.6
+	"reverse thrusting heat" 524
+	"required crew" 4
+	description "Kyeser K10-17 Bow-mounted Forward Arrest Thrusters"
+
+outfit "Fwd. Arrest Thrusters K12-09"
+	category "Engines"
+	"cost" 850000
+	thumbnail "outfit/reverse thruster"
+	"mass" 6200
+	"outfit space" -41
+	"energy capacity" 41000
+	"engine capacity" -237
+	"reverse thrust" 5789
+	"reverse thrusting energy" 675.6
+	"reverse thrusting heat" 1298
+	"required crew" 3
+	description "Kyeser K12-09 Bow-mounted Forward Arrest Thrusters"
+
+outfit "R.C.S. Thrusters RT2-09"
+	category "Engines"
+	"cost" 221000
+	thumbnail "outfit/tiny plasma steering"
+	"mass" 170
+	"outfit space" -19
+	"energy capacity" 900
+	"engine capacity" -57
+	"solar collection" 1.5
+	"turn" 7000.3
+	"turning energy" 3.1
+	"turning heat" 5
+	description "Samms RT2-12 Reaction Controll System (RCS) Thruster"
+
+outfit "R.C.S. Thrusters CS01-P1"
+	category "Engines"
+	"cost" 161000
+	thumbnail "outfit/tiny plasma steering"
+	"mass" 95
+	"outfit space" -22
+	"energy capacity" 800
+	"engine capacity" -60
+	"solar collection" 1.8
+	"turn" 3400
+	"turning energy" 1.1
+	"turning heat" 1.5
+	description "Cyberdyne Systems CS01-P1 Reaction Controll System (RCS) Thruster"
+
+outfit "R.C.S. Thrusters CS05-P8"
+	category "Engines"
+	"cost" 161000
+	thumbnail "outfit/tiny plasma steering"
+	"mass" 110
+	"outfit space" -25
+	"energy capacity" 1000
+	"engine capacity" -64
+	"solar collection" 2.1
+	"turn" 4400
+	"turning energy" 1.1
+	"turning heat" 2.5
+	description "Cyberdyne Systems CS05-P8 Reaction Controll System (RCS) Thruster"
+
+outfit "R.C.S. Thrusters RT2-12"
+	category "Engines"
+	"cost" 221000
+	thumbnail "outfit/tiny plasma steering"
+	"mass" 175
+	"outfit space" -24
+	"energy capacity" 1400
+	"engine capacity" -62
+	"solar collection" 2
+	"turn" 9759
+	"turning energy" 3.1
+	"turning heat" 4.5
+	description "Samms RT2-12 Reaction Controll System (RCS) Thruster"
+
+outfit "R.C.S. Thrusters RT4-C/03"
+	category "Engines"
+	"cost" 221000
+	thumbnail "outfit/tiny plasma steering"
+	"mass" 175
+	"outfit space" -24
+	"energy capacity" 1500
+	"engine capacity" -62
+	"solar collection" 3
+	"turn" 5119
+	"turning energy" 5.1
+	"turning heat" 4.5
+
+outfit "R.C.S. Thrusters RT4-11"
+	category "Engines"
+	"cost" 221000
+	thumbnail "outfit/tiny plasma steering"
+	"mass" 175
+	"outfit space" -24
+	"energy capacity" 1400
+	"engine capacity" -62
+	"solar collection" 2
+	"turn" 27019
+	"turning energy" 5.1
+	"turning heat" 4.5
+
+outfit "R.C.S. Thrusters RT5-B/42"
+	category "Engines"
+	"cost" 1220000
+	thumbnail "outfit/large plasma steering"
+	"mass" 1940
+	"outfit space" -22
+	"energy capacity" 1400
+	"engine capacity" -58
+	"reverse thrust" 826
+	"reverse thrusting energy" 96.6
+	"reverse thrusting heat" 24
+	"turn" 101016
+	"turning energy" 10.9
+	"turning heat" 16.4
+	"required crew" 8
+	description "Hwacha RT9-B/14 Reaction Control System (RCS) Thruster"
+	description "Each RT9-B/14 is a quad thruster per mount"
+
+outfit "R.C.S. Thrusters RT9-B/14"
+	category "Engines"
+	"cost" 1520000
+	thumbnail "outfit/large plasma steering"
+	"mass" 1840
+	"outfit space" -23
+	"energy capacity" 1400
+	"engine capacity" -60
+	"turn" 121000
+	"turning energy" 10.9
+	"turning heat" 10.4
+	"required crew" 4
+	description "Hwacha RT9-B/14 Reaction Control System (RCS) Thruster"
+	description "Each RT9-B/14 is a quad thruster per mount"
+
+outfit "R.C.S. Thrusters RT9-D/17"
+	category "Engines"
+	"cost" 1750000
+	thumbnail "outfit/large plasma steering"
+	"mass" 1880
+	"outfit space" -24
+	"energy capacity" 1400
+	"engine capacity" -62
+	"reverse thrust" 826
+	"reverse thrusting energy" 36.6
+	"reverse thrusting heat" 24
+	"turn" 141700
+	"turning energy" 21.8
+	"turning heat" 22.4
+	"required crew" 2
+	description "Hwacha RT9-D/17 Reaction Control System (RCS) Thruster"
+	description "Each RT9-D/17 is a quad thruster per mount"
+
+outfit "Sub-Light Engines F4-99-D"
+	category "Engines"
+	"cost" 79950000
+	thumbnail "outfit/huge plasma thruster"
+	"flare sprite" "effect/atomic flare/small"
+		"frame rate" 0.8
+	"flare sound" "ion_drive"
+	"mass" 26810
+	"outfit space" -440
+	"energy capacity" 100000
+	"engine capacity" -2698
+	"fuel capacity" 1000
+	"thrust" 4550.2
+	"thrusting energy" 418.4
+	"thrusting heat" 505.2
+	"required crew" 8
+	description "Kyeser K09-12-C Sublight Engines"
+	description "These engines come as a matched set of four, each with reserve storage for both energy and fuel."
+
+outfit "Sub-Light Engines F4-99-D-ETAM"
+	category "Engines"
+	"cost" 765000
+	thumbnail "outfit/ionic afterburner"
+	"mass" 570
+	"outfit space" -28
+	"engine capacity" -31
+	"afterburner thrust" 2375.2
+	"afterburner fuel" 1
+	"afterburner energy" 76.8
+	"afterburner heat" 90.0
+	"afterburner effect" "ionic afterburner"
+	"required crew" 2
+	description "ETAM for the S04-23-D Sub-light Engines"
+	description "Emergency Thrust Afterburner Module provides another 50% to a ships primary engines, this thrust consumes another 200% of normal operating power."
+
+outfit "Sub-Light Engines K6-59-F"
+	category "Engines"
+	"cost" 173950000
+	thumbnail "outfit/huge plasma thruster"
+	"flare sprite" "effect/atomic flare/huge"
+		"frame rate" 0.8
+	"flare sound" "ion_drive"
+	"mass" 30630
+	"outfit space" -390
+	"energy capacity" 60000
+	"engine capacity" -2290
+	"fuel capacity" 1400
+	"thrust" 17546
+	"thrusting energy" 505
+	"thrusting heat" 614
+	"required crew" 36
+	description "Kyeser K6-59-F Sublight Engines"
+	description "These engines come as a matched set of six, each with reserve storage for both energy and fuel."
+
+outfit "Sub-Light Engines K6-59-H"
+	category "Engines"
+	"cost" 279950000
+	thumbnail "outfit/huge plasma thruster"
+	"flare sprite" "effect/atomic flare/huge"
+		"frame rate" 0.8
+	"flare sound" "ion_drive"
+	"mass" 37810
+	"outfit space" -470
+	"energy capacity" 80000
+	"engine capacity" -3188
+	"fuel capacity" 1400
+	"thrust" 17546
+	"thrusting energy" 505
+	"thrusting heat" 614
+	"required crew" 36
+	description "Kyeser K6-59-H Sublight Engines"
+	description "These engines come as a matched set of eight, each with reserve storage for both energy and fuel."
+
+outfit "Sub-Light Engines K7-04-H"
+	category "Engines"
+	"cost" 299950000
+	thumbnail "outfit/huge plasma thruster"
+	"flare sprite" "effect/atomic flare/huge"
+		"frame rate" 0.8
+	"flare sound" "ion_drive"
+	"mass" 42810
+	"outfit space" -475
+	"energy capacity" 80000
+	"engine capacity" -3193
+	"fuel capacity" 1500
+	"thrust" 22546
+	"thrusting energy" 535
+	"thrusting heat" 644
+	"required crew" 38
+	description "Kyeser K7-04-H Sublight Engines"
+	description "These engines come as a matched set of eight, each with reserve storage for both energy and fuel."
+
+outfit "Sub-Light Engines K8-72-H"
+	category "Engines"
+	"cost" 319950000
+	thumbnail "outfit/huge plasma thruster"
+	"flare sprite" "effect/atomic flare/huge"
+		"frame rate" 0.8
+	"flare sound" "ion_drive"
+	"mass" 47810
+	"outfit space" -480
+	"energy capacity" 100000
+	"engine capacity" -3198
+	"fuel capacity" 1600
+	"afterburner thrust" 62386.2
+	"afterburner fuel" 4
+	"afterburner energy" 1200.1
+	"afterburner heat" 2117.6
+	"afterburner effect" "ionic afterburner"
+	"thrust" 49450.4
+	"thrusting energy" 1018.4
+	"thrusting heat" 1905.2
+	"required crew" 40
+	description "Kyeser K8-72-H Sublight Engines"
+	description "These engines come as a matched set of eight, each with reserve storage for both energy and fuel."
+
+outfit "Sub-Light Engines K09-12-C"
+	category "Engines"
+	"cost" 119950000
+	thumbnail "outfit/huge plasma thruster"
+	"flare sprite" "effect/atomic flare/small"
+		"frame rate" 0.8
+	"flare sound" "ion_drive"
+	"mass" 31810
+	"outfit space" -480
+	"energy capacity" 100000
+	"engine capacity" -3198
+	"fuel capacity" 1600
+	"thrust" 6750.4
+	"thrusting energy" 818.4
+	"thrusting heat" 905.2
+	"required crew" 30
+	description "Kyeser K09-12-C Sublight Engines"
+	description "These engines come as a matched set of Three, each with reserve storage for both energy and fuel."
+
+outfit "Sub-Light Engines K10-19-D"
+	category "Engines"
+	"cost" 159950000
+	thumbnail "outfit/huge plasma thruster"
+	"flare sprite" "effect/atomic flare/small"
+		"frame rate" 0.8
+	"flare sound" "ion_drive"
+	"mass" 47810
+	"outfit space" -480
+	"energy capacity" 100000
+	"engine capacity" -3198
+	"fuel capacity" 1600
+	"thrust" 8750.4
+	"thrusting energy" 1118.4
+	"thrusting heat" 1205.2
+	"required crew" 30
+	description "Kyeser K10-19-D Sublight Engines"
+	description "These engines come as a matched set of Four, each with reserve storage for both energy and fuel."
+
+outfit "Sub-Light Engines K10-19-D-ETAM"
+	category "Engines"
+	"cost" 15995000
+	thumbnail "outfit/ionic afterburner"
+	"mass" 4781
+	"outfit space" -240
+	"engine capacity" -320
+	"afterburner thrust" 4375.2
+	"afterburner fuel" 1
+	"afterburner energy" 2236.8
+	"afterburner heat" 1200.0
+	"afterburner effect" "ionic afterburner"
+	"required crew" 15
+	description "ETAM for the K10-19-D Sub-light Engines"
+	description "Emergency Thrust Afterburner Module provides another 50% to a ships primary engines, this thrust consumes another 200% of normal operating power."
+
+outfit "Sub-Light Engines S04-22-D"
+	category "Engines"
+	"cost" 5950000
+	thumbnail "outfit/huge plasma thruster"
+	"flare sprite" "effect/atomic flare/small"
+		"frame rate" 0.8
+	"flare sound" "ion_drive"
+	"mass" 5810
+	"outfit space" -280
+	"energy capacity" 100000
+	"engine capacity" -310
+	"fuel capacity" 1600
+	"thrust" 1550.4
+	"thrusting energy" 188.4
+	"thrusting heat" 205.2
+	"required crew" 2
+	description "Kyeser S04-22-D Sublight Engines"
+	description "These engines come as a matched set of Four, each with reserve storage for both energy and fuel."
+
+outfit "Sub-Light Engines S04-23-D-ETAM"
+	category "Engines"
+	"cost" 895000
+	thumbnail "outfit/ionic afterburner"
+	"mass" 581
+	"outfit space" -29
+	"engine capacity" -32
+	"afterburner thrust" 775.2
+	"afterburner fuel" 1
+	"afterburner energy" 96.8
+	"afterburner heat" 100.0
+	"afterburner effect" "ionic afterburner"
+	"required crew" 1
+	description "ETAM for the S04-23-D Sub-light Engines"
+	description "Emergency Thrust Afterburner Module provides another 50% to a ships primary engines, this thrust consumes another 200% of normal operating power."
+
+outfit "Sub-Light Thruster CS02-P01"
+	category "Engines"
+	"cost" 342000
+	thumbnail "outfit/tiny plasma thruster"
+	"flare sprite" "effect/atomic flare/tiny"
+		"frame rate" 0.8
+	"flare sound" "ion_drive"
+	"mass" 350
+	"outfit space" -52
+	"energy capacity" 500
+	"energy generation" 6
+	"heat generation" 1.9
+	"engine capacity" -38
+	"fuel capacity" 500
+	"jump drive" 1
+	"jump speed" 2
+	"ramscoop" 1
+	"reverse thrust" 15
+	"reverse thrusting energy" 1.1
+	"reverse thrusting heat" 1.5
+	"thrust" 50
+	"thrusting energy" 1.1
+	"thrusting heat" 7
+	description "Cyberdyne Systems CS02-P01 Sub-Light Thrusters"
+
+outfit "Sub-Light Thruster RM06-B03"
+	category "Engines"
+	"cost" 842000
+	thumbnail "outfit/tiny plasma thruster"
+	"flare sprite" "effect/atomic flare/tiny"
+		"frame rate" 0.8
+	"flare sound" "ion_drive"
+	"mass" 750
+	"outfit space" -54
+	"energy capacity" 1500
+	"energy generation" 7
+	"heat generation" 2.5
+	"engine capacity" -39
+	"fuel capacity" 900
+	"jump drive" 1
+	"jump speed" 8
+	"ramscoop" 3
+	"reverse thrust" 65.4
+	"reverse thrusting energy" 1.2
+	"reverse thrusting heat" 2.5
+	"thrust" 201.9
+	"thrusting energy" 2.2
+	"thrusting heat" 12.4
+	description "Zentroti RM06-B03-2 Sub-Light Thrusters"
+
+outfit "Sub-Light Thruster RM22-D01"
+	category "Engines"
+	"cost" 1542000
+	thumbnail "outfit/tiny plasma thruster"
+	"flare sprite" "effect/atomic flare/tiny"
+		"frame rate" 0.8
+	"flare sound" "ion_drive"
+	"mass" 1450
+	"outfit space" -92
+	"energy capacity" 3000
+	"energy generation" 14
+	"heat generation" 4.5
+	"engine capacity" -74
+	"fuel capacity" 1800
+	"jump drive" 1
+	"jump speed" 8
+	"ramscoop" 5
+	"reverse thrust" 125.4
+	"reverse thrusting energy" 2.2
+	"reverse thrusting heat" 4.5
+	"thrust" 905.4
+	"thrusting energy" 3.2
+	"thrusting heat" 18.4
+	description "Zentroti RM22-D01-4 Sub-Light Thrusters"
+
+outfit "Sub-Light Thruster SC08-A03"
+	category "Engines"
+	"cost" 342000
+	thumbnail "outfit/small plasma thruster"
+	"flare sprite" "effect/atomic flare/tiny"
+		"frame rate" 0.8
+	"flare sound" "ion_drive"
+	"mass" 750
+	"outfit space" -54
+	"energy capacity" 2500
+	"energy generation" 6.5
+	"heat generation" 2.5
+	"engine capacity" -39
+	"fuel capacity" 400
+	"jump drive" 1
+	"jump speed" 2
+	"ramscoop" 3
+	"reverse thrust" 25.4
+	"reverse thrusting energy" 1.2
+	"reverse thrusting heat" 2.5
+	"thrust" 100.9
+	"thrusting energy" 2.2
+	"thrusting heat" 12.4
+	description "Zentroti SC08-A03 Sub-Light Thrusters"
+
+outfit "Turbo-Thruster CS04-AC01"
+	category "Engines"
+	"cost" 542000
+	thumbnail "outfit/tiny plasma thruster"
+	"flare sprite" "effect/atomic flare/tiny"
+		"frame rate" 0.8
+	"flare sound" "ion_drive"
+	"mass" 350
+	"outfit space" -50
+	"energy capacity" 500
+	"energy generation" 6
+	"heat generation" 1.9
+	"engine capacity" -40
+	"fuel capacity" 400
+	"jump drive" 1
+	"jump speed" 2
+	"ramscoop" 1
+	"afterburner thrust" 27.5
+	"afterburner fuel" .75
+	"afterburner heat" 1.0
+	"afterburner effect" "ionic afterburner"
+	"reverse thrust" 15
+	"reverse thrusting energy" 1.1
+	"reverse thrusting heat" 1.5
+	"thrust" 55
+	"thrusting energy" 1.1
+	"thrusting heat" 7
+	description "Cyberdyne Systems CS04-AC01 Turbo-Thrusters"
+
+outfit "Turbo-Thruster CS09-AC02"
+	category "Engines"
+	"cost" 542000
+	thumbnail "outfit/tiny plasma thruster"
+	"flare sprite" "effect/atomic flare/small"
+		"frame rate" 0.8
+	"flare sound" "ion_drive"
+	"mass" 650
+	"outfit space" -52
+	"energy capacity" 800
+	"energy generation" 11.5
+	"heat generation" 4.9
+	"engine capacity" -44
+	"fuel capacity" 600
+	"jump drive" 1
+	"jump speed" 2
+	"ramscoop" 1
+	"afterburner thrust" 70
+	"afterburner fuel" .75
+	"afterburner heat" 6.0
+	"afterburner effect" "ionic afterburner"
+	"reverse thrust" 20
+	"reverse thrusting energy" 1.1
+	"reverse thrusting heat" 1.5
+	"thrust" 140
+	"thrusting energy" 1.1
+	"thrusting heat" 9
+	description "Cyberdyne Systems CS09-AC02 Turbo-Thrusters"
+
+outfit "Turbo-Thruster VM2-D15"
+	category "Engines"
+	"cost" 342000
+	thumbnail "outfit/tiny plasma thruster"
+	"flare sprite" "effect/atomic flare/tiny"
+		"frame rate" 0.8
+	"flare sound" "ion_drive"
+	"mass" 550
+	"outfit space" -49
+	"energy capacity" 1500
+	"energy generation" 8
+	"heat generation" 4
+	"engine capacity" -34
+	"fuel capacity" 400
+	"afterburner thrust" 65.95
+	"afterburner fuel" .75
+	"afterburner heat" 11.0
+	"afterburner effect" "ionic afterburner"
+	"ramscoop" 4
+	"reverse thrust" 14.5
+	"reverse thrusting energy" 1.2
+	"reverse thrusting heat" 4
+	"thrust" 109
+	"thrusting energy" 2.2
+	"thrusting heat" 13.4
+	description "Voram VM2-D15 Turbo-Thruster"
+	description "Tri-mount configuration, one over two. Once powered up, these engines provide power generation for the craft as well."
+
+outfit "Turbo-Thruster VM4-D02"
+	category "Engines"
+	"cost" 842000
+	thumbnail "outfit/tiny plasma thruster"
+	"flare sprite" "effect/atomic flare/tiny"
+		"frame rate" 0.8
+	"flare sound" "ion_drive"
+	"mass" 750
+	"outfit space" -54
+	"energy capacity" 1500
+	"energy generation" 8
+	"heat generation" 4.5
+	"engine capacity" -39
+	"fuel capacity" 900
+	"afterburner thrust" 75.95
+	"afterburner fuel" .75
+	"afterburner heat" 9.0
+	"afterburner effect" "ionic afterburner"
+	"ramscoop" 9
+	"reverse thrust" 15.4
+	"reverse thrusting energy" 1.2
+	"reverse thrusting heat" 3.5
+	"thrust" 151.9
+	"thrusting energy" 2.2
+	"thrusting heat" 12.4
+	description "Voram VM4-D02 Turbo-Thruster"
+	description "Tri-mount configuration, one over two. Once powered up, these engines provide power generation for the craft as well."
+
+outfit "Propulsion System A60"
+	category "Engines"
+	cost 190000
+	thumbnail "outfit/propulsionsystem1"
+	"drag" -0.3
+	"energy generation" -0.2
+	"hull" -200
+	"mass" 50
+	"reverse thrust" 3.0
+	"reverse thrusting energy" 1.1
+	"reverse thrusting heat" 1
+	"shields" -100
+	"thrust" 5.5
+	"thrusting energy" 1.1
+	"thrusting heat" 1.5
+	"turn" 160
+	"turning energy" 0.9
+	"turning heat" 2.2
+	"hull" -200
+	description "This booster increases all thrust controlls on the ship substantially, with a increase to energy use and heat generation.  While this does effect engine system, it intergrates with the ship as a whole and does not take up engine space. Modifing ships has been known to result in a slight weakening of the hull."
+	description "As this system is cut out of the bulkheads and imbeaded in the skin of the ship, no outfit space is required, again be ware of the damage this may cause to your hull."
+	description "We are required to inform you as well that sometimes these components may disrupt some defensive shields of your ship."
+
+outfit "Propulsion System B11"
+	category "Engines"
+	cost 350000
+	thumbnail "outfit/propulsionsystem2"
+	"drag" -0.6
+	"energy generation" -1.5
+	"hull" -380
+	"mass" 100
+	"reverse thrust" 6.0
+	"reverse thrusting energy" 2.1
+	"reverse thrusting heat" 1.4
+	"shields" -200
+	"thrust" 12.0
+	"thrusting energy" 2.1
+	"thrusting heat" 2.7
+	"turn" 380
+	"turning energy" 1.5
+	"turning heat" 3.3
+	description "This booster increases all thrust controlls on the ship substantially, with a increase to energy use and heat generation.  While this does effect engine system, it intergrates with the ship as a whole and does not take up engine space. Modifing ships has been known to result in a slight weakening of the hull."
+	description "As this system is cut out of the bulkheads and imbeaded in the skin of the ship, no outfit space is required, again be ware of the damage this may cause to your hull."
+	description "We are required to inform you as well that sometimes these components may disrupt some defensive shields of your ship."
+
+outfit "Propulsion System C32"
+	category "Engines"
+	cost 20000000
+	thumbnail "outfit/propulsionsystem3"
+	"drag" -2.7
+	"energy generation" -4.2
+	"hull" -300
+	"mass" 150
+	"reverse thrust" 27.0
+	"reverse thrusting energy" 2.8
+	"reverse thrusting heat" 5.2
+	"shields" -300
+	"thrust" 94.0
+	"thrusting energy" 3.8
+	"thrusting heat" 4.4
+	"turn" 4440
+	"turning energy" 4.8
+	"turning heat" 7.8
+	description "This booster increases all thrust controlls on the ship substantially, with a increase to energy use and heat generation.  While this does effect engine system, it intergrates with the ship as a whole and does not take up engine space. Modifing ships has been known to result in a slight weakening of the hull."
+	description "As this system is cut out of the bulkheads and imbeaded in the skin of the ship, no outfit space is required, again be ware of the damage this may cause to your hull."
+	description "We are required to inform you as well that sometimes these components may disrupt some defensive shields of your ship."
+
+outfit "Propulsion System D74"
+	category "Engines"
+	cost 75000000
+	thumbnail "outfit/propulsionsystem4"
+	"drag" -8.1
+	"energy generation" -12.6
+	"hull" -4500
+	"afterburner energy" 90.0
+	"afterburner fuel" .25
+	"afterburner heat" 160.0
+	"afterburner thrust" 80.0
+	"afterburner effect" "ionic afterburner"
+	"mass" 1350
+	"reverse thrust" 81.0
+	"reverse thrusting energy" 82.2
+	"reverse thrusting heat" 168.2
+	"shields" -2500
+	"thrust" 162.0
+	"thrusting energy" 41.8
+	"thrusting heat" 58.4
+	"turn" 4320
+	"turning energy" 18.0
+	"turning heat" 45.8
+	description "This booster increases all thrust controlls on the ship substantially, with a increase to energy use and heat generation.  While this does effect engine system, it intergrates with the ship as a whole and does not take up engine space. Modifing ships has been known to result in a slight weakening of the hull."
+	description "As this system is cut out of the bulkheads and imbeaded in the skin of the ship, no outfit space is required, again be ware of the damage this may cause to your hull."
+	description "We are required to inform you as well that sometimes these components may disrupt some defensive shields of your ship."
+
+outfit "Propulsion System E49"
+	category "Engines"
+	cost 4500000
+	thumbnail "outfit/propulsionsystem5"
+	"mass" 610
+	"shields" -500
+	"thrust" 94.5
+	"thrusting energy" 27.3
+	"thrusting heat" 54.5
+	"reverse thrust" 26.5
+	"reverse thrusting energy" 56.1
+	"reverse thrusting heat" 114.5
+	"turn" 2545
+	"turning energy" 12.9
+	"turning heat" 37.7
+	"hull" -3000
+	description "This booster increases all thrust controlls on the ship substantially, with a increase to energy use and heat generation.  While this does effect engine system, it intergrates with the ship as a whole and does not take up engine space. Modifing ships has been known to result in a slight weakening of the hull."
+	description "As this system is cut out of the bulkheads and imbeaded in the skin of the ship, no outfit space is required, again be ware of the damage this may cause to your hull."
+	description "We are required to inform you as well that sometimes these components may disrupt some defensive shields of your ship."
+
+outfit "Propulsion System F86"
+	category "Engines"
+	cost 4500000
+	thumbnail "outfit/propulsionsystem6"
+	"mass" 610
+	"shields" -500
+	"thrust" 94.5
+	"thrusting energy" 27.3
+	"thrusting heat" 54.5
+	"reverse thrust" 26.5
+	"reverse thrusting energy" 56.1
+	"reverse thrusting heat" 114.5
+	"turn" 2545
+	"turning energy" 12.9
+	"turning heat" 37.7
+	"hull" -3000
+	description "This booster increases all thrust controlls on the ship substantially, with a increase to energy use and heat generation.  While this does effect engine system, it intergrates with the ship as a whole and does not take up engine space. Modifing ships has been known to result in a slight weakening of the hull."
+	description "As this system is cut out of the bulkheads and imbeaded in the skin of the ship, no outfit space is required, again be ware of the damage this may cause to your hull."
+	description "We are required to inform you as well that sometimes these components may disrupt some defensive shields of your ship."
+
+# *************************** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****
+# ****** HAND TO HAND ******* ***** ***** ***** ***** ***** ***** ***** ***** ***** *****
+# *************************** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****
+
+outfit "Pulse Rifle AR-MD86"
+	category "Hand to Hand"
+	cost 32000
+	thumbnail "outfit/ar-pulse-rifle"
+	"capture attack" 2.4
+	"capture defense" 3.2
+	"unplunderable" 1
+	description "The AR-MD86 Pulse Rifle is the weapon of choice, weapon disrupts molecular bonding of targets, far more powerful and accurate. For each of these rifles that one of your crew is wielding, your odds of capturing another ship or defending your own ship from boarders are increased substantially."
+
+outfit "Auto-Nano-Defense-System"
+	category "Hand to Hand"
+	cost 2225000
+	thumbnail "outfit/ands"
+	"mass" 8
+	"engine capacity" -1
+	"outfit space" -1
+	"weapon capacity" -1
+	"hull repair rate" .15
+	"hull energy" .75
+	"energy generation" -1.5
+	"capture defense" 2
+	"unplunderable" 1
+	description "Automated Nano-Defense System (ANDS), detects and removes any intruders not pre-assigned to the ship.  Since the systems are automated they have been known to space intruders and ambitious crew entering prior to their orders being processed"
+	description "These systems also come equiped with localized repair abilities, that will slowly repair the ship, as well as reduce the need for crew to operate the ship."
+	description "As with most Colonial Equipment, the ANDS is quite power hungry."
+
+# *************************** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****
+# ********* SPECIAL ********* ***** ***** ***** ***** ***** ***** ***** ***** ***** *****
+# *************************** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****
+
+outfit "Damage Control Teams"
+	category "Special"
+	cost 10
+	thumbnail "outfit/repaircrew"
+	"mass" 5
+	"bunks" 10
+	"required crew" 20
+	"hull energy" .01
+	"hull heat" .3
+	"hull repair rate" .5
+	"unplunderable" 1
+	description "Maintance crew to repair hull damage while in space."
+
+outfit "Salvaged Title"
+	category "Special"
+	cost -1000000
+	thumbnail "outfit/license"
+	"unplunderable" 1
+	description "This ship was pulled from the bone yard, or was so damaged it was considered scrap, ships with this title will not sell for standard prices."

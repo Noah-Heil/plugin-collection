@@ -1,0 +1,279 @@
+# Missions for developers
+
+event "Navy Colours"
+	government "Escort"
+		swizzle 0
+
+event "Alpha Colours"
+	government "Escort"
+		swizzle 1
+
+event "Militia Colours"
+	government "Escort"
+		swizzle 2
+
+event "Test Colours"
+	government "Escort"
+		swizzle 3
+
+event "Syndicate Colours"
+	government "Escort"
+		swizzle 4
+
+event "Merchant Colours"
+	government "Escort"
+		swizzle 5
+
+event "Pirate Colours"
+	government "Escort"
+		swizzle 6
+		
+mission "Change Swizzle (Orange)"
+	repeat
+	job
+	source
+		government "Test Dummy"
+		attributes "Dummy Homeworld"
+	on accept
+		event "Navy Colours"
+		fail
+		
+mission "Change Swizzle (Pink)"
+	repeat
+	job
+	source
+		government "Test Dummy"
+		attributes "Dummy Homeworld"
+	on accept
+		event "Alpha Colours"
+		fail
+	
+mission "Change Swizzle (Green)"
+	repeat
+	job
+	source
+		government "Test Dummy"
+		attributes "Dummy Homeworld"
+	on accept
+		event "Militia Colours"
+		fail
+
+mission "Change Swizzle (Teal)"
+	repeat
+	job
+	source
+		government "Test Dummy"
+		attributes "Dummy Homeworld"
+	on accept
+		event "Test Colours"
+		fail
+
+mission "Change Swizzle (Blue)"
+	repeat
+	job
+	source
+		government "Test Dummy"
+		attributes "Dummy Homeworld"
+	on accept
+		event "Merchant Colours"
+		fail
+
+mission "Change Swizzle (Red)"
+	repeat
+	job
+	source
+		government "Test Dummy"
+		attributes "Dummy Homeworld"
+	on accept
+		event "Pirate Colours"
+		fail
+
+mission "Spawn Skylark"
+	name "Spawn a Test Skylark"
+	description "Spawns a Skylark in this system for testing purposes. Nobody else will attack it."
+	repeat
+	job
+	source
+		government "Test Dummy"
+		attributes "Dummy Homeworld"
+	npc kill
+		government "Test Dummy"
+		system "Land of the Dummies"
+		personality nemesis staying
+		ship "Quarg Skylark" "woah"
+		dialog "Good job, your ship has destroyed the Falcon."
+	on complete
+		payment 100
+		dialog "The mission has been cleared."
+		
+mission "Spawn Wardragon"
+	name "Spawn a Test Wardragon"
+	description "Spawns a Wardragon in this system for testing purposes. Nobody else will attack it."
+	repeat
+	job
+	source
+		government "Test Dummy"
+		attributes "Dummy Homeworld"
+	npc kill
+		government "Test Dummy"
+		system "Land of the Dummies"
+		personality nemesis staying
+		ship "Quarg Wardragon" "woah"
+		dialog "Good job, your ship has destroyed the Falcon."
+	on complete
+		payment 100
+		dialog "The mission has been cleared."
+
+mission "Spawn Falcon"
+	name "Spawn a Test Falcon"
+	description "Spawns a Falcon in this system for testing purposes. Nobody else will attack it."
+	repeat
+	job
+	source
+		government "Test Dummy"
+		attributes "Dummy Homeworld"
+	npc kill
+		government "Test Dummy"
+		system "Land of the Dummies"
+		personality nemesis staying
+		ship "Falcon" "Shootable Falcon"
+		dialog "Good job, your ship has destroyed the Falcon."
+	on complete
+		payment 100
+		dialog "The mission has been cleared."
+		
+mission "Spawn Leviathan"
+	name "Spawn a Test Leviathan"
+	description "Spawns a Leviathan in this system for testing purposes. Nobody else will attack it."
+	repeat
+	job
+	source
+		government "Test Dummy"
+		attributes "Dummy Homeworld"
+	npc kill
+		government "Test Dummy"
+		system "Land of the Dummies"
+		personality nemesis staying
+		ship "Leviathan" "Shootable Leviathan"
+		dialog "Good job, your ship has destroyed the Leviathan."
+	on complete
+		payment 100
+		dialog "The mission has been cleared."
+		
+mission "Test Shield Beetle"
+	name "Spawn a Shield beetle"
+	description "Spawn a Shield beetle in this system for testing purposes. Nobody else will attack it."
+	repeat
+	job
+	source
+		government "Test Dummy"
+		attributes "Dummy Homeworld"
+	npc kill
+		government "Test Dummy"
+		system "Land of the Dummies"
+		personality nemesis staying
+		fleet
+			names "civilian"
+			variant
+				"Shield Beetle"
+			variant
+				"Shield Beetle (Tracker)"
+			variant
+				"Shield Beetle (Pulse)"
+		dialog "BAM."
+	on complete
+		payment 25
+		dialog "K."
+
+mission "Spawn Bulk Freighter"
+	name "Spawn a bulk freighter"
+	description "Spawn an unsuspecting bulk freighter in this system for testing purposes. Nobody else will attack it."
+	repeat
+	job
+	source
+		government "Test Dummy"
+		attributes "Dummy Homeworld"
+	npc kill
+		government "Test Dummy"
+		system "Land of the Dummies"
+		personality nemesis staying
+		ship "Bulk Freighter" "Flying Box"
+		dialog "Good job, your ship has destroyed the INNOCENT CIVILIAN BULK FREIGHTER."
+	on complete
+		payment 100
+		dialog "The mission has been cleared."
+		
+mission "Spawn Sparrow"
+	name "Spawn a sparrow"
+	description "Spawn a sparrow in this system for testing purposes. Nobody else will attack it."
+	repeat
+	job
+	source
+		government "Test Dummy"
+		attributes "Dummy Homeworld"
+	npc kill
+		government "Test Dummy"
+		system "Land of the Dummies"
+		personality nemesis staying
+		ship "Sparrow" "Chicken"
+		dialog "Good job, your ship has destroyed the sparrow."
+	on complete
+		payment 100
+		dialog "The mission has been cleared."
+
+mission "Spawn Combat Barge"
+	name "The most feared ship"
+	description "Get ready."
+	repeat
+	job
+	source
+		government "Test Dummy"
+		attributes "Dummy Homeworld"
+	npc kill
+		government "Test Dummy"
+		system "Land of the Dummies"
+		personality nemesis staying
+		ship "Combat Barge" "What should not be named"
+		dialog "IMPOSSIBLE!"
+	on complete
+		payment 100
+		dialog "The mission has been cleared."
+
+		
+mission "Test Merchant"
+	name "Spawn large test merchant"
+	description "Spawn a large unsuspecting merchant fleet in this system for testing purposes. Nobody else will attack it."
+	repeat
+	job
+	source
+		government "Test Dummy"
+		attributes "Dummy Homeworld"
+	npc kill
+		government "Test Dummy"
+		system "Land of the Dummies"
+		personality nemesis staying
+		fleet
+			names "civilian"
+			variant
+				"Leviathan"
+				"Freighter" 4
+			variant
+				"Leviathan (Heavy)"
+				"Freighter"" 4
+			variant
+				"Leviathan (Laser)"
+				"Freighter" 4
+			variant
+				"Leviathan"
+				"Bulk Freighter" 2
+			variant
+				"Leviathan (Heavy)"
+				"Star Queen"
+				"Freighter"
+			variant
+				"Leviathan (Laser)"
+				"Bulk Freighter" 2
+		dialog "The fleet has been eliminated. You Monster."
+	on complete
+		payment 25
+		dialog "You are a terrible person, but I guess this information could be useful."

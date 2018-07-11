@@ -1,0 +1,9 @@
+ship "Leviathan" "Leviathan (Swizzilium)"
+	sprite "ship/swizzilium leviathan"
+	description "This leviathan has been given a shiny new swizzilium hull. If you've ever wanted a completely faction - coloured ship, your search is over."
+	description "You got this for destroying the AA-44 attack helicopter found in orbit of Foundry. It was quite the nasty beast unless you remembered particle cannons exist."
+
+ship "Bounder" "Bounder (Swizzilium)"
+	sprite "ship/swizzilium bounder"
+	description "This bounder has been given a shiny new swizzilium hull. If you've ever wanted a completely faction - coloured ship, your search is over."
+	description "You got this for doing twenty five high value cargo missions."

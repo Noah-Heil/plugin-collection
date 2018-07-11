@@ -1,0 +1,1065 @@
+# Copyright (c) 2016 by various
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+ship "Bactrian"
+	attributes
+		licenses
+			"Deep Sky"
+
+ship "Skybus"
+	plural "Skybuses"
+	sprite "ship/skybus"
+	attributes
+		category "Transport"
+		"cost" 380000
+		"shields" 1200
+		"hull" 900
+		"required crew" 1
+		"bunks" 10
+		"mass" 120
+		"drag" 2.6
+		"heat dissipation" .7
+		"fuel capacity" 600
+		"cargo space" 45
+		"outfit space" 160
+		"weapon capacity" 30
+		"engine capacity" 60
+		weapon
+			"blast radius" 14
+			"shield damage" 140
+			"hull damage" 70
+			"hit force" 210
+	outfits
+		"Energy Blaster" 2
+		"Anti-Missile Turret"
+
+		"nGVF-CC Fuel Cell"
+		"LP036a Battery Pack"
+		"D14-RN Shield Generator"
+
+		"Chipmunk Plasma Thruster"
+		"Greyhound Plasma Steering"
+		"Hyperdrive"
+
+	engine -17.5 53
+	engine 17.5 53
+	gun -16 -29 "Energy Blaster"
+	gun 16 -29 "Energy Blaster"
+	turret 0 -19 "Anti-Missile Turret"
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	description "The cheapest transport ship to boast a turret, the Skybus is a fan favorite among the less wealthy of the galaxy. Some see it as an alternative to the Scout, as both have a similar capacity to hold passengers and have the same amount of weapons, but others chastise the Skybus for being too slow and unreliable when defending against pirates."
+	description "	Although well-armed for its size and purpose, the Skybus is still advised not to wade into heavy combat, and instead to escape dangerous situations."
+
+ship "Vagrant"
+	sprite "ship/vagrant"
+	attributes
+		category "Light Warship"
+		"cost" 950000
+		"shields" 2600
+		"hull" 800
+		"required crew" 9
+		"bunks" 11
+		"mass" 190
+		"drag" 3.9
+		"heat dissipation" .6
+		"fuel capacity" 500
+		"cargo space" 30
+		"outfit space" 220
+		"weapon capacity" 50
+		"engine capacity" 50
+		weapon
+			"blast radius" 40
+			"shield damage" 400
+			"hull damage" 200
+			"hit force" 600
+	outfits
+		"Energy Blaster" 2
+		"Meteor Missile Launcher" 4
+		"Meteor Missile" 140
+
+		"S3 Thermionic"
+		"LP036a Battery Pack"
+		"D14-RN Shield Generator"
+
+		"Chipmunk Plasma Thruster"
+		"Greyhound Plasma Steering"
+		"Hyperdrive"
+
+	engine -8 52
+	engine 8 52
+	gun -13 -28 "Energy Blaster"
+	gun 13 -28 "Energy Blaster"
+	gun -27 12
+	gun 27 12
+	gun -21 12
+	gun 21 12
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 15
+	description "Where ever there are scrap yards, there are looters looking for bits and pieces from more expensive ships to use for their own profit. The Vagrant is the product of one such looter."
+	description "	Using the chassis of a decomissioned Rainmaker as a base, the Vagrant is a popular ship in regions of space where the Navy rarely visit and therefore can not crack down on people using what is essentially stolen Navy technology."
+
+ship "Sky Dinghy"
+	plural "Sky Dinghies"
+	sprite ship/shuttle
+		"frame time" 4
+		"delay" 14
+		"random start frame"
+	attributes
+		category "Fighter"
+		"cost" 100000
+		"shields" 200
+		"hull" 500
+		"required crew" 1
+		"bunks" 8
+		"mass" 50
+		"drag" 1.5
+		"heat dissipation" .7
+		"cargo space" 5
+		"outfit space" 60
+		"weapon capacity" 5
+		"engine capacity" 30
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"nGVF-AA Fuel Cell"
+		"Supercapacitor"
+
+		"X1700 Ion Thruster"
+		"X1200 Ion Steering"
+
+	engine 6 30
+	engine -6 30
+	gun 0 -30
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	description "Sky Dinghies cannot fit hyperdrives or travel without the aid of a tending vessel. In ancient times when escaping a planet's grasp was difficult and expensive, larger ships would never land, instead relying on these craft to shuttle men and materials into the sky."
+	description "	In modern times, Sky Dinghies are experiencing a revival as they afford a luxurious amount of privacy to passengers who are otherwise not used to the cramped conditions in spaceships."
+
+ship "Hauler XV"
+	sprite "ship/haulerxv"
+	attributes
+		category "Heavy Freighter"
+		"cost" 15680000
+		"shields" 8500
+		"hull" 26200
+		"required crew" 3
+		"bunks" 12
+		"mass" 1900
+		"drag" 24.5
+		"heat dissipation" .6
+		"fuel capacity" 400
+		"cargo space" 1950
+		"outfit space" 360
+		"weapon capacity" 140
+		"engine capacity" 105
+		weapon
+			"blast radius" 240
+			"shield damage" 2400
+			"hull damage" 1200
+			"hit force" 3600
+	outfits
+		"Meteor Missile Launcher" 2
+		"Meteor Missile" 70
+		"Quad Blaster Turret" 2
+		"Heavy Anti-Missile Turret" 2
+
+		"S3 Thermionic"
+		"LP072a Battery Pack"
+		"D23-QP Shield Generator"
+		"Small Radar Jammer"
+
+		"Impala Plasma Thruster"
+		"Impala Plasma Steering"
+		"Hyperdrive"
+
+	engine -45 195
+	engine 45 195
+	engine -67 195
+	engine 67 195
+	engine -86 195
+	engine 86 195
+	gun -15 -165
+	gun 15 -165
+	turret -26 -122 "Quad Blaster Turret"
+	turret 26 -122 "Heavy Anti-Missile Turret"
+	turret -19 151 "Heavy Anti-Missile Turret"
+	turret 19 151 "Quad Blaster Turret"
+	explode "small explosion" 5
+	explode "medium explosion" 10
+	explode "big explosion" 30
+	explode "huge explosion" 20
+	description "This is a mid-sized freighter, designed for a balance between cargo capacity and defensive capability. Centuries ago, various Hauler models made up nearly half of the merchant vessels in service, but today the design is considered somewhat outdated."
+
+ship "Archangel"
+	sprite "ship/archangel"
+	attributes
+		category "Transport"
+		"cost" 8250000
+		"shields" 5200
+		"hull" 3000
+		"required crew" 56
+		"bunks" 164
+		"mass" 195
+		"drag" 7.8
+		"heat dissipation" .6
+		"fuel capacity" 600
+		"cargo space" 80
+		"outfit space" 400
+		"weapon capacity" 140
+		"engine capacity" 120
+		weapon
+			"blast radius" 80
+			"shield damage" 800
+			"hull damage" 400
+			"hit force" 1200
+	outfits
+		"Heavy Laser Turret" 2
+		"Anti-Missile Turret" 3
+
+		"Fission Reactor"
+		"LP072a Battery Pack"
+		"D41-HY Shield Generator"
+		"Liquid Nitrogen Cooler"
+
+		"X3700 Ion Thruster"
+		"X4200 Ion Steering"
+		"X1200 Ion Steering"
+		"Hyperdrive"
+
+	engine -18 130
+	engine 18 130
+	turret -25.5 -55 "Heavy Laser Turret"
+	turret 25.5 -55 "Heavy Laser Turret"
+	turret 0 -80 "Anti-Missile Turret"
+	turret -27.5 61 "Anti-Missile Turret"
+	turret 27.5 61 "Anti-Missile Turret"
+	fighter -28 -4
+	fighter 28 -4
+	explode "tiny explosion" 15
+	explode "small explosion" 34
+	explode "medium explosion" 18
+	explode "big explosion" 2
+	description "Given more recent times where piracy has been on the rise, the Archangel was developed to be a luxury cruiser able to defend itself in the event of an attack. Able to carry more passengers than its predecessor, the Star Queen, and even having space for two fighter bays, the Archangel is the go-to vessel for any captain looking to transport passengers through hostile territories."
+
+ship "Legionnaire"
+	sprite ship/Legionaire
+	attributes
+		category "Medium Warship"
+		"cost" 6870000
+		"shields" 6500
+		"hull" 5300
+		"required crew" 12
+		"bunks" 58
+		"mass" 380
+		"drag" 6.3
+		"heat dissipation" 0.5
+		"fuel capacity" 600
+		"cargo space" 230
+		"outfit space" 490
+		"weapon capacity" 230
+		"engine capacity" 130
+		weapon
+			"blast radius" 120
+			"shield damage" 1200
+			"hull damage" 600
+			"hit force" 1800
+	outfits
+		"Sidewinder Missile Launcher" 2
+		"Sidewinder Missile" 100
+		"Heavy Laser Turret" 3
+		"Heavy Anti-Missile Turret" 2
+
+		"Fusion Reactor"
+		"LP072a Battery Pack"
+		"D41-HY Shield Generator"
+		"Liquid Nitrogen Cooler"
+
+		"A370 Atomic Thruster"
+		"A375 Atomic Steering"
+		"Hyperdrive"
+
+	engine -12 123
+	engine 12 123
+	gun -10 -111
+	gun 10 -111
+	turret -22 -62.5
+	turret 22 -62.5
+	turret 0 -38
+	turret -15.5 62
+	turret 15.5 62
+	fighter -23 23
+	fighter 23 23
+	explode "tiny explosion" 10
+	explode "small explosion" 30
+	explode "medium explosion" 20
+	description "The Legionnaire is a Mule modified for heavy combat, with upgraded engines, power, weaponry, and defenses. All that power comes at a price, though; the Legionnaire is extremely expensive."
+
+ship "Ironclad Carrier"
+	sprite "ship/imperialcarrier"
+	attributes
+		category "Heavy Warship"
+		"cost" 8200000
+		"shields" 900
+		"hull" 19500
+		"required crew" 85
+		"bunks" 191
+		"mass" 1920
+		"drag" 19.4
+		"heat dissipation" .3
+		"fuel capacity" 400
+		"cargo space" 150
+		"outfit space" 690
+		"weapon capacity" 230
+		"engine capacity" 140
+		weapon
+			"blast radius" 400
+			"shield damage" 4000
+			"hull damage" 2000
+			"hit force" 6000
+	outfits
+		"Plasma Cannon" 4
+		"Quad Blaster Turret" 2
+		"Heavy Anti-Missile Turret"
+
+		"NT-200 Nucleovoltaic"
+		"LP576a Battery Pack"
+		"Liquid Nitrogen Cooler"
+		"Hull Repair Nano-Bots"
+
+		"Impala Plasma Thruster"
+		"Orca Plasma Steering"
+		"Hyperdrive"
+
+	engine -14.5 160
+	engine 9.5 160
+	gun -50 -82
+	gun 50 -82
+	gun -24 -88
+	gun 24 -88
+	turret -45 50
+	turret 45 50
+	turret -17 -51
+	turret 17 -51
+	fighter -37 -65
+	fighter 37 -65
+	fighter -46 40
+	fighter 46 40
+	fighter -72 -46
+	fighter 72 -46
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "big explosion" 40
+	explode "huge explosion" 10
+	description "An ancient warship that last saw active service as a mobile fighter platform for the Imperium of Mankind's main battle fleet in the first human Hyperspace Wars. At this point in human history, shields had not yet been invented, so this battleship relied on thick ablative Nano-Mesh™ armor plating to survive.  Modern iterations of this ship include a small shield generator.  Designed to remain in the back lines and influence the course of a battle through fighter superiority, the Imperial Carrier sports less armor and fewer weapons than its battleship bretheren."
+
+ship "Pirated Frigate"
+	sprite "ship/piratefrigate"
+	attributes
+		category "Medium Warship"
+		"cost" 7650000
+		"shields" 10000
+		"hull" 4000
+		"required crew" 36
+		"bunks" 51
+		"mass" 390
+		"drag" 7.4
+		"heat dissipation" .55
+		"fuel capacity" 500
+		"cargo space" 10
+		"outfit space" 460
+		"weapon capacity" 180
+		"engine capacity" 120
+		weapon
+			"blast radius" 120
+			"shield damage" 1200
+			"hull damage" 600
+			"hit force" 1800
+	outfits
+		"Particle Cannon" 2
+		"Sidewinder Missile Launcher" 4
+		"Sidewinder Missile" 200
+		"Blaster Turret" 3
+
+		"NT-200 Nucleovoltaic"
+		"LP144a Battery Pack"
+		"D41-HY Shield Generator"
+		"Water Coolant System"
+
+		"X3700 Ion Thruster"
+		"X4200 Ion Steering"
+		"Hyperdrive"
+
+	engine -21 100
+	engine 21 100
+	gun -10 -96.5
+	gun 10 -96.5
+	gun -10 -96.5
+	gun 10 -96.5
+	gun -29.5 -33.5 "Particle Cannon"
+	gun 29.5 -33.5 "Particle Cannon"
+	turret 0 -37
+	turret -12 -12
+	turret 12 -12
+	explode "tiny explosion" 24
+	explode "small explosion" 16
+	explode "medium explosion" 40
+	explode "big explosion" 28
+	description "Considered a valuable trophy of extreme cunning in some circles, the Navy views with great suspicion anyone who flies one of these. This ship has been modified with extra cargo bays, and even sacrifices precious weapon space in favor of more room to carry loot and bigger engines."
+
+ship "Samurai"
+	plural "Samurai"
+	sprite "ship/samurai"
+	attributes
+		category "Heavy Warship"
+		"cost" 21120000
+		"shields" 25600
+		"hull" 9400
+		"required crew" 57
+		"bunks" 265
+		"mass" 1040
+		"drag" 14.8
+		"heat dissipation" .45
+		"fuel capacity" 1000
+		"cargo space" 60
+		"outfit space" 930
+		"weapon capacity" 420
+		"engine capacity" 210
+		weapon
+			"blast radius" 400
+			"shield damage" 4000
+			"hull damage" 2000
+			"hit force" 6000
+	outfits
+		"EMP Bomb Launcher" 2
+		"EMP Bomb" 30
+		"Typhoon Launcher" 2
+		"Typhoon Torpedo" 60
+		"Electron Turret" 4
+		"Heavy Anti-Missile Turret" 2
+
+		"Fusion Reactor"
+		"Dwarf Core"
+		"Liquid Nitrogen Cooler"
+		"LP144a Battery Pack"
+		"D94-YV Shield Generator"
+
+		"A520 Atomic Thruster"
+		"A865 Atomic Steering"
+		"Hyperdrive"
+
+	engine -29 156
+	engine 29 156
+	gun -56 -98 "Ion Cannon"
+	gun 56 -98 "Ion Cannon"
+	gun -44 -84 "Ion Cannon"
+	gun 44 -84 "Ion Cannon"
+	gun -18 -142 "Typhoon Launcher"
+	gun -18 -142 "Typhoon Launcher"
+	gun 18 -142 "Typhoon Launcher"
+	gun 18 -142 "Typhoon Launcher"
+	turret -100 -3 "Plasma Turret"
+	turret 100 -3 "Plasma Turret"
+	turret -100 71 "Plasma Turret"
+	turret 100 71 "Plasma Turret"
+	turret -53 34 "Heavy Anti-Missile Turret"
+	turret 53 34 "Heavy Anti-Missile Turret"
+	fighter -30 -44 
+	fighter -44 18
+	fighter 44 18 
+	fighter 30 -44
+	drone -25 18
+	drone 25 18
+	drone -25 49
+	drone 25 49
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "big explosion" 40
+	explode "huge explosion" 10
+	description "No expense was spared in the creation of this super-capital warship. The Syndicate kept the few Samurai that they had in reserve, against the possibility that their nuclear strike against Earth failed."
+	description "	With the proper connections, you can purchase one of these one-of-a-kind monsters for your very own."
+
+ship "FTek Destroyer"
+	sprite "ship/ftek destroyer"
+	attributes
+		category "Medium Warship"
+		"cost" 4750000
+		"shields" 7500
+		"hull" 2200
+		"required crew" 21
+		"bunks" 26
+		"mass" 320
+		"drag" 5.9
+		"heat dissipation" .6
+		"fuel capacity" 500
+		"cargo space" 70
+		"outfit space" 390
+		"weapon capacity" 160
+		"engine capacity" 100
+		weapon
+			"blast radius" 90
+			"shield damage" 900
+			"hull damage" 450
+			"hit force" 1350
+	outfits
+		"Heavy Laser" 2
+		"Meteor Missile Launcher" 2
+		"Meteor Missile" 70
+		"Heavy Laser Turret"
+		"Heavy Anti-Missile Turret" 2
+
+		"Fission Reactor"
+		"LP072a Battery Pack"
+		"D41-HY Shield Generator"
+
+		"X3700 Ion Thruster"
+		"X3200 Ion Steering"
+		"X1200 Ion Steering"
+		"Hyperdrive"
+
+	engine -19 93
+	engine 19 93
+	turret 0 -62 "FTek Active Blaster Turret"
+	turret -9 15 "Heavy Anti-Missile Turret"
+	turret 9 15
+	gun -36 -14
+	gun 36 -14
+	gun -26 -22
+	gun 26 -22
+	explode "tiny explosion" 18
+	explode "small explosion" 36
+	explode "medium explosion" 24
+	explode "big explosion" 8
+	description "A refitted freighter, the FTek Destroyer is everything you could want from a big space ship that shoot lasers. - FTek Chief of the Incognito Undercover Secret Military Building Death Machine Division™"
+	description "Remember, FTek builds murder weapons, so you don't have to!™"
+
+ship "FTek Girl Scout"
+	sprite "ship/the girl scout"
+	attributes
+		category "Interceptor"
+		"cost" 730000
+		"shields" 2500
+		"hull" 600
+		"required crew" 3
+		"bunks" 4
+		"mass" 170
+		"drag" 2.6
+		"heat dissipation" .8
+		"fuel capacity" 300
+		"cargo space" 10
+		"outfit space" 220
+		"weapon capacity" 50
+		"engine capacity" 60
+		weapon
+			"blast radius" 30
+			"shield damage" 300
+			"hull damage" 150
+			"hit force" 450
+	outfits
+		"FTek Active Blaster" 2
+		"FTek Heavy Blaster" 2
+
+		"nGVF-DD Fuel Cell"
+		"LP072a Battery Pack"
+		"D14-RN Shield Generator"
+
+		"X2700 Ion Thruster"
+		"X2200 Ion Steering"
+		"X1200 Ion Steering"
+		"Hyperdrive"
+
+	engine -13 52
+	engine 12 52
+	gun -21 7 "FTek Heavy Blaster"
+	gun 21 7 "FTek Heavy Blaster"
+	gun -44 5
+	gun 44 5
+	explode "tiny explosion" 10
+	explode "small explosion" 15
+	description "The girl scout delivery service has finally reached into space. And they're not bringing cookies this time."
+	description "Remember, FTek builds murder weapons, so you don't have to!™"
+
+ship "Hunter Drone"
+	sprite "ship/hunter drone"
+	attributes
+		category "Drone"
+		"cost" 412000
+		"shields" 600
+		"hull" 300
+		"mass" 45
+		"drag" 1.0
+		"heat dissipation" .9
+		"outfit space" 95
+		"weapon capacity" 28
+		"engine capacity" 30
+        automaton 1
+		weapon
+			"blast radius" 8
+			"shield damage" 80
+			"hull damage" 40
+			"hit force" 120
+	outfits
+		"Sidewinder Missile Launcher" 2
+		"Sidewinder Missile" 100
+
+		"nGVF-AA Fuel Cell"
+		"Supercapacitor"
+		"D14-RN Shield Generator"
+
+		"X1700 Ion Thruster"
+		"X1200 Ion Steering"
+
+	engine -5 35
+	engine 5 35
+	gun 0 -28
+	gun 0 -28
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	description "An experimental missile drone, this is a modified Sparrow with a small AI mainframe inside. Although developed by Lionheart, they are very rarely seen in the Deep itself, but are rather popular in southern areas of space."
+
+ship "Modified Firebird"
+	sprite "ship/mod firebird"
+	attributes
+		category "Heavy Freighter"
+		"cost" 4440000
+		"shields" 6000
+		"hull" 2300
+		"required crew" 12
+		"bunks" 18
+		"mass" 330
+		"drag" 5.1
+		"heat dissipation" .6
+		"fuel capacity" 400
+		"cargo space" 220
+		"outfit space" 450
+		"weapon capacity" 100
+		"engine capacity" 120
+		weapon
+			"blast radius" 100
+			"shield damage" 1000
+			"hull damage" 500
+			"hit force" 1500
+	outfits
+		"Heavy Laser" 2
+		"Heavy Laser Turret"
+		"Heavy Anti-Missile Turret"
+
+		"NT-200 Nucleovoltaic"
+		"RT-I Radiothermal"
+		"D67-TM Shield Generator"
+		"Liquid Nitrogen Cooler"
+
+		"X3700 Ion Thruster"
+		"X4200 Ion Steering"
+		"Hyperdrive"
+
+	engine -8.5 81
+	engine 8.5 81
+	engine 0 76
+	gun -27 -58.5
+	gun 27 -58.5
+	turret 0 0
+	turret 0 0
+	explode "tiny explosion" 18
+	explode "small explosion" 36
+	explode "medium explosion" 24
+	explode "big explosion" 8
+	description "The Modified Firebird is a crazy invention from the pirate inhabitants of the Far North. Reconfigured to become a combat freighter, the Modified Firebird has less guns than its original version but has far bigger engines and boasts plenty of cargo space to be converted into outfit space."
+
+ship "Kriegsmacher"
+	sprite "ship/Kriegsmacher" #Thanks, Matthew Smestad!
+	attributes
+		category "Heavy Warship"
+		"cost" 125200000
+		"shields" 71200
+		"hull" 20200
+		"required crew" 751
+		"bunks" 1143
+		"mass" 4305
+		"drag" 47.6
+		"heat dissipation" .45
+		"fuel capacity" 900
+		"cargo space" 125
+		"outfit space" 2530
+		"weapon capacity" 850
+		"engine capacity" 610
+		"identification" -1
+		weapon
+			"blast radius" 700
+			"shield damage" 14000
+			"hull damage" 7200
+			"hit force" 11200
+	outfits
+		"Heavy Laser" 4
+		"Heavy Laser Turret" 6
+		"Heavy Anti-Missile Turret" 2
+
+		"Armageddon Core" 2
+		"LP576a Battery Pack" 2
+		"D94-YV Shield Generator" 4
+		"Liquid Helium Cooler"
+		Ramscoop
+
+		"A860 Atomic Thruster"
+		"A865 Atomic Steering"
+		"Hyperdrive"
+		"Capital Identification"
+
+	gun 245 -166.5
+	gun 300.5 -194
+	turret 180 -53 "Heavy Laser Turret"
+	turret 71.5 -66.5 "Heavy Anti-Missile Turret"
+	turret 139.5 81.5 "Heavy Laser Turret"
+	turret 214.5 -66.5 "Heavy Laser Turret"
+	engine 64 236
+	fighter 101.5 -183.5
+	fighter 178.5 -184.5
+	gun -245 -166.5
+	gun -300.5 -194
+	turret -180 -53 "Heavy Laser Turret"
+	turret -71.5 -66.5 "Heavy Anti-Missile Turret"
+	turret -139.5 81.5 "Heavy Laser Turret"
+	turret -214.5 -66.5 "Heavy Laser Turret"
+	engine -64 236
+	fighter -101.5 -183.5
+	fighter -178.5 -184.5
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "big explosion" 40
+	explode "huge explosion" 10
+	description "An absolute behemoth in terms of size. Though no one has ever flown in one except test pilots, it is seen as one of the best humanity has to offer."
+	description "Owning one of these means that you have great responsibility. Should the Kriegsmacher fall in battle, all ships in its vicinity will fall with it."
+	
+ship "Therum"
+	sprite "ship/headhunter"
+	attributes
+		category "Light Warship"
+		"cost" 1670000
+		"shields" 3200
+		"hull" 800
+		"required crew" 2
+		"bunks" 4
+		"mass" 125
+		"drag" 2.4
+		"heat dissipation" .8
+		"fuel capacity" 400
+		"cargo space" 20
+		"outfit space" 270
+		"weapon capacity" 70
+		"engine capacity" 70
+		"energy generation" 2
+		weapon
+			"blast radius" 44
+			"shield damage" 440
+			"hull damage" 220
+			"hit force" 660
+	outfits
+		"Meteor Missile Launcher" 2
+		"Meteor Missile" 70
+		"Energy Chaingun"
+
+		"Water Coolant System"
+		"Liquid Nitrogen Cooler"
+		"XF-333 Ship Core"
+		"NT-200 Nucleovoltaic"
+		"D14-RN Shield Generator"
+
+		"Greyhound Plasma Thruster"
+		"Greyhound Plasma Steering"
+
+	engine -16 47
+	engine 16 47
+	gun -13 -27 "Meteor Missile Launcher"
+	gun 13 -27 "Meteor Missile Launcher"
+	gun 0 -58 "Energy Chaingun"
+	explode "tiny explosion" 20
+	explode "small explosion" 25
+	explode "medium explosion" 15
+	description "A prototype heavy interceptor, it carries 2 Meteor Missile Launchers and a newly developed Energy Chaingun to swiftly take care of enemies."
+
+ship "Capitalis Viatoris"
+	plural "Capitalis Viatores"
+	sprite "ship/capitalis viatoris"
+	attributes
+		category "Heavy Warship"
+		"cost" 65200000
+		"shields" 61200
+		"hull" 13900
+		"required crew" 71
+		"bunks" 573
+		"mass" 4305
+		"drag" 47.6
+		"heat dissipation" .45
+		"fuel capacity" 900
+		"cargo space" 125
+		"outfit space" 2125
+		"weapon capacity" 440
+		"engine capacity" 440
+		"identification" -1
+		weapon
+			"blast radius" 700
+			"shield damage" 14000
+			"hull damage" 7200
+			"hit force" 11200
+	outfits
+		"Energy Chaingun" 4
+		"Quad Blaster Turret" 12
+
+		"Armageddon Core" 3
+		"LP576a Battery Pack" 2
+		"D94-YV Shield Generator" 4
+		"Liquid Helium Cooler" 4
+		"Catalytic Ramscoop"
+		"R-120 Warbird" 6
+		"Sentry Gun" 14
+		"Laser Rifle" 47
+		"Fragmentation Grenades" 47
+
+		"A860 Atomic Thruster" 2
+		"A865 Atomic Steering" 2
+		"Hyperdrive"
+
+	engine -32 285.5
+	engine 32 285.5
+	turret -30.5 -46
+	turret -34.5 0
+	turret -34 32
+	turret -34 64.5
+	turret -110.5 80
+	turret -23 195
+	turret 30.5 -46
+	turret 34.5 0
+	turret 34 32
+	turret 34 64.5
+	turret 110.5 80
+	turret 23 195
+	gun -32 -176.5
+	gun -32 -176
+	gun 32 -176.5
+	gun 32 -176
+	explode "tiny explosion" 15
+	explode "small explosion" 35
+	explode "medium explosion" 50
+	explode "big explosion" 70
+	explode "huge explosion" 25
+	description "The supercapital of Tarazed. A replica of this model is featured outside of Tarazed's HQ though it is often confused with the Falcon model."
+	description "It was created after the need to defend humanity from aliens arose. With the proper connections, you, too, can have this one of a kind beast."
+	
+ship "Inferno"
+	sprite "ship/Phoenix(MS)"
+	attributes
+		category "Heavy Warship"
+		"cost" 11100000
+		"shields" 12800 
+		"hull" 5600
+		"required crew" 27
+		"bunks" 66
+		"mass" 580
+		"drag" 9
+		"heat dissipation" .5
+		"fuel capacity" 600
+		"cargo space" 40
+		"outfit space" 700
+		"weapon capacity" 320
+		"engine capacity" 130
+		weapon
+			"blast radius" 160
+			"shield damage" 1600
+			"hull damage" 800
+			"hit force" 2400
+	outfits
+		"Heavy Laser" 8
+		"Heavy Laser Turret" 4
+
+		"Armageddon Core"
+		"LP144a Battery Pack"
+		"D94-YV Shield Generator"
+		"Liquid Helium Cooler"
+
+		"X3700 Ion Thruster"
+		"X4200 Ion Steering"
+		Hyperdrive
+
+	engine -49 164
+	engine 49 164
+	engine -16 175
+	engine 16 175
+	gun -8.5 -174
+	gun 8.5 -174
+	gun -42 -9.5
+	gun 42 -9.5
+	gun -59.5 7.5
+	gun 59.5 7.5
+	gun -76.5 25.5
+	gun 76.5 25.5
+	turret -43.5 120.5
+	turret 43.5 120.5
+	turret -56.5 110
+	turret 56.5 110
+	explode "small explosion" 18
+	explode "medium explosion" 36
+	explode "big explosion" 24
+	explode "huge explosion" 8
+	description "Inspired by the Firebird, this high class warship comes from the minds of the finest Betelgeuse engineers. Built for speed, and with guns to spare, this warship will run down slower vessels and outmaneaver anything larger than itself."
+
+event "kestrel available: more weapons"
+	set "kestrel available"
+	shipyard "Tarazed Advanced"
+		"Kestrel-M"
+
+event "kestrel available: more engines"
+	set "kestrel available"
+	shipyard "Tarazed Advanced"
+		"Kestrel-M"
+
+event "kestrel available: more shields"
+	set "kestrel available"
+	shipyard "Tarazed Advanced"
+		"Kestrel-M"
+
+ship "Kestrel-M"
+	sprite "ship/KestrelM"
+	attributes
+		category "Heavy Warship"
+		"cost" 20600000
+		"shields" 20100
+		"hull" 8900
+		"required crew" 72
+		"bunks" 128
+		"mass" 720
+		"drag" 11.5
+		"heat dissipation" .55
+		"fuel capacity" 600
+		"cargo space" 140
+		"outfit space" 830
+		"weapon capacity" 400
+		"engine capacity" 230
+		weapon
+			"blast radius" 260
+			"shield damage" 2600
+			"hull damage" 1300
+			"hit force" 3900
+	outfits
+		"Particle Cannon" 4
+		"Torpedo Launcher" 2
+		"Torpedo" 60
+		"Heavy Laser Turret" 4
+
+		"Fusion Reactor"
+		"LP144a Battery Pack"
+		"D94-YV Shield Generator"
+		"Liquid Nitrogen Cooler"
+
+		"Orca Plasma Thruster"
+		"X5200 Ion Steering"
+		"Hyperdrive"
+
+	engine -14 177
+	engine 14 177
+	gun -88 95 "Torpedo Launcher"
+	gun 88 95 "Torpedo Launcher"
+	gun -69 88 "Particle Cannon"
+	gun 69 88 "Particle Cannon"
+	gun -50 81 "Particle Cannon"
+	gun 50 81 "Particle Cannon"
+	turret -27 48 "Heavy Laser Turret"
+	turret 27 48 "Heavy Laser Turret"
+	turret 0 48 "Heavy Laser Turret"
+	turret 0 48 "Heavy Laser Turret"
+	explode "small explosion" 25
+	explode "medium explosion" 35
+	explode "big explosion" 45
+	explode "huge explosion" 30
+	description "Several years ago, while visiting a sweat lodge in search of spiritual renewal, Tarazed's chief ship designer fell into a trance and journeyed to a reality separate from our own. There he saw visions of a strange and elegant starship. Returning to his work with renewed purpose, he spent the next seven years making the Kestrel a reality."
+	description "This premium hull is reserved for only the wealthiest of Tarazed's investors but for a large sum of credits, you too can get this premium hull."
+
+mission "BT2"
+	invisible
+	landing
+	to offer
+		has "main plot completed"
+	on offer
+		event "BT2"
+
+event "BT2"
+	shipyard "Lionheart Advanced"
+		"Bactrian T2"
+
+ship "Bactrian T2"
+	sprite "ship/T2Bactrian"
+		"frame rate" 30
+		"rewind"
+		"delay" 85
+	plural "Bactrians T2"
+	attributes
+		category "Heavy Warship"
+		"cost" 35200000
+		"shields" 17500
+		"hull" 8600
+		"required crew" 70
+		"bunks" 245
+		"mass" 940
+		"drag" 16.1
+		"heat dissipation" .4
+		"fuel capacity" 700
+		"cargo space" 530
+		"outfit space" 740
+		"weapon capacity" 300
+		"engine capacity" 180
+		weapon
+			"blast radius" 260
+			"shield damage" 2600
+			"hull damage" 1300
+			"hit force" 3900
+	outfits
+		"Sidewinder Missile Launcher" 2
+		"Sidewinder Missile" 100
+		"Torpedo Launcher" 2
+		"Torpedo" 60
+		"Heavy Laser Turret" 4
+		"Heavy Anti-Missile Turret" 2
+		
+		"Fusion Reactor"
+		"LP144a Battery Pack"
+		"D94-YV Shield Generator"
+		"Ramscoop"
+		
+		"X4700 Ion Thruster"
+		"X5200 Ion Steering"
+		"Hyperdrive"
+		
+	engine -22.5 228
+	engine 23.5 227.5
+	gun -8 -232.5 "Sidewinder Missile Launcher"
+	gun 1 -233 "Torpedo Launcher"
+	gun 29 -240 "Sidewinder Missile Launcher"
+	gun 39 -239.5 "Torpedo Launcher"
+	turret 44 -72 "Heavy Laser Turret"
+	turret -40 -50.5 "Heavy Laser Turret"
+	turret -40 -16.5 "Heavy Anti-Missile Turret"
+	turret 0.5 146 "Heavy Laser Turret"
+	turret 43.5 65.5 "Heavy Laser Turret"
+	turret -35.5 126.5 "Heavy Anti-Missile Turret"
+	fighter -38 -26
+	fighter 35 36
+	fighter -47 97
+	explode "small explosion" 25
+	explode "medium explosion" 35
+	explode "big explosion" 45
+	explode "huge explosion" 30
+	description "Based on its predecessor, the famous Lionheart Bactrian, the Bactrian T2 attempts to revitalize a past era of ship building. Modeled to have all the specifications of the former Bactrian, the T2 is the dream ship of merchant captains and explorers alike."
+	description "The Premium hull makes it very expensive."

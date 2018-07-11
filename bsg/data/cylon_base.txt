@@ -1,0 +1,3 @@
+ 
+outfitter Cylon
+	"Cylon Worker"

@@ -1,0 +1,7 @@
+shipyard "XSZ Advanced"
+	"Bloodhound"
+	"XSZ MK I Freighter"
+	
+outfitter "Enclave Outfits"
+	"Railgun"
+	"Ball-bearing"

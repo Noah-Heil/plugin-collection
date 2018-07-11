@@ -1,0 +1,612 @@
+# Copyright (c) 2016 by various
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+outfit "Nalabidium Heat Sink"
+	category "Systems"
+	cost 30000
+	mass 30
+	"outfit space" -10
+	"thumbnail" "outfit/unknown"
+	description "Heat Sinks increase the maximum heat a ship can handle. This comes at the cost of 30000 credits to install a 30 ton chunk of Nalabidium."
+
+outfit "Hai Crew Member"
+	category "Hand to Hand"
+	cost 2000
+	thumbnail "outfit/unknown"
+	"capture attack" 0.3
+	"capture defense" 0.3
+	unplunderable 1
+	description "A Hai crew member. Slightly stronger than humans."
+
+outfit "Korath Crew Member"
+	category "Hand to Hand"
+	thumbnail "outfit/unknown"
+	"capture defense" 3.5
+	"capture attack" 3.5
+	unplunderable 1
+	description "The Korath are very violent against their attackers."
+
+outfit "Wanderer Crew Member"
+	category "Hand to Hand"
+	cost 5000
+	thumbnail "outfit/unknown"
+	"capture attack" 0.5
+	"capture defense" 0.5
+	unplunderable 1
+	description "A Wanderer crew member. Slightly stronger than humans."
+
+outfit "I-1 Interference Plating"
+	category "Systems"
+	cost 9000
+	thumbnail "outfit/interference plating"
+	"mass" 1
+	"outfit space" -1
+	"scan interference" 0.25
+	description "If you're in the habit of carrying illegal cargo or outfits, this plating increases the odds that a scan of your ship will fail to detect it. The more of these you install, the better your chances of evading detection. They won't keep anyone from noticing if you're flying an unlicensed ship, however."
+
+outfit "I-2 Interference Plating"
+	category "Systems"
+	cost 50000
+	thumbnail "outfit/interference plating"
+	"mass" 4
+	"outfit space" -4
+	"scan interference" 0.5
+	description "If you're in the habit of carrying illegal cargo or outfits, this plating increases the odds that a scan of your ship will fail to detect it. The more of these you install, the better your chances of evading detection. They won't keep anyone from noticing if you're flying an unlicensed ship, however."
+
+outfit "I-3 Interference Plating"
+	category "Systems"
+	cost 80000
+	thumbnail "outfit/interference plating"
+	"mass" 6
+	"outfit space" -6
+	"scan interference" 2
+	description "If you're in the habit of carrying illegal cargo or outfits, this plating increases the odds that a scan of your ship will fail to detect it. The more of these you install, the better your chances of evading detection. They won't keep anyone from noticing if you're flying an unlicensed ship, however."
+
+outfit "Meteor Missile Depot"
+	category "Systems"
+	cost 7500
+	thumbnail "outfit/unknown"
+	"mass" 2
+	"outfit space" -7
+	"meteor capacity" 25
+	description "For anyone who wants to shoots more missiles but has no gun ports left install more launchers, this outfit stores an extra 25 Meteor Missiles."
+	
+outfit "Sidewinder Missile Depot"
+	category "Systems"
+	cost 30000
+	thumbnail "outfit/unknown"
+	"mass" 2
+	"outfit space" -9
+	"sidewinder capacity" 35
+	description "For anyone who wants to shoot more missiles but has no gun ports left to install more launchers, this outfit stores an extra 35 Sidewinder Missiles."
+	
+outfit "Javelin Secondary Magazine"
+	category "Systems"
+	cost 10000
+	thumbnail "outfit/javelin pod"
+	"mass" 2
+	"outfit space" -10
+	"javelin capacity" 200
+	description "Even with the large amount of Javelins the stock launcher can hold, sometimes you just need more gun but don't have enough space. That's where the secondary magazine comes in, offering space for an extra 200 Javelin Missiles."
+	
+outfit "Hai Tracker Secondary Magazine"
+	category "Systems"
+	cost 75000
+	thumbnail "outfit/hai tracker pod"
+	"mass" 2
+	"outfit space" -14
+	"tracker capacity" 40
+	description "Tracker Pods already hold a decent amount of Trackers but sometimes you need even more. This outfit offers you an extra 40 Trackers to hold."
+	
+outfit "Torpedo Supply Depot"
+	category "Systems"
+	cost 40000
+	thumbnail "outfit/unknown"
+	"mass" 2
+	"outfit space" -12
+	"torpedo capacity" 25
+	description "Personally requested by a Navy officer, it has been made available to civilians as well."
+	
+outfit "Typhoon Supply Depot"
+	category "Systems"
+	cost 130000
+	thumbnail "outfit/unknown"
+	"mass" 2.5
+	"outfit space" -15
+	"typhoon capacity" 25
+	description "The advent of Typhoons also calls for a supply depot similar to that of the Torpedo. This request was quickly turned into reality."
+	
+outfit "Heavy Rocket Depot"
+	category "Systems"
+	cost 20000
+	thumbnail "outfit/unknown"
+	"mass" 2
+	"outfit space" -7
+	"rocket capacity" 10
+	description "More gun is better than less gun, so install this outfit if you wish to stay in the fight longer with an extra 10 Heavy Rockets."
+
+outfit "Intelligent Rocket Depot"
+	category "Systems"
+	cost 45000
+	thumbnail "outfit/unknown"
+	"mass" 2.5
+	"outfit space" -5
+	"intelrock capacity" 10
+	description "More gun is better than less gun, so install this outfit if you wish to stay in the fight longer with an extra 10 Intelligent Rockets."
+	
+outfit "Khorne Rocket Depot"
+	category "Systems"
+	cost 87500
+	thumbnail "outfit/unknown"
+	"mass" 2
+	"outfit space" -7
+	"khorne capacity" 20
+	description "This won't be implemented yet."
+	
+outfit "Soaker Missile Depot"
+	category "Systems"
+	cost 325000
+	thumbnail "outfit/unknown"
+	"mass" 2
+	"outfit space" -12
+	"soaker capacity" 10
+	description "The want to protect yourself or your allies gave rise to this extra storage that allows 10 more Soakers."
+	
+outfit "Grenade Depot"
+	category "Systems"
+	cost 40000
+	thumbnail "outfit/unknown"
+	"mass" 2
+	"outfit space" -7
+	"grenade capacity" 25
+	description "For anyone who wants to hold more Grenade to make things go boom. Holds an extra 25 Grenades."
+
+outfit "Rail Slug Depot"
+	category "Systems"
+	cost 40000
+	thumbnail "outfit/unknown"
+	"mass" 2
+	"outfit space" -17
+	"slug capacity" 30
+	description "Hold 30 extra slugs for blasting enemies away for longer."
+
+outfit "SC15s Shield Capacitor"
+	category "Systems"
+	cost 12000
+	thumbnail "outfit/tiny battery"
+	"mass" 10
+	"outfit space" -10
+	"shields" 600
+	description "Shield Capacitors increase the maximum shield energy carried by a ship."
+
+outfit "SC30s Shield Capacitor"
+	category "Systems"
+	cost 30000
+	thumbnail "outfit/small battery"
+	"mass" 20
+	"outfit space" -20
+	"shields" 1800
+	description "Shield Capacitors increase the maximum shield energy carried by a ship."
+	
+outfit "SC60s Shield Capacitor"
+	category "Systems"
+	cost 67000
+	thumbnail "outfit/medium battery"
+	"mass" 40
+	"outfit space" -40
+	"shields" 4400
+	description "Shield Capacitors increase the maximum shield energy carried by a ship."
+
+outfit "Rail Cannon"
+	category "Secondary Weapons"
+	cost 80000
+	thumbnail "outfit/ion cannon"
+	"mass" 35
+	"outfit space" -50
+	"weapon capacity" -50
+	"gun ports" -1
+	"slug capacity" 30
+	"heat generation" 2
+	"energy generation" -0.7
+	"energy capacity" 200
+	weapon
+		sprite "projectile/tracker"
+			"frame rate" 10
+			"random start frame"
+		sound "pulse"
+		ammo "Rail Slug"
+		icon "icon/tracker"
+		"fire effect" "torpedo fire"
+		"hit effect" "big explosion"
+		"inaccuracy" 0.1
+		"velocity" 200
+		"lifetime" 300
+		"reload" 1800
+		"firing energy" 200
+		"firing heat" 2500
+		"drag" .1
+		"shield damage" 200
+		"hull damage" 1600
+		"hit force" 300
+		"missile strength" 0
+	description "A weapon developed for the express purpose of piercing the hull of another ship, the rail cannon fires a high AP shell at the target."
+	description "This cannon could easily overheat your ship after firing, so it is highly recommended to find an exact, oppurtune moment to unleash the rail."
+	
+outfit "Rail Slug"
+	category "Ammunition"
+	cost 10000
+	thumbnail "outfit/hai tracker"
+	"slug capacity" -1
+	mass .5
+	description "The expensive slugs launched by the Rail Cannon."
+	
+outfit "Crew Card"
+	category "Special"
+	cost 750000
+	thumbnail "outfit/unknown"
+	"crew card capacity" -1
+	"required crew" -1
+	unplunderable 1
+	description "A crew AI card used by AI Mainframes."
+
+outfit "Sentry Gun"
+	category "Hand to Hand"
+	cost 52000
+	thumbnail "outfit/unknown"
+	"mass" 4
+	"outfit space" -4
+	"capture defense" 7
+	unplunderable 1
+	description "This model of sentry guns may be the best ship defense money can buy."
+
+outfit "Special Agent"
+	category "Hand to Hand"
+	cost 500000
+	thumbnail "outfit/unknown"
+	"required crew" 1
+	"capture attack" 6
+	"energy generation" -.1
+	"capture defense" 6
+	unplunderable 1
+	description "A specially trained agent for boarding ships. They use a personal cloaking device to infiltrate the enemy ship and take out important targets."
+
+ship "Spearhead"
+	sprite "ship/spearhead"
+	attributes
+		category "Light Warship"
+		"cost" 4400000
+		"shields" 5900
+		"hull" 1800
+		"required crew" 16
+		"bunks" 21
+		"mass" 265
+		"drag" 4.0
+		"heat dissipation" .6
+		"fuel capacity" 500
+		"cargo space" 10
+		"outfit space" 420
+		"weapon capacity" 195
+		"engine capacity" 130
+		"ramscoop" 1
+		weapon
+			"blast radius" 60
+			"shield damage" 600
+			"hull damage" 300
+			"hit force" 900
+	outfits
+		"Intelligent Rocket Launcher" 2
+		"Modified Blaster Turret" 2
+		"Heavy Anti-Missile Turret"
+
+		"Dwarf Core"
+		"LP072a Battery Pack" 3
+		"Hervar Regenerator"
+		"Liquid Nitrogen Cooler"
+
+		"Impala Plasma Thruster"
+		"A255 Atomic Steering"
+		"Hyperdrive"
+
+		"Intelligent Rocket" 40
+
+	engine -15 115
+	engine 15 115
+	gun -15 -80 "Intelligent Rocket Launcher"
+	gun 15 -80 "Intelligent Rocket Launcher"
+	turret -17 -28 "Modified Blaster Turret"
+	turret 0 -28 "Heavy Anti-Missile Turret"
+	turret 17 -28 "Modified Blaster Turret"
+	explode "tiny explosion" 18
+	explode "small explosion" 36
+	explode "medium explosion" 24
+	explode "big explosion" 8
+	description "A heavily modified version of the Splinter. By pirates, for pirates. This version sacrifices cargo space for more outfit space. It is designed to be a moderately armed medium command ship."
+    description "A relic of the past, it is only used by the poorest of pirate captains."
+
+ship "Stealth Cruiser"
+	sprite "ship/osprey"
+	attributes
+		category "Medium Warship"
+		"cost" 7100000
+		"shields" 7600
+		"hull" 900
+		"required crew" 13
+		"bunks" 15
+		"mass" 275
+		"drag" 6.3
+		"heat dissipation" .8
+		"fuel capacity" 500
+		"cargo space" 20
+		"outfit space" 500
+		"weapon capacity" 200
+		"engine capacity" 150
+		weapon
+			"blast radius" 80
+			"shield damage" 800
+			"hull damage" 400
+			"hit force" 1200
+	outfits
+		"Plasma Cannon" 4
+		"Quad Blaster Turret" 2
+
+		"Breeder Reactor"
+		"LP072a Battery Pack"
+		"D41-HY Shield Generator"
+		"D14-RN Shield Generator"
+		"Liquid Nitrogen Cooler" 2
+		"Civilian Cloaking Device"
+		"Ramscoop"
+
+		"Impala Plasma Thruster"
+		"Impala Plasma Steering"
+		"Hyperdrive"
+
+	engine -40 67
+	engine 40 67
+	gun -8 -100 "Plasma Cannon"
+	gun 8 -100 "Plasma Cannon"
+	gun -26 -53 "Plasma Cannon"
+	gun 26 -53 "Plasma Cannon"
+	turret -16 -16 "Quad Blaster Turret"
+	turret 16 -16 "Quad Blaster Turret"
+	explode "medium explosion" 24
+	explode "big explosion" 16
+	explode "small explosion" 40
+	explode "tiny explosion" 28
+	description "A stealth cruiser developed in a joint operation between the Navy and Tarazed. It has a very weak hull compared to other Medium Warships, but it makes up with its built-in Cloaking Device."
+
+outfit "Weapon Specialization"
+	category "Systems"
+	"cost" 7500
+	thumbnail "outfit/blue screwdriver"
+	"mass" 10
+	"outfit space" -10
+	"weapon capacity" 20
+	"energy generation" -0.5
+	unplunderable 1
+	description "Converts regular outfit space into weapon outfit space. Requires more energy to make sure that all functions are operational."
+
+outfit "Engine Specialization"
+	category "Systems"
+	"cost" 7500
+	thumbnail "outfit/blue screwdriver"
+	"mass" 10
+	"outfit space" -10
+	"engine capacity" 20
+	"heat generation" 2
+	unplunderable 1
+	description "Converts regular outfit space into engine outfit space. Increases likelihood of overheating."
+
+outfit "Civilian Cloaking Device"
+	category "Systems"
+	cost 1200000
+	"mass" 20
+	"outfit space" -20
+	"cloak" .01
+	"cloaking energy" 2.05
+	"cloaking fuel" .2
+	"heat generation" 0.71
+	description "A Cloaking Device authorized for sale by the Republic. Because of its functionality, it has been modified to take up more space, be more expensive, and use up more of the ship's resources."
+
+ship "Goose"  #Thanks, Michael Feather!
+	plural "Geese"
+	sprite "ship/goose"
+	attributes
+		category "Medium Warship"
+		"cost" 300000
+		"shields" 5700
+		"hull" 1600
+		"required crew" 6
+		"bunks" 12
+		"mass" 170
+		"drag" 4.7
+		"heat dissipation" .8
+		"fuel capacity" 400
+		"cargo space" 25
+		"outfit space" 410
+		"weapon capacity" 200
+		"engine capacity" 100
+		weapon
+			"blast radius" 80
+			"shield damage" 800
+			"hull damage" 400
+			"hit force" 1200
+	outfits
+		"Particle Cannon" 2
+		"Grenade Launcher" 4
+		"Grenade" 100
+
+		"RT-I Radiothermal"
+		"LP144a Battery Pack"
+		"D14-RN Shield Generator"
+
+		"X3700 Ion Thruster"
+		"X3200 Ion Steering"
+		"Hyperdrive"
+
+	engine 46.5 33
+	engine -46.5 33
+	gun -30.5 6.5 "Particle Cannon"
+	gun -47.5 7 "Grenade Launcher"
+	gun -71 7 "Grenade Launcher"
+	gun 30.5 6.5 "Particle Cannon"
+	gun 47.5 7 "Grenade Launcher"
+	gun 71 7 "Grenade Launcher"
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 15
+	description "An experimental ship designed for carrying the newly developed Grenade Launchers."
+	description "Though it is made from scrap parts, it packs quite a punch and can take a hit."
+	
+ship "Megaship MMMXV"
+	sprite "ship/megaship"
+	attributes
+		category "Heavy Warship"
+		"cost" 50000000
+		"shields" 70000
+		"hull" 32500
+		"required crew" 500
+		"bunks" 755
+		"mass" 10950
+		"drag" 60.7
+		"heat dissipation" 0.37
+		"fuel capacity" 100
+		"cargo space" 10
+		"outfit space" 200
+        "megaship capacity" 5000
+		"identification" -1
+		weapon
+			"blast radius" 700
+			"shield damage" 14000
+			"hull damage" 7200
+			"hit force" 11200
+	outfits
+		"Capital Identification"   
+	turret 0 -186
+	turret -74 -113
+	turret -84 233
+	gun -39 -301
+	gun -18 -335
+	engine -57 344
+	turret 74 -113
+	turret 84 233
+	gun 39 -301
+	gun 18 -335
+	engine 57 344
+	explode "tiny explosion" 15
+	explode "small explosion" 35
+	explode "medium explosion" 50
+	explode "big explosion" 70
+	explode "huge explosion" 25
+    description "Megaship. Not buyable yet."
+    
+ship "Auto-Scout"
+    sprite "ship/surveillance drone"
+    attributes
+        category "Interceptor"
+        cost 500000
+        automaton 1
+        shields 1250
+        hull 500
+        mass 10
+        drag 0.43
+        "heat dissipation" 0.75
+        "fuel capacity" 2000
+        turn 240
+        thrust 1.5
+        "outfit space" 8
+        "weapon  capacity" 8
+        "energy generation" 5
+        "shield generation" 0.15
+        "shield energy" 0.3
+    outfits
+        "Beam Laser"
+    gun 0 0
+    description "An automated scout armed with a basic beam laser."
+
+outfit "Grenade Launcher" #Thanks, Michael Feather!
+	category "Secondary Weapons"
+	cost 80000
+	thumbnail "outfit/grenadel"
+	"mass" 30
+	"outfit space" -35
+	"weapon capacity" -35
+	"gun ports" -1
+	"grenade capacity" 25
+	weapon
+		sprite "projectile/grenade"
+			"no repeat"
+			"frame rate" .0025
+		sound "torpedo"
+		ammo "Grenade"
+		icon "icon/typhoon"
+		"fire effect" "torpedo fire"
+		"hit effect" "big explosion"
+		"die effect" "tiny explosion"
+		"inaccuracy" 5
+		"velocity" 30
+		"lifetime" 150
+		"reload" 120
+		"firing energy" 10
+		"firing heat" 50
+		"acceleration" 0.001
+		"drag" .100
+		"shield damage" 1000
+		"hull damage" 467
+		"hit force" 200
+		"missile strength" 150
+		"trigger radius" 60
+		"blast radius" 100
+	description "After seeing so many different missile designs that all focused on firing swarms of weak homing projectiles, Tyil Corporation took inspiration from an archaeic design - grenades. Instead of making the shot home towards its target, grenades are meant to be fired mid-range, and let the effective radius work for you."
+	
+outfit "Grenade"  #Thanks, Michael Feather!
+	category "Ammunition"
+	cost 1000
+	thumbnail "outfit/grenade"
+	"grenade capacity" -1
+	mass .2
+	description "The ammunition used by the Grenade Launchers."
+
+outfit "MEGA Safety Unlock"
+    category "Systems"
+    cost 2500000
+    mass 50
+    "megaship capacity" 100
+    "safety unlock" 1
+	unplunderable 1
+    description "Megaships have their turret mounts and gun ports protected by a special safety code. To unlock it, a safety unlock has to be installed allowing one mega weapon per unlock."
+    
+outfit "MEGA Shield Module"
+    category "Systems"
+    cost 10000000
+    mass 100
+    "megaship capacity" 500
+    "shield generation" 45
+    "shield energy" 50
+    description "Megaships are the leader of the battlefield. As such they need adequate protection. A large amount of shield energy means that the megaship also requires a strong shield generator."
+
+outfit "Capital Identification"
+	category "Special"
+	cost 10
+	thumbnail "outfit/unknown"
+	"identification" 1
+	unplunderable 1
+	description "Identifies you ship as a capital in the ship registry."
+
+outfit "Crew Raiser"
+	category "Special"
+	"required crew" 5
+	unplunderable 1
+	description "Makes your ship require more crew, thus making its defense better."
+
+outfit "Developmental Lock"
+	category "Special"
+	cost 1
+	mass 1

@@ -1,0 +1,121 @@
+# Copyright (c) 2018 by Rafael Ramawadh
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+
+system Mindowe
+	pos -2076.96 1.00058e+06
+	government Uninhabited
+	habitable 806.68
+	belt 1127
+	asteroids "small rock" 1 6.72
+	asteroids "medium rock" 76 6.1824
+	asteroids "large rock" 2 4.6144
+	asteroids "small metal" 57 5.0176
+	asteroids "medium metal" 109 3.6736
+	asteroids "large metal" 44 4.5248
+	minables aluminum 13 6.74276
+	minables iron 29 6.21605
+	minables lead 13 7.67279
+	object
+		sprite star/k0
+		distance 44.429
+		period 16.6931
+		offset 180
+	object
+		sprite star/m0
+		distance 67.571
+		period 16.6931
+	object
+		sprite planet/titan
+		distance 192.381
+		period 37.5796
+	object
+		sprite planet/rock3
+		distance 364.741
+		period 98.1039
+	object
+		sprite planet/desert1
+		distance 912.551
+		period 388.235
+	object
+		sprite planet/gas1
+		distance 2448.44
+		period 1706.25
+		object
+			sprite planet/rock14
+			distance 217
+			period 12.7763
+		object
+			sprite planet/luna
+			distance 347
+			period 25.8351
+	object Gate
+		sprite planet/wormhole-red
+		distance 3716.6
+		period 3191.01
+
+system Mytilus
+	pos 198.771 -542.358
+	government Uninhabited
+	habitable 425.92
+	belt 1868
+	asteroids "medium rock" 2 1.4756
+	asteroids "large rock" 1 1.9754
+	asteroids "small metal" 2 3.3796
+	asteroids "medium metal" 15 2.023
+	asteroids "large metal" 1 2.9512
+	minables lead 5 3.69067
+	minables silver 6 3.72922
+	trade Clothing 290
+	trade Electronics 740
+	trade Equipment 530
+	trade Food 350
+	trade "Heavy Metals" 960
+	trade Industrial 720
+	trade "Luxury Goods" 1220
+	trade Medical 680
+	trade Metal 390
+	trade Plastic 390
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/rhea
+		distance 126.56
+		period 27.5957
+	object
+		sprite planet/cloud5
+		distance 555.2
+		period 253.554
+		object
+			sprite planet/desert4
+			distance 186
+			period 16.5782
+	object
+		sprite planet/rock13
+		distance 916.01
+		period 537.336
+	object
+		sprite planet/neptune
+		distance 1409.7
+		period 1025.86
+		object
+			sprite planet/luna
+			distance 203
+			period 14.4104
+	object
+		sprite planet/gas16
+		distance 2234.7
+		period 2047.5
+	object Gate
+		sprite planet/wormhole-red
+		distance 6319.54
+		period 9736.98
+		

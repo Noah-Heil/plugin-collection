@@ -1,0 +1,3 @@
+shipyard "XSZ Advanced"
+	"Bloodhound"
+	"XSZ MK I Freighter"

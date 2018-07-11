@@ -1,0 +1,244 @@
+# Copyright (c) 2016-2017 by Alphean Boolean
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+planet Allhome
+	tribute 500
+		threshold 5000
+		fleet "Small Hai" 10
+
+planet "Alta Hai"
+	tribute 15000
+		threshold 20000
+		fleet "Quarg" 5
+
+planet Cloudfire
+	tribute 1000
+		threshold 10000
+		fleet "Large Hai" 3
+
+planet Darkcloak
+	tribute 300
+		threshold 5000
+		fleet "Small Unfettered" 7
+
+planet Darkmetal
+	tribute 600
+		threshold 5000
+		fleet "Small Hai" 15
+
+planet Darkstone
+	tribute 200
+		threshold 1500
+		fleet "Small Militia" 18
+
+planet Dustmaker
+	tribute 600
+		threshold 5000
+		fleet "Small Hai" 15
+
+planet Echo
+	tribute 1000
+		threshold 8000
+		fleet Quarg 2
+
+planet Farwater
+	tribute 600
+		threshold 5000
+		fleet "Small Hai" 15
+
+planet Firelode
+	tribute 700
+		threshold 5000
+		fleet "Large Unfettered" 4
+
+planet Forpelog
+	tribute 1000
+		threshold 8000
+		fleet Quarg 2
+
+planet Frostmark
+	tribute 1000
+		threshold 8000
+		fleet "Large Hai" 5
+
+planet Giverstone
+	tribute 1000
+		threshold 8000
+		fleet "Large Hai" 5
+
+planet Grakhord
+	tribute 1000
+		threshold 8000
+		fleet Quarg 2
+
+planet Greenbloom
+	tribute 700
+		threshold 6500
+		fleet "Large Hai" 3
+
+planet Greenwater
+	tribute 1500
+		threshold 9000
+		fleet "Large Hai" 5
+
+planet Hai-home
+	tribute 25000
+		threshold 25000
+		fleet "Large Hai" 45
+
+planet Harmony
+	tribute 200
+		threshold 1500
+		fleet "Small Militia" 18
+
+planet Heartvalley
+	tribute 1000
+		threshold 7500
+		fleet "Large Hai" 5
+
+planet Icelake
+	tribute 15000
+		threshold 15000
+		fleet "Large Hai" 25
+
+planet "Kort Kehai"
+	tribute 1200
+		threshold 5000
+		fleet "Wanderer Defense" 6
+
+planet "Kort Vek'kri"
+	tribute 1200
+		threshold 5000
+		fleet "Wanderer Defense" 6
+
+planet Lagrange
+	tribute 1200
+		threshold 8000
+		fleet Quarg 3
+
+planet Makerplace
+	tribute 5000
+		threshold 10000
+		fleet "Large Hai" 10
+
+planet Mirrorlake
+	tribute 15000
+		threshold 15000
+		fleet "Large Hai" 25
+
+planet Newhome
+	tribute 17500
+		threshold 20000
+		fleet "Large Hai" 35
+
+planet "New Tibet"
+	tribute 200
+		threshold 3000
+		fleet "Small Republic" 7
+
+planet Skyfarm
+	tribute 600
+		threshold 5000
+		fleet "Small Hai" 15
+
+planet Snowfeather
+	tribute 600
+		threshold 5000
+		fleet "Small Hai" 15
+
+planet Stonebreak
+	tribute 12500
+		threshold 15000
+		fleet "Large Hai" 20
+	
+planet "Tik Klai"
+	tribute 1200
+		threshold 5000
+		fleet "Wanderer Defense" 6
+
+planet "Var' Kar'i'i"
+	tribute 1200
+		threshold 5000
+		fleet "Wanderer Defense" 6
+
+planet "Var' Kayi"
+	tribute 1200
+		threshold 5000
+		fleet "Wanderer Defense" 6
+
+planet "Var' Roi"
+	tribute 1200
+		threshold 5000
+		fleet "Wanderer Defense" 6
+
+planet "Vara K'chrai"
+	tribute 1200
+		threshold 5000
+		fleet "Wanderer Defense" 6
+
+planet "Vara Ke'sok"
+	tribute 1200
+		threshold 5000
+		fleet "Wanderer Defense" 6
+
+planet "Vara Ke'stai"
+	tribute 1200
+		threshold 5000
+		fleet "Wanderer Defense" 6
+
+planet "Vara Kehi'ki"
+	tribute 900
+		threshold 5000
+		fleet "Wanderer Defense" 8
+
+planet "Vara Pug"
+	tribute 5000
+		threshold 20000
+		fleet "Large Pug" 25
+
+planet "Vara Rakak"
+	tribute 500
+		threshold 5000
+		fleet "Wanderer Defense" 5
+
+planet "Varu Ek'lak'lai"
+	tribute 500
+		threshold 5000
+		fleet "Wanderer Defense" 3
+		
+planet "Varu K'est"
+	tribute 1600
+		threshold 5000
+		fleet "Wanderer Defense" 8
+
+planet "Varu K'prai"
+	tribute 1200
+		threshold 5000
+		fleet "Wanderer Defense" 7
+
+planet "Varu Mer'ek"
+	tribute 1700
+		threshold 5000
+		fleet "Wanderer Defense" 13
+
+planet "Varu Tek'kai"
+	tribute 1400
+		threshold 5000
+		fleet "Wanderer Defense" 9
+
+planet "Varu Tev'kei"
+	tribute 800
+		threshold 5000
+		fleet "Wanderer Defense" 4
+
+planet Warfeed
+	tribute 600
+		threshold 6000
+		fleet "Small Unfettered" 13

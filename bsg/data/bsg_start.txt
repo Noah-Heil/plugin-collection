@@ -1,0 +1,11 @@
+start
+	date 16 11 2503
+	system "Helios Alpha"
+	planet Caprica
+	account
+		credits 1480000
+		score 400
+		mortgage "Pilot Bonding"
+			principal 1000000
+			interest 0.007
+			term 365

@@ -1,0 +1,616 @@
+
+mission "BSG Cargo [0]"
+	name "Delivery to <planet>"
+	job
+	repeat
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo random 5 2 .1
+	source
+		government "Colonial"
+	destination
+		distance 1 2
+		government "Colonial"
+	on complete
+		payment
+		dialog "You drop off your cargo of <commodity> and collect your payment of <payment>."
+
+mission "BSG Cargo [1]"
+	name "Delivery to <planet>"
+	job
+	repeat
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo random 5 2 .1
+	to offer
+		random < 90
+	source
+		government "Colonial"
+	destination
+		distance 1 2
+		government "Colonial"
+	on complete
+		payment
+		dialog "You drop off your cargo of <commodity> and collect your payment of <payment>."
+
+mission "BSG Cargo [2]"
+	name "Delivery to <planet>"
+	job
+	repeat
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo random 5 2 .1
+	to offer
+		random < 80
+	source
+		government "Colonial"
+	destination
+		distance 1 2
+		government "Colonial"
+	on complete
+		payment
+		payment 2000
+		dialog "You drop off your cargo of <commodity> and collect your payment of <payment>."
+
+mission "BSG Cargo [3]"
+	name "Delivery to <planet>"
+	job
+	repeat
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo random 5 2 .1
+	to offer
+		random < 70
+	source
+		government "Colonial"
+	destination
+		distance 1 2
+		government "Colonial"
+	on complete
+		payment
+		payment 4000
+		dialog "You drop off your cargo of <commodity> and collect your payment of <payment>."
+
+mission "BSG Cargo [4]"
+	name "Delivery to <planet>"
+	job
+	repeat
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo random 5 2 .1
+	to offer
+		random < 60
+	source
+		government "Colonial"
+	destination
+		distance 1 2
+		government "Colonial"
+	on complete
+		payment
+		payment 6000
+		dialog "You drop off your cargo of <commodity> and collect your payment of <payment>."
+
+mission "BSG Bulk delivery [0]"
+	name "Bulk delivery to <planet>"
+	job
+	repeat
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo random 25 2 .05
+	to offer
+		random < 90
+	source
+		government "Colonial"
+	destination
+		distance 1 2
+		government "Colonial"
+	on complete
+		payment
+		dialog "You drop off your cargo of <commodity> and collect your payment of <payment>."
+
+mission "BSG Bulk delivery [1]"
+	name "Bulk delivery to <planet>"
+	job
+	repeat
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo random 25 2 .05
+	to offer
+		random < 70
+	source
+		government "Colonial"
+	destination
+		distance 1 2
+		government "Colonial"
+	on complete
+		payment
+		payment 2000
+		dialog "You drop off your cargo of <commodity> and collect your payment of <payment>."
+
+mission "BSG Bulk delivery [2]"
+	name "Bulk delivery to <planet>"
+	job
+	repeat
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo random 25 2 .05
+	to offer
+		random < 50
+	source
+		government "Colonial"
+	destination
+		distance 1 2
+		government "Colonial"
+	on complete
+		payment
+		payment 4000
+		dialog "You drop off your cargo of <commodity> and collect your payment of <payment>."
+
+mission "BSG Bulk delivery [3]"
+	name "Bulk delivery to <planet>"
+	job
+	repeat
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo random 25 2 .05
+	to offer
+		random < 30
+	source
+		government "Colonial"
+	destination
+		distance 1 2
+		government "Colonial"
+	on complete
+		payment
+		payment 6000
+		dialog "You drop off your cargo of <commodity> and collect your payment of <payment>."
+
+mission "BSG Rush Delivery [0]"
+	name "Rush delivery to <planet>"
+	job
+	repeat
+	deadline
+	description "Deliver <cargo> to <destination> by <date>. Payment is <payment>."
+	cargo random 5 2 .1
+	to offer
+		random < 90
+	source
+		government "Colonial"
+	destination
+		distance 1 2
+		government "Colonial"
+	on complete
+		payment
+		payment 16000
+		dialog "You drop off your cargo of <commodity> and collect your payment of <payment>."
+
+
+mission "BSG Rush Delivery [1]"
+	name "Rush delivery to <planet>"
+	job
+	repeat
+	deadline
+	description "Deliver <cargo> to <destination> by <date>. Payment is <payment>."
+	cargo random 5 2 .1
+	to offer
+		random < 80
+	source
+		government "Colonial"
+	destination
+		distance 1 2
+		government "Colonial"
+	on complete
+		payment
+		payment 18000
+		dialog "You drop off your cargo of <commodity> and collect your payment of <payment>."
+
+mission "BSG Rush Delivery [2]"
+	name "Rush delivery to <planet>"
+	job
+	repeat
+	deadline
+	description "Deliver <cargo> to <destination> by <date>. Payment is <payment>."
+	cargo random 5 2 .1
+	to offer
+		random < 70
+	source
+		government "Colonial"
+	destination
+		distance 1 2
+		government "Colonial"
+	on complete
+		payment
+		payment 20000
+		dialog "You drop off your cargo of <commodity> and collect your payment of <payment>."
+
+mission "BSG Rush Delivery [3]"
+	name "Rush delivery to <planet>"
+	job
+	repeat
+	deadline
+	description "Deliver <cargo> to <destination> by <date>. Payment is <payment>."
+	cargo random 5 2 .1
+	to offer
+		random < 60
+	source
+		government "Colonial"
+	destination
+		distance 1 2
+		government "Colonial"
+	on complete
+		payment
+		payment 24000
+		dialog "You drop off your cargo of <commodity> and collect your payment of <payment>."
+
+mission "BSG Passengers [0]"
+	name "Passenger transport to <planet>"
+	job
+	repeat
+	description "Bring <fare> to <destination>. Payment is <payment>."
+	passengers 1 10 .9
+	source
+		government "Colonial"
+	destination
+		distance 1 2
+		government "Colonial"
+	on complete
+		payment
+		payment 2000
+		dialog "You wish your <passengers> the best of luck on <planet>, and collect your payment of <payment>."
+
+mission "BSG Passengers [1]"
+	name "Passenger transport to <planet>"
+	job
+	repeat
+	description "Bring <fare> to <destination>. Payment is <payment>."
+	passengers 1 10 .9
+	to offer
+		random < 80
+	source
+		government "Colonial"
+	destination
+		distance 1 2
+		government "Colonial"
+	on complete
+		payment
+		payment 4000
+		dialog "You wish your <passengers> the best of luck on <planet>, and collect your payment of <payment>."
+
+mission "BSG Passengers [2]"
+	name "Passenger transport to <planet>"
+	job
+	repeat
+	description "Bring <fare> to <destination>. Payment is <payment>."
+	passengers 1 10 .9
+	to offer
+		random < 80
+	source
+		government "Colonial"
+	destination
+		distance 1 2
+		government "Colonial"
+	on complete
+		payment
+		payment 8000
+		dialog "You wish your <passengers> the best of luck on <planet>, and collect your payment of <payment>."
+
+mission "BSG Passengers [3]"
+	name "Passenger transport to <planet>"
+	job
+	repeat
+	description "Bring <fare> to <destination>. Payment is <payment>."
+	passengers 1 10 .9
+	to offer
+		random < 80
+	source
+		government "Colonial"
+	destination
+		distance 1 2
+		government "Colonial"
+	on complete
+		payment
+		payment 16000
+		dialog "You wish your <passengers> the best of luck on <planet>, and collect your payment of <payment>."
+
+mission "BSG Passengers [4]"
+	name "Passenger transport to <planet>"
+	job
+	repeat
+	description "Bring <fare> to <destination>. Payment is <payment>."
+	passengers 1 10 .9
+	to offer
+		random < 80
+	source
+		government "Colonial"
+	destination
+		distance 1 2
+		government "Colonial"
+	on complete
+		payment
+		payment 20000
+		dialog "You wish your <passengers> the best of luck on <planet>, and collect your payment of <payment>."
+
+mission "BSG Bulk Passengers [0]"
+	name "Passenger group transport to <planet>"
+	job
+	repeat
+	description "Bring <fare> to <destination>. Payment is <payment>."
+	passengers 10 30 .9
+	to offer
+		random < 80
+	source
+		government "Colonial"
+	destination
+		distance 1 2
+		government "Colonial"
+	on complete
+		payment
+		payment 8000
+		dialog "You wish your <passengers> the best of luck on <planet>, and collect your payment of <payment>."
+
+mission "BSG Bulk Passengers [1]"
+	name "Passenger group transport to <planet>"
+	job
+	repeat
+	description "Bring <fare> to <destination>. Payment is <payment>."
+	passengers 10 40 .9
+	to offer
+		random < 70
+	source
+		government "Colonial"
+	destination
+		distance 1 2
+		government "Colonial"
+	on complete
+		payment
+		payment 16000
+		dialog "You wish your <passengers> the best of luck on <planet>, and collect your payment of <payment>."
+
+mission "BSG Bulk Passengers [2]"
+	name "Passenger group transport to <planet>"
+	job
+	repeat
+	description "Bring <fare> to <destination>. Payment is <payment>."
+	passengers 20 40 .9
+	to offer
+		random < 60
+	source
+		government "Colonial"
+	destination
+		distance 1 2
+		government "Colonial"
+	on complete
+		payment
+		payment 20000
+		dialog "You wish your <passengers> the best of luck on <planet>, and collect your payment of <payment>."
+
+mission "BSG Bulk Passengers [3]"
+	name "Passenger group transport to <planet>"
+	job
+	repeat
+	description "Bring <fare> to <destination>. Payment is <payment>."
+	passengers 20 50 .9
+	to offer
+		random < 50
+	source
+		government "Colonial"
+	destination
+		distance 1 2
+		government "Colonial"
+	on complete
+		payment
+		payment 28000
+		dialog "You wish your <passengers> the best of luck on <planet>, and collect your payment of <payment>."
+
+mission "BSG Bulk Passengers [4]"
+	name "Passenger group transport to <planet>"
+	job
+	repeat
+	description "Bring <fare> to <destination>. Payment is <payment>."
+	passengers 30 50 .9
+	to offer
+		random < 40
+	source
+		government "Colonial"
+	destination
+		distance 1 2
+		government "Colonial"
+	on complete
+		payment
+		payment 36000
+		dialog "You wish your <passengers> the best of luck on <planet>, and collect your payment of <payment>."
+
+mission "Colonial Fleet Troops [0]"
+	name "Troop transport to <planet>"
+	job
+	repeat
+	description "Bring <fare> to <destination>. Payment is <payment>."
+	passengers 40
+	to offer
+		"passenger space" >= 40
+		random < 90
+	source
+		government "Colonial"
+	destination
+		distance 1 4
+		government "Colonial"
+	on complete
+		payment
+		"reputation: Colonial" += 10
+		dialog "You wish the troops the best of luck on <planet>, and collect your payment of <payment>."
+
+mission "Promotion to Ensign"
+	landing
+	description "Welcome back to the Scorpion Fleet Ensign <last>.  The Colonel will be expecting you, proceed directly to his office."
+	destination "Helious Alpha"
+	source
+		planet "Scorpion Fleet Shipyards"
+	to offer
+		has "Commision: done"
+	on offer
+		conversation
+			`Are you ready to accept your new rank and responciblities that corispond with the rank you are to be assigned?`
+			choice
+				`	I accept and swear to honor and defend Articles of Colinization with every fiber of my being!`
+					accept
+				`	While I am honored to be selected for promotion, I must decline, the possition you need filled would be best handled by one of my fellow officers.`
+					decline
+	on accept
+		set "license: Ensign"
+		"tribute: Colonial Pay Ensign" += 250000
+	on complete
+		payment 250000000
+		dialog "Congratulations Ensign, Funding has been sent so you may tranfer your flag to the new Mercury Class Battlestar."
+
+mission "Promotion to Captain"
+	landing
+	description "Welcome back to the Scorpion Fleet Ensign <last>.  The Commander will be expecting you, she is expecting you in her office."
+	destination "Helious Alpha"
+	source
+		planet "Scorpion Fleet Shipyards"
+	to offer
+		has "Promotion to Ensign: done"
+	on offer
+		conversation
+			`Are you ready to accept your new rank and responciblities that corispond with the rank you are to be assigned?`
+			choice
+				`	I accept and swear to honor and defend Articles of Colinization with every fiber of my being!`
+					accept
+				`	While I am honored to be selected for promotion, I must decline, the possition you need filled would be best handled by one of my fellow officers.`
+					decline
+	on accept
+		set "license: Captain"
+		"tribute: Colonial Pay Captain" += 250000
+	on complete
+		payment 250000000
+		dialog "Congratulations Captain, Funding has been sent so you may tranfer your flag to the new Mercury Class Battlestar."
+
+mission "Promotion to Major"
+	landing
+	description "Welcome back to the Scorpion Fleet Captain <last>.  Command will be expecting you, they are gathering on the Presidential Deck."
+	destination "Helious Alpha"
+	source
+		planet "Scorpion Fleet Shipyards"
+	to offer
+		has "Promotion to Captain: done"
+	on offer
+		conversation
+			`Are you ready to accept your new rank and responciblities that corispond with the rank you are to be assigned?`
+			choice
+				`	I accept and swear to honor and defend Articles of Colinization with every fiber of my being!`
+					accept
+				`	While I am honored to be selected for promotion, I must decline, the possition you need filled would be best handled by one of my fellow officers.`
+					decline
+	on accept
+		set "license: Major"
+		"tribute: Colonial Pay Major" += 250000
+	on complete
+		payment 250000000
+		dialog "Congratulations Major, Funding has been sent so you may tranfer your flag to the new Mercury Class Battlestar."
+
+mission "Promotion to Lieutenant Colonel"
+	landing
+	description "Welcome back to the Scorpion Fleet Major <last>.  Command will be expecting you, they are gathering on the Presidential Deck."
+	destination "Helious Alpha"
+	source
+		planet "Scorpion Fleet Shipyards"
+	to offer
+		has "Promotion to Major: done"
+	on offer
+		conversation
+			`Are you ready to accept your new rank and responciblities that corispond with the rank you are to be assigned?`
+			choice
+				`	I accept and swear to honor and defend Articles of Colinization with every fiber of my being!`
+					accept
+				`	While I am honored to be selected for promotion, I must decline, the possition you need filled would be best handled by one of my fellow officers.`
+					decline
+	on accept
+		set "license: Lieutenant Colonel"
+		"tribute: Colonial Pay Lieutenant Colonel" += 250000
+	on complete
+		payment 250000000
+		dialog "Congratulations Lieutenant Colonel, Funding has been sent so you may tranfer your flag to the new Mercury Class Battlestar."
+
+mission "Promotion to Colonel"
+	landing
+	description "Welcome back to the Scorpion Fleet Lieutenant Colonel <last>.  Command will be expecting you, they are gathering on the Presidential Deck."
+	destination "Helious Alpha"
+	source
+		planet "Scorpion Fleet Shipyards"
+	to offer
+		has "Promotion to Lieutenant Colonel: done"
+	on offer
+		conversation
+			`Are you ready to accept your new rank and responciblities that corispond with the rank you are to be assigned?`
+			choice
+				`	I accept and swear to honor and defend Articles of Colinization with every fiber of my being!`
+					accept
+				`	While I am honored to be selected for promotion, I must decline, the possition you need filled would be best handled by one of my fellow officers.`
+					decline
+	on accept
+		set "license: Colonel"
+		"tribute: Colonial Pay Colonel" += 250000
+	on complete
+		payment 500000000
+		dialog "Congratulations Colonel, Funding has been sent so you may tranfer your flag to the new Mercury Class Battlestar."
+
+mission "Promotion to Commander"
+	landing
+	description "Welcome back to the Scorpion Fleet Colonel <last>.  Command will be expecting you, they are gathering on the Presidential Deck."
+	destination "Helious Alpha"
+	source
+		planet "Scorpion Fleet Shipyards"
+	to offer
+		has "Promotion to Colonel: done"
+	on offer
+		conversation
+			`Are you ready to accept your new rank and responciblities that corispond with the rank you are to be assigned?`
+			choice
+				`	I accept and swear to honor and defend Articles of Colinization with every fiber of my being!`
+					accept
+				`	While I am honored to be selected for promotion, I must decline, the possition you need filled would be best handled by one of my fellow officers.`
+					decline
+	on accept
+		set "license: Commander"
+		"tribute: Colonial Pay Commander" += 500000
+	on complete
+		payment 1000000000
+		dialog "Congratulations Commander, Funding has been sent so you may tranfer your flag to the new Mercury Class Battlestar."
+
+mission "Promotion to Rear Admiral"
+	landing
+	description "Welcome back to the Scorpion Fleet Commander <last>.  Command will be expecting you, they are gathering on the Presidential Deck."
+	destination "Helious Alpha"
+	source
+		planet "Scorpion Fleet Shipyards"
+	to offer
+		has "Promotion to Commander: done"
+	on offer
+		conversation
+			`Are you ready to accept your new rank and responciblities that corispond with the rank you are to be assigned?`
+			choice
+				`	I accept and swear to honor and defend Articles of Colinization with every fiber of my being!`
+					accept
+				`	While I am honored to be selected for promotion, I must decline, the possition you need filled would be best handled by one of my fellow officers.`
+					decline
+	on accept
+		set "license: Rear Admiral"
+		"tribute: Colonial Pay Rear Admiral" += 750000
+	on complete
+		payment 2000000000
+		dialog "Congratulations Rear Admiral, Funding has been sent so you may tranfer your flag to the new Mercury Class Battlestar."
+
+mission "Promotion to Admiral"
+	landing
+	description "Welcome back to the Scorpion Fleet Rear Admiral <last>.  Command will be expecting you, they are gathering on the Presidential Deck."
+	destination "Helious Alpha"
+	source
+		planet "Scorpion Fleet Shipyards"
+	to offer
+		has "Promotion to Rear Admiral: done"
+	on offer
+		conversation
+			`Are you ready to accept your new rank and responciblities that corispond with the rank you are to be assigned?`
+			choice
+				`	I accept and swear to honor and defend Articles of Colinization with every fiber of my being!`
+					accept
+				`	While I am honored to be selected for promotion, I must decline, the possition you need filled would be best handled by one of my fellow officers.`
+					decline
+	on accept
+		set "license: Admiral"
+		"tribute: Colonial Pay Admiral" += 1000000
+	on complete
+		payment 2000000000
+		dialog "Congratulations Admiral, Funding has been sent so you may tranfer your flag to the new Mercury Class Battlestar."
+

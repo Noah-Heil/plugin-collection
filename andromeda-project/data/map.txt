@@ -1,0 +1,5947 @@
+# Copyright (c) 2018 by Rafael Ramawadh
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+galaxy "Andromeda Galaxy"
+	pos 0 1e+06
+	sprite ui/andromeda
+
+system Aghrikur
+	pos -2099.61 1.00044e+06
+	government Turrani
+	habitable 851.84
+	belt 1760
+	link Khitai
+	asteroids "small rock" 95 2.7324
+	asteroids "medium rock" 41 2.3276
+	asteroids "large rock" 5 2.6818
+	asteroids "small metal" 12 2.4794
+	asteroids "medium metal" 2 3.542
+	asteroids "large metal" 67 2.3529
+	minables copper 6 5.04798
+	minables silver 36 3.99184
+	minables titanium 23 3.61751
+	trade Clothing 337
+	trade Electronics 819
+	trade Equipment 407
+	trade Food 379
+	trade "Heavy Metals" 1081
+	trade Industrial 805
+	trade "Luxury Goods" 1446
+	trade Medical 683
+	trade Metal 480
+	trade Plastic 432
+	object
+		sprite star/k5
+		distance 51
+		period 14.1183
+		offset 180
+	object
+		sprite star/k5
+		distance 51
+		period 14.1183
+	object
+		sprite planet/rock11
+		distance 187
+		period 35.0464
+	object
+		sprite planet/gas7
+		distance 824.81
+		period 324.647
+		object
+			sprite planet/ice0
+			distance 221
+			period 11.6874
+		object
+			sprite planet/dust5
+			distance 367
+			period 25.0109
+	object
+		sprite planet/rhea
+		distance 1335.42
+		period 668.818
+	object
+		sprite planet/forest6
+		distance 1578.42
+		period 859.439
+	object
+		sprite planet/gas0
+		distance 2934.67
+		period 2178.81
+		object
+			sprite planet/dust0
+			distance 242
+			period 11.0326
+		object
+			sprite planet/miranda
+			distance 334
+			period 17.8886
+
+system Andromedus
+	pos -2332.49 999998
+	government Uninhabited
+	habitable 10000
+	object
+		sprite star/black-hole-core
+		period 1
+	object
+		sprite star/black-hole
+		period 1
+
+system Anghit
+	pos -1477.64 1.00052e+06
+	government Baharad
+	habitable 455
+	belt 1567
+	link Uighur
+	link Kait
+	link Manghit
+	asteroids "small metal" 7 0.9724
+	asteroids "medium metal" 4 1.6082
+	asteroids "large metal" 2 1.4025
+	minables copper 2 2.27503
+	minables titanium 5 1.7514
+	trade Clothing 219
+	trade Electronics 836
+	trade Equipment 418
+	trade Food 472
+	trade "Heavy Metals" 1144
+	trade Industrial 852
+	trade "Luxury Goods" 1315
+	trade Medical 836
+	trade Metal 514
+	trade Plastic 414
+	object
+		sprite star/m0
+		distance 27.5934
+		period 16.8182
+		offset 180
+	object
+		sprite star/m8
+		distance 65.4066
+		period 16.8182
+	object
+		sprite planet/desert9
+		distance 254.035
+		period 75.9266
+		offset 314.24
+	object
+		sprite planet/desert7
+		distance 541.486
+		period 236.284
+		offset 136.951
+	object
+		sprite planet/dust7
+		distance 992.376
+		period 586.231
+		offset 325.655
+	object
+		sprite planet/gas14
+		distance 2001.63
+		period 1679.31
+		offset 233.75
+		object
+			sprite planet/rock17
+			distance 245
+			period 15.6174
+		object
+			sprite planet/rock0
+			distance 379
+			period 30.0481
+
+system Arghun
+	pos -1608.95 1.00064e+06
+	government Leyam
+	habitable 233.28
+	belt 1393
+	link "Quchi Qataghan"
+	link Qalan
+	link Shirin
+	link Tushlub
+	asteroids "small rock" 4 1.377
+	asteroids "medium rock" 1 2.052
+	asteroids "large rock" 4 2.889
+	asteroids "small metal" 3 2.646
+	asteroids "medium metal" 50 2.187
+	asteroids "large metal" 9 2.457
+	minables lead 3 3.61274
+	trade Clothing 268
+	trade Electronics 697
+	trade Equipment 644
+	trade Food 141
+	trade "Heavy Metals" 813
+	trade Industrial 738
+	trade "Luxury Goods" 1157
+	trade Medical 578
+	trade Metal 294
+	trade Plastic 280
+	object
+		sprite star/m4
+		period 10
+	object
+		sprite planet/rock4
+		distance 161.04
+		period 53.5207
+	object
+		sprite planet/desert1
+		distance 512.08
+		period 303.479
+		object
+			sprite planet/desert4
+			distance 152
+			period 16.2672
+	object
+		sprite planet/desert3
+		distance 1266.33
+		period 1180.16
+		object
+			sprite planet/ice0
+			distance 176
+			period 24.3274
+	object
+		sprite planet/gas9
+		distance 2503.77
+		period 3281.05
+		object
+			sprite planet/callisto
+			distance 248
+			period 14.6443
+		object
+			sprite planet/rock7
+			distance 376
+			period 27.3383
+
+system Arlat
+	pos -1909.13 1.00058e+06
+	government "Gurkani (Republic)"
+	habitable 973.36
+	belt 1776
+	link Biyat
+	link Tanghut
+	link Majar
+	asteroids "small rock" 5 5.6304
+	asteroids "medium rock" 12 4.0848
+	asteroids "large rock" 2 4.416
+	asteroids "small metal" 4 7.8384
+	asteroids "medium metal" 3 3.7536
+	asteroids "large metal" 11 3.2016
+	trade Clothing 244
+	trade Electronics 762
+	trade Equipment 639
+	trade Food 375
+	trade "Heavy Metals" 1064
+	trade Industrial 590
+	trade "Luxury Goods" 1259
+	trade Medical 493
+	trade Metal 264
+	trade Plastic 279
+	object
+		sprite star/k0
+		distance 54.5
+		period 14.5903
+		offset 180
+	object
+		sprite star/k0
+		distance 54.5
+		period 14.5903
+	object
+		sprite planet/rock1
+		distance 212.75
+		period 39.7858
+	object
+		sprite planet/desert0
+		distance 533.84
+		period 158.139
+		object
+			sprite planet/rock14
+			distance 146
+			period 22.1764
+	object
+		sprite planet/desert2
+		distance 1147.45
+		period 498.338
+		object
+			sprite planet/dust5
+			distance 183
+			period 27.727
+	object
+		sprite planet/gas17
+		distance 2259.41
+		period 1376.94
+		object
+			sprite planet/ice8
+			distance 238
+			period 15.687
+
+system Asteropaios
+	pos -1741.22 1.00044e+06
+	government Kunduzgi
+	habitable 1566.68
+	belt 1743
+	link Cadmus
+	asteroids "small rock" 10 4.08
+	asteroids "medium rock" 9 2.25
+	asteroids "large rock" 13 2.07
+	asteroids "small metal" 26 2.22
+	asteroids "medium metal" 64 1.95
+	asteroids "large metal" 5 3.69
+	minables iron 24 3.56954
+	minables lead 12 4.15422
+	object
+		sprite star/g0
+		distance 40.0731
+		period 14.8066
+	object
+		sprite star/k0
+		distance 88.9269
+		period 14.8066
+		offset 180
+	object
+		sprite planet/rock16
+		distance 289.177
+		period 49.6953
+	object
+		sprite planet/desert3
+		distance 497.137
+		period 112.017
+	object
+		sprite planet/rock10
+		distance 844.427
+		period 247.978
+		object
+			sprite planet/tethys
+			distance 179
+			period 20.1556
+	object
+		sprite planet/gas10
+		distance 1729.92
+		period 727.123
+		object
+			sprite planet/dust7
+			distance 219
+			period 17.0594
+	object
+		sprite planet/gas8
+		distance 4748.53
+		period 3306.8
+		object
+			sprite planet/callisto
+			distance 217
+			period 17.0164
+		object
+			sprite planet/desert4
+			distance 366
+			period 37.2734
+
+system "Badai As"
+	pos -1956.43 1.00063e+06
+	government "Gurkani (Republic)"
+	habitable 1505.92
+	belt 1450
+	link Josolaji
+	link Ilaji
+	link Misit
+	asteroids "small rock" 3 1.408
+	asteroids "medium rock" 16 0.832
+	asteroids "large rock" 9 1.184
+	asteroids "medium metal" 12 0.912
+	asteroids "large metal" 1 1.872
+	minables copper 2 1.15315
+	minables iron 6 1.48557
+	trade Clothing 241
+	trade Electronics 800
+	trade Equipment 493
+	trade Food 148
+	trade "Heavy Metals" 1082
+	trade Industrial 671
+	trade "Luxury Goods" 1329
+	trade Medical 609
+	trade Metal 387
+	trade Plastic 394
+	object
+		sprite star/g0
+		distance 27.4346
+		period 9.84729
+	object
+		sprite star/k5
+		distance 69.5654
+		period 9.84729
+		offset 180
+	object
+		sprite planet/rock9
+		distance 284.575
+		period 49.4829
+		object
+			sprite planet/rock17
+			distance 115
+			period 15.8181
+	object
+		sprite planet/desert6
+		distance 861.185
+		period 260.498
+		object
+			sprite planet/dust7
+			distance 175
+			period 24.1203
+	object
+		sprite planet/water0
+		distance 1185.95
+		period 420.975
+	object
+		sprite planet/gas9
+		distance 2001.16
+		period 922.742
+		object
+			sprite planet/rhea
+			distance 229
+			period 12.994
+		object
+			sprite planet/tethys
+			distance 324
+			period 21.8679
+
+system Baghlan
+	pos -1792.99 1.00055e+06
+	government "Gurkani (Republic)"
+	habitable 1111.68
+	belt 1336
+	link Shoran
+	link Jalair
+	link Utarchi
+	asteroids "small rock" 38 2.9211
+	asteroids "medium rock" 25 2.8392
+	asteroids "large rock" 46 1.9929
+	asteroids "small metal" 12 2.6208
+	asteroids "medium metal" 22 3.9858
+	asteroids "large metal" 14 2.7573
+	minables titanium 2 4.7316
+	minables uranium 1 3.76165
+	trade Clothing 296
+	trade Electronics 802
+	trade Equipment 410
+	trade Food 546
+	trade "Heavy Metals" 809
+	trade Industrial 698
+	trade "Luxury Goods" 1045
+	trade Medical 774
+	trade Metal 413
+	trade Plastic 377
+	object
+		sprite star/g5
+		distance 39.8387
+		period 10.4144
+	object
+		sprite star/k0
+		distance 51.1613
+		period 10.4144
+		offset 180
+	object
+		sprite planet/desert0
+		distance 205.921
+		period 35.4505
+	object
+		sprite planet/gas16
+		distance 468.531
+		period 121.668
+	object
+		sprite planet/gas0
+		distance 952.541
+		period 352.692
+	object
+		sprite planet/gas15
+		distance 2090.15
+		period 1146.4
+		object
+			sprite planet/tethys
+			distance 219
+			period 17.0594
+		object
+			sprite planet/dust3
+			distance 319
+			period 29.9905
+
+system Bahrin
+	pos -1772.56 1.00063e+06
+	government "Gurkani (Republic)"
+	habitable 135
+	belt 1894
+	link Samrjiq
+	link "Jaljat Uljin"
+	link Chubi
+	asteroids "small rock" 28 1.4042
+	asteroids "medium rock" 34 2.8798
+	asteroids "large rock" 79 2.9512
+	asteroids "small metal" 20 3.3558
+	asteroids "medium metal" 17 3.4986
+	asteroids "large metal" 3 1.2138
+	minables aluminum 40 4.56625
+	minables iron 4 4.8184
+	minables lead 2 4.42303
+	trade Clothing 329
+	trade Electronics 818
+	trade Equipment 382
+	trade Food 331
+	trade "Heavy Metals" 1070
+	trade Industrial 831
+	trade "Luxury Goods" 1478
+	trade Medical 632
+	trade Metal 501
+	trade Plastic 409
+	object
+		sprite star/m8
+		period 10
+	object
+		sprite planet/desert5
+		distance 222.69
+		period 114.405
+	object
+		sprite planet/rock15
+		distance 465.45
+		period 345.703
+	object
+		sprite planet/gas12
+		distance 1399.26
+		period 1801.94
+		object
+			sprite planet/dust4
+			distance 283
+			period 12.5045
+		object
+			sprite planet/miranda
+			distance 402
+			period 21.1702
+		object
+			sprite planet/rock17
+			distance 547
+			period 33.6021
+	object
+		sprite planet/rock14
+		distance 2087.07
+		period 3282.45
+
+system Barkut
+	pos -1473.6 1.00058e+06
+	government Chianxi
+	habitable 1250
+	belt 1030
+	link Qiyat
+	link Tilabi
+	asteroids "small rock" 4 2.7216
+	asteroids "medium rock" 93 2.9646
+	asteroids "large rock" 1 5.103
+	asteroids "small metal" 2 6.4638
+	asteroids "medium metal" 61 4.1796
+	asteroids "large metal" 48 5.5404
+	minables copper 14 5.52966
+	minables iron 16 4.98606
+	minables titanium 13 7.81092
+	trade Clothing 308
+	trade Electronics 847
+	trade Equipment 391
+	trade Food 476
+	trade "Heavy Metals" 1146
+	trade Industrial 793
+	trade "Luxury Goods" 1375
+	trade Medical 793
+	trade Metal 507
+	trade Plastic 417
+	object
+		sprite star/g5
+		distance 56.5
+		period 13.5901
+		offset 180
+	object
+		sprite star/g5
+		distance 56.5
+		period 13.5901
+	object
+		sprite planet/venus
+		distance 217.75
+		period 36.3532
+	object
+		sprite planet/rock11
+		distance 441.19
+		period 104.844
+	object
+		sprite planet/gas16
+		distance 1324.44
+		period 545.323
+		object
+			sprite planet/lava0
+			distance 200
+			period 14.8882
+		object
+			sprite planet/tethys
+			distance 330
+			period 31.555
+	object
+		sprite planet/jupiter
+		distance 2295.13
+		period 1243.99
+		object
+			sprite planet/io
+			distance 261
+			period 13.2502
+
+system Barlas
+	pos -1885.4 1.00061e+06
+	government "Gurkani (Republic)"
+	habitable 625
+	belt 1963
+	link Ilaji
+	link Durman
+	asteroids "small rock" 97 2.34
+	asteroids "medium rock" 43 4.368
+	asteroids "large rock" 51 4.212
+	asteroids "medium metal" 3 3.705
+	asteroids "large metal" 2 2.106
+	minables gold 28 5.10031
+	minables iron 23 3.91573
+	trade Clothing 336
+	trade Electronics 723
+	trade Equipment 494
+	trade Food 455
+	trade "Heavy Metals" 724
+	trade Industrial 716
+	trade "Luxury Goods" 1063
+	trade Medical 766
+	trade Metal 266
+	trade Plastic 352
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/ice5
+		distance 302.69
+		period 84.2592
+		object
+			sprite planet/desert4
+			distance 155
+			period 19.0866
+	object
+		sprite planet/ocean8
+		distance 660.69
+		period 271.717
+	object
+		sprite planet/gas8
+		distance 938.78
+		period 460.22
+	object
+		sprite planet/cloud6
+		distance 1496.78
+		period 926.525
+	object
+		sprite planet/gas15
+		distance 3446.54
+		period 3237.39
+		object
+			sprite planet/rock7
+			distance 225
+			period 17.7652
+		object
+			sprite planet/io
+			distance 364
+			period 36.5552
+
+system "Belad Bustan"
+	pos -1741.73 1.0006e+06
+	government "Gurkani (Republic)"
+	habitable 425.92
+	belt 1911
+	link Ozjolaji
+	link Shoran
+	asteroids "small rock" 47 3.0888
+	asteroids "medium rock" 104 3.978
+	asteroids "large rock" 12 3.4164
+	asteroids "small metal" 12 2.9952
+	asteroids "medium metal" 14 6.4116
+	asteroids "large metal" 2 4.68
+	minables copper 46 5.63804
+	minables silicon 22 6.29272
+	trade Clothing 311
+	trade Electronics 673
+	trade Equipment 655
+	trade Food 252
+	trade "Heavy Metals" 821
+	trade Industrial 775
+	trade "Luxury Goods" 1263
+	trade Medical 626
+	trade Metal 255
+	trade Plastic 290
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/lava5
+		distance 202
+		period 55.6446
+	object
+		sprite planet/gas17
+		distance 537.61
+		period 241.6
+	object
+		sprite planet/gas1
+		distance 1234.25
+		period 840.428
+		object
+			sprite planet/callisto
+			distance 242
+			period 15.0466
+		object
+			sprite planet/miranda
+			distance 375
+			period 29.0243
+	object
+		sprite planet/gas9
+		distance 1985.46
+		period 1714.7
+		object
+			sprite planet/io
+			distance 242
+			period 14.1161
+
+system Biyat
+	pos -1854.73 1.00059e+06
+	government "Gurkani (Republic)"
+	habitable 1250
+	belt 1234
+	link Tuwadiq
+	link Arlat
+	link Durman
+	asteroids "small rock" 12 7.32
+	asteroids "large rock" 3 4.98
+	asteroids "small metal" 25 5.34
+	asteroids "medium metal" 26 4.08
+	asteroids "large metal" 1 4.26
+	minables gold 1 10.2382
+	minables tungsten 13 8.37061
+	trade Clothing 222
+	trade Electronics 723
+	trade Equipment 403
+	trade Food 407
+	trade "Heavy Metals" 863
+	trade Industrial 707
+	trade "Luxury Goods" 955
+	trade Medical 843
+	trade Metal 293
+	trade Plastic 434
+	object
+		sprite star/g5
+		distance 49
+		period 10.976
+		offset 180
+	object
+		sprite star/g5
+		distance 49
+		period 10.976
+	object
+		sprite planet/rock3
+		distance 166.29
+		period 24.2607
+	object
+		sprite planet/cloud3
+		distance 468.54
+		period 114.743
+		object
+			sprite planet/ice0
+			distance 172
+			period 24.8043
+	object
+		sprite planet/ice5
+		distance 830.75
+		period 270.901
+	object
+		sprite planet/ocean8
+		distance 1074.64
+		period 398.565
+	object
+		sprite planet/gas16
+		distance 2677.53
+		period 1567.5
+		object
+			sprite planet/dust4
+			distance 188
+			period 13.5686
+		object
+			sprite planet/rock17
+			distance 334
+			period 32.1305
+		object
+			sprite planet/oberon
+			distance 455
+			period 51.0875
+		object
+			sprite planet/europa
+			distance 626
+			period 82.4439
+
+system Botiyai
+	pos -1944.06 1.00052e+06
+	government Hamax
+	habitable 2201.68
+	belt 1308
+	link "Hafiz dad Kaln"
+	link Majar
+	asteroids "small rock" 60 4.5375
+	asteroids "medium rock" 66 1.95
+	asteroids "large rock" 17 1.875
+	asteroids "medium metal" 11 4.95
+	asteroids "large metal" 3 4.4625
+	minables lead 44 4.93926
+	minables tungsten 5 6.1208
+	trade Clothing 315
+	trade Electronics 765
+	trade Equipment 380
+	trade Food 244
+	trade "Heavy Metals" 1040
+	trade Industrial 790
+	trade "Luxury Goods" 1467
+	trade Medical 683
+	trade Metal 457
+	trade Plastic 454
+	object
+		sprite star/f5
+		distance 29.8417
+		period 13.3716
+		offset 180
+	object
+		sprite star/k0
+		distance 105.158
+		period 13.3716
+	object
+		sprite planet/lava1
+		distance 303.408
+		period 45.053
+	object
+		sprite planet/gas3
+		distance 901.408
+		period 230.709
+		object
+			sprite planet/rock3
+			distance 283
+			period 12.1603
+		object
+			sprite planet/rock17
+			distance 371
+			period 18.2526
+		object
+			sprite planet/rock0
+			distance 449
+			period 24.3016
+	object
+		sprite planet/rock6
+		distance 1746.5
+		period 622.207
+	object
+		sprite planet/gas16
+		distance 2245.39
+		period 907.027
+		object
+			sprite planet/europa
+			distance 206
+			period 15.5632
+
+system Busa
+	pos -1427.23 1.00057e+06
+	government Baharad
+	habitable 1715
+	belt 1961
+	link Qalmaq
+	link Kilaji
+	asteroids "medium rock" 3 1.855
+	asteroids "large rock" 5 5.145
+	asteroids "medium metal" 1 1.855
+	asteroids "large metal" 2 4.375
+	minables tungsten 2 6.99326
+	trade Clothing 292
+	trade Electronics 636
+	trade Equipment 485
+	trade Food 300
+	trade "Heavy Metals" 975
+	trade Industrial 689
+	trade "Luxury Goods" 1016
+	trade Medical 850
+	trade Metal 359
+	trade Plastic 376
+	object
+		sprite star/f5
+		period 10
+	object
+		sprite planet/lava6
+		distance 229.36
+		period 33.5509
+	object
+		sprite planet/dust6
+		distance 536.36
+		period 119.981
+	object
+		sprite planet/rock10
+		distance 744.97
+		period 196.398
+	object
+		sprite planet/gas9
+		distance 2186.38
+		period 987.453
+		object
+			sprite planet/dust0
+			distance 235
+			period 13.508
+
+system Cadmus
+	pos -1768.3 1.00041e+06
+	government Kunduzgi
+	habitable 1050.92
+	belt 1784
+	link Scordiscus
+	link Asteropaios
+	link Daortho
+	asteroids "small rock" 4 0.988
+	asteroids "medium rock" 5 0.715
+	asteroids "large rock" 9 1.391
+	asteroids "small metal" 1 0.65
+	asteroids "medium metal" 76 1.625
+	asteroids "large metal" 1 1.027
+	object
+		sprite star/g5
+		distance 44.9864
+		period 14.4298
+		offset 180
+	object
+		sprite star/k5
+		distance 66.0136
+		period 14.4298
+	object
+		sprite planet/lava6
+		distance 204.904
+		period 36.1909
+	object
+		sprite planet/desert2
+		distance 543.154
+		period 156.192
+		object
+			sprite planet/dust4
+			distance 160
+			period 22.6677
+	object Karput
+		sprite planet/ocean1
+		distance 1061.71
+		period 426.859
+		offset 14.141
+	object
+		sprite planet/rock14
+		distance 2138.72
+		period 1220.41
+		offset 4.91134
+
+system Chaqmaq
+	pos -1338.6 1.0005e+06
+	government Baharad
+	habitable 973.36
+	belt 1567
+	link Pesha
+	asteroids "small rock" 1 4.176
+	asteroids "medium rock" 16 1.624
+	asteroids "large rock" 2 3.48
+	asteroids "small metal" 38 3.103
+	asteroids "medium metal" 62 4.002
+	asteroids "large metal" 10 3.277
+	minables silicon 62 6.73178
+	trade Clothing 321
+	trade Electronics 761
+	trade Equipment 613
+	trade Food 426
+	trade "Heavy Metals" 983
+	trade Industrial 630
+	trade "Luxury Goods" 1283
+	trade Medical 493
+	trade Metal 263
+	trade Plastic 293
+	object
+		sprite star/k0
+		distance 62.5
+		period 17.9179
+		offset 180
+	object
+		sprite star/k0
+		distance 62.5
+		period 17.9179
+	object
+		sprite planet/titan
+		distance 210.66
+		period 39.2009
+	object
+		sprite planet/rock8
+		distance 379.66
+		period 94.8452
+	object
+		sprite planet/gas4
+		distance 1002.02
+		period 406.666
+		object
+			sprite planet/rock3
+			distance 246
+			period 13.6082
+		object
+			sprite planet/miranda
+			distance 343
+			period 22.4047
+		object
+			sprite planet/luna
+			distance 450
+			period 33.6679
+	object
+		sprite planet/gas6
+		distance 1861.66
+		period 1029.85
+		object
+			sprite planet/rock17
+			distance 293
+			period 12.8105
+
+system Chimbai
+	pos -2199.78 1.00044e+06
+	government Turrani
+	habitable 233.28
+	belt 1838
+	link Khitai
+	link Ming
+	asteroids "small rock" 16 4.824
+	asteroids "medium rock" 39 5.076
+	asteroids "large rock" 52 3.96
+	asteroids "small metal" 7 2.628
+	asteroids "medium metal" 47 3.96
+	asteroids "large metal" 11 4.896
+	minables iron 43 8.17331
+	minables lead 15 5.11959
+	minables silicon 6 6.74647
+	trade Clothing 306
+	trade Electronics 758
+	trade Equipment 398
+	trade Food 457
+	trade "Heavy Metals" 1265
+	trade Industrial 597
+	trade "Luxury Goods" 1463
+	trade Medical 901
+	trade Metal 499
+	trade Plastic 402
+	object
+		sprite star/m4
+		period 10
+	object Nurota
+		sprite planet/ice6
+		distance 516.072
+		period 307.034
+		offset 249.193
+	object
+		sprite planet/lava1
+		distance 964.562
+		period 784.543
+		offset 76.401
+	object
+		sprite planet/mercury
+		distance 1220.56
+		period 1116.76
+		offset 41.3969
+	object
+		sprite planet/desert3
+		distance 1557.4
+		period 1609.62
+		offset 22.0756
+	object
+		sprite planet/gas13
+		distance 3691.76
+		period 5874.52
+		offset 12.1739
+		object
+			sprite planet/dust1
+			distance 291
+			period 14.0136
+		object
+			sprite planet/rock3
+			distance 422
+			period 24.4725
+		object
+			sprite planet/dust0
+			distance 513
+			period 32.8009
+		object
+			sprite planet/europa
+			distance 616
+			period 43.16
+
+system Chubi
+	pos -1725.87 1.00064e+06
+	government "Gurkani (Republic)"
+	habitable 4087.76
+	belt 1019
+	link Ozjolaji
+	link Qirq
+	link Bahrin
+	link "Jaljat Uljin"
+	asteroids "small rock" 2 1.815
+	asteroids "medium rock" 29 2.475
+	asteroids "large rock" 10 3.96
+	asteroids "medium metal" 183 3.9875
+	asteroids "large metal" 11 1.485
+	minables copper 52 5.72808
+	minables gold 39 5.31562
+	minables uranium 16 6.01076
+	trade Clothing 330
+	trade Electronics 715
+	trade Equipment 596
+	trade Food 184
+	trade "Heavy Metals" 795
+	trade Industrial 710
+	trade "Luxury Goods" 992
+	trade Medical 555
+	trade Metal 241
+	trade Plastic 309
+	object
+		sprite star/f0
+		distance 59.995
+		period 10.6985
+	object
+		sprite star/f5
+		distance 83.005
+		period 10.6985
+		offset 180
+	object
+		sprite planet/ice6
+		distance 320.445
+		period 35.8879
+	object
+		sprite planet/desert5
+		distance 567.135
+		period 84.4981
+	object
+		sprite planet/gas15
+		distance 1268.35
+		period 282.601
+		object
+			sprite planet/miranda
+			distance 179
+			period 12.606
+	object
+		sprite planet/gas2
+		distance 2055.11
+		period 582.865
+		object
+			sprite planet/europa
+			distance 191
+			period 15.9943
+
+system Daortho
+	pos -1850.68 1.0004e+06
+	government Kunduzgi
+	habitable 425.92
+	belt 1672
+	link Partho
+	link Sirras
+	link Grabos
+	link Cadmus
+	link Maedus
+	asteroids "small metal" 3 2.184
+	asteroids "medium metal" 5 3.402
+	asteroids "large metal" 13 5.838
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/fog0
+		distance 200.16
+		period 54.886
+	object Kamuy
+		sprite planet/desert10
+		distance 550.6
+		period 250.409
+		object
+			sprite planet/tethys
+			distance 127
+			period 14.6525
+	object
+		sprite planet/ice3
+		distance 955.85
+		period 572.77
+	object
+		sprite planet/cloud0
+		distance 1288.49
+		period 896.432
+	object
+		sprite planet/uranus
+		distance 2643.7
+		period 2634.6
+		object
+			sprite planet/luna
+			distance 247
+			period 16.5851
+		object
+			sprite planet/rock14
+			distance 400
+			period 34.1793
+		object
+			sprite planet/dust1
+			distance 506
+			period 48.6294
+
+system Dojar
+	pos -2058.8 1.00055e+06
+	government "Gurkani (Empire)"
+	habitable 2372.76
+	belt 1440
+	link Vatan
+	link Misit
+	link "Ghariband Jit"
+	asteroids "small rock" 1 2.912
+	asteroids "medium rock" 13 1.95
+	asteroids "large rock" 2 3.9
+	asteroids "small metal" 222 1.872
+	asteroids "medium metal" 114 3.848
+	asteroids "large metal" 49 1.82
+	minables uranium 3 2.54224
+	trade Clothing 254
+	trade Electronics 676
+	trade Equipment 470
+	trade Food 324
+	trade "Heavy Metals" 790
+	trade Industrial 691
+	trade "Luxury Goods" 988
+	trade Medical 765
+	trade Metal 272
+	trade Plastic 480
+	object
+		sprite star/f0
+		period 10
+	object
+		sprite planet/desert6
+		distance 246.25
+		period 31.732
+	object
+		sprite planet/rock14
+		distance 440.94
+		period 76.033
+	object
+		sprite planet/gas4
+		distance 951.43
+		period 240.99
+		object
+			sprite planet/rock0
+			distance 239
+			period 13.0315
+		object
+			sprite planet/dust1
+			distance 354
+			period 23.491
+	object
+		sprite planet/gas15
+		distance 1685.19
+		period 568.076
+	object
+		sprite planet/gas5
+		distance 2724.08
+		period 1167.52
+		offset 13.8331
+		object "Satrap Station"
+			sprite planet/station5
+			distance 364.706
+			period 23.1612
+			offset 181.542
+
+system Durman
+	pos -1903.35 1.00065e+06
+	government "Gurkani (Republic)"
+	habitable 745.92
+	belt 1361
+	link Ilaji
+	link Barlas
+	link Biyat
+	link "Jaljat Uljin"
+	asteroids "small rock" 3 3.836
+	asteroids "medium rock" 46 2.212
+	asteroids "large rock" 4 1.652
+	asteroids "medium metal" 1 1.624
+	asteroids "large metal" 1 2.716
+	minables aluminum 2 3.19158
+	minables lead 2 4.06849
+	minables silicon 6 3.8889
+	trade Clothing 296
+	trade Electronics 782
+	trade Equipment 481
+	trade Food 180
+	trade "Heavy Metals" 958
+	trade Industrial 648
+	trade "Luxury Goods" 1442
+	trade Medical 736
+	trade Metal 389
+	trade Plastic 449
+	object
+		sprite star/k5
+		distance 51.4801
+		period 19.2524
+		offset 180
+	object
+		sprite star/m0
+		distance 68.5199
+		period 19.2524
+	object
+		sprite planet/desert7
+		distance 203.96
+		period 42.661
+	object
+		sprite planet/rock9
+		distance 510.77
+		period 169.064
+	object
+		sprite planet/lava4
+		distance 984.33
+		period 452.298
+	object
+		sprite planet/gas3
+		distance 1861.22
+		period 1176.01
+		object
+			sprite planet/ice0
+			distance 303
+			period 13.4719
+		object
+			sprite planet/rock17
+			distance 446
+			period 24.0584
+
+system Fuladchi
+	pos -1539.9 1.00056e+06
+	government Baharad
+	habitable 3878.28
+	belt 1408
+	link Tilabi
+	link Tatar
+	asteroids "small rock" 15 5.421
+	asteroids "medium rock" 14 5.538
+	asteroids "large rock" 33 2.925
+	asteroids "small metal" 1 5.187
+	asteroids "medium metal" 7 4.017
+	asteroids "large metal" 1 3.627
+	minables lead 10 4.41377
+	minables neodymium 1 6.5032
+	trade Clothing 275
+	trade Electronics 742
+	trade Equipment 565
+	trade Food 341
+	trade "Heavy Metals" 1023
+	trade Industrial 617
+	trade "Luxury Goods" 1172
+	trade Medical 499
+	trade Metal 246
+	trade Plastic 321
+	object
+		sprite star/a5
+		distance 8
+		period 9.85185
+		offset 180
+	object
+		sprite star/m4
+		distance 125
+		period 9.85185
+	object
+		sprite planet/lava1
+		distance 255
+		period 26.1548
+	object
+		sprite planet/rock6
+		distance 463.25
+		period 64.0418
+	object
+		sprite planet/gas2
+		distance 1020.41
+		period 209.364
+		object
+			sprite planet/dust1
+			distance 177
+			period 14.2684
+	object
+		sprite planet/cloud6
+		distance 1521.82
+		period 381.316
+	object
+		sprite planet/gas6
+		distance 1925.23
+		period 542.581
+
+system "Ghariband Jit"
+	pos -2135.96 1.00051e+06
+	government "Gurkani (Empire)"
+	habitable 320
+	belt 1994
+	link Moghul
+	link Jaurat
+	link Dojar
+	asteroids "small rock" 126 4.416
+	asteroids "medium rock" 26 5.472
+	asteroids "large rock" 59 4.752
+	asteroids "small metal" 7 4.752
+	asteroids "medium metal" 13 3.36
+	asteroids "large metal" 8 2.448
+	minables copper 7 7.97233
+	minables iron 11 6.12699
+	minables silicon 33 6.70009
+	trade Clothing 238
+	trade Electronics 698
+	trade Equipment 427
+	trade Food 249
+	trade "Heavy Metals" 964
+	trade Industrial 643
+	trade "Luxury Goods" 1366
+	trade Medical 682
+	trade Metal 359
+	trade Plastic 347
+	object
+		sprite star/m0
+		period 10
+	object
+		sprite planet/cloud5
+		distance 188.25
+		period 57.7547
+	object
+		sprite planet/rhea
+		distance 613.34
+		period 339.654
+	object
+		sprite planet/lava7
+		distance 766.59
+		period 474.602
+	object
+		sprite planet/gas17
+		distance 2187.84
+		period 2288.28
+		object
+			sprite planet/dust7
+			distance 218
+			period 13.7518
+		object
+			sprite planet/ice7
+			distance 334
+			period 26.0791
+
+system Girai
+	pos -1534.51 1.00063e+06
+	government Chianxi
+	habitable 1715
+	belt 1943
+	link Qiyat
+	link Onk
+	asteroids "large rock" 3 5.2785
+	asteroids "small metal" 3 8.6319
+	asteroids "medium metal" 10 5.8995
+	asteroids "large metal" 9 3.9123
+	minables gold 2 10.2043
+	minables silicon 1 7.39536
+	minables titanium 2 7.96679
+	trade Clothing 244
+	trade Electronics 765
+	trade Equipment 452
+	trade Food 434
+	trade "Heavy Metals" 1145
+	trade Industrial 869
+	trade "Luxury Goods" 1385
+	trade Medical 788
+	trade Metal 525
+	trade Plastic 444
+	object
+		sprite star/f5
+		period 10
+	object
+		sprite planet/cloud0
+		distance 283.25
+		period 46.045
+		object
+			sprite planet/ice0
+			distance 161
+			period 25.1752
+	object
+		sprite planet/rock19
+		distance 724.81
+		period 188.48
+		object
+			sprite planet/rock0
+			distance 145
+			period 23.335
+	object
+		sprite planet/cloud2
+		distance 1058.3
+		period 332.538
+	object
+		sprite planet/gas16
+		distance 1905.55
+		period 803.449
+		object
+			sprite planet/dust3
+			distance 197
+			period 14.5545
+
+system Grabos
+	pos -1923.4 1.00042e+06
+	government Kunduzgi
+	habitable 625
+	belt 1098
+	link Daortho
+	asteroids "medium metal" 3 1.656
+	asteroids "large metal" 25 1.776
+	minables titanium 6 1.94651
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/cloud4
+		distance 335.84
+		period 98.4733
+		object
+			sprite planet/dust5
+			distance 162
+			period 19.3939
+	object
+		sprite planet/desert10
+		distance 812.715
+		period 370.704
+		offset 270.645
+		object "Yukar Station"
+			sprite planet/station7
+			distance 172.875
+			period 23.2704
+			offset 356.304
+	object
+		sprite planet/gas4
+		distance 1437.63
+		period 872.148
+		offset 275.748
+	object
+		sprite planet/gas3
+		distance 2357.87
+		period 1831.89
+		offset 67.9775
+		object
+			sprite planet/europa
+			distance 278
+			period 11.8395
+		object
+			sprite planet/tethys
+			distance 385
+			period 19.2955
+
+system "Hafiz dad Kaln"
+	pos -1886.39 1.0005e+06
+	government Hamax
+	habitable 486.68
+	belt 1602
+	link Yuz
+	link Tubin
+	link Botiyai
+	link Utarchi
+	link Uishun
+	link Sakhtiiyan
+	asteroids "small rock" 73 2.178
+	asteroids "medium rock" 5 2.904
+	asteroids "large rock" 12 2.4684
+	asteroids "small metal" 16 1.9844
+	asteroids "medium metal" 13 3.025
+	asteroids "large metal" 69 1.6456
+	minables copper 42 3.86655
+	minables iron 14 3.04688
+	minables silicon 11 3.85306
+	trade Clothing 311
+	trade Electronics 736
+	trade Equipment 663
+	trade Food 380
+	trade "Heavy Metals" 757
+	trade Industrial 760
+	trade "Luxury Goods" 1173
+	trade Medical 668
+	trade Metal 232
+	trade Plastic 464
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/ice5
+		distance 163.25
+		period 37.8197
+	object
+		sprite planet/dust2
+		distance 391.94
+		period 140.691
+	object
+		sprite planet/rock19
+		distance 747.19
+		period 370.327
+	object
+		sprite planet/gas15
+		distance 2201.83
+		period 1873.33
+		object
+			sprite planet/dust1
+			distance 224
+			period 17.6469
+		object
+			sprite planet/rock0
+			distance 347
+			period 34.0245
+
+system Ilaji
+	pos -1927.81 1.00062e+06
+	government "Gurkani (Republic)"
+	habitable 1080
+	belt 1016
+	link "Badai As"
+	link Barlas
+	link Durman
+	link Majar
+	asteroids "small rock" 8 6.3936
+	asteroids "large rock" 1 3.24
+	asteroids "small metal" 85 4.968
+	asteroids "medium metal" 55 2.808
+	asteroids "large metal" 42 3.8016
+	minables iron 14 4.88679
+	minables lead 15 5.72245
+	minables tungsten 18 8.12243
+	trade Clothing 232
+	trade Electronics 652
+	trade Equipment 410
+	trade Food 179
+	trade "Heavy Metals" 1160
+	trade Industrial 669
+	trade "Luxury Goods" 1401
+	trade Medical 699
+	trade Metal 374
+	trade Plastic 304
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/desert0
+		distance 157.25
+		period 24.0013
+	object
+		sprite planet/cloud2
+		distance 462.46
+		period 121.048
+	object
+		sprite planet/dust3
+		distance 903.27
+		period 330.426
+	object
+		sprite planet/gas7
+		distance 1443.16
+		period 667.298
+	object
+		sprite planet/gas6
+		distance 2308.52
+		period 1350.05
+
+system Jalair
+	pos -1844.41 1.00054e+06
+	government "Gurkani (Republic)"
+	habitable 1111.68
+	belt 1443
+	link Baghlan
+	link Tuwadiq
+	link Uishun
+	asteroids "small rock" 21 6.565
+	asteroids "medium rock" 29 7.93
+	asteroids "large rock" 62 7.41
+	asteroids "small metal" 20 7.02
+	asteroids "medium metal" 52 6.11
+	asteroids "large metal" 15 3.9
+	minables lead 6 8.74532
+	minables titanium 27 10.5687
+	trade Clothing 360
+	trade Electronics 742
+	trade Equipment 482
+	trade Food 467
+	trade "Heavy Metals" 708
+	trade Industrial 846
+	trade "Luxury Goods" 1073
+	trade Medical 651
+	trade Metal 430
+	trade Plastic 488
+	object
+		sprite star/g5
+		distance 52.9723
+		period 15.9679
+		offset 180
+	object
+		sprite star/k0
+		distance 68.0277
+		period 15.9679
+	object
+		sprite planet/rock6
+		distance 253.238
+		period 48.3462
+	object
+		sprite planet/desert3
+		distance 597.238
+		period 175.102
+		object
+			sprite planet/dust4
+			distance 161
+			period 21.2846
+	object
+		sprite planet/gas8
+		distance 1149.24
+		period 467.396
+		object
+			sprite planet/rock7
+			distance 203
+			period 15.3965
+	object
+		sprite planet/gas7
+		distance 2579.24
+		period 1571.47
+		object
+			sprite planet/europa
+			distance 229
+			period 12.3277
+		object
+			sprite planet/ice0
+			distance 324
+			period 20.7467
+
+system "Jaljat Uljin"
+	pos -1833.19 1.00066e+06
+	government "Gurkani (Republic)"
+	habitable 486.68
+	belt 1324
+	link Durman
+	link Bahrin
+	link Chubi
+	asteroids "small metal" 1 6.825
+	asteroids "medium metal" 2 7.5075
+	asteroids "large metal" 8 6.09
+	minables silicon 1 8.12996
+	trade Clothing 343
+	trade Electronics 677
+	trade Equipment 631
+	trade Food 248
+	trade "Heavy Metals" 1102
+	trade Industrial 623
+	trade "Luxury Goods" 1260
+	trade Medical 503
+	trade Metal 285
+	trade Plastic 259
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/dust6
+		distance 214.64
+		period 57.017
+	object
+		sprite planet/dust7
+		distance 574.73
+		period 249.824
+	object
+		sprite planet/ocean0
+		distance 783.62
+		period 397.737
+	object
+		sprite planet/gas6
+		distance 1136.03
+		period 694.261
+	object
+		sprite planet/gas17
+		distance 3015.84
+		period 3002.97
+		object
+			sprite planet/tethys
+			distance 212
+			period 13.1879
+		object
+			sprite planet/rock3
+			distance 287
+			period 20.7729
+
+system Jaurat
+	pos -2120.63 1.00049e+06
+	government Turrani
+	habitable 425.92
+	belt 1631
+	link Khitai
+	link "Ghariband Jit"
+	link Ojinbai
+	asteroids "small rock" 2 1.648
+	asteroids "large rock" 1 1.552
+	asteroids "small metal" 4 1.936
+	asteroids "medium metal" 11 2.336
+	asteroids "large metal" 7 1.008
+	minables aluminum 6 2.55687
+	trade Clothing 293
+	trade Electronics 645
+	trade Equipment 526
+	trade Food 313
+	trade "Heavy Metals" 950
+	trade Industrial 653
+	trade "Luxury Goods" 988
+	trade Medical 803
+	trade Metal 436
+	trade Plastic 326
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/rock13
+		distance 181.81
+		period 47.5141
+	object
+		sprite planet/rock11
+		distance 377.81
+		period 142.333
+	object
+		sprite planet/ocean4
+		distance 664.17
+		period 331.753
+	object
+		sprite planet/gas7
+		distance 1803.13
+		period 1484.01
+		object
+			sprite planet/luna
+			distance 261
+			period 15
+
+system Jebergen
+	pos -2005.57 1.00051e+06
+	government "Gurkani (Empire)"
+	habitable 745.92
+	belt 1452
+	link Kerait
+	link Tubin
+	asteroids "small rock" 1 3.5088
+	asteroids "medium rock" 5 4.9776
+	asteroids "large rock" 2 5.7936
+	asteroids "small metal" 40 3.7944
+	asteroids "medium metal" 21 5.1816
+	asteroids "large metal" 52 4.7328
+	minables titanium 1 7.89443
+	minables tungsten 32 5.57409
+	trade Clothing 243
+	trade Electronics 642
+	trade Equipment 409
+	trade Food 206
+	trade "Heavy Metals" 1083
+	trade Industrial 643
+	trade "Luxury Goods" 1373
+	trade Medical 621
+	trade Metal 433
+	trade Plastic 276
+	object
+		sprite star/k5
+		distance 47.619
+		period 17.1277
+	object
+		sprite star/m0
+		distance 63.381
+		period 17.1277
+		offset 180
+	object
+		sprite planet/ice8
+		distance 172.941
+		period 33.3089
+	object
+		sprite planet/ice2
+		distance 335.941
+		period 90.1796
+	object
+		sprite planet/water1
+		distance 1113.38
+		period 544.101
+		object
+			sprite planet/desert4
+			distance 170
+			period 19.2407
+	object
+		sprite planet/lava4
+		distance 1793.59
+		period 1112.5
+		object
+			sprite planet/tethys
+			distance 140
+			period 21.2471
+	object
+		sprite planet/gas8
+		distance 3194.35
+		period 2644.16
+
+system Josolaji
+	pos -2018.35 1.0006e+06
+	government "Gurkani (Republic)"
+	habitable 1400
+	belt 1889
+	link "Badai As"
+	link Misit
+	asteroids "small rock" 3 5.964
+	asteroids "medium rock" 6 5.208
+	asteroids "large rock" 2 4.536
+	asteroids "small metal" 1 3.948
+	asteroids "medium metal" 3 3.276
+	asteroids "large metal" 4 6.216
+	minables lead 3 6.64201
+	trade Clothing 257
+	trade Electronics 653
+	trade Equipment 372
+	trade Food 469
+	trade "Heavy Metals" 899
+	trade Industrial 835
+	trade "Luxury Goods" 1030
+	trade Medical 909
+	trade Metal 417
+	trade Plastic 451
+	object
+		sprite star/g0
+		distance 22.8571
+		period 10.6904
+	object
+		sprite star/m0
+		distance 77.1429
+		period 10.6904
+		offset 180
+	object
+		sprite planet/cloud7
+		distance 267.553
+		period 46.7854
+	object
+		sprite planet/gas10
+		distance 813.843
+		period 248.203
+		object
+			sprite planet/lava0
+			distance 227
+			period 18.0026
+	object
+		sprite planet/uranus
+		distance 1902.84
+		period 887.361
+		object
+			sprite planet/callisto
+			distance 217
+			period 13.6572
+		object
+			sprite planet/dust0
+			distance 324
+			period 24.9167
+		object
+			sprite planet/dust7
+			distance 438
+			period 39.1638
+
+system Kait
+	pos -1524.86 1.00053e+06
+	government Baharad
+	habitable 233.28
+	belt 1544
+	link Anghit
+	asteroids "medium rock" 9 2.754
+	asteroids "large rock" 1 5.0625
+	asteroids "large metal" 5 2.673
+	trade Clothing 338
+	trade Electronics 689
+	trade Equipment 538
+	trade Food 259
+	trade "Heavy Metals" 937
+	trade Industrial 687
+	trade "Luxury Goods" 1077
+	trade Medical 530
+	trade Metal 239
+	trade Plastic 369
+	object
+		sprite star/m4
+		period 10
+	object
+		sprite planet/gas0
+		distance 320.76
+		period 150.45
+	object
+		sprite planet/ice4
+		distance 686.01
+		period 470.562
+	object
+		sprite planet/cloud7
+		distance 937.26
+		period 751.47
+	object
+		sprite planet/rock6
+		distance 1132.62
+		period 998.269
+	object
+		sprite planet/jupiter
+		distance 2044.58
+		period 2421.18
+		object
+			sprite planet/desert4
+			distance 265
+			period 13.556
+		object
+			sprite planet/rock0
+			distance 364
+			period 21.823
+		object
+			sprite planet/miranda
+			distance 485
+			period 33.564
+
+system Kalmuk
+	pos -2096.56 1.00047e+06
+	government "Gurkani (Empire)"
+	habitable 9126.68
+	belt 1441
+	link Qilwai
+	link Khitai
+	asteroids "small rock" 9 5.9994
+	asteroids "medium rock" 17 8.5536
+	asteroids "large rock" 121 8.7318
+	asteroids "small metal" 5 3.9798
+	asteroids "medium metal" 6 6.4152
+	asteroids "large metal" 5 8.316
+	minables silicon 21 14.9793
+	minables titanium 7 14.8184
+	trade Clothing 340
+	trade Electronics 777
+	trade Equipment 644
+	trade Food 443
+	trade "Heavy Metals" 894
+	trade Industrial 676
+	trade "Luxury Goods" 1220
+	trade Medical 519
+	trade Metal 273
+	trade Plastic 327
+	object
+		sprite star/b5
+		distance 7.19887
+		period 6.56756
+	object
+		sprite star/k0
+		distance 127.801
+		period 6.56756
+		offset 180
+	object
+		sprite planet/rock1
+		distance 414.491
+		period 35.3327
+		object
+			sprite planet/dust7
+			distance 137
+			period 18.6464
+	object
+		sprite planet/ice8
+		distance 749.451
+		period 85.905
+	object
+		sprite planet/gas6
+		distance 1936.41
+		period 356.78
+		object
+			sprite planet/rock0
+			distance 295
+			period 12.9419
+		object
+			sprite planet/dust4
+			distance 441
+			period 23.655
+		object
+			sprite planet/dust5
+			distance 595
+			period 37.0715
+
+system Keneges
+	pos -1831.83 1.00063e+06
+	government "Gurkani (Republic)"
+	habitable 1215
+	belt 1485
+	link Tuwadiq
+	asteroids "small rock" 48 1.768
+	asteroids "medium rock" 13 0.867
+	asteroids "large rock" 8 2.329
+	asteroids "small metal" 57 1.36
+	asteroids "large metal" 79 1.088
+	minables aluminum 3 1.42127
+	minables copper 13 1.87054
+	minables titanium 33 1.84329
+	trade Clothing 295
+	trade Electronics 762
+	trade Equipment 411
+	trade Food 177
+	trade "Heavy Metals" 1049
+	trade Industrial 589
+	trade "Luxury Goods" 1458
+	trade Medical 763
+	trade Metal 364
+	trade Plastic 364
+	object
+		sprite star/g0
+		distance 10.4444
+		period 10.4584
+		offset 180
+	object
+		sprite star/m8
+		distance 83.5556
+		period 10.4584
+	object
+		sprite planet/rock1
+		distance 240.516
+		period 42.8042
+	object
+		sprite planet/lava4
+		distance 457.206
+		period 112.186
+	object
+		sprite planet/lava5
+		distance 739.366
+		period 230.707
+	object Samarqand
+		sprite planet/rock6
+		distance 1277.56
+		period 524.013
+		offset 4.15861
+	object
+		sprite planet/ice7
+		distance 2660.6
+		period 1574.85
+		offset 0.657854
+
+system Kerait
+	pos -1986.29 1.00056e+06
+	government "Gurkani (Empire)"
+	habitable 320
+	belt 1885
+	link Mehdi
+	link Vatan
+	link Majar
+	link Jebergen
+	asteroids "small rock" 3 3.4398
+	asteroids "medium rock" 2 2.7846
+	asteroids "large rock" 8 1.365
+	asteroids "small metal" 20 3.0849
+	asteroids "medium metal" 19 4.0677
+	asteroids "large metal" 9 2.3205
+	minables lead 2 4.29468
+	minables silicon 2 6.08331
+	minables titanium 2 3.61443
+	trade Clothing 214
+	trade Electronics 722
+	trade Equipment 621
+	trade Food 168
+	trade "Heavy Metals" 1034
+	trade Industrial 614
+	trade "Luxury Goods" 1253
+	trade Medical 501
+	trade Metal 291
+	trade Plastic 281
+	object
+		sprite star/m0
+		period 10
+	object
+		sprite planet/desert1
+		distance 166.25
+		period 47.9322
+	object
+		sprite planet/rock9
+		distance 394.09
+		period 174.936
+	object
+		sprite planet/gas17
+		distance 903.7
+		period 607.465
+		object
+			sprite planet/rock14
+			distance 220
+			period 13.9414
+		object
+			sprite planet/callisto
+			distance 335
+			period 26.1963
+	object
+		sprite planet/gas16
+		distance 1604.26
+		period 1436.8
+	object
+		sprite planet/gas12
+		distance 2339.82
+		period 2530.8
+
+system Khitai
+	pos -2135.98 1.00046e+06
+	government Turrani
+	habitable 486.68
+	belt 1091
+	link Aghrikur
+	link Ojinbai
+	link Chimbai
+	link Qirghiz
+	link Jaurat
+	link Kalmuk
+	asteroids "medium rock" 3 4.263
+	asteroids "large rock" 1 1.7934
+	asteroids "small metal" 1 1.6758
+	asteroids "medium metal" 20 1.911
+	asteroids "large metal" 4 3.2634
+	minables silicon 4 2.89175
+	minables silver 5 3.73602
+	minables titanium 1 3.06653
+	trade Clothing 252
+	trade Electronics 632
+	trade Equipment 384
+	trade Food 189
+	trade "Heavy Metals" 1190
+	trade Industrial 754
+	trade "Luxury Goods" 1450
+	trade Medical 690
+	trade Metal 449
+	trade Plastic 365
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/fog0
+		distance 374.41
+		period 131.359
+		object
+			sprite planet/ice0
+			distance 202
+			period 21.179
+	object
+		sprite planet/gas7
+		distance 1199.37
+		period 753.127
+		object
+			sprite planet/rock0
+			distance 232
+			period 12.5708
+		object
+			sprite planet/miranda
+			distance 317
+			period 20.078
+		object
+			sprite planet/rhea
+			distance 419
+			period 30.5107
+	object
+		sprite planet/gas13
+		distance 2191.53
+		period 1860.2
+		object
+			sprite planet/ice8
+			distance 292
+			period 14.0859
+		object
+			sprite planet/rock3
+			distance 414
+			period 23.7799
+
+system Kilaji
+	pos -1396.15 1.00054e+06
+	government Baharad
+	habitable 659.2
+	belt 1375
+	link Uighur
+	link Busa
+	link Ormaq
+	asteroids "small rock" 2 2.32
+	asteroids "medium rock" 1 5.6608
+	asteroids "large rock" 1 2.552
+	asteroids "medium metal" 2 3.0624
+	asteroids "large metal" 2 6.6352
+	minables copper 1 6.85835
+	minables silicon 1 6.86731
+	minables titanium 2 6.31697
+	trade Clothing 236
+	trade Electronics 804
+	trade Equipment 381
+	trade Food 246
+	trade "Heavy Metals" 1146
+	trade Industrial 567
+	trade "Luxury Goods" 1446
+	trade Medical 765
+	trade Metal 509
+	trade Plastic 427
+	object
+		sprite star/k5
+		distance 35.7422
+		period 15.8137
+	object
+		sprite star/m4
+		distance 65.2578
+		period 15.8137
+		offset 180
+	object
+		sprite planet/cloud0
+		distance 237.348
+		period 56.9678
+	object
+		sprite planet/ice6
+		distance 442.348
+		period 144.943
+	object
+		sprite planet/ocean0
+		distance 808.188
+		period 357.948
+		object
+			sprite planet/miranda
+			distance 156
+			period 23.5454
+	object
+		sprite planet/dust0
+		distance 1105.44
+		period 572.602
+	object
+		sprite planet/gas11
+		distance 2287
+		period 1703.92
+		object
+			sprite planet/rhea
+			distance 254
+			period 13.3514
+
+system Kilchi
+	pos -1576.04 1.0006e+06
+	government Chianxi
+	habitable 625
+	belt 1910
+	link Qipchaq
+	link Targhut
+	link Qiyat
+	asteroids "small rock" 19 6.966
+	asteroids "medium rock" 51 7.236
+	asteroids "large rock" 1 4.806
+	asteroids "medium metal" 17 6.264
+	asteroids "large metal" 3 2.862
+	minables lead 1 11.1009
+	trade Clothing 285
+	trade Electronics 835
+	trade Equipment 381
+	trade Food 173
+	trade "Heavy Metals" 1035
+	trade Industrial 631
+	trade "Luxury Goods" 1471
+	trade Medical 708
+	trade Metal 438
+	trade Plastic 411
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/desert6
+		distance 170.89
+		period 35.7433
+	object
+		sprite planet/lava1
+		distance 365.65
+		period 111.871
+	object
+		sprite planet/mercury
+		distance 554.14
+		period 208.713
+	object
+		sprite planet/neptune
+		distance 1923.23
+		period 1349.48
+		object
+			sprite planet/io
+			distance 218
+			period 16.0368
+		object
+			sprite planet/ice0
+			distance 311
+			period 27.3258
+
+system Lechi
+	pos -1426.96 1.00065e+06
+	government Chianxi
+	habitable 625
+	belt 1426
+	link Matin
+	link Qiyat
+	asteroids "large metal" 1 3.1395
+	trade Clothing 295
+	trade Electronics 738
+	trade Equipment 638
+	trade Food 151
+	trade "Heavy Metals" 783
+	trade Industrial 672
+	trade "Luxury Goods" 1055
+	trade Medical 554
+	trade Metal 276
+	trade Plastic 274
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/lava2
+		distance 185.84
+		period 40.5349
+	object
+		sprite planet/gas7
+		distance 599.33
+		period 234.757
+		object
+			sprite planet/luna
+			distance 257
+			period 14.6565
+	object
+		sprite planet/gas10
+		distance 1445.29
+		period 879.129
+		object
+			sprite planet/lava0
+			distance 212
+			period 16.248
+		object
+			sprite planet/dust4
+			distance 329
+			period 31.4117
+	object
+		sprite planet/uranus
+		distance 3055.18
+		period 2701.94
+		object
+			sprite planet/rock0
+			distance 239
+			period 15.7859
+		object
+			sprite planet/io
+			distance 352
+			period 28.2155
+
+system Loqai
+	pos -1534.12 1.00071e+06
+	government Leyam
+	habitable 425.92
+	belt 1603
+	link Yabu
+	link Qurlaut
+	link Qarlug
+	asteroids "small rock" 8 1.1682
+	asteroids "medium rock" 6 2.6532
+	asteroids "large rock" 36 1.4652
+	asteroids "medium metal" 1 0.99
+	asteroids "large metal" 1 1.6632
+	minables silicon 1 1.68447
+	trade Clothing 315
+	trade Electronics 789
+	trade Equipment 596
+	trade Food 365
+	trade "Heavy Metals" 902
+	trade Industrial 765
+	trade "Luxury Goods" 1232
+	trade Medical 559
+	trade Metal 336
+	trade Plastic 368
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/desert9
+		distance 141.61
+		period 32.6616
+	object
+		sprite planet/neptune
+		distance 775.1
+		period 418.247
+		object
+			sprite planet/dust5
+			distance 211
+			period 15.2706
+		object
+			sprite planet/callisto
+			distance 344
+			period 31.7885
+		object
+			sprite planet/dust4
+			distance 457
+			period 48.6751
+	object
+		sprite planet/gas4
+		distance 1622.31
+		period 1266.48
+	object
+		sprite planet/gas9
+		distance 2793.56
+		period 2861.76
+		object
+			sprite planet/rhea
+			distance 224
+			period 12.5708
+		object
+			sprite planet/ice8
+			distance 370
+			period 26.6866
+		object
+			sprite planet/desert4
+			distance 533
+			period 46.1404
+
+system Maedus
+	pos -1804.68 1.00044e+06
+	government Kunduzgi
+	habitable 719.96
+	belt 1667
+	link Daortho
+	asteroids "small rock" 14 3.125
+	asteroids "medium rock" 7 2.25
+	asteroids "large rock" 1 3.15
+	asteroids "small metal" 2 1.675
+	asteroids "medium metal" 2 3.75
+	asteroids "large metal" 7 2.925
+	object
+		sprite star/k0
+		distance 33.0498
+		period 15.357
+	object
+		sprite star/m4
+		distance 68.9502
+		period 15.357
+		offset 180
+	object
+		sprite planet/titan
+		distance 256.56
+		period 61.2618
+	object Repun
+		sprite planet/desert2
+		distance 519.201
+		period 176.364
+		offset 67.1166
+	object
+		sprite planet/gas12
+		distance 1334.09
+		period 726.414
+		offset 10.8083
+	object
+		sprite planet/gas9
+		distance 2100.98
+		period 1435.62
+		offset 3.45847
+		object
+			sprite planet/desert4
+			distance 223
+			period 12.4867
+		object
+			sprite planet/oberon
+			distance 307
+			period 20.1696
+		object
+			sprite planet/rhea
+			distance 392
+			period 29.1018
+
+system Majar
+	pos -1967.23 1.00054e+06
+	government "Gurkani (Empire)"
+	habitable 806.68
+	belt 1913
+	link Kerait
+	link Ilaji
+	link Arlat
+	link Botiyai
+	asteroids "small rock" 1 1.4872
+	asteroids "medium rock" 15 3.575
+	asteroids "large rock" 2 2.6598
+	asteroids "small metal" 27 1.43
+	asteroids "medium metal" 20 3.2318
+	asteroids "large metal" 34 3.1746
+	minables copper 10 3.54187
+	minables iron 1 4.70272
+	minables silicon 6 3.46016
+	trade Clothing 280
+	trade Electronics 836
+	trade Equipment 606
+	trade Food 223
+	trade "Heavy Metals" 1035
+	trade Industrial 720
+	trade "Luxury Goods" 1326
+	trade Medical 538
+	trade Metal 288
+	trade Plastic 297
+	object
+		sprite star/k0
+		distance 42.8423
+		period 15.8068
+	object
+		sprite star/m0
+		distance 65.1577
+		period 15.8068
+		offset 180
+	object
+		sprite planet/mercury
+		distance 286.168
+		period 68.1774
+		offset 115.627
+	object
+		sprite planet/venus
+		distance 796.642
+		period 316.668
+		offset 186.128
+	object
+		sprite planet/gas7
+		distance 1289.89
+		period 652.438
+		offset 130.36
+		object
+			sprite planet/callisto
+			distance 260
+			period 14.9139
+
+system Manghit
+	pos -1411.17 1.00049e+06
+	government Baharad
+	habitable 425.92
+	belt 1610
+	link Anghit
+	asteroids "small rock" 39 2.414
+	asteroids "medium rock" 2 2.04
+	asteroids "large rock" 12 3.468
+	asteroids "small metal" 21 2.652
+	asteroids "medium metal" 39 2.516
+	asteroids "large metal" 14 2.822
+	minables iron 27 5.2061
+	trade Clothing 263
+	trade Electronics 764
+	trade Equipment 427
+	trade Food 165
+	trade "Heavy Metals" 1085
+	trade Industrial 688
+	trade "Luxury Goods" 1443
+	trade Medical 721
+	trade Metal 370
+	trade Plastic 339
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/ice6
+		distance 147
+		period 34.5439
+	object
+		sprite planet/rock15
+		distance 377
+		period 141.876
+	object
+		sprite planet/gas6
+		distance 1183.89
+		period 789.52
+		object
+			sprite planet/ice8
+			distance 288
+			period 12.484
+		object
+			sprite planet/europa
+			distance 391
+			period 19.7483
+	object
+		sprite planet/gas12
+		distance 2280.65
+		period 2110.98
+		object
+			sprite planet/rock14
+			distance 312
+			period 14.4749
+		object
+			sprite planet/ice7
+			distance 419
+			period 22.5271
+
+system Matin
+	pos -1428.22 1.00068e+06
+	government Leyam
+	habitable 425.92
+	belt 1922
+	link Qarlug
+	link Turcoman
+	link Lechi
+	asteroids "small rock" 22 5.3328
+	asteroids "medium rock" 46 3.4848
+	asteroids "large rock" 2 2.64
+	asteroids "small metal" 9 3.7488
+	asteroids "medium metal" 75 2.8512
+	asteroids "large metal" 15 4.0128
+	minables aluminum 33 4.74756
+	minables silicon 27 4.2524
+	trade Clothing 266
+	trade Electronics 707
+	trade Equipment 543
+	trade Food 355
+	trade "Heavy Metals" 1043
+	trade Industrial 704
+	trade "Luxury Goods" 1083
+	trade Medical 850
+	trade Metal 418
+	trade Plastic 287
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/desert9
+		distance 222.64
+		period 64.3874
+	object
+		sprite planet/desert7
+		distance 403
+		period 156.803
+	object
+		sprite planet/lava5
+		distance 979.01
+		period 593.713
+	object
+		sprite planet/ice3
+		distance 1242.77
+		period 849.146
+	object
+		sprite planet/gas13
+		distance 2112.81
+		period 1882.29
+		object
+			sprite planet/dust1
+			distance 296
+			period 14.3763
+
+system Mehdi
+	pos -1966.48 1.00058e+06
+	government "Gurkani (Empire)"
+	habitable 486.68
+	belt 1097
+	link Kerait
+	link Misit
+	asteroids "medium rock" 6 2.3793
+	asteroids "large rock" 2 3.465
+	asteroids "small metal" 78 2.4486
+	asteroids "medium metal" 18 2.4717
+	asteroids "large metal" 17 1.2012
+	minables lead 14 4.13603
+	minables titanium 22 2.99721
+	trade Clothing 273
+	trade Electronics 714
+	trade Equipment 482
+	trade Food 280
+	trade "Heavy Metals" 706
+	trade Industrial 766
+	trade "Luxury Goods" 964
+	trade Medical 706
+	trade Metal 252
+	trade Plastic 508
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/lava1
+		distance 141.21
+		period 30.4254
+	object
+		sprite planet/desert7
+		distance 424.85
+		period 158.778
+	object
+		sprite planet/rock12
+		distance 966.1
+		period 544.467
+	object
+		sprite planet/gas5
+		distance 1969.1
+		period 1584.31
+		object
+			sprite planet/rock14
+			distance 276
+			period 15.2479
+		object
+			sprite planet/miranda
+			distance 381
+			period 24.7306
+		object
+			sprite planet/rock3
+			distance 515
+			period 38.865
+		object
+			sprite planet/oberon
+			distance 615
+			period 50.7177
+
+system Ming
+	pos -2184.29 1.00041e+06
+	government Turrani
+	habitable 320
+	belt 1469
+	link Qirghiz
+	link Naiman
+	link Qushqi
+	link Chimbai
+	asteroids "medium rock" 7 5.856
+	asteroids "large rock" 1 2.496
+	asteroids "small metal" 30 4.512
+	asteroids "medium metal" 18 6.24
+	asteroids "large metal" 25 3.552
+	minables silicon 3 5.65943
+	minables uranium 19 7.27484
+	trade Clothing 260
+	trade Electronics 768
+	trade Equipment 476
+	trade Food 179
+	trade "Heavy Metals" 1151
+	trade Industrial 579
+	trade "Luxury Goods" 1374
+	trade Medical 670
+	trade Metal 458
+	trade Plastic 385
+	object
+		sprite star/m0
+		period 10
+	object
+		sprite planet/lava2
+		distance 160.96
+		period 45.6627
+	object Fergana
+		sprite planet/rock13
+		distance 518.21
+		period 263.781
+		offset 265.634
+	object
+		sprite planet/desert2
+		distance 1023.62
+		period 732.307
+		offset 325.607
+		object
+			sprite planet/dust7
+			distance 177
+			period 26.3747
+	object
+		sprite planet/europa
+		distance 1577.83
+		period 1401.44
+		offset 348.112
+	object
+		sprite planet/gas1
+		distance 3071.19
+		period 3805.79
+		offset 357.711
+		object
+			sprite planet/rock17
+			distance 201
+			period 11.3896
+
+system Misit
+	pos -2002.7 1.00058e+06
+	government "Gurkani (Empire)"
+	habitable 1566.68
+	belt 1871
+	link Dojar
+	link Mehdi
+	link Josolaji
+	link "Badai As"
+	asteroids "small rock" 6 2.5608
+	asteroids "large rock" 24 2.4816
+	asteroids "small metal" 5 2.9304
+	asteroids "large metal" 2 3.7488
+	minables copper 4 3.55841
+	minables neodymium 4 4.07308
+	minables tungsten 7 2.84104
+	trade Clothing 397
+	trade Electronics 797
+	trade Equipment 528
+	trade Food 436
+	trade "Heavy Metals" 686
+	trade Industrial 761
+	trade "Luxury Goods" 1061
+	trade Medical 606
+	trade Metal 355
+	trade Plastic 402
+	object
+		sprite star/g0
+		distance 36.0347
+		period 12.6257
+		offset 180
+	object
+		sprite star/k0
+		distance 79.9653
+		period 12.6257
+	object
+		sprite planet/rock5
+		distance 212.965
+		period 31.4075
+	object
+		sprite planet/fog0
+		distance 540.215
+		period 126.888
+	object
+		sprite planet/gas3
+		distance 1106.47
+		period 371.943
+		object
+			sprite planet/callisto
+			distance 320
+			period 14.6214
+	object
+		sprite planet/gas5
+		distance 1707.16
+		period 712.819
+	object
+		sprite planet/miranda
+		distance 2003.52
+		period 906.273
+
+system Moghul
+	pos -2065.77 1.00052e+06
+	government "Gurkani (Empire)"
+	habitable 486.68
+	belt 1703
+	link Qilwai
+	link "Ghariband Jit"
+	link Vatan
+	asteroids "small rock" 50 3.0723
+	asteroids "medium rock" 30 1.4839
+	asteroids "large rock" 64 2.4035
+	asteroids "small metal" 1 1.1913
+	asteroids "medium metal" 23 2.5916
+	asteroids "large metal" 4 2.926
+	minables aluminum 39 4.58892
+	minables iron 18 4.33968
+	trade Clothing 231
+	trade Electronics 647
+	trade Equipment 605
+	trade Food 267
+	trade "Heavy Metals" 845
+	trade Industrial 789
+	trade "Luxury Goods" 1184
+	trade Medical 613
+	trade Metal 276
+	trade Plastic 424
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/lava7
+		distance 175.25
+		period 42.0654
+	object
+		sprite planet/desert0
+		distance 366.5
+		period 127.218
+	object
+		sprite planet/gas2
+		distance 1229.91
+		period 782.075
+		object
+			sprite planet/tethys
+			distance 173
+			period 13.7874
+		object
+			sprite planet/io
+			distance 254
+			period 24.5282
+		object
+			sprite planet/dust4
+			distance 376
+			period 44.177
+	object
+		sprite planet/gas5
+		distance 2121.75
+		period 1772.06
+		object
+			sprite planet/ice8
+			distance 258
+			period 13.7809
+		object
+			sprite planet/desert4
+			distance 383
+			period 24.9256
+
+system Naiman
+	pos -2161.55 1.00039e+06
+	government Turrani
+	habitable 233.28
+	belt 1977
+	link Ming
+	asteroids "small rock" 3 3.3872
+	asteroids "medium rock" 16 4.2224
+	asteroids "large rock" 1 2.6448
+	asteroids "small metal" 4 3.9904
+	asteroids "medium metal" 5 6.3104
+	asteroids "large metal" 8 4.6864
+	minables copper 1 7.13908
+	minables lead 6 8.06455
+	trade Clothing 375
+	trade Electronics 751
+	trade Equipment 623
+	trade Food 342
+	trade "Heavy Metals" 753
+	trade Industrial 712
+	trade "Luxury Goods" 1190
+	trade Medical 652
+	trade Metal 258
+	trade Plastic 376
+	object
+		sprite star/m4
+		period 10
+	object
+		sprite planet/desert5
+		distance 194.89
+		period 71.2534
+	object
+		sprite planet/ocean4
+		distance 535.45
+		period 324.489
+		object
+			sprite planet/rock0
+			distance 169
+			period 20.0014
+	object
+		sprite planet/ice7
+		distance 852.14
+		period 651.46
+	object
+		sprite planet/gas10
+		distance 2146.95
+		period 2605.28
+		object
+			sprite planet/dust4
+			distance 201
+			period 15
+
+system Ojinbai
+	pos -2188.53 1.00047e+06
+	government Turrani
+	habitable 135
+	belt 1793
+	link Khitai
+	link Jaurat
+	asteroids "small rock" 13 8.97
+	asteroids "medium rock" 16 4.992
+	asteroids "large rock" 16 6.162
+	asteroids "large metal" 1 7.176
+	minables silicon 2 7.11189
+	minables silver 4 11.2831
+	trade Clothing 305
+	trade Electronics 799
+	trade Equipment 537
+	trade Food 232
+	trade "Heavy Metals" 1128
+	trade Industrial 633
+	trade "Luxury Goods" 1406
+	trade Medical 574
+	trade Metal 418
+	trade Plastic 310
+	object
+		sprite star/m8
+		period 10
+	object
+		sprite planet/rock4
+		distance 357.16
+		period 232.374
+		object
+			sprite planet/dust7
+			distance 163
+			period 18.9457
+	object
+		sprite planet/gas17
+		distance 874.41
+		period 890.155
+		object
+			sprite planet/lava0
+			distance 217
+			period 13.6572
+	object
+		sprite planet/gas11
+		distance 1614.66
+		period 2233.65
+		object
+			sprite planet/dust0
+			distance 265
+			period 14.2281
+	object
+		sprite planet/gas0
+		distance 3240.5
+		period 6350.55
+		object
+			sprite planet/rock17
+			distance 253
+			period 11.7934
+		object
+			sprite planet/tethys
+			distance 378
+			period 21.5375
+		object
+			sprite planet/callisto
+			distance 496
+			period 32.3727
+
+system Oklan
+	pos -1443.47 1.0006e+06
+	government Chianxi
+	habitable 10355
+	belt 1252
+	link Qiyat
+	link Ramdan
+	asteroids "small rock" 2 3.2368
+	asteroids "medium rock" 2 3.944
+	asteroids "large rock" 4 4.08
+	asteroids "small metal" 13 4.08
+	asteroids "medium metal" 60 2.3664
+	asteroids "large metal" 11 2.5296
+	minables copper 8 3.48563
+	minables silicon 35 3.75689
+	trade Clothing 281
+	trade Electronics 704
+	trade Equipment 572
+	trade Food 190
+	trade "Heavy Metals" 766
+	trade Industrial 680
+	trade "Luxury Goods" 1086
+	trade Medical 627
+	trade Metal 325
+	trade Plastic 338
+	object
+		sprite star/b5
+		distance 22.69
+		period 6.30327
+		offset 180
+	object
+		sprite star/f5
+		distance 114.31
+		period 6.30327
+	object
+		sprite planet/rock4
+		distance 294.87
+		period 19.9036
+	object
+		sprite planet/ice4
+		distance 740.56
+		period 79.2183
+		object
+			sprite planet/luna
+			distance 137
+			period 20.1578
+	object
+		sprite planet/cloud7
+		distance 1285.2
+		period 181.109
+	object
+		sprite planet/gas1
+		distance 2812.64
+		period 586.349
+		object
+			sprite planet/rock14
+			distance 256
+			period 16.371
+		object
+			sprite planet/dust1
+			distance 405
+			period 32.576
+		object
+			sprite planet/dust4
+			distance 536
+			period 49.5978
+
+system Onk
+	pos -1575.4 1.00063e+06
+	government Chianxi
+	habitable 745.92
+	belt 1527
+	link Girai
+	asteroids "small rock" 2 3.9182
+	asteroids "medium rock" 10 2.3452
+	asteroids "large rock" 13 1.7446
+	asteroids "small metal" 9 1.7732
+	asteroids "medium metal" 24 2.8314
+	asteroids "large metal" 8 3.2604
+	minables tungsten 3 2.91905
+	trade Clothing 298
+	trade Electronics 707
+	trade Equipment 413
+	trade Food 478
+	trade "Heavy Metals" 876
+	trade Industrial 820
+	trade "Luxury Goods" 1120
+	trade Medical 872
+	trade Metal 500
+	trade Plastic 502
+	object
+		sprite star/k5
+		distance 35.607
+		period 11.0747
+		offset 180
+	object
+		sprite star/m0
+		distance 47.393
+		period 11.0747
+	object
+		sprite planet/oberon
+		distance 158.353
+		period 29.1846
+	object
+		sprite planet/rock5
+		distance 442.763
+		period 136.449
+	object
+		sprite planet/gas2
+		distance 921.253
+		period 409.527
+	object
+		sprite planet/gas3
+		distance 2359.86
+		period 1678.97
+		object
+			sprite planet/dust0
+			distance 286
+			period 12.3542
+		object
+			sprite planet/dust4
+			distance 402
+			period 20.5875
+		object
+			sprite planet/europa
+			distance 512
+			period 29.5917
+
+system Ormaq
+	pos -1356.41 1.00055e+06
+	government Baharad
+	habitable 320
+	belt 1519
+	link Kilaji
+	link Pesha
+	asteroids "small rock" 2 4.725
+	asteroids "medium rock" 5 2.268
+	asteroids "large rock" 6 4.5675
+	asteroids "small metal" 1 2.016
+	asteroids "medium metal" 34 2.52
+	asteroids "large metal" 1 1.638
+	minables copper 5 5.20456
+	minables neodymium 2 5.31753
+	minables silicon 1 5.32942
+	trade Clothing 313
+	trade Electronics 662
+	trade Equipment 477
+	trade Food 173
+	trade "Heavy Metals" 718
+	trade Industrial 691
+	trade "Luxury Goods" 1101
+	trade Medical 616
+	trade Metal 383
+	trade Plastic 326
+	object
+		sprite star/m0
+		period 10
+	object
+		sprite planet/desert9
+		distance 139.24
+		period 36.7393
+	object
+		sprite planet/titan
+		distance 401.4
+		period 179.825
+	object
+		sprite planet/desert8
+		distance 764.36
+		period 472.533
+	object
+		sprite planet/jupiter
+		distance 1099.45
+		period 815.17
+	object
+		sprite planet/dust4
+		distance 2996.49
+		period 3667.79
+
+system Ozjolaji
+	pos -1722.8 1.00057e+06
+	government "Gurkani (Republic)"
+	habitable 1505.92
+	belt 1379
+	link Chubi
+	link "Belad Bustan"
+	link Shirin
+	asteroids "medium rock" 3 6.048
+	asteroids "large rock" 2 8.6688
+	asteroids "large metal" 1 9.0048
+	minables silver 1 9.4237
+	minables titanium 1 9.18644
+	trade Clothing 203
+	trade Electronics 647
+	trade Equipment 379
+	trade Food 438
+	trade "Heavy Metals" 846
+	trade Industrial 771
+	trade "Luxury Goods" 989
+	trade Medical 882
+	trade Metal 327
+	trade Plastic 437
+	object
+		sprite star/g0
+		distance 28.5659
+		period 10.4626
+	object
+		sprite star/k5
+		distance 72.4341
+		period 10.4626
+		offset 180
+	object
+		sprite planet/rhea
+		distance 222.244
+		period 34.1511
+	object
+		sprite planet/venus
+		distance 433.684
+		period 93.0935
+	object
+		sprite planet/gas8
+		distance 1024.57
+		period 338.045
+		object
+			sprite planet/rock14
+			distance 201
+			period 15.1695
+		object
+			sprite planet/ice8
+			distance 355
+			period 35.6057
+	object
+		sprite planet/gas11
+		distance 2758.57
+		period 1493.43
+		object
+			sprite planet/miranda
+			distance 271
+			period 14.714
+		object
+			sprite planet/dust4
+			distance 409
+			period 27.2812
+
+system Partho
+	pos -1822.74 1.00037e+06
+	government Kunduzgi
+	habitable 135
+	belt 1776
+	link Daortho
+	asteroids "small rock" 25 5.307
+	asteroids "medium rock" 16 2.262
+	asteroids "large rock" 3 6.1335
+	asteroids "small metal" 15 2.4795
+	asteroids "medium metal" 337 2.262
+	asteroids "large metal" 5 2.8275
+	minables aluminum 16 4.06597
+	minables copper 34 4.40043
+	object
+		sprite star/m8
+		period 10
+	object
+		sprite planet/ice1
+		distance 186.01
+		period 87.3369
+	object
+		sprite planet/mercury
+		distance 442.26
+		period 320.191
+	object
+		sprite planet/rock3
+		distance 943.26
+		period 997.333
+	object
+		sprite planet/rhea
+		distance 1185.62
+		period 1405.44
+	object
+		sprite planet/gas4
+		distance 3278.58
+		period 6462.82
+		object
+			sprite planet/miranda
+			distance 253
+			period 14.1931
+
+system Pesha
+	pos -1332.51 1.00054e+06
+	government Baharad
+	habitable 659.2
+	belt 1836
+	link Ormaq
+	link Chaqmaq
+	asteroids "small rock" 20 1.7765
+	asteroids "medium rock" 9 2.7863
+	asteroids "large rock" 7 1.496
+	asteroids "small metal" 1 1.6643
+	asteroids "medium metal" 2 2.3749
+	asteroids "large metal" 2 2.057
+	minables iron 10 3.19859
+	minables lead 9 3.16276
+	trade Clothing 263
+	trade Electronics 792
+	trade Equipment 408
+	trade Food 460
+	trade "Heavy Metals" 877
+	trade Industrial 678
+	trade "Luxury Goods" 980
+	trade Medical 790
+	trade Metal 355
+	trade Plastic 312
+	object
+		sprite star/k5
+		distance 29.3723
+		period 11.7806
+	object
+		sprite star/m4
+		distance 53.6277
+		period 11.7806
+		offset 180
+	object
+		sprite planet/dust4
+		distance 196.118
+		period 42.7884
+	object
+		sprite planet/titan
+		distance 391.118
+		period 120.507
+	object
+		sprite planet/rock7
+		distance 767.368
+		period 331.174
+	object
+		sprite planet/gas5
+		distance 1580.26
+		period 978.686
+		object
+			sprite planet/rock17
+			distance 232
+			period 11.7511
+	object
+		sprite planet/gas7
+		distance 2464.26
+		period 1905.81
+
+system Pinnes
+	pos -1677.49 1.00042e+06
+	government Kunduzgi
+	habitable 3878.28
+	belt 1863
+	link Scordiscus
+	asteroids "medium rock" 11 2.0496
+	asteroids "large rock" 3 1.8312
+	asteroids "small metal" 6 2.52
+	asteroids "large metal" 2 2.4528
+	minables lead 1 2.59987
+	object
+		sprite star/a5
+		distance 7.33835
+		period 8.65526
+	object
+		sprite star/m4
+		distance 114.662
+		period 8.65526
+		offset 180
+	object
+		sprite planet/dust5
+		distance 287.422
+		period 31.2982
+	object
+		sprite planet/desert2
+		distance 607.032
+		period 96.0633
+	object
+		sprite planet/gas7
+		distance 1897.27
+		period 530.805
+		object
+			sprite planet/luna
+			distance 251
+			period 14.1462
+		object
+			sprite planet/dust7
+			distance 401
+			period 28.5658
+		object
+			sprite planet/rock3
+			distance 487
+			period 38.2317
+		object
+			sprite planet/rock17
+			distance 656
+			period 59.7704
+
+system Qalan
+	pos -1540.15 1.00064e+06
+	government Leyam
+	habitable 233.28
+	belt 1358
+	link Arghun
+	link Qarlug
+	asteroids "large metal" 1 3.5952
+	trade Clothing 352
+	trade Electronics 680
+	trade Equipment 578
+	trade Food 248
+	trade "Heavy Metals" 845
+	trade Industrial 688
+	trade "Luxury Goods" 1024
+	trade Medical 501
+	trade Metal 223
+	trade Plastic 310
+	object
+		sprite star/m4
+		period 10
+	object
+		sprite planet/lava1
+		distance 186.61
+		period 66.7611
+	object
+		sprite planet/ice4
+		distance 388.62
+		period 200.636
+	object
+		sprite planet/dust2
+		distance 766.26
+		period 555.502
+	object
+		sprite planet/gas15
+		distance 1448.42
+		period 1443.65
+		object
+			sprite planet/callisto
+			distance 213
+			period 16.3631
+		object
+			sprite planet/dust3
+			distance 331
+			period 31.6985
+	object
+		sprite planet/gas14
+		distance 3040.46
+		period 4390.66
+		object
+			sprite planet/rock0
+			distance 249
+			period 16.0014
+
+system Qalmaq
+	pos -1402.95 1.00059e+06
+	government Chianxi
+	habitable 760
+	belt 1225
+	link Ramdan
+	link Tatar
+	link Uighur
+	link Busa
+	asteroids "large rock" 1 5.8696
+	asteroids "small metal" 4 4.1492
+	asteroids "medium metal" 7 7.1346
+	asteroids "large metal" 1 4.807
+	minables lead 2 6.69154
+	trade Clothing 335
+	trade Electronics 643
+	trade Equipment 447
+	trade Food 157
+	trade "Heavy Metals" 781
+	trade Industrial 739
+	trade "Luxury Goods" 1072
+	trade Medical 631
+	trade Metal 385
+	trade Plastic 344
+	object
+		sprite star/g5
+		distance 19.3618
+		period 16.5117
+	object
+		sprite star/m8
+		distance 89.6382
+		period 16.5117
+		offset 180
+	object
+		sprite planet/desert8
+		distance 235.928
+		period 52.5803
+	object
+		sprite planet/jupiter
+		distance 854.288
+		period 362.293
+		object
+			sprite planet/rock0
+			distance 274
+			period 14.2524
+		object
+			sprite planet/dust3
+			distance 369
+			period 22.2742
+	object
+		sprite planet/gas15
+		distance 2038.29
+		period 1335.22
+		object
+			sprite planet/callisto
+			distance 220
+			period 17.1764
+		object
+			sprite planet/ice7
+			distance 379
+			period 38.8379
+		object
+			sprite planet/oberon
+			distance 475
+			period 54.4926
+
+system Qanghli
+	pos -1583.31 1.00072e+06
+	government Leyam
+	habitable 1400
+	belt 1154
+	link "Quchi Qataghan"
+	link Yabu
+	asteroids "small rock" 32 2.805
+	asteroids "medium rock" 41 4.7124
+	asteroids "large rock" 15 4.9368
+	asteroids "small metal" 1 3.8522
+	asteroids "large metal" 2 3.8896
+	minables aluminum 15 7.48296
+	minables silicon 3 6.2028
+	minables tungsten 3 5.80137
+	trade Clothing 277
+	trade Electronics 621
+	trade Equipment 372
+	trade Food 225
+	trade "Heavy Metals" 1136
+	trade Industrial 703
+	trade "Luxury Goods" 1439
+	trade Medical 632
+	trade Metal 501
+	trade Plastic 308
+	object
+		sprite star/g0
+		distance 25.3714
+		period 12.502
+		offset 180
+	object
+		sprite star/m0
+		distance 85.6286
+		period 12.502
+	object
+		sprite planet/rock9
+		distance 229.629
+		period 37.1993
+	object
+		sprite planet/rock2
+		distance 507.189
+		period 122.11
+	object
+		sprite planet/desert9
+		distance 709.799
+		period 202.162
+	object
+		sprite planet/desert7
+		distance 1418.8
+		period 571.317
+	object
+		sprite planet/gas8
+		distance 1869.44
+		period 864.098
+		object
+			sprite planet/europa
+			distance 189
+			period 13.8315
+
+system Qari
+	pos -1621.73 1.00055e+06
+	government Chianxi
+	habitable 1715
+	belt 1217
+	link Qipchaq
+	link Targhut
+	asteroids "small rock" 1 2.43
+	asteroids "medium rock" 11 3.555
+	asteroids "large rock" 1 2.43
+	asteroids "small metal" 2 5.715
+	asteroids "medium metal" 10 4.545
+	asteroids "large metal" 48 4.905
+	minables lead 11 9.09441
+	minables silicon 11 5.55153
+	minables silver 4 5.73742
+	trade Clothing 271
+	trade Electronics 661
+	trade Equipment 647
+	trade Food 219
+	trade "Heavy Metals" 841
+	trade Industrial 784
+	trade "Luxury Goods" 1229
+	trade Medical 588
+	trade Metal 257
+	trade Plastic 354
+	object
+		sprite star/f5
+		period 10
+	object
+		sprite planet/rock17
+		distance 113.01
+		period 11.6039
+	object
+		sprite planet/lava2
+		distance 241.82
+		period 36.3217
+	object
+		sprite planet/cloud6
+		distance 479.66
+		period 101.468
+	object
+		sprite planet/ice7
+		distance 909.15
+		period 264.778
+	object
+		sprite planet/gas3
+		distance 2865.84
+		period 1481.86
+		object
+			sprite planet/callisto
+			distance 294
+			period 12.8761
+		object
+			sprite planet/europa
+			distance 398
+			period 20.281
+		object
+			sprite planet/rock7
+			distance 510
+			period 29.4185
+
+system Qarlug
+	pos -1474.56 1.0007e+06
+	government Leyam
+	habitable 625
+	belt 1245
+	link Loqai
+	link Qalan
+	link Matin
+	asteroids "small rock" 2 6.072
+	asteroids "medium rock" 9 5.874
+	asteroids "large rock" 1 3.63
+	asteroids "small metal" 17 9.108
+	asteroids "medium metal" 2 7.128
+	asteroids "large metal" 24 6.798
+	minables aluminum 3 12.443
+	minables silicon 12 9.27704
+	minables silver 3 13.0828
+	trade Clothing 300
+	trade Electronics 680
+	trade Equipment 670
+	trade Food 186
+	trade "Heavy Metals" 845
+	trade Industrial 795
+	trade "Luxury Goods" 1299
+	trade Medical 588
+	trade Metal 269
+	trade Plastic 273
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/dust7
+		distance 122.24
+		period 21.6242
+	object
+		sprite planet/cloud4
+		distance 449.08
+		period 152.267
+	object
+		sprite planet/forest1
+		distance 1005.97
+		period 510.502
+	object
+		sprite planet/gas15
+		distance 1489.98
+		period 920.218
+		object
+			sprite planet/lava0
+			distance 207
+			period 15.6766
+	object
+		sprite planet/gas14
+		distance 3384.23
+		period 3149.99
+		object
+			sprite planet/dust5
+			distance 257
+			period 16.7787
+		object
+			sprite planet/ice0
+			distance 362
+			period 28.0493
+
+system Qilwai
+	pos -2049.22 1.00049e+06
+	government "Gurkani (Empire)"
+	habitable 1080
+	belt 1017
+	link Kalmuk
+	link Tama
+	link Yankuz
+	link Moghul
+	asteroids "small rock" 6 2.7216
+	asteroids "medium rock" 2 3.3534
+	asteroids "large rock" 4 5.0058
+	asteroids "small metal" 2 6.1236
+	asteroids "medium metal" 114 2.5272
+	asteroids "large metal" 1 3.3534
+	trade Clothing 298
+	trade Electronics 628
+	trade Equipment 589
+	trade Food 366
+	trade "Heavy Metals" 1003
+	trade Industrial 747
+	trade "Luxury Goods" 969
+	trade Medical 867
+	trade Metal 497
+	trade Plastic 300
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/io
+		distance 117.69
+		period 15.5402
+	object
+		sprite planet/ice5
+		distance 291.69
+		period 60.636
+	object
+		sprite planet/rock18
+		distance 511.98
+		period 141.003
+	object
+		sprite planet/dust2
+		distance 1154.54
+		period 477.487
+	object
+		sprite planet/gas11
+		distance 2326.58
+		period 1365.92
+
+system Qipchaq
+	pos -1625.57 1.00058e+06
+	government Syramur
+	habitable 320
+	belt 1586
+	link Timan
+	link Tushlub
+	link Kilchi
+	link Qari
+	asteroids "small rock" 27 5.865
+	asteroids "medium rock" 45 4.8875
+	asteroids "large rock" 30 5.75
+	asteroids "small metal" 1 7.4175
+	asteroids "medium metal" 77 6.4975
+	asteroids "large metal" 1 7.59
+	trade Clothing 232
+	trade Electronics 720
+	trade Equipment 451
+	trade Food 164
+	trade "Heavy Metals" 1139
+	trade Industrial 765
+	trade "Luxury Goods" 1449
+	trade Medical 717
+	trade Metal 497
+	trade Plastic 457
+	object
+		sprite star/m0
+		period 10
+	object
+		sprite planet/rock4
+		distance 191.09
+		period 59.0666
+	object
+		sprite planet/ocean5
+		distance 421.33
+		period 193.383
+	object
+		sprite planet/gas10
+		distance 1292.09
+		period 1038.54
+		object
+			sprite planet/desert4
+			distance 200
+			period 14.8882
+		object
+			sprite planet/rhea
+			distance 291
+			period 26.1298
+		object
+			sprite planet/luna
+			distance 396
+			period 41.4801
+	object
+		sprite planet/gas3
+		distance 2246.3
+		period 2380.6
+		object
+			sprite planet/rock17
+			distance 270
+			period 11.3321
+		object
+			sprite planet/rock3
+			distance 354
+			period 17.0126
+
+system Qirghiz
+	pos -2138.73 1.00041e+06
+	government Turrani
+	habitable 625
+	belt 1959
+	link Khitai
+	link Ming
+	asteroids "small rock" 1 1.47
+	asteroids "medium rock" 11 1.92
+	asteroids "large rock" 8 2.22
+	asteroids "small metal" 5 2.235
+	asteroids "medium metal" 118 1.215
+	asteroids "large metal" 8 1.695
+	minables lead 11 1.56449
+	trade Clothing 300
+	trade Electronics 665
+	trade Equipment 529
+	trade Food 301
+	trade "Heavy Metals" 981
+	trade Industrial 616
+	trade "Luxury Goods" 1107
+	trade Medical 550
+	trade Metal 254
+	trade Plastic 367
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/rock9
+		distance 241.16
+		period 59.9208
+	object
+		sprite planet/lava3
+		distance 531.17
+		period 195.871
+	object
+		sprite planet/neptune
+		distance 1311.66
+		period 760.067
+		object
+			sprite planet/rock7
+			distance 186
+			period 12.6387
+		object
+			sprite planet/oberon
+			distance 289
+			period 24.4782
+		object
+			sprite planet/ice0
+			distance 383
+			period 37.3448
+	object
+		sprite planet/gas7
+		distance 3252.5
+		period 2967.88
+		object
+			sprite planet/dust5
+			distance 273
+			period 16.0463
+		object
+			sprite planet/dust3
+			distance 370
+			period 25.3182
+		object
+			sprite planet/desert4
+			distance 485
+			period 37.9965
+		object
+			sprite planet/callisto
+			distance 684
+			period 63.6377
+
+system Qirq
+	pos -1729.1 1.00069e+06
+	government Syramur
+	habitable 135
+	belt 1358
+	link Chubi
+	link Yajqar
+	link Tam
+	link Shirin
+	asteroids "small rock" 18 5.1744
+	asteroids "medium rock" 40 4.368
+	asteroids "large rock" 46 9.3408
+	asteroids "small metal" 21 9.2736
+	asteroids "medium metal" 19 4.4352
+	asteroids "large metal" 1 7.6608
+	minables copper 26 12.4056
+	minables iron 8 11.5232
+	minables lead 23 11.1156
+	trade Clothing 255
+	trade Electronics 690
+	trade Equipment 375
+	trade Food 434
+	trade "Heavy Metals" 1256
+	trade Industrial 594
+	trade "Luxury Goods" 1401
+	trade Medical 823
+	trade Metal 533
+	trade Plastic 486
+	object
+		sprite star/m8
+		period 10
+	object
+		sprite planet/ice8
+		distance 103.21
+		period 36.0974
+	object
+		sprite planet/callisto
+		distance 273.21
+		period 155.467
+	object
+		sprite planet/rock2
+		distance 773.62
+		period 740.772
+	object
+		sprite planet/ice7
+		distance 1181.63
+		period 1398.35
+	object
+		sprite planet/gas17
+		distance 3052.88
+		period 5807.08
+		object
+			sprite planet/tethys
+			distance 195
+			period 11.6339
+		object
+			sprite planet/dust4
+			distance 335
+			period 26.1963
+		object
+			sprite planet/oberon
+			distance 486
+			period 45.7749
+
+system Qiyat
+	pos -1480.65 1.00062e+06
+	government Chianxi
+	habitable 425.92
+	belt 1592
+	link Kilchi
+	link Lechi
+	link Girai
+	link Barkut
+	link Oklan
+	link Tilabi
+	asteroids "small rock" 1 3.3592
+	asteroids "medium rock" 9 3.2708
+	asteroids "large rock" 4 3.0056
+	asteroids "small metal" 12 4.199
+	asteroids "medium metal" 4 2.652
+	asteroids "large metal" 1 2.3868
+	minables lead 5 5.47837
+	trade Clothing 211
+	trade Electronics 807
+	trade Equipment 477
+	trade Food 173
+	trade "Heavy Metals" 1084
+	trade Industrial 733
+	trade "Luxury Goods" 1394
+	trade Medical 664
+	trade Metal 472
+	trade Plastic 459
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/ice8
+		distance 140.36
+		period 32.2301
+	object
+		sprite planet/cloud4
+		distance 492.6
+		period 211.903
+	object
+		sprite planet/tethys
+		distance 682.76
+		period 345.779
+	object
+		sprite planet/dust5
+		distance 1447.85
+		period 1067.78
+	object
+		sprite planet/lava0
+		distance 2289.81
+		period 2123.71
+
+system "Quchi Qataghan"
+	pos -1623.63 1.00069e+06
+	government Leyam
+	habitable 625
+	belt 1523
+	link Yajqar
+	link Qanghli
+	link Yabu
+	link Shirin
+	link Arghun
+	asteroids "medium rock" 19 9.3312
+	asteroids "large rock" 2 6.7068
+	asteroids "small metal" 3 10.4247
+	asteroids "medium metal" 28 5.4675
+	asteroids "large metal" 51 8.9667
+	minables iron 1 13.2451
+	minables titanium 7 8.67852
+	trade Clothing 335
+	trade Electronics 673
+	trade Equipment 562
+	trade Food 368
+	trade "Heavy Metals" 736
+	trade Industrial 763
+	trade "Luxury Goods" 1161
+	trade Medical 666
+	trade Metal 295
+	trade Plastic 378
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/rock1
+		distance 178.01
+		period 38.0003
+	object
+		sprite planet/lava1
+		distance 422.42
+		period 138.911
+	object
+		sprite planet/rock7
+		distance 863.67
+		period 406.108
+	object
+		sprite planet/dust3
+		distance 1870.71
+		period 1294.58
+	object
+		sprite planet/neptune
+		distance 2108.96
+		period 1549.61
+
+system Qurlaut
+	pos -1520.32 1.00068e+06
+	government Leyam
+	habitable 425.92
+	belt 1457
+	link Loqai
+	asteroids "small rock" 14 3.078
+	asteroids "large rock" 6 6.669
+	asteroids "small metal" 26 7.0281
+	asteroids "medium metal" 36 5.0274
+	asteroids "large metal" 144 2.6676
+	minables copper 1 5.69311
+	minables iron 2 6.47766
+	minables silicon 49 6.31087
+	trade Clothing 247
+	trade Electronics 661
+	trade Equipment 481
+	trade Food 329
+	trade "Heavy Metals" 875
+	trade Industrial 606
+	trade "Luxury Goods" 1023
+	trade Medical 764
+	trade Metal 343
+	trade Plastic 385
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/fog0
+		distance 269.25
+		period 85.6307
+	object
+		sprite planet/gas11
+		distance 684.94
+		period 347.436
+	object
+		sprite planet/rock13
+		distance 1409.1
+		period 1025.2
+	object
+		sprite planet/gas1
+		distance 2145.35
+		period 1925.94
+		object
+			sprite planet/tethys
+			distance 203
+			period 11.56
+
+system Qushqi
+	pos -2210.09 1.00038e+06
+	government Turrani
+	habitable 2340
+	belt 1517
+	link Ming
+	asteroids "medium rock" 4 2.275
+	asteroids "large rock" 1 1.9825
+	asteroids "small metal" 1 2.3075
+	asteroids "medium metal" 10 4.615
+	asteroids "large metal" 1 2.3725
+	minables lead 2 5.03762
+	trade Clothing 291
+	trade Electronics 781
+	trade Equipment 540
+	trade Food 309
+	trade "Heavy Metals" 925
+	trade Industrial 820
+	trade "Luxury Goods" 1256
+	trade Medical 575
+	trade Metal 374
+	trade Plastic 381
+	object
+		sprite star/f5
+		distance 36.859
+		period 13.4051
+	object
+		sprite star/g5
+		distance 101.141
+		period 13.4051
+		offset 180
+	object
+		sprite planet/desert10
+		distance 398.031
+		period 65.664
+		object
+			sprite planet/luna
+			distance 181
+			period 24.9301
+	object
+		sprite planet/lava4
+		distance 754.721
+		period 171.448
+	object
+		sprite planet/lava3
+		distance 1034.88
+		period 275.288
+	object
+		sprite planet/rock6
+		distance 1566.13
+		period 512.5
+	object
+		sprite planet/ice7
+		distance 2949.17
+		period 1324.35
+
+system Ramdan
+	pos -1415.17 1.00062e+06
+	government Chianxi
+	habitable 2997.76
+	belt 1285
+	link Oklan
+	link Qalmaq
+	asteroids "large metal" 1 6.3882
+	trade Clothing 217
+	trade Electronics 776
+	trade Equipment 480
+	trade Food 422
+	trade "Heavy Metals" 994
+	trade Industrial 768
+	trade "Luxury Goods" 1132
+	trade Medical 885
+	trade Metal 354
+	trade Plastic 295
+	object
+		sprite star/f0
+		distance 27.3121
+		period 10.9539
+	object
+		sprite star/g5
+		distance 103.688
+		period 10.9539
+		offset 180
+	object
+		sprite planet/gas16
+		distance 723.378
+		period 142.138
+		object
+			sprite planet/rock7
+			distance 177
+			period 12.3953
+		object
+			sprite planet/ice0
+			distance 303
+			period 27.7627
+		object
+			sprite planet/luna
+			distance 467
+			period 53.1218
+	object
+		sprite planet/ice8
+		distance 1497.63
+		period 423.416
+	object
+		sprite planet/gas1
+		distance 2036.44
+		period 671.38
+		object
+			sprite planet/dust7
+			distance 216
+			period 12.6881
+
+system Sakhtiiyan
+	pos -1884.1 1.00046e+06
+	government Hamax
+	habitable 625
+	belt 1917
+	link "Hafiz dad Kaln"
+	asteroids "small rock" 4 1.2012
+	asteroids "medium rock" 3 1.2408
+	asteroids "large rock" 1 1.9404
+	asteroids "small metal" 11 1.5972
+	asteroids "medium metal" 29 1.6896
+	asteroids "large metal" 9 1.7952
+	minables lead 2 2.3598
+	minables silver 2 2.00703
+	minables titanium 10 1.87801
+	trade Clothing 257
+	trade Electronics 736
+	trade Equipment 382
+	trade Food 390
+	trade "Heavy Metals" 1253
+	trade Industrial 587
+	trade "Luxury Goods" 1445
+	trade Medical 854
+	trade Metal 537
+	trade Plastic 458
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/cloud3
+		distance 621.575
+		period 247.948
+		offset 261.672
+		object
+			sprite planet/oberon
+			distance 141
+			period 18.4104
+	object
+		sprite planet/gas2
+		distance 1345.78
+		period 789.914
+		offset 359.9
+		object
+			sprite planet/lava0
+			distance 216
+			period 19.2351
+		object
+			sprite planet/dust3
+			distance 331
+			period 36.4886
+
+system Samrjiq
+	pos -1800.21 1.0006e+06
+	government "Gurkani (Republic)"
+	habitable 2372.76
+	belt 1615
+	link Tuwadiq
+	link Bahrin
+	link Shoran
+	asteroids "small rock" 56 6.44
+	asteroids "medium rock" 58 5.656
+	asteroids "large rock" 19 3.92
+	asteroids "small metal" 5 3.136
+	asteroids "medium metal" 1 3.024
+	asteroids "large metal" 33 7.672
+	minables copper 2 10.1423
+	trade Clothing 230
+	trade Electronics 652
+	trade Equipment 621
+	trade Food 326
+	trade "Heavy Metals" 805
+	trade Industrial 833
+	trade "Luxury Goods" 1168
+	trade Medical 597
+	trade Metal 226
+	trade Plastic 447
+	object
+		sprite star/f0
+		period 10
+	object
+		sprite planet/mercury
+		distance 176.81
+		period 19.306
+	object
+		sprite planet/tethys
+		distance 333.82
+		period 50.0843
+	object
+		sprite planet/gas7
+		distance 789.78
+		period 182.26
+		object
+			sprite planet/luna
+			distance 266
+			period 15.4331
+	object
+		sprite planet/gas8
+		distance 1842.87
+		period 649.644
+		object
+			sprite planet/rock17
+			distance 171
+			period 11.9034
+		object
+			sprite planet/rock7
+			distance 255
+			period 21.6764
+
+system Saroi
+	pos -2027.98 1.00045e+06
+	government "Gurkani (Empire)"
+	habitable 1715
+	belt 1609
+	link Yankuz
+	asteroids "small rock" 3 2.618
+	asteroids "medium rock" 3 2.156
+	asteroids "large rock" 1 2.7104
+	asteroids "medium metal" 1 4.0348
+	asteroids "large metal" 1 1.9712
+	minables iron 2 3.58008
+	trade Clothing 359
+	trade Electronics 806
+	trade Equipment 582
+	trade Food 307
+	trade "Heavy Metals" 1062
+	trade Industrial 683
+	trade "Luxury Goods" 1347
+	trade Medical 508
+	trade Metal 317
+	trade Plastic 275
+	object
+		sprite star/f5
+		period 10
+	object
+		sprite planet/rock6
+		distance 172.25
+		period 21.8357
+	object
+		sprite planet/rock14
+		distance 424.25
+		period 84.4035
+	object
+		sprite planet/dust7
+		distance 558.69
+		period 127.551
+	object
+		sprite planet/desert9
+		distance 711.73
+		period 183.401
+	object
+		sprite planet/gas1
+		distance 1357.14
+		period 482.908
+		offset 268.665
+		object "Olik Shahar"
+			sprite planet/ice8
+			distance 255.368
+			period 16.3104
+			offset 126.944
+	object
+		sprite planet/rock3
+		distance 1905.51
+		period 803.423
+		offset 314.898
+	object
+		sprite planet/gas11
+		distance 6062.72
+		period 4559.62
+		offset 357.45
+		object
+			sprite planet/desert4
+			distance 275
+			period 15.041
+		object
+			sprite planet/dust3
+			distance 384
+			period 24.8184
+		object
+			sprite planet/dust5
+			distance 554
+			period 43.0073
+
+system Scordiscus
+	pos -1727.33 1.00039e+06
+	government Kunduzgi
+	habitable 233.28
+	belt 1330
+	link Pinnes
+	link Cadmus
+	asteroids "small rock" 1 4.1976
+	asteroids "medium rock" 51 2.0196
+	asteroids "large rock" 1 3.7224
+	asteroids "medium metal" 15 4.752
+	asteroids "large metal" 1 4.7124
+	minables copper 8 2.73867
+	minables uranium 1 4.42629
+	object
+		sprite star/m4
+		period 10
+	object
+		sprite planet/desert9
+		distance 150
+		period 48.1125
+	object
+		sprite planet/rock17
+		distance 359.61
+		period 178.595
+	object
+		sprite planet/dust6
+		distance 622.3
+		period 406.557
+	object
+		sprite planet/jupiter
+		distance 1575.3
+		period 1637.44
+		object
+			sprite planet/callisto
+			distance 270
+			period 13.9414
+		object
+			sprite planet/rock0
+			distance 428
+			period 27.8245
+		object
+			sprite planet/rhea
+			distance 547
+			period 40.2015
+
+system Shagird
+	pos -1665.32 1.0007e+06
+	government Syramur
+	habitable 2372.76
+	belt 1671
+	link Yajqar
+	asteroids "large metal" 1 2.6796
+	trade Clothing 303
+	trade Electronics 748
+	trade Equipment 476
+	trade Food 516
+	trade "Heavy Metals" 794
+	trade Industrial 870
+	trade "Luxury Goods" 1089
+	trade Medical 762
+	trade Metal 514
+	trade Plastic 505
+	object
+		sprite star/f0
+		period 10
+	object
+		sprite planet/rock15
+		distance 181
+		period 19.9964
+	object
+		sprite planet/rock13
+		distance 370.41
+		period 58.5406
+	object
+		sprite planet/ice3
+		distance 654.3
+		period 137.435
+	object
+		sprite planet/ice6
+		distance 1261.34
+		period 367.859
+	object
+		sprite planet/gas8
+		distance 2308.95
+		period 911.077
+
+system Shirin
+	pos -1673.49 1.00063e+06
+	government Syramur
+	habitable 625
+	belt 1551
+	link "Quchi Qataghan"
+	link Qirq
+	link Timan
+	link Arghun
+	link Ozjolaji
+	asteroids "small rock" 1 2.639
+	asteroids "medium rock" 27 5.1562
+	asteroids "large rock" 5 3.2074
+	asteroids "small metal" 24 2.1924
+	asteroids "medium metal" 36 5.6434
+	asteroids "large metal" 8 5.5216
+	trade Clothing 297
+	trade Electronics 749
+	trade Equipment 433
+	trade Food 250
+	trade "Heavy Metals" 938
+	trade Industrial 670
+	trade "Luxury Goods" 1397
+	trade Medical 738
+	trade Metal 368
+	trade Plastic 464
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/cloud7
+		distance 154.61
+		period 30.7593
+	object
+		sprite planet/rock13
+		distance 397.22
+		period 126.668
+	object
+		sprite planet/forest1
+		distance 764.51
+		period 338.216
+	object
+		sprite planet/gas10
+		distance 1638.92
+		period 1061.59
+		object
+			sprite planet/dust1
+			distance 234
+			period 18.8417
+		object
+			sprite planet/europa
+			distance 338
+			period 32.7094
+		object
+			sprite planet/io
+			distance 432
+			period 47.2632
+		object
+			sprite planet/rock7
+			distance 545
+			period 66.9718
+
+system Shoran
+	pos -1758.73 1.00054e+06
+	government "Gurkani (Republic)"
+	habitable 8640
+	belt 1317
+	link "Belad Bustan"
+	link Samrjiq
+	link Baghlan
+	asteroids "small metal" 5 4.3316
+	asteroids "medium metal" 22 4.76
+	asteroids "large metal" 2 5.8072
+	minables lead 5 8.01922
+	trade Clothing 324
+	trade Electronics 748
+	trade Equipment 395
+	trade Food 276
+	trade "Heavy Metals" 1017
+	trade Industrial 754
+	trade "Luxury Goods" 1461
+	trade Medical 751
+	trade Metal 439
+	trade Plastic 473
+	object
+		sprite star/b5
+		period 10
+	object
+		sprite planet/gas8
+		distance 467.96
+		period 43.5628
+		object
+			sprite planet/dust7
+			distance 224
+			period 17.8463
+		object
+			sprite planet/rock17
+			distance 328
+			period 31.6219
+	object
+		sprite planet/neptune
+		distance 1551.05
+		period 262.87
+		object
+			sprite planet/ice0
+			distance 228
+			period 17.1528
+		object
+			sprite planet/miranda
+			distance 357
+			period 33.6074
+		object
+			sprite planet/callisto
+			distance 536
+			period 61.8272
+
+system Sirras
+	pos -1902.35 1.00038e+06
+	government Kunduzgi
+	habitable 1080
+	belt 1049
+	link Daortho
+	link Teuta
+	asteroids "medium rock" 5 2.2984
+	asteroids "large rock" 28 4.862
+	asteroids "small metal" 62 3.6244
+	asteroids "medium metal" 24 3.1824
+	asteroids "large metal" 26 5.746
+	minables silver 29 6.49676
+	minables titanium 9 4.48792
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/rock2
+		distance 163.16
+		period 25.367
+	object
+		sprite planet/desert5
+		distance 482.2
+		period 128.881
+	object
+		sprite planet/cloud2
+		distance 894.76
+		period 325.768
+	object
+		sprite planet/io
+		distance 1620
+		period 793.635
+	object
+		sprite planet/jupiter
+		distance 3698.21
+		period 2737.38
+		object
+			sprite planet/rock7
+			distance 271
+			period 14.019
+
+system Tam
+	pos -1791 1.0007e+06
+	government Syramur
+	habitable 233.28
+	belt 1457
+	link Qirq
+	asteroids "small rock" 1 1.776
+	asteroids "large rock" 1 0.816
+	asteroids "medium metal" 10 1.424
+	asteroids "large metal" 5 1.712
+	minables tungsten 1 1.84309
+	trade Clothing 305
+	trade Electronics 836
+	trade Equipment 414
+	trade Food 510
+	trade "Heavy Metals" 1192
+	trade Industrial 725
+	trade "Luxury Goods" 1291
+	trade Medical 843
+	trade Metal 526
+	trade Plastic 320
+	object
+		sprite star/m4
+		period 10
+	object
+		sprite planet/ice3
+		distance 188.25
+		period 67.6431
+	object
+		sprite planet/rock18
+		distance 409.01
+		period 216.632
+	object
+		sprite planet/rock15
+		distance 608.5
+		period 393.108
+	object
+		sprite planet/desert9
+		distance 1023.86
+		period 857.99
+	object
+		sprite planet/neptune
+		distance 3661.7
+		period 5802.9
+		object
+			sprite planet/desert4
+			distance 204
+			period 14.517
+
+system Tama
+	pos -2067.07 1.00046e+06
+	government "Gurkani (Empire)"
+	habitable 320
+	belt 1414
+	link Qilwai
+	asteroids "small rock" 11 2.1996
+	asteroids "large rock" 3 2.1996
+	asteroids "small metal" 13 1.5444
+	asteroids "medium metal" 26 1.9188
+	asteroids "large metal" 18 2.4804
+	minables copper 1 2.90696
+	minables platinum 3 2.48177
+	minables silicon 1 3.20174
+	trade Clothing 307
+	trade Electronics 755
+	trade Equipment 411
+	trade Food 348
+	trade "Heavy Metals" 1076
+	trade Industrial 814
+	trade "Luxury Goods" 1439
+	trade Medical 733
+	trade Metal 505
+	trade Plastic 454
+	object
+		sprite star/m0
+		period 10
+	object
+		sprite planet/rock17
+		distance 98
+		period 21.6932
+	object
+		sprite planet/cloud4
+		distance 279.96
+		period 104.744
+	object
+		sprite planet/rock6
+		distance 602.05
+		period 330.319
+	object
+		sprite planet/ice3
+		distance 877.89
+		period 581.628
+	object
+		sprite planet/venus
+		distance 1418.14
+		period 1194.16
+		object
+			sprite planet/rhea
+			distance 147
+			period 20.3374
+	object
+		sprite planet/gas6
+		distance 2792.95
+		period 3300.5
+		object
+			sprite planet/rock14
+			distance 302
+			period 13.4053
+		object
+			sprite planet/lava0
+			distance 416
+			period 21.6723
+
+system Tanghut
+	pos -1902.33 1.00055e+06
+	government "Gurkani (Republic)"
+	habitable 1705
+	belt 1238
+	link Arlat
+	asteroids "small rock" 5 3.195
+	asteroids "medium rock" 1 2.79
+	asteroids "large rock" 6 5.985
+	asteroids "small metal" 13 4.14
+	asteroids "large metal" 6 6.39
+	minables aluminum 5 6.84914
+	minables lead 1 4.96871
+	trade Clothing 361
+	trade Electronics 761
+	trade Equipment 391
+	trade Food 536
+	trade "Heavy Metals" 883
+	trade Industrial 828
+	trade "Luxury Goods" 1084
+	trade Medical 853
+	trade Metal 493
+	trade Plastic 502
+	object
+		sprite star/g0
+		distance 36.6569
+		period 9.68719
+		offset 180
+	object
+		sprite star/g5
+		distance 63.3431
+		period 9.68719
+	object
+		sprite planet/ice2
+		distance 259.583
+		period 40.5147
+	object
+		sprite planet/luna
+		distance 564.193
+		period 129.819
+	object
+		sprite planet/gas7
+		distance 1312.83
+		period 460.8
+		object
+			sprite planet/tethys
+			distance 231
+			period 12.4896
+		object
+			sprite planet/dust5
+			distance 368
+			period 25.1132
+		object
+			sprite planet/dust4
+			distance 488
+			period 38.3495
+		object
+			sprite planet/europa
+			distance 629
+			period 56.1186
+	object
+		sprite planet/gas14
+		distance 2918.87
+		period 1527.64
+		object
+			sprite planet/dust3
+			distance 244
+			period 15.5218
+
+system Targhut
+	pos -1579.19 1.00057e+06
+	government Chianxi
+	habitable 3645
+	belt 1954
+	link Qari
+	link Kilchi
+	asteroids "small rock" 5 7.1442
+	asteroids "medium rock" 58 6.9741
+	asteroids "large rock" 1 7.371
+	asteroids "medium metal" 34 3.969
+	asteroids "large metal" 3 5.0463
+	minables titanium 5 9.07691
+	minables tungsten 2 10.3179
+	trade Clothing 304
+	trade Electronics 799
+	trade Equipment 398
+	trade Food 194
+	trade "Heavy Metals" 981
+	trade Industrial 676
+	trade "Luxury Goods" 1404
+	trade Medical 711
+	trade Metal 366
+	trade Plastic 430
+	object
+		sprite star/a5
+		period 10
+	object
+		sprite planet/cloud2
+		distance 245
+		period 25.4074
+	object
+		sprite planet/rock11
+		distance 465.44
+		period 66.5284
+	object
+		sprite planet/gas6
+		distance 1107.13
+		period 244.067
+		object
+			sprite planet/luna
+			distance 309
+			period 13.874
+		object
+			sprite planet/rhea
+			distance 418
+			period 21.8288
+	object
+		sprite planet/gas9
+		distance 2238.22
+		period 701.561
+		object
+			sprite planet/miranda
+			distance 248
+			period 14.6443
+		object
+			sprite planet/oberon
+			distance 388
+			period 28.6575
+		object
+			sprite planet/rock17
+			distance 498
+			period 41.6711
+
+system Tatar
+	pos -1491.36 1.00056e+06
+	government Baharad
+	habitable 233.28
+	belt 1137
+	link Tilabi
+	link Fuladchi
+	link Qalmaq
+	link Uighur
+	asteroids "medium rock" 6 2.3919
+	asteroids "large rock" 2 1.8207
+	asteroids "small metal" 3 4.9623
+	asteroids "medium metal" 21 4.3554
+	asteroids "large metal" 9 1.8921
+	trade Clothing 367
+	trade Electronics 779
+	trade Equipment 409
+	trade Food 553
+	trade "Heavy Metals" 783
+	trade Industrial 805
+	trade "Luxury Goods" 1068
+	trade Medical 747
+	trade Metal 507
+	trade Plastic 505
+	object
+		sprite star/m4
+		period 10
+	object
+		sprite planet/mercury
+		distance 147.01
+		period 46.6812
+	object
+		sprite planet/forest0
+		distance 384.22
+		period 197.238
+	object
+		sprite planet/ice2
+		distance 632.23
+		period 416.326
+	object
+		sprite planet/gas14
+		distance 1410.79
+		period 1387.76
+		object
+			sprite planet/dust1
+			distance 215
+			period 12.8386
+		object
+			sprite planet/dust0
+			distance 350
+			period 26.6662
+	object
+		sprite planet/rock0
+		distance 2050.03
+		period 2430.87
+
+system Teuta
+	pos -1958.81 1.00039e+06
+	government Kunduzgi
+	habitable 320
+	belt 1290
+	link Sirras
+	asteroids "large metal" 1 2.475
+	object
+		sprite star/m0
+		period 10
+	object
+		sprite planet/rock1
+		distance 149.09
+		period 40.7059
+	object Aralkum
+		sprite planet/desert8
+		distance 438.58
+		period 205.38
+		offset 72.5888
+	object
+		sprite planet/rock18
+		distance 923.19
+		period 627.223
+		offset 22.5515
+	object
+		sprite planet/desert7
+		distance 1421.95
+		period 1198.98
+		offset 7.58582
+	object
+		sprite planet/gas14
+		distance 2578.71
+		period 2928.12
+		offset 1.69882
+		object
+			sprite planet/rock3
+			distance 244
+			period 15.5218
+
+system Tilabi
+	pos -1523.91 1.00059e+06
+	government Chianxi
+	habitable 486.68
+	belt 1319
+	link Qiyat
+	link Barkut
+	link Fuladchi
+	link Tatar
+	asteroids "medium metal" 5 3.388
+	asteroids "large metal" 2 3.276
+	trade Clothing 319
+	trade Electronics 776
+	trade Equipment 399
+	trade Food 506
+	trade "Heavy Metals" 1238
+	trade Industrial 593
+	trade "Luxury Goods" 1459
+	trade Medical 899
+	trade Metal 461
+	trade Plastic 361
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/cloud1
+		distance 175.25
+		period 42.0654
+	object
+		sprite planet/ocean1
+		distance 479.49
+		period 190.374
+	object
+		sprite planet/ocean5
+		distance 723.74
+		period 353.03
+	object
+		sprite planet/cloud8
+		distance 1762.95
+		period 1342.14
+	object
+		sprite planet/gas2
+		distance 2509.59
+		period 2279.51
+		object
+			sprite planet/rhea
+			distance 193
+			period 16.2462
+		object
+			sprite planet/io
+			distance 316
+			period 34.0365
+		object
+			sprite planet/oberon
+			distance 390
+			period 46.6672
+
+system Timan
+	pos -1662.42 1.0006e+06
+	government Syramur
+	habitable 625
+	belt 1439
+	link Qipchaq
+	link Shirin
+	asteroids "large rock" 1 2.835
+	asteroids "small metal" 25 2.484
+	asteroids "medium metal" 38 1.377
+	asteroids "large metal" 33 3.672
+	minables iron 33 2.88038
+	trade Clothing 249
+	trade Electronics 805
+	trade Equipment 457
+	trade Food 442
+	trade "Heavy Metals" 1144
+	trade Industrial 709
+	trade "Luxury Goods" 1179
+	trade Medical 855
+	trade Metal 500
+	trade Plastic 268
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/rock9
+		distance 149.64
+		period 29.2881
+	object
+		sprite planet/jupiter
+		distance 549.13
+		period 205.889
+	object
+		sprite planet/gas1
+		distance 1676.38
+		period 1098.19
+		object
+			sprite planet/io
+			distance 234
+			period 14.3067
+		object
+			sprite planet/callisto
+			distance 379
+			period 29.49
+
+system Tubin
+	pos -1942.91 1.00047e+06
+	government Hamax
+	habitable 425.92
+	belt 1070
+	link "Hafiz dad Kaln"
+	link Yankuz
+	link Jebergen
+	asteroids "large rock" 1 1.4144
+	asteroids "small metal" 3 2.2304
+	asteroids "medium metal" 5 1.9856
+	asteroids "large metal" 1 1.496
+	minables iron 2 2.18776
+	trade Clothing 199
+	trade Electronics 820
+	trade Equipment 419
+	trade Food 474
+	trade "Heavy Metals" 1077
+	trade Industrial 796
+	trade "Luxury Goods" 1190
+	trade Medical 881
+	trade Metal 450
+	trade Plastic 313
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/cloud2
+		distance 197.01
+		period 53.5955
+	object
+		sprite planet/cloud7
+		distance 443.01
+		period 180.724
+	object
+		sprite planet/rock6
+		distance 738.01
+		period 388.588
+	object
+		sprite planet/ice7
+		distance 1580.82
+		period 1218.2
+	object
+		sprite planet/gas6
+		distance 1952.58
+		period 1672.28
+
+system Turcoman
+	pos -1494.53 1.00065e+06
+	government Leyam
+	habitable 806.68
+	belt 1040
+	link Matin
+	asteroids "small rock" 7 3.876
+	asteroids "medium rock" 37 3.306
+	asteroids "large rock" 2 3.496
+	asteroids "small metal" 12 3.154
+	asteroids "medium metal" 59 2.128
+	asteroids "large metal" 5 2.85
+	minables aluminum 28 5.29755
+	minables titanium 7 5.03473
+	minables uranium 5 2.80964
+	trade Clothing 281
+	trade Electronics 690
+	trade Equipment 608
+	trade Food 292
+	trade "Heavy Metals" 1083
+	trade Industrial 583
+	trade "Luxury Goods" 1216
+	trade Medical 536
+	trade Metal 263
+	trade Plastic 288
+	object
+		sprite star/k0
+		distance 34.1151
+		period 11.232
+	object
+		sprite star/m0
+		distance 51.8849
+		period 11.232
+		offset 180
+	object
+		sprite planet/desert7
+		distance 259.845
+		period 58.9903
+	object
+		sprite planet/desert0
+		distance 508.135
+		period 161.316
+	object
+		sprite planet/cloud4
+		distance 1048.13
+		period 477.898
+	object
+		sprite planet/tethys
+		distance 2075.62
+		period 1331.78
+
+system Tushlub
+	pos -1618.09 1.00061e+06
+	government Syramur
+	habitable 1400
+	belt 1817
+	link Arghun
+	link Qipchaq
+	asteroids "small rock" 24 1.5552
+	asteroids "medium rock" 30 2.4768
+	asteroids "large rock" 37 3.744
+	asteroids "small metal" 2 3.8592
+	asteroids "medium metal" 2 1.9584
+	asteroids "large metal" 2 1.6704
+	minables iron 9 4.27219
+	minables lead 13 4.80246
+	minables titanium 11 2.93833
+	trade Clothing 289
+	trade Electronics 754
+	trade Equipment 389
+	trade Food 458
+	trade "Heavy Metals" 927
+	trade Industrial 760
+	trade "Luxury Goods" 970
+	trade Medical 866
+	trade Metal 371
+	trade Plastic 402
+	object
+		sprite star/g0
+		distance 20.8
+		period 9.28022
+	object
+		sprite star/m0
+		distance 70.2
+		period 9.28022
+		offset 180
+	object
+		sprite planet/lava5
+		distance 206.2
+		period 31.654
+	object
+		sprite planet/gas3
+		distance 553.64
+		period 139.263
+	object
+		sprite planet/ice7
+		distance 1321.33
+		period 513.467
+	object
+		sprite planet/gas0
+		distance 2477.54
+		period 1318.34
+		object
+			sprite planet/miranda
+			distance 257
+			period 12.0741
+		object
+			sprite planet/lava0
+			distance 357
+			period 19.7678
+		object
+			sprite planet/dust0
+			distance 506
+			period 33.3566
+		object
+			sprite planet/rock0
+			distance 665
+			period 50.2561
+
+system Tuwadiq
+	pos -1822.68 1.00057e+06
+	government "Gurkani (Republic)"
+	habitable 320
+	belt 1122
+	link Samrjiq
+	link Keneges
+	link Jalair
+	link Biyat
+	asteroids "large rock" 1 2.9631
+	asteroids "medium metal" 15 3.213
+	asteroids "large metal" 1 4.3554
+	minables tungsten 2 4.91135
+	trade Clothing 337
+	trade Electronics 837
+	trade Equipment 381
+	trade Food 158
+	trade "Heavy Metals" 1003
+	trade Industrial 580
+	trade "Luxury Goods" 1455
+	trade Medical 770
+	trade Metal 316
+	trade Plastic 331
+	object
+		sprite star/m0
+		period 10
+	object
+		sprite planet/rock5
+		distance 180.41
+		period 54.1846
+	object
+		sprite planet/rock16
+		distance 597.7
+		period 326.746
+		object
+			sprite planet/tethys
+			distance 118
+			period 17.494
+	object
+		sprite planet/europa
+		distance 1286.95
+		period 1032.35
+	object
+		sprite planet/uranus
+		distance 1836.79
+		period 1760.25
+		object
+			sprite planet/rock17
+			distance 231
+			period 15
+		object
+			sprite planet/ice7
+			distance 332
+			period 25.8452
+		object
+			sprite planet/rock7
+			distance 432
+			period 38.3618
+
+system Uighur
+	pos -1452.3 1.00054e+06
+	government Baharad
+	habitable 486.68
+	belt 1064
+	link Tatar
+	link Qalmaq
+	link Kilaji
+	link Anghit
+	asteroids "small rock" 60 1.8304
+	asteroids "medium rock" 11 1.1792
+	asteroids "large rock" 14 2.288
+	asteroids "small metal" 29 2.1648
+	asteroids "medium metal" 15 1.8832
+	asteroids "large metal" 5 2.024
+	minables titanium 2 2.95708
+	minables tungsten 27 2.01723
+	trade Clothing 323
+	trade Electronics 787
+	trade Equipment 531
+	trade Food 512
+	trade "Heavy Metals" 702
+	trade Industrial 819
+	trade "Luxury Goods" 1033
+	trade Medical 680
+	trade Metal 451
+	trade Plastic 429
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/dust2
+		distance 126.56
+		period 25.8156
+		offset 334.83
+	object
+		sprite planet/cloud3
+		distance 469.987
+		period 184.742
+		offset 332.681
+	object
+		sprite planet/rock14
+		distance 1024.35
+		period 594.441
+		offset 318.975
+	object
+		sprite planet/gas17
+		distance 2168.36
+		period 1830.77
+		offset 202.675
+
+system Uishun
+	pos -1877.73 1.00053e+06
+	government Hamax
+	habitable 851.84
+	belt 1707
+	link "Hafiz dad Kaln"
+	link Jalair
+	asteroids "small rock" 1 1.6762
+	asteroids "medium rock" 38 2.023
+	asteroids "large rock" 2 2.2542
+	asteroids "small metal" 3 3.179
+	asteroids "medium metal" 15 1.4739
+	asteroids "large metal" 7 3.2079
+	minables aluminum 1 2.2807
+	minables iron 1 3.01115
+	minables lead 1 2.67266
+	trade Clothing 315
+	trade Electronics 683
+	trade Equipment 505
+	trade Food 165
+	trade "Heavy Metals" 864
+	trade Industrial 748
+	trade "Luxury Goods" 1039
+	trade Medical 597
+	trade Metal 297
+	trade Plastic 367
+	object
+		sprite star/k5
+		distance 44
+		period 11.3137
+		offset 180
+	object
+		sprite star/k5
+		distance 44
+		period 11.3137
+	object
+		sprite planet/rock11
+		distance 214.56
+		period 43.0729
+	object
+		sprite planet/ice3
+		distance 409.57
+		period 113.599
+	object
+		sprite planet/gas17
+		distance 1237.41
+		period 596.556
+		object
+			sprite planet/dust0
+			distance 209
+			period 12.909
+		object
+			sprite planet/dust5
+			distance 345
+			period 27.378
+	object
+		sprite planet/desert10
+		distance 1765.5
+		period 1016.68
+	object
+		sprite planet/gas7
+		distance 3046.19
+		period 2304.18
+		object
+			sprite planet/lava0
+			distance 273
+			period 16.0463
+
+system Utarchi
+	pos -1796.44 1.00051e+06
+	government Hamax
+	habitable 1080
+	belt 1278
+	link Yuz
+	link "Hafiz dad Kaln"
+	link Baghlan
+	asteroids "small rock" 67 5.022
+	asteroids "medium rock" 31 3.942
+	asteroids "large rock" 105 3.024
+	asteroids "small metal" 3 5.886
+	asteroids "medium metal" 26 7.452
+	asteroids "large metal" 3 7.29
+	minables lead 50 8.45275
+	minables silicon 49 8.50676
+	minables titanium 15 7.41282
+	trade Clothing 284
+	trade Electronics 658
+	trade Equipment 637
+	trade Food 198
+	trade "Heavy Metals" 1062
+	trade Industrial 606
+	trade "Luxury Goods" 1206
+	trade Medical 480
+	trade Metal 313
+	trade Plastic 279
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/mars
+		distance 152
+		period 22.8094
+	object
+		sprite planet/gas8
+		distance 587.84
+		period 173.475
+		object
+			sprite planet/rock3
+			distance 216
+			period 16.8989
+	object
+		sprite planet/gas0
+		distance 1217.6
+		period 517.136
+		object
+			sprite planet/dust3
+			distance 283
+			period 13.952
+	object
+		sprite planet/uranus
+		distance 3067.21
+		period 2067.59
+		object
+			sprite planet/luna
+			distance 213
+			period 13.2814
+		object
+			sprite planet/miranda
+			distance 299
+			period 22.0892
+		object
+			sprite planet/rock0
+			distance 425
+			period 37.4332
+
+system Vatan
+	pos -2028.24 1.00054e+06
+	government "Gurkani (Empire)"
+	habitable 1715
+	belt 1548
+	link Kerait
+	link Moghul
+	link Dojar
+	asteroids "small rock" 1 3.2487
+	asteroids "medium rock" 5 3.9039
+	asteroids "large rock" 18 1.4742
+	asteroids "small metal" 8 3.5763
+	asteroids "large metal" 3 2.5389
+	trade Clothing 323
+	trade Electronics 781
+	trade Equipment 406
+	trade Food 189
+	trade "Heavy Metals" 1011
+	trade Industrial 593
+	trade "Luxury Goods" 1481
+	trade Medical 723
+	trade Metal 407
+	trade Plastic 432
+	object
+		sprite star/f5
+		period 10
+	object
+		sprite planet/cloud7
+		distance 411.905
+		period 80.7465
+		offset 339.007
+	object Toshkent
+		sprite planet/desert1
+		distance 1705.33
+		period 680.207
+		offset 12.831
+		object
+			sprite planet/callisto
+			distance 172
+			period 19.5812
+			offset 282.52
+	object
+		sprite planet/gas14
+		distance 3495.29
+		period 1995.96
+		offset 331.179
+		object
+			sprite planet/dust1
+			distance 226
+			period 13.8363
+		object
+			sprite planet/rock0
+			distance 360
+			period 27.8171
+
+system Yabu
+	pos -1566 1.00067e+06
+	government Leyam
+	habitable 1080
+	belt 1337
+	link "Quchi Qataghan"
+	link Qanghli
+	link Loqai
+	asteroids "small rock" 15 3.399
+	asteroids "medium rock" 35 3.927
+	asteroids "large rock" 3 4.059
+	asteroids "small metal" 4 2.178
+	asteroids "medium metal" 11 4.092
+	asteroids "large metal" 17 3.531
+	minables titanium 7 3.84626
+	minables uranium 7 6.50166
+	trade Clothing 325
+	trade Electronics 796
+	trade Equipment 436
+	trade Food 543
+	trade "Heavy Metals" 768
+	trade Industrial 681
+	trade "Luxury Goods" 1041
+	trade Medical 822
+	trade Metal 324
+	trade Plastic 346
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/cloud2
+		distance 206
+		period 35.9873
+	object
+		sprite planet/neptune
+		distance 667.61
+		period 209.958
+	object
+		sprite planet/rock1
+		distance 1212.82
+		period 514.094
+		object
+			sprite planet/ice8
+			distance 126
+			period 16.4464
+	object
+		sprite planet/gas8
+		distance 2343.46
+		period 1380.81
+		object
+			sprite planet/dust3
+			distance 213
+			period 16.548
+		object
+			sprite planet/rock17
+			distance 304
+			period 28.2155
+
+system Yajqar
+	pos -1672.44 1.00066e+06
+	government Syramur
+	habitable 945
+	belt 1487
+	link Shagird
+	link Qirq
+	link "Quchi Qataghan"
+	asteroids "small rock" 2 7.098
+	asteroids "medium rock" 128 3.7128
+	asteroids "large rock" 1 6.8796
+	asteroids "small metal" 6 8.0808
+	asteroids "medium metal" 4 3.549
+	asteroids "large metal" 85 3.3306
+	minables tungsten 53 5.22312
+	trade Clothing 281
+	trade Electronics 644
+	trade Equipment 618
+	trade Food 410
+	trade "Heavy Metals" 1044
+	trade Industrial 736
+	trade "Luxury Goods" 995
+	trade Medical 874
+	trade Metal 488
+	trade Plastic 276
+	object
+		sprite star/g5
+		distance 39.619
+		period 16.4673
+		offset 180
+	object
+		sprite star/m0
+		distance 77.381
+		period 16.4673
+	object
+		sprite planet/desert2
+		distance 229.381
+		period 45.2043
+	object
+		sprite planet/ice6
+		distance 435.541
+		period 118.274
+	object
+		sprite planet/gas2
+		distance 763.541
+		period 274.532
+	object
+		sprite planet/gas14
+		distance 1694.79
+		period 907.859
+	object
+		sprite planet/gas6
+		distance 2478.68
+		period 1605.74
+		object
+			sprite planet/oberon
+			distance 284
+			period 12.2248
+		object
+			sprite planet/rock0
+			distance 361
+			period 17.5197
+
+system Yankuz
+	pos -1995.5 1.00049e+06
+	government "Gurkani (Empire)"
+	habitable 425.92
+	belt 1806
+	link Qilwai
+	link Saroi
+	link Tubin
+	asteroids "small rock" 21 6.336
+	asteroids "medium rock" 10 6.248
+	asteroids "large rock" 34 2.596
+	asteroids "small metal" 10 2.772
+	asteroids "medium metal" 14 2.728
+	asteroids "large metal" 12 3.036
+	minables aluminum 6 4.70377
+	minables copper 25 4.72613
+	trade Clothing 281
+	trade Electronics 637
+	trade Equipment 456
+	trade Food 334
+	trade "Heavy Metals" 885
+	trade Industrial 680
+	trade "Luxury Goods" 964
+	trade Medical 846
+	trade Metal 298
+	trade Plastic 460
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/gas12
+		distance 405.76
+		period 158.416
+		object
+			sprite planet/tethys
+			distance 300
+			period 13.6479
+	object
+		sprite planet/cloud1
+		distance 1211.01
+		period 816.803
+		object
+			sprite planet/rock3
+			distance 180
+			period 19.718
+	object
+		sprite planet/gas16
+		distance 2061.45
+		period 1814.07
+
+system Yuz
+	pos -1816.05 1.00047e+06
+	government Hamax
+	habitable 425.92
+	belt 1807
+	link "Hafiz dad Kaln"
+	link Utarchi
+	asteroids "large metal" 1 3.944
+	trade Clothing 215
+	trade Electronics 783
+	trade Equipment 587
+	trade Food 151
+	trade "Heavy Metals" 1035
+	trade Industrial 674
+	trade "Luxury Goods" 1312
+	trade Medical 546
+	trade Metal 278
+	trade Plastic 308
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/ice1
+		distance 248.21
+		period 75.7923
+	object
+		sprite planet/neptune
+		distance 653.82
+		period 324.029
+		object
+			sprite planet/dust0
+			distance 221
+			period 16.3689
+	object
+		sprite planet/gas14
+		distance 1255.86
+		period 862.597
+		object
+			sprite planet/ice7
+			distance 256
+			period 16.6809
+	object
+		sprite planet/jupiter
+		distance 2966.27
+		period 3131.21
+		object
+			sprite planet/ice8
+			distance 272
+			period 14.0966
+		object
+			sprite planet/rock7
+			distance 417
+			period 26.7587
+		object
+			sprite planet/dust5
+			distance 576
+			period 43.4406
+
+planet Aralkum
+	attributes factory desertification
+	landscape land/desert2
+	description `Aralkum has undergone large scale desertification because of the many factories which are using up large amounts of the planets resources and polluting the atmosphere. Attempts to restore the ecology have been made though most have only been successful in small areas.`
+	spaceport `The spaceport is nothing more than a hangar with fuel silos and maintenaince machines. Only a handful of other ships are present, all of them belonging to the Kunduzgi Imperial Navy. The spaceport workers that are here seem to more concerned about the integrity of the spaceport than the ships under maintenaince.`
+	"required reputation" 0
+	bribe 0
+	security 0.2
+
+planet Fergana
+	attributes farming factory
+	landscape land/valley6
+	description `Fergana is the capital of the Turrani Empire. It is considered to be the breadbasket of the Turranis because of its large fertile fields, though the mining industry also makes up a large percentage of the local economy. There doesn't seem to be a fully centralized government, aside from the capital district.`
+	spaceport `The spaceport has a few landing pads for civilian use and many pads for military use. A lot of haulers are entering and exiting a large terminal simultaneously. The passenger terminal is organized in a commercial and residential district, with the commercial district being divided into a few large malls.`
+	"required reputation" 0
+	bribe 0
+	security 0.8
+
+planet Kamuy
+	attributes factory
+	landscape land/canyon8
+	description `Kamuy is the industrial powerhouse of the Kunduzgi Empire. The first precursor sites were discovered here and gave the Empire a technological boost. The technology used in the local industry is heavily dependant on reverse engineered precursor technology.`
+	spaceport `The spaceport consists of a few large landing pads and a road leading to a transportation terminal. Shuttles can be seen flying off into the distance, presumably towards industrial sites.`
+	"required reputation" 0
+	bribe 0
+	security 0.6
+
+planet Karput
+	attributes urban factory farming
+	landscape land/mfield1
+	description `Karput is the capital of the Kunduzgi Empire. Large monocultures blanket the area surrounding cities. Giant factories located near rivers create a steady output of ship parts and other technology. The largest city, also named Karput, lies on an island at the estuary of the largest river and is home to the Imperial Palace.`
+	spaceport `The spaceport consists of a few large hangars and buildings. The entrance to the primary terminal has a sign that reads 'kamuy kar put ya mosir'. The sentence does not seem to match any known language.`
+	spaceport `	The primary terminal is divided in five zones and has a shrine dedicated to the supreme god of the Kunduzgi native religion, which is almost constantly surrounded by groups of older people wearing flashy robes.`
+	"required reputation" 0
+	bribe 0
+	security 0.9
+
+planet Nurota
+	attributes factory
+	landscape land/water4
+	description `Nurota has a toxic atmosphere, making it difficult for biological life to survive on the planet for extended periods. Many useful metals are contained in the planet's crust, which has made it important for the shipbuilding industry. Occasionally, the planet is bombarded by meteors, destroying many unprepared mining settlements if they are not intercepted by the planetary defense system.`
+	spaceport `The spaceport has many signs showing its original purpose as a power plant for the nearby mining settlement. Plutonium powered generators continue to provide power to the settlement and the spaceport. Many people are taking shuttles to mining settlements in the area, with just as many people arriving from other settlements.`
+	"required reputation" 0
+	bribe 0
+	security 0.3
+
+planet "Olik Shahar"
+	attributes tourism urban moon
+	landscape land/bwerner0
+	description `Olik Shahar is considered to be one of the most important places of the Gurkani Empire. Legends tell that Allohning Qilichi, the first emperor, was coronated here and took the regnal name Gurkani. Large futuristic cities float on the surface of oceans, their destination determined by the tide caused by the gas giant the moon is orbiting.`
+	spaceport `The spaceport seems almost empyrean. A large white hall connects to the city through multiple tunnels, the hall itself containing equipment and machinery needed for servicing ships.`
+	spaceport `	Clergymen wearing vibrant clothes are performing ceremonies, with many tourists watching in wonder.`
+	"required reputation" 0
+	bribe 0
+	security 0.2
+
+planet Repun
+	attributes uninhabited
+	landscape land/fields2
+	description `Repun has no central government or organization. The most important people of the Kunduzgi's history are buried here in a large necropolis. Small villages and autonomous communities are located near the equator of the planet, operating almost entirely independent of the Empire.`
+
+planet Samarqand
+	attributes urban factory
+	landscape land/mfield3
+	description `Samarqand is the capital of the Gurkani Republic. Home to just about half of the population of the Republic, the largest cities also have the largest factories and shipyards on the planet. Many experimental ships can be seen flying in land reserved for military testing.`
+	spaceport `The spaceport is located conveniently near a large bazaar where colorful stalls selling a variety of items fill the street.`
+	spaceport `	Most stalls seem to be selling either engineering equipment or street food. One stall, however, is selling a variety of black market movies.`
+	"required reputation" 0
+	bribe 0
+	security 0.7
+
+planet "Satrap Station"
+	attributes station "near vatan" military
+	landscape land/sivael0
+	description `Satrap Station is a huge deuterium refinery that also serves as a shipyard, currently in use by the Gurkani Imperial Navy. Many drones swarm the ships in the shipyard, dutifully repairing the damage. The station is currently housing a large merchant convoy, presumably to resupply the depleted resources.`
+	spaceport `The cantina in the central part of the station seems to be serving a kind of colorless jelly that the crew likes very much. Unfortunately, you are not allowed to eat in the cantina as you are not part of the station crew.`
+	"required reputation" 0
+	bribe 0
+	security 0.7
+
+planet Toshkent
+	attributes "near vatan" urban factory
+	landscape land/city11
+	description `Toshkent is seat of government of the Gurkani Empire and the origin of the first of the Zeri. While quite reminiscent of Earth, the planet is far more polluted due to the industry's contribution to the war effort.`
+	spaceport `The spaceport is divided into a civilian section and an industrial section. The civilian section has enough capacity for a few large fleets, however, very few ships are present. The industrial section is restricted to the military and industrial workers.`
+	"required reputation" 0
+	bribe 0
+	security 0.9
+
+planet "Yukar Station"
+	attributes station research
+	landscape land/sivael6
+	description `Yukar Station is the where most of the technological innovations of the Kunduzgi Empire were made. The station has many sections dedicated solely to material research and weapons development.`
+	spaceport `The spaceport is restricted to station crew and the Kunduzgi military.`
+	"required reputation" 0
+	bribe 0
+	security 0.9
+

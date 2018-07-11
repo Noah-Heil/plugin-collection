@@ -1,0 +1,22 @@
+
+ship "Colonial Battlestar Valkyrie" "Battlestar Valkyrie Missile"
+	outfits
+		"Colonial Ion Thruster" 2
+		"Colonial Ion Steering" 8
+		"Colonial Ionic Afterburner" 8
+		"Colonial Retro Thruster" 8
+		"Colonial FTL Jump Drive"
+		"Colonial FTL Core"
+		"Energy Containment Pack" 8
+		"D94-YV Shield Generator" 15
+		"Catalytic Ramscoop"
+		"Liquid Helium Cooler" 20
+		"Surveillance Pod" 10
+		"Cloaking Device"
+		"Interference Plating" 100
+		"Laser Rifle" 50
+		"Security Station" 50
+		"Damage Control System" 10
+		"Battlestar Missile Battery" 16
+		"Colonial Flak Cannon" 12
+		"Heavy Anti-Missile Turret" 12

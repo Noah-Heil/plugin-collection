@@ -1,0 +1,874 @@
+# <>'s are not in the actual data entry
+#
+# system <"Name Here">
+#	pos <X,Y Galatic Map>
+#	government <"Name Here">
+#	habitable 1080 <UNKNOWN VALUE>
+#	link <"Destination System Name">
+#	asteroids <"Asteroid Name Type"> 1 6.783 <UNKNOWN VALUE>
+#	trade Clothing 444
+#	trade Electronics 163
+#	trade Equipment 319
+#	trade Food 475
+#	trade "Heavy Metals" 833
+#	trade Industrial 697
+#	trade "Luxury Goods" 137
+#	trade Medical 655
+#	trade Metal 618
+#	trade Plastic 475 <Value of resorce to that system>
+#	object
+#		sprite <"first_solar_system_star_path/objectname">
+#			period 10 <UNKNOWN VALUE>
+#
+#
+#
+#
+#
+#
+#
+
+system "Helios Alpha"
+	pos 1685.29 1202.01
+	government Colonial
+	habitable 1080
+	link "Helios Beta"
+	link "Helios Gamma"
+	asteroids "large metal" 1 6.783
+	trade Clothing 444
+	trade Electronics 163
+	trade Equipment 319
+	trade Food 475
+	trade "Heavy Metals" 833
+	trade Industrial 1197
+	trade "Luxury Goods" 137
+	trade Medical 655
+	trade Metal 618
+	trade Plastic 475
+	fleet "Small Colonial Civilian" 150
+	fleet "Small Colonial Military" 300 
+	fleet "Large Colonial Military" 1200 
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/lava6
+		distance 241.211
+		period 45.5976
+		offset 256.36
+	object Picon
+		sprite planet/gas14
+		distance 891.821
+		period 324.164
+		offset 288.258
+	object Caprica
+		sprite planet/earth
+		distance 1546.22
+		period 740.038
+		offset 255.9
+		object Gemenon
+			sprite planet/rock14
+			distance 160.715
+			period 20.8589
+			offset 120.56
+	object Tauron
+		sprite planet/ice0
+		distance 2133.88
+		period 1199.78
+		offset 215.27
+		object
+			sprite planet/oberon
+			distance 97
+			period 34.6585
+			offset 77.4055
+	object
+		sprite planet/gas15
+		distance 3142.11
+		period 2143.78
+		offset 264.827
+		object
+			sprite planet/dust3
+			distance 311.105
+			period 28.8841
+			offset 162.932
+		object
+			sprite planet/rock0
+			distance 455.267
+			period 51.1324
+			offset 119.479
+	object
+		sprite planet/gas1
+		distance 4764.06
+		period 4002.33
+		offset 272.971
+
+system "Helios Beta"
+	pos 1783.65 1275.01
+	government Colonial
+	habitable 425.92
+	link "Helios Delta"
+	link "Helios Alpha"
+	asteroids "small rock" 1 6.8391
+	asteroids "medium rock" 84 6.0588
+	asteroids "large rock" 13 2.295
+	asteroids "large metal" 8 6.2424
+	trade Clothing 311
+	trade Electronics 478
+	trade Equipment 191
+	trade Food 322
+	trade "Heavy Metals" 625
+	trade Industrial 595
+	trade "Luxury Goods" 846
+	trade Medical 452
+	trade Metal 311
+	trade Plastic 778
+	fleet "Small Colonial Civilian" 300
+	fleet "Small Colonial Military" 600
+	fleet "Large Colonial Military" 1800
+	object
+		sprite star/k5
+		period 10
+	object Troy
+		sprite planet/rock6
+		distance 154.455
+		period 37.2048
+		offset 227.712
+	object Leonis
+		sprite planet/desert5
+		distance 648.676
+		period 320.212
+		offset 33.3505
+	object Virgon
+		sprite planet/uranus
+		distance 1357.68
+		period 969.594
+		object
+			sprite planet/dust0
+			distance 201
+			period 12.175
+		object
+			sprite planet/luna
+			distance 392.248
+			period 33.1906
+			offset 9.49679
+	object
+		sprite planet/gas2
+		distance 1972.68
+		period 1698.16
+		offset 297.286
+		object
+			sprite planet/rock0
+			distance 183
+			period 15
+		object
+			sprite planet/dust5
+			distance 289
+			period 29.7688
+	object Kobold
+		sprite planet/wormhole
+		distance 7400
+		period 300
+
+system "Helios Delta"
+	pos 1815.65 1197.01
+	government Colonial
+	habitable 425.92
+	link "Helios Beta"
+	link "Helios Gamma"
+	asteroids "large metal" 1 6.4152
+	trade Clothing 233
+	trade Electronics 753
+	trade Equipment 484
+	trade Food 97
+	trade "Heavy Metals" 447
+	trade Industrial 422
+	trade "Luxury Goods" 1198
+	trade Medical 467
+	trade Metal 723
+	trade Plastic 361
+	fleet "Small Colonial Civilian" 300
+	fleet "Small Colonial Military" 600
+	fleet "Large Colonial Military" 1800
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/lava7
+		distance 132
+		period 29.3939
+		offset 242.067
+	object Aerilon
+		sprite planet/rock11
+		distance 297
+		period 99.2043
+		offset 53.3242
+	object Canceron
+		sprite planet/gas10
+		distance 536
+		period 240.516
+		offset 1.10719
+	object Aquaria
+		sprite planet/gas8
+		distance 853
+		period 482.858
+		offset 284.706
+
+system "Helios Gamma"
+	pos 1697.65 1146.01
+	government Colonial
+	habitable 425.92
+	link "Helios Alpha"
+	link "Helios Delta"
+	asteroids "small rock" 33 2.046
+	asteroids "medium rock" 16 1.254
+	asteroids "large rock" 22 1.606
+	asteroids "small metal" 3 3.256
+	asteroids "medium metal" 8 2.222
+	asteroids "large metal" 3 2.354
+	trade Clothing 82
+	trade Electronics 945
+	trade Equipment 591
+	trade Food 305
+	trade "Heavy Metals" 299
+	trade Industrial 135
+	trade "Luxury Goods" 1959
+	trade Medical 980
+	trade Metal 602
+	trade Plastic 172
+	fleet "Small Colonial Civilian" 300
+	fleet "Small Colonial Military" 600 
+	fleet "Large Colonial Military" 1800
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/desert10
+		distance 170.96
+		period 43.3249
+	object Libran
+		sprite planet/lava6
+		distance 366.57
+		period 136.029
+	object Scorpia
+		sprite planet/lava0
+		distance 648.229
+		period 319.881
+		offset 33.1213
+		object "Scorpion Fleet Shipyards"
+			sprite planet/station4
+			distance 135
+			period 38.5117
+	object Sagittaron
+		sprite planet/neptune
+		distance 1000.23
+		period 613.12
+		offset 246.508
+	object
+		sprite planet/gas11
+		distance 2402.59
+		period 2282.52
+		offset 281.05
+		object
+			sprite planet/ice7
+			distance 271
+			period 14.714
+		object
+			sprite planet/dust5
+			distance 387
+			period 25.1099
+		object
+			sprite planet/dust7
+			distance 522
+			period 39.3354
+
+system "Kor Ak'Mari"
+	pos 43 22
+	government Korath
+	habitable 625
+	asteroids "small metal" 13 3.024
+	asteroids "medium metal" 99 3.0744
+	asteroids "large metal" 32 1.5624
+	fleet "Korath Raid" 2800
+	fleet "Korath Home" 2000
+	object
+		sprite star/wr
+		period 100
+	object
+		sprite planet/lava6
+		distance 179.89
+		period 38.6038
+	object
+		sprite planet/lava0
+		distance 492.58
+		period 174.918
+	object
+		sprite planet/ocean6
+		distance 874.19
+		period 413.551
+		object
+			sprite planet/callisto
+			distance 166
+			period 16.2305
+	object
+		sprite planet/ice0
+		distance 1777.8
+		period 1199.35
+	object
+		sprite planet/oberon
+		distance 2107.64
+		period 1548.16
+	object Kobold
+		sprite planet/wormhole
+		distance 4400
+		period 300
+
+
+
+planet Aerilon
+	attributes Farming
+	landscape land/fields7
+	description `Often called the breadbasket of the Twelve Colonies, Aerilon is an agricultural world with little in the way of heavy industry or large cities. It's also one of the poorest worlds in the Colonies, and as a result its people are stereotyped — often unfairly — as low-class uneducated bumpkins. Unsurprisingly, Aerilonians tend to describe themselves in slightly different terms: in their minds, they are a honest and hard-working people with simple needs and frugal character, unafraid to get their hands dirty in cities or fields. They are highly represented in the Colonial Fleet, particularly among the CMC's enlisted personnel, in large part because the military offers enterprising young Aerilonians an easy way to get off the farmstead and see new things.`
+	spaceport `Colonial Spaceport`
+	shipyard Colonial
+	outfitter Colonial
+	"required reputation" 0.3
+	bribe 0.1
+	security 0.4
+	tribute 10000
+		threshold 20000
+		fleet "Small Colonial" 50
+		fleet "Small Colonial Military" 5000
+
+planet Aquaria
+	attributes "Icy Oceans"
+	landscape land/snow9
+	description `One of three planets sharing a single orbit (the others being Caprica and Virgon), the world of Aquaria is aptly named: eighty-seven percent of the planet's surface is covered by oceans, making it a popular destination for tourists from Colonies with less-than-pleasant climates. Unsurprisingly, its two most abundant resources are fish and algae, which sustained its population until advanced hydroponic farming techniques were pioneered by scientists tired of eating sardines-and-seaweed six out of seven days of the week. Although its population is relatively small, its proximity to Caprica and Virgon has allowed it to prosper, and these days it is considered a center of culture, innovation, and trade.`
+	spaceport `Colonial Spaceport`
+	shipyard Colonial
+	outfitter Colonial
+	"required reputation" 0.1
+	bribe 0.1
+	security 0.1
+	tribute 10000
+		threshold 20000
+		fleet "Small Colonial" 50
+		fleet "Small Colonial Military" 5000
+
+planet Canceron
+	attributes Wealthy
+	landscape land/city3
+	description `The closest planet to the system's central star, much of Canceron is inhospitably warm — even unlivable. For this reason, its major cities are either coastal or polar. The former are famous for their blazing summers, sunny beaches, and yacht-owning Capricans with popped collars and spray-on tans; the latter, for housing sprawling complexes of underground tylium mines staffed by convicted felons until the human rights lobby forced the Quorum of 12 to intervene some twenty-four years ago. Their proximity to Cyrannus gives Cancerans a somewhat darker complexion than their Colonial compatriots. They have no particular affinity or aversion to military service, and are represented to the extent their population supports.`
+	spaceport `Colonial Spaceport`
+	shipyard Colonial
+	outfitter Colonial
+	"required reputation" 0.4
+	bribe 0.4
+	security 0.4
+	tribute 10000
+		threshold 20000
+		fleet "Small Colonial" 50
+		fleet "Small Colonial Military" 5000
+
+planet Caprica
+	attributes colonial
+	landscape land/city1
+	description `Caprica truly is the center of the Colonies: the focal point of commerce, politics, law, culture, and faith. Its capital, Caprica City, houses the three branches of the Colonial government in addition to a veritable horde of corporate headquarters, merchant banks, and institutions of higher learning. Delphi is more religious in nature: not only is it home to painstaking recreations of Kobol's Pantheon, Forum, and Opera House, it possesses the Colonies' largest collection of artifacts from the lost homeworld. The Caprican people are a diverse lot, but on the whole they're perceived as urbane and cosmopolitan, spoiled by the privileges of luxury and wealth. They have relatively little representation in the ranks of the enlisted but are disproportionately represented in the higher ranks of the officer corps — the traditional proving ground for the sons and daughters of elite Caprican families.`
+	spaceport `Colonial Spaceport`
+	shipyard Colonial
+	outfitter Colonial
+	outfitter Cylon
+	bribe 0.03
+	security 0.3
+	tribute 10000
+		threshold 20000
+		fleet "Small Colonial" 5000
+		fleet "Small Colonial Military" 5000
+
+planet Gemenon
+	landscape land/city7
+	description `Gemenon is a poor colony by choice as well as by circumstance. Blessed with very little in the way of natural resources, this mountainous world's primary export is its faith — and that it basically gives away for free. Home to a fundamentalist tradition that promotes a literal reading of the Sacred Scrolls, Gemenon has earned its reputation as the most conservative of the Colonies, but to say that all Gemenese are Scrolls-thumping fanatics is a gross exaggeration. Indeed, the Kobol Colleges are some of the Colonies' most prestigious institutions of higher learning, having expanded their original mission of providing religious education to encompass secular subjects of all kinds.`
+	spaceport `Colonial Spaceport`
+	shipyard Colonial
+	outfitter Colonial
+	bribe 0.03
+	security 0.3
+	tribute 10000
+		threshold 20000
+		fleet "Small Colonial" 500
+		fleet "Small Colonial Military" 5000
+
+planet Kobold
+
+planet Leonis
+	attributes Education
+	landscape land/city0
+	description `A large world notable for its fertile plains and its remarkable concentrations of uranium, Leonis sought to exploit both of those natural advantages by initiating a war of conquest against its neighboring Colonies. After its defeat at the hands of the Triple Alliance (between Picon, Scorpia, and Caprica), its new government voluntarily slashed its military budget, eliminated most of its nuclear arsenal, and focused on keeping as aloof as possible from internecine Colonial disputes. `
+	spaceport `Colonial Spaceport`
+	shipyard Colonial
+	outfitter Colonial
+	"required reputation" 0
+	bribe 0.2
+	security 0.4
+	tribute 10000
+		threshold 20000
+		fleet "Small Colonial" 50
+		fleet "Small Colonial Military" 5000
+
+planet Libran
+	landscape land/fields3
+	description `Libran is known as the Colony that wars the least. Devoid of an abundance of any one natural resource that might have attracted untoward attention before Unification, Libran was such a strategically insignificant world that its neighbors permitted it to pursue its policy of studied neutrality in peace. That neutrality also made Libran the perfect place to keep money, since its financial institutions were in no danger of being glassed whenever a war broke out. Unsurprisingly, Libran's current prosperity is founded on banks with several centuries of history — banks that defend their clients' identity with a formidable array of barristers who see themselves as heritors of an even longer tradition of jurisprudential excellence.`
+	spaceport `Colonial Spaceport`
+	shipyard Colonial
+	outfitter Colonial
+	"required reputation" 0
+	bribe 0.7
+	security 0.3
+	tribute 10000
+		threshold 20000
+		fleet "Small Colonial" 500
+		fleet "Small Colonial Military" 5000
+
+planet Picon
+	landscape land/water4
+	description `An ocean planet that shares an orbit with Scorpia and Leonis, Picon is to the Fleet what Caprica is to politics. Unlike the Aquarians, who were content to remain fishermen, Picans preferred to sell their military expertise to the highest bidder, and the professionalism of their renowned mercenary companies was only matched by their mendacity.  Picon is home to Colonial Fleet HQ, the Colonial Fleet Academy, and a host of important military research laboratories. Its citizens boast a strong military tradition and are highly represented at every level of the Fleet.`
+	spaceport `Colonial Starport`
+	shipyard Colonial
+	outfitter Colonial
+	bribe 0.03
+	security 0.3
+	tribute 10000
+		threshold 20000
+		fleet "Small Colonial" 500
+		fleet "Small Colonial Military" 5000
+
+planet Sagittaron
+	attributes Primitive
+	landscape land/mountain4
+	description `Having endured centuries of political and economic exploitation at the hands of its peers, Sagittaron is without a doubt the poorest of all the Twelve Colonies. Birthplace of a controversial reading of the Sacred Scrolls counseling asceticism, non-violence, and faith-based healing, Sagittaron has suffered from social turmoil long before the Articles of Colonization were signed. But it wasn't until Unification that long-simmering tensions erupted into all-out violence, as a new breed of radicals sought to win with force what their predecessors had failed to achieve. When Sagittaron's Colonial Guard proved unable to contain the insurgency sweeping across the southern continent, its planetary government summoned the Marines for aid. Boots hit ground thirteen years ago — and though much of the violence has subsided, pockets of violent resistance remain.`
+	spaceport `Colonial Starport`
+	shipyard Colonial
+	outfitter Colonial
+	"required reputation" 0.1
+	bribe 0.2
+	security 0.3
+	tribute 10000
+		threshold 20000
+		fleet "Small Colonial" 500
+		fleet "Small Colonial Military" 5000
+
+planet Scorpia
+	attributes Jungle
+	landscape land/forest5
+	description `Scorpia is small and unbearably warm, thanks to its dense atmosphere and sprawling jungles. Those humans who live there have understandably gravitated towards massive isolated cities, though a sizeable contingent of tree-huggers have moved to the planet's less developed regions to get closer to nature. The local flora and fauna have ensured that such experiments generally do not last very long at all. Far more important than what's on Scorpia, however, is what's above it: the Scorpian Fleet Shipyards, the largest manufacturing yards in all the Twelve Colonies and the primary driver of the Scorpian economy. Scorpians themselves are reputed to be an opinionated and hot-tempered lot, and among them can be counted many of the Colonies' foremost satirists, essayists, and all-around gadflies.`
+	spaceport `Colonial Starport`
+	shipyard Colonial
+	outfitter Colonial
+	"required reputation" 0
+	bribe 0.2
+	security 0.2
+	tribute 10000
+		threshold 20000
+		fleet "Small Colonial" 500
+		fleet "Small Colonial Military" 5000
+
+planet "Scorpion Fleet Shipyards"
+	attributes Station Military Colonial
+	landscape land/scorpfleetsy
+	description `Scorpion Fleet Shipyards is the largets docking and repair locations in the known galaxy.  Complete with ship manufacturing and modifications, just about anything may be obtained here with the right clearance and funding.`
+	spaceport `The massive station is one of the most heavily armed and manned locations in Colonial Space.`
+	shipyard Colonial
+	outfitter Colonial
+	outfitter Cylon
+	shipyard Max
+	outfitter Max
+	"required reputation" 0
+	bribe 0.9
+	security 0.9
+	tribute 10000
+		threshold 20000
+		fleet "Small Colonial" 5000
+		fleet "Small Colonial Military" 5000
+
+planet Tauron
+	landscape land/city2
+	shipyard Colonial
+	outfitter Colonial
+	description `Tauron was famous for being the most troublesome Colony in the years after Unification. Though it was originally reliant on agriculture, the war against Leonis gave Taurian entrepreneurs the perfect excuse to capitalize upon their world's manpower advantage. The resulting industrial revolution catapulted this planet to the forefront of Colonial politics, though it came with the attendant labor unrest that the government's policy of de-unionization only exacerbated. Though the quality of Taurian goods has markedly increased, "Taurian manufacturing" is still considered something of a slur. That reputation is hardly deserved; indeed, the Colony is home to several major corporations and research labs, many of which were integral in the development of early Cylon technology.`
+	spaceport `Colonial Starport`
+	shipyard Colonial
+	outfitter Colonial
+	"required reputation" 0
+	bribe 0.03
+	security 0.3
+	tribute 10000
+		threshold 20000
+		fleet "Small Colonial" 500
+		fleet "Small Colonial Military" 5000
+
+planet Troy
+	attributes Mining
+	landscape land/nasa2
+	tribute 10000
+		threshold 20000
+		fleet "Small Colonial" 500
+
+planet Virgon
+	attributes Ocean
+	landscape land/beach1
+	description `Virgon is known far and wide for its "gentrified countryside" chic, and tourists flock to the planet to enjoy its fabulous slopes, tranquil meadows, and sparkling lakes — cookie-cutter perfection for the happening Colonial elite. What poverty exists on Virgon has mostly been swept under the rug, though recent journalistic exposés have started to explore the plight of the Virgan worker. Many Virgan celebrities have tried to jump on that boat with varying degrees of success, and some would argue that their boneheaded advocacy has actually reduced the legitimacy of the cause. Virgans are generally perceived as vapid and superficial, concerned more with outward appearances than with substance of any sort: an image hardly helped by the Colony's overexposed glitterati.`
+	spaceport `Colonial Spaceport`
+	shipyard Colonial
+	outfitter Colonial
+	"required reputation" 0
+	bribe 0
+	security 0.2
+	tribute 10000
+		threshold 20000
+		fleet "Small Colonial" 50
+		fleet "Small Colonial Military" 5000
+
+government Colonial
+	swizzle 4
+	color .99 .01 .99
+	"player reputation" 10
+	"attitude toward"
+		Korath -.3
+	"friendly hail" "friendly colonial"
+	"hostile hail" "hostile colonial"
+
+shipyard Colonial
+	"Berzerk Class Heavy Cruiser"
+	"Ares Class Destroyer"
+	"Cobra"
+	"Columbia Class Battlestar"
+	"Eris Class Bomber"
+	"Flattop Wrecker"
+	"Heavy Freighter 3B"
+	"Heavy Freighter 9F"
+	"Katana Class Battlestar"
+	"Light Freighter 3M"
+	"Luxury Liner CC"
+	"Luxury Liner OC"
+	"Luxury Liner PG"
+	"Mercury Class Battlestar"
+	"Mining Ship"
+	"Nyx Class Interceptor"
+	"P.A.C.I. m82"
+	"Predator"
+	"Raptor"
+	"Refitted Super Freighter"
+	"Scimitar Bomber"
+	"Specter Assault Craft"
+	"Scorpion"
+	"Shuttle mk.II"
+	"Star Jumper"
+	"Talos Class Cruiser"
+	"Valkyrie Class Battlestar"
+	"Viper mk.II"
+	"Viper mk.VII"
+#	"Cylon Fighter"
+#	"Cylon Heavy Basestar"
+
+outfitter Colonial
+	"A.C. MM30/1K-G"
+	"AGM-88 Arke"
+	"AIM-9D Pilium"
+	"ALMH-16 Arke"
+	"ALMH-64 Chaft/Flare Clip"
+	"ALMH-64 Lightning Javelin"
+	"ASIM-54C Lightning Javelin"
+	"Auto-Nano-Defense-System"
+	"Batteries CEMPB47 L-I"
+	"Chaft/Flare Clip"
+	"Chaft/Flare CSL/QTY-4"
+	"Colonial Defense Program v3.8"
+	"D.A.C. MM30/2K-T"
+	"Damage Control Teams"
+	"DRADIS Array DPG/AESA-25"
+	"DRADIS Array RT/WTS-10"
+	"DRADIS Array VB/CIV-03"
+	"DRADIS Array VT/CIV-04"
+	"ECM/TEWS CN-07/D2"
+	"FCS AA/AAQ-04 CIV"
+	"FCS AB/CIV-02 MGS"
+	"FCS AN/SPS-63 MK06"
+	"FCS TN/VPS-18 MK10"
+	"Fragmentation Grenades"
+	"FTL Drive Avalon B-Class"
+	"FTL Drive Celestus R-Class"
+	"Generator PG72-400R"
+	"HHC-200 Heavy Cargo Container"
+	"Launch System SIM-05/C2"
+	"Launch System XGMA-2G"
+	"Launch System XUGCL-2U"
+	"Liquid Nitrogen Cooler"
+	"P.D.C. MK163/94-B"
+	"Propulsion System A60"
+	"Propulsion System B11"
+	"Propulsion System C32"
+	"Propulsion System D74"
+	"Propulsion System E49"
+	"Propulsion System F86"
+	"Pulse Rifle AR-MD86"
+	"R.C.S. Thrusters CS01-P1"
+	"R.C.S. Thrusters CS05-P8"
+	"R.C.S. Thrusters RT4-11"
+	"R.C.S. Thrusters RT4-C/03"
+	"Reactor R4-B D.T."
+	"Reactor WF-67/B D.M."
+	"Salvaged Title"
+	"Security Station"
+	"Sub-Light Thruster RM06-B03"
+	"Sub-Light Thruster RM22-D01"
+	"Sub-Light Thruster SC08-A03"
+	"Turbo-Thruster CS04-AC01"
+	"Turbo-Thruster CS09-AC02"
+
+fleet "Small Colonial Civilian"
+	government Colonial
+	names "Small Colonial Civilian Names"
+	cargo 4
+	personality
+		forbearing
+	variant 50
+		"Luxury Liner PG"
+		"Scopion"
+	variant 45
+		"Heavy Freighter 3B"
+		"Transport" 2
+		"P.A.C.I. m82"
+	variant 40
+		"Heavy Freighter 9F" 3
+		"Transport"
+		"P.A.C.I. m82" 2
+	variant 35
+		"Transport" 4
+	variant 30
+		"Heavy Freighter 3B" 3
+		"Transport" 2
+		"P.A.C.I. m82" 4
+	variant 25
+		"Transport" 2
+		"P.A.C.I. m82"
+	variant 20
+		"Luxury Liner PG"
+		"Scopion"
+		"Scopion g42i"
+	variant 15
+		"Luxury Liner PG" 4
+		"Transport" 2
+	variant 15
+		"Luxury Liner PG" 4
+		"Viper mk.II" 4
+		"Transport" 4
+		"Heavy Freighter 3B" 4
+		"Heavy Freighter 9F" 4
+
+fleet "Small Colonial Military"
+	government Colonial
+	names "Small Colonial Military Names"
+	cargo 4
+	personality
+		heroic
+	variant 50
+		"Scorpion g42i" 2
+	variant 40
+		"P.A.C.I. m82" 2
+	variant 30
+		"Viper mk.VI" 2
+	variant 25
+		"Scorpion g42i" 4
+	variant 20
+		"P.A.C.I. m82" 4
+	variant 15
+		"Viper mk.VI" 4
+	variant 10
+		"Scorpion g42i" 8
+	variant 5
+		"P.A.C.I. m82" 8
+	variant 2
+		"Viper mk.VI" 8
+
+fleet "Large Colonial Military"
+	government Colonial
+	names "Large Colonial Military Names"
+	cargo 4
+	personality
+		heroic
+	variant 50
+		"Aegaeon Class Destroyer"
+		"Scorpion" 1
+		"Viper mk.II" 3
+	variant 30
+		"Odin Class Battlestar"
+		"Scorpion" 4
+		"Viper mk.II" 10
+	variant 25
+		"Berzerk Class Heavy Cruiser"
+		"Viper mk.II" 10
+		"Scorpion" 4
+	variant 20
+		"Jupiter Class Battlestar"
+		"Viper mk.II" 40
+		"Scorpion" 8
+	variant 10
+		"Mercury Class Battlestar"
+		"Viper mk.II" 60
+		"Viper mk.VII" 40
+		"Raptor" 10
+
+phrase "Small Colonial Civilian Names"
+	word
+		"Captain "
+		"Pilot "
+		"Rep. "
+		"Martial "
+		"Amb. "
+	word
+		"Athena "
+		"Richard "
+		"Shannon "
+		"Jynx "
+		"Colt "
+		"Marcus "
+		"Jeffory "
+		"Mike "
+		"Gaius "
+		"Kara "
+		"Michael "
+		"Wendy "
+		"William "
+		"Anastasia "
+		"Nina "
+		"Bishop "
+		"Victor "
+		"Tory "
+		"Margaret "
+		"Ugo "
+		"Luke "
+		"Ellen "
+		"Daisy "
+		"Bo "
+		"David "
+		"Dr. "
+		"Franky "
+	word
+		"Winston"
+		"Starfall"
+		"Everhate"
+		"Landing"
+		"Crain"
+		"Knight"
+		"Adama"
+		"Kain"
+		"Thrace"
+		"Foster"
+		"Vicon"
+		"Castle"
+		"Baltar"
+		"Inviere"
+		"Helfer"
+		"Rhodes"
+		"Cairns"
+		"Vernon"
+		"Clyne"
+		"Nova"
+		"Gimble"
+		"Biers"
+		"Skyhook"
+
+phrase "Small Colonial Military Names"
+	word
+		"BS-07 "
+		"BS-12 "
+		"BS-18 "
+		"BS-21 "
+		"BS-22 "
+		"BS-27 "
+		"BS-31 "
+		"BS-39 "
+		"BS-44 "
+		"BS-50 "
+		"BS-62 "
+		"BS-68 "
+		"BS-75 "
+		"BS-76 "
+		"BS-86 "
+	word
+		"Viper  "
+		"Patrol "
+		"Battle Group "
+		"Interceptor "
+		"Escort "
+	word
+		"call sign "
+	word
+		Astro
+		Bandit
+		Congo
+		Dice
+		Edgy
+		Fumbles
+		Gator
+		Haunt
+		Ironside
+		Jouster
+		Kracken
+		Lips
+		Menace
+		Nightwing
+		Orphan
+		Preacher
+		Rambler
+		Styx
+		Thunder
+		Uncle
+		Vibes
+		Whisper
+		Xarner
+		Yoke
+		Zinger
+
+phrase "Large Colonial Military Names"
+	word
+		"BS-07 "
+		"BS-12 "
+		"BS-18 "
+		"BS-21 "
+		"BS-22 "
+		"BS-27 "
+		"BS-31 "
+		"BS-39 "
+		"BS-44 "
+		"BS-50 "
+		"BS-62 "
+		"BS-68 "
+		"BS-75 "
+		"BS-76 "
+		"BS-86 "
+	word
+		"Capt. "
+		"Maj. "
+		"Lt. Col. "
+		"Col. "
+		"Cmdr. "
+		"Admrl. "
+	word
+		"Adama"
+		"Everhate"
+		"Fitz"
+		"Kain"
+		"Babcok"
+		"Khann"
+		"Agathon"
+		"Valerii"
+		"Tyrol"
+		"Dualla"
+		"Anders"
+		"Conoy"
+		"Lawless"
+		"Gaeta"
+		"Tigh"
+		"Edmondson"
+		"Cottle"
+		"Costanza"
+

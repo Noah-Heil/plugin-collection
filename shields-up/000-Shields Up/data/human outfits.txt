@@ -1,0 +1,354 @@
+# Copyright (c) 2016 by various
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+outfit "Extended Bunk Room"
+	category "Systems"
+	cost 80000
+	thumbnail "outfit/extended bunk room"
+	"mass" 8
+	"bunks" 8
+	"outfit space" -32
+	unplunderable 1
+	description "Doubles the space a normal bunk room would give, at the cost of a higher mass and more outfit space taken up."
+
+outfit "Incinerator Beam"
+	category "Guns"
+	cost 290000
+	thumbnail "outfit/unknown"
+	"mass" 32
+	"outfit space" -32
+	"weapon capacity" -32
+	"gun ports" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/Incineratorbeam"
+			"frame rate" 15
+		sound "incinerator"
+		"hit effect" "sunbeam impact"
+		"inaccuracy" .2
+		"velocity" 550
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 2.2
+		"firing heat" 3.6
+		"shield damage" 3.9
+		"hull damage" 5.1
+		"heat damage" 9
+	description "This weapon is a truly great invention. It melts through hull and shields very fast and can swiftly take care of most threats."
+
+outfit "Boarding Cannon"
+	category "Hand to Hand"
+	cost 300000
+	thumbnail "outfit/boarding cannon"
+	"mass" 1
+	"capture attack" 7
+	"capture defense" 2.7
+    unplunderable 1
+	"armory capacity" -10
+	description "A very strong mortar designed for ship boarding."
+	description "It is stored in the Ship Armory."
+
+outfit "Sizeable Map"
+	category "Special"
+	cost 50000
+	thumbnail "outfit/map"
+	"map" 100
+	description "This data chip contains complete information on 100 systems in proximity to the system you are currently in."
+
+outfit "FTek021 Rechargable Battery"
+	plural "FTek021 Rechargable Batteries"
+	category "Power"
+	cost 94000
+	thumbnail "outfit/ftek021 battery"
+	"mass" 30
+	"outfit space" -30
+	"energy capacity" 3000
+	"heat generation" 5
+	"energy generation" 2.5
+	description "Using super sciency conductor things, FTek™ is proud to present the FTek021 Rechargable Battery™!"
+
+outfit "FTek Tiny Shield System"
+	category "Systems"
+	cost 20000
+	thumbnail "outfit/ftek tiny shield"
+	"mass" 5
+	"outfit space" -5
+	"shields" 75
+	"shield generation" 0.05
+	"shield energy" 0.05
+	description "A system that provides your ship with shield power much like the traditional shield generators, however FTek™ designed these specifically for shield power, not for shield generation."
+
+outfit "FTek Small Shield System"
+	category "Systems"
+	cost 35000
+	thumbnail "outfit/ftek small shield"
+	"mass" 12
+	"outfit space" -12
+	"shields" 228
+	"shield generation" 0.13
+	"shield energy" 0.13
+	description "A system that provides your ship with shield power much like the traditional shield generators, however FTek™ designed these specifically for shield power, not for shield generation."
+
+outfit "FTek Medium Shield System"
+	category "Systems"
+	cost 65000
+	thumbnail "outfit/ftek medium shield"
+	"mass" 20
+	"outfit space" -20
+	"shields" 460
+	"shield generation" 0.26
+	"shield energy" 0.26
+	description "A system that provides your ship with shield power much like the traditional shield generators, however FTek™ designed these specifically for shield power, not for shield generation."
+
+outfit "FTek Large Shield System"
+	category "Systems"
+	cost 120000
+	thumbnail "outfit/ftek large shield"
+	"mass" 35
+	"outfit space" -35
+	"shields" 910
+	"shield generation" 0.48
+	"shield energy" 0.48
+	description "A system that provides your ship with shield power much like the traditional shield generators, however FTek™ designed these specifically for shield power, not for shield generation."
+
+outfit "FTek Huge Shield System"
+	category "Systems"
+	cost 200000
+	thumbnail "outfit/ftek huge shield"
+	"mass" 50
+	"outfit space" -50
+	"shields" 1500
+	"shield generation" 0.83
+	"shield energy" 0.83
+	description "A system that provides your ship with shield power much like the traditional shield generators, however FTek™ designed these specifically for shield power, not for shield generation."
+
+outfit "XF-111 Ship Core"
+	category "Systems"
+	"cost" 42000
+	thumbnail "outfit/shipcore"
+	"mass" 21
+	"outfit space" -21
+	"energy generation" 0.5
+	"heat generation" 0.5
+	"shield generation" 0.06
+	"shield energy" 0.06
+	"energy capacity" 300
+	description "A very handy multi-purpose outfit commonly found on the smaller sized ships like interceptors."
+
+outfit "XF-333 Ship Core"
+	category "Systems"
+	"cost" 102500
+	thumbnail "outfit/shipcore"
+	"mass" 37
+	"outfit space" -37
+	"energy generation" 1
+	"heat generation" 1
+	"shield generation" 0.11
+	"shield energy" 0.11
+	"energy capacity" 600
+	"jump speed" 0.1
+	"hyperdrive" 1
+	description "A very handy multi-purpose outfit commonly found on the medium sized ships like freighters and transports."
+
+outfit "XF-555 Ship Core"
+	category "Systems"
+	"cost" 182000
+	thumbnail "outfit/shipcore"
+	"mass" 54
+	"outfit space" -54
+	"energy generation" 1.8
+	"heat generation" 1.8
+	"shield generation" 0.17
+	"shield energy" 0.17
+	"energy capacity" 900
+	"jump speed" 0.2
+	"hyperdrive" 1
+	description "A very handy multi-purpose outfit commonly found on the larger sized ships like warships."
+
+outfit "Interference Hull"
+	category "Systems"
+	cost 15000
+	thumbnail "outfit/interference plating"
+	"mass" 1
+	"outfit space" -1
+	"scan interference" .1
+	description "If you're in the habit of carrying illegal cargo or outfits, this plating increases the odds that a scan of your ship will fail to detect it. The more of these you install, the better your chances of evading detection. They won't keep anyone from noticing if you're flying an unlicensed ship, however."
+
+outfit "Interference Shielding"
+	category "Systems"
+	cost 200000
+	thumbnail "outfit/interference plating"
+	"mass" 12
+	"outfit space" -12
+	"scan interference" 1.9
+	description "If you're in the habit of carrying illegal cargo or outfits, this plating increases the odds that a scan of your ship will fail to detect it. The more of these you install, the better your chances of evading detection. They won't keep anyone from noticing if you're flying an unlicensed ship, however."
+
+outfit "AI Mainframe"
+	category "Systems"
+	cost 1000000
+	thumbnail "outfit/unknown"
+	"mass" 10
+	"outfit space" -40
+	"bot capacity" 30
+	description "The AI Mainframe is able to single handedly control up to 30 androids at once, greatly increasing the combat effectiveness of the ship that it is installed on. Androids sold seperately."
+
+outfit "S-45 Lamprey"
+	category "Hand to Hand"
+	cost 15000
+	thumbnail "outfit/lamprey"
+	"mass" 1
+	"capture attack" 1
+	"capture defense" 2
+	"bot capacity" -1
+	unplunderable 1
+	description "A more defence based guard bot, it is used mostly in freighters."
+
+outfit "P-75 Archangel"
+	category "Hand to Hand"
+	cost 70000
+	thumbnail "outfit/archangel"
+	"mass" 1
+	"capture attack" 4.3
+	"capture defense" 8.5
+	"bot capacity" -1
+	"armory capacity" 3
+	unplunderable 1
+	description "A more defence based guard bot, it is used mostly in freighters."
+
+outfit "R-120 Warbird"
+	category "Hand to Hand"
+	licenses
+		"Navy"
+	cost 120000
+	thumbnail "outfit/warbird"
+	"mass" 1
+	"capture attack" 5.2
+	"capture defense" 2.6
+	"bot capacity" -1
+	"armory capacity" 5
+	unplunderable 1
+	description "The Republic Navy uses this model of boarding bots for boarding pirates or capturing other enemy ships."
+	
+outfit "Engineer Bot"
+	category "Special"
+	cost 5000
+	thumbnail "outfit/engineer bot"
+	"mass" 1
+	"shield generation" 0.01
+    "shield energy" 0.02
+	"bot capacity" -1
+	unplunderable 1
+	description "An android that specializes in electronics and mechanics, able to boost the efficency of shield generators."
+	
+outfit "Repair Bot"
+	category "Special"
+	cost 7000
+	thumbnail "outfit/repair bot"
+	"mass" 1
+	"hull repair rate" 0.005
+    "hull energy" 0.01
+	"bot capacity" -1
+	unplunderable 1
+	description "An android that specializes in ships and hull, able to repair your ship from the inside."
+	
+outfit "Ship Armory"
+	plural "Ship Armories"
+	category "Hand to Hand"
+	thumbnail "outfit/armory"
+	cost 480000
+	mass 44
+	"outfit space" -44
+	"armory capacity" 120
+	description "For the captains who make their money by boarding, this section of the ship allows you to use more advanced and stronger boarding weapons."
+
+outfit "SC015s Shield Capacitor"
+	category "Systems"
+	cost 12000
+	thumbnail "outfit/tiny battery"
+	"mass" 10
+	"outfit space" -10
+	"shields" 300
+	description "Shield Capacitors increase the maximum shield energy carried by a ship."
+
+outfit "SC030s Shield Capacitor"
+	category "Systems"
+	cost 30000
+	thumbnail "outfit/small battery"
+	"mass" 20
+	"outfit space" -20
+	"shields" 750
+	description "Shield Capacitors increase the maximum shield energy carried by a ship."
+
+outfit "SC060s Shield Capacitor"
+	category "Systems"
+	cost 67000
+	thumbnail "outfit/medium battery"
+	"mass" 40
+	"outfit space" -40
+	"shields" 1800
+	description "Shield Capacitors increase the maximum shield energy carried by a ship."
+
+outfit "SC120s Shield Capacitor"
+	category "Systems"
+	cost 150000
+	thumbnail "outfit/large battery"
+	"mass" 80
+	"outfit space" -80
+	"shields" 4200
+	description "Shield Capacitors increase the maximum shield energy carried by a ship."
+
+outfit "SC240s Shield Capacitor"
+	category "Systems"
+	cost 380000
+	thumbnail "outfit/huge battery"
+	"mass" 160
+	"outfit space" -160
+	"shields" 9600
+	description "Shield Capacitors increase the maximum shield energy carried by a ship."
+
+outfit "Pillager Bolt-on Cockpit"
+	category "Systems"
+	cost 970000
+	thumbnail "ship/heavy shuttle"
+	mass 125
+	"outfit space" 80
+	"energy generation" -0.8
+	"heat generation" 3
+	"hull" -700
+	"bunks" 10
+	unplunderable 1
+	description "For the captain who needs more outfit space and does not particularily care about their mass and hull strength."
+	description "The Pillager Bolt-on Cockpit is a used Heavy Shuttle renovated and modified to be bolted onto a ship. Security systems installed make it so that it has less outfit space than the Heavy Shuttle itself."
+
+outfit `"HAL-500" Automation Matrix`
+	plural `"HAL-500" Automation Matrices`
+	cost 12500000
+	category "Systems"
+	thumbnail "outfit/unknown"
+	automaton 1
+	"outfit space" -40
+	description `The "HAL-500" Automation Matrix fully automates the ship it is installed on. Due to the use of anomalous materials, it has a high price tag.`
+	description "It has been questioned wether or not a merchant would be allowed to buy this and as a result, only those trusted by the Republic are allowed to buy and use this."
+	
+event "republic trusts player"
+	outfitter "Deep Sky Advanced"
+		`"HAL-500" Automation Matrix`
+	outfitter "Lovelace Advanced"
+		`"HAL-500" Automation Matrix`
+		
+mission "republic trusts player"
+	invisible
+	to offer
+		or
+			karma > 2
+			has "free worlds plot completed"
+	on offer
+		event "republic trusts player" 5
+		fail

@@ -1,0 +1,300 @@
+# CYLON Out Fitter
+
+outfit "Cylon F02-A.C.-180C"
+	category "Guns"
+	cost 94000
+	thumbnail "outfit/unknown"
+	mass 50
+	"outfit space" -17
+	"weapon capacity" -17
+	"gun ports" -1
+	"energy capacity" 150
+	weapon
+		sprite "projectile/tracer"
+			"frame rate" 10
+			"random start frame"
+		"fire effect" "flak fire"
+		"fire effect" "muzzle fire"
+		"hit effect" "flak impact"
+		sound "flakfire"
+		"inaccuracy" 0.1
+		"velocity" 25
+		"lifetime" 34
+		"reload" 1.5
+		"firing energy" 8
+		"firing heat" 20
+		"hit force" .3
+		"shield damage" 25
+		"hull damage" 21
+		"heat damage" 4
+		"piercing" .05
+		cluster
+	description "Cylon F02-AC-180C Auto Cannon"
+
+outfit "Cylon Anti-Missile Turret"
+	category "Turrets"
+	cost 8500000
+	thumbnail "outfit/heavy anti-missile"
+	"mass" 500
+	"outfit space" -100
+	"weapon capacity" -50
+	"turret mounts" -1
+	"energy capacity" 40000
+	weapon
+		"hit effect" "big explosion"
+		sound "flakfire"
+		"velocity" 700
+		"lifetime" 1
+		"reload" 1.5
+		"burst reload" 1.25
+		"burst count" 8
+		"firing energy" 10
+		"firing heat" 20
+		"anti-missile" 150
+	description "Cylon Anti-Missile System"
+
+outfit "Cylon Auto Cannon T72"
+	category "Turrets"
+	cost 250000000
+	thumbnail "outfit/unknown"
+	mass 2500
+	"outfit space" -240
+	"weapon capacity" -125
+	"turret mounts" -1
+	"energy capacity" 200000
+	"energy generation" 50
+	weapon
+		sprite "projectile/plaster"
+			"frame rate" 4
+			"random start frame"
+		sound "flakfire"
+		"fire effect" "flak fire" 4
+		"fire effect" "muzzle fire"
+		"hit effect" "small explosion"
+		"inaccuracy" .3
+		"velocity" 25
+		"lifetime" 60
+		"reload" 60
+		"burst reload" 6
+		"burst count" 4
+		"firing energy" 7500
+		"firing force" 4
+		"firing heat" 1150
+		"hit force" 5.1
+		"shield damage" 4000
+		"hull damage" 2000
+		"heat damage" 200
+		"piercing" .05
+		stream
+	description "Cylon 72inch Quad Firing Turret"
+
+outfit "Cylon Auto Cannon T16"
+	category "Turrets"
+	cost 248000000
+	thumbnail "outfit/unknown"
+	mass 1855
+	"outfit space" -180
+	"weapon capacity" -100
+	"turret mounts" -1
+	"energy capacity" 4000
+	weapon
+		sprite "projectile/claster"
+			"frame rate" 4
+			"random start frame"
+		sound "flakfire"
+		"fire effect" "flak fire"
+		"fire effect" "muzzle fire"
+		"hit effect" "tiny explosion"
+		"inaccuracy" .1
+		"velocity" 25
+		"lifetime" 40
+		"reload" 30
+		"burst reload" 5
+		"burst count" 4
+		"firing energy" 2500
+		"firing force" .5
+		"firing heat" 600
+		"hit force" 2.1
+		"shield damage" 425
+		"hull damage" 360
+		"heat damage" 28
+		"piercing" .02
+		stream
+	description "Cylon 16inch Quad Firing Turret"
+
+outfit "Cylon Flac Launcher CF64"
+	category "Turrets"
+	cost 61000
+	"mass" 10
+	"outfit space" -2
+	"weapon capacity" -2
+	"turret mounts" -1
+	"energy capacity" 500
+	"chaft/flare capacity" 64
+	weapon
+		"hit effect" "tiny explosion"
+		sound "flakfire"
+		ammo "Chaft/Flare Clip"
+		"velocity" 150
+		"lifetime" 1
+		"reload" 1.5
+		"firing energy" .5
+		"firing heat" .1
+		"anti-missile" 1000
+	description "CSL/QTY-4 Chaft/Flare Dispenser System"
+
+outfit "Cylon ML02-8K"
+	category "Secondary Weapons"
+	cost 45000000
+	thumbnail "outfit/bsnuke"
+	"mass" 50
+	"outfit space" -95
+	"weapon capacity" -65
+	"gun ports" -1
+	"energy capacity" 5000
+	"havoc capacity" 12
+	weapon
+		sprite "projectile/bsnuke"
+			"frame rate" 5
+		sound "rocket"
+		icon "icon/bemp"
+		ammo "BGM-235 Havoc"
+		"hit effect" "small explosion"
+		"fire effect" "meteor fire"
+		"die effect" "missile death"
+		"inaccuracy" 4
+		"velocity" 5
+		"lifetime" 1500
+		"reload" 60
+		"firing energy" 250
+		"firing heat" 250
+		"firing fuel" 15
+		"acceleration" 1.8
+		"drag" .1
+		"turn" 6
+		"homing" 4
+		"tracking" 1
+		"shield damage" 8000
+		"hull damage" 4000
+		"heat damage" 1500
+		"disruption damage" .25
+		"missile strength" 250
+	description "Cylon ML02-8K"
+
+outfit "Cylon ML03/48-8kN"
+	category "Secondary Weapons"
+	cost 45000000
+	thumbnail "outfit/bsnuke"
+	"mass" 5000
+	"outfit space" -200
+	"weapon capacity" -100
+	"gun ports" -1
+	"energy capacity" 10000
+	"nemesis capacity" 25
+	weapon
+		sprite "projectile/bsnuke"
+			"frame rate" 5
+		sound "rocket"
+		icon "icon/bnuk"
+		ammo "BGMN-793 Nemesis"
+		"hit effect" "small explosion"
+		"fire effect" "meteor fire"
+		"die effect" "missile death"
+		"inaccuracy" 4
+		"velocity" 5
+		"lifetime" 1000
+		"reload" 400
+		"firing energy" 6000
+		"firing heat" 4000
+		"firing fuel" 35
+		"submunition" "NukeStage1" 3
+		"acceleration" 1.8
+		"drag" .1
+		"turn" 6
+		"homing" 4
+		"tracking" 1
+		"shield damage" 8000
+		"hull damage" 4000
+		"heat damage" 1500
+		"disruption damage" .25
+		"missile strength" 155
+	description "Cylon ML03/48-8kN"
+
+outfit "Cylon Tri-Core Grav-Reactor HBS2"
+	category "Power"
+	cost 298000000
+	thumbnail "outfit/triple plasma core"
+	"energy capacity" 250000
+	"energy generation" 500
+	"heat generation" 141.5
+	"mass" 8500
+	"outfit space" -500
+	"ramscoop" 81
+	description Cylon Tri-Core Gravity Reactor
+
+outfit "Cylon F02-R1-T1-J1-A1"
+	category "Engines"
+	"cost" 842000
+	thumbnail "outfit/tiny plasma thruster"
+	"flare sprite" "effect/atomic flare/small"
+		"frame rate" 0.8
+	"flare sound" "ion_drive"
+	"mass" 250
+	"outfit space" -200
+	"energy capacity" 9000
+	"energy generation" 20
+	"heat generation" 5
+	"engine capacity" -400
+	"fuel capacity" 1000
+	"afterburner thrust" 50
+	"afterburner fuel" .25
+	"afterburner heat" 5
+	"afterburner effect" "ionic afterburner"
+	"jump speed" 25
+	"jump drive" 1
+	"ramscoop" 9
+	"reverse thrust" 50
+	"reverse thrusting energy" 2.5
+	"reverse thrusting heat" 2.5
+	"thrust" 100
+	"thrusting energy" 5
+	"thrusting heat" 5
+	"turn" 6000
+	"turning energy" 5
+	"turning heat" 5
+	description "Cylon Fighter Thrusters"
+	description "Built in Reverse Thrusters, After Burner and an FTL Drive."
+
+outfit "Cylon HW01-R1-T1-J1"
+	category "Engines"
+	"cost" 842000
+	thumbnail "outfit/tiny plasma thruster"
+	"mass" 12500
+	"outfit space" -250
+	"energy capacity" 200000
+	"energy generation" 200
+	"heat generation" 50
+	"engine capacity" -500
+	"fuel capacity" 1000
+	"jump speed" 20
+	"jump drive" 1
+	"reverse thrust" 1000
+	"reverse thrusting energy" 20.5
+	"reverse thrusting heat" 20.5
+	"thrust" 2000
+	"thrusting energy" 25
+	"thrusting heat" 25
+	"turn" 120000
+	"turning energy" 25
+	"turning heat" 25
+	description "Cylon Basestar Engines"
+
+outfit "Cylon Worker"
+	category "Special"
+	cost 150000
+	thumbnail "outfit/android"
+	"required crew" .1
+	"hull repair rate" .001
+	"shield generation" .001
+	unplunderable 1
+	description "Cylon Systems Worker Model, Performs the work of 2 crew members and not affected by enviromental conditions."

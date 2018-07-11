@@ -1,0 +1,74 @@
+# Copyright (c) 2016 by Jonathan Steck
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+outfitter wanderer
+	"Type 5 Radiant Thruster"
+	"Type 5 Radiant Steering"
+	"Type 0 Radiant Engines"
+
+outfitter korath
+	"Korath Dual Slicer Turret"
+	"Korath Disruptor Gun"
+
+outfitter "Enigma Corp"
+	"Crew Implants"
+	"Exotic Matter Plating"
+	"Weapon Expansion"
+	"Engine Expansion"
+	"Flux Missile Launcher"
+	"Flux Missile"
+	"Fuel Rod Launcher"
+	"Hellfire Missile Launcher"
+	"Hellfire Missile"
+	"Shrapnel Cannon"
+	"Shrapnel Canister"
+	"Particle Blaster"
+	"Particle Repeater"
+	"Blaster Slug"
+	"Repeater Slug"
+
+outfitter "EC Misc"
+	"Modified Proton Gun"
+	"Proton Capacitor"
+	"Incendiary Grenades"
+	"Rail Rifle"
+	"Plasma Deflector"
+	"Personal Shield Generator"
+	"Breach Shotgun"
+	"Rocket Launcher"
+	"Portable Flamethrower"
+	"Fuel Powered Generator"
+	"External Fuel Pod"
+	"Weapon Expansion"
+	"Engine Expansion"
+	"Flux Torpedo Launcher"
+	"Flux Torpedo"
+	"Sidewinder Missile Turret"
+	"Plasmathrower"
+	"Thermite Torpedo Launcher"
+	"Thermite Torpedo"
+	"Laser SMG"
+
+planet Mods
+	outfitter "Enigma Corp"
+	outfitter "EC Misc"
+	outfitter "EC Korath"
+
+planet Forge
+	outfitter "Enigma Corp"
+	outfitter "EC Misc"
+	outfitter "EC Korath"
+
+planet Human
+	outfitter "Enigma Corp"
+	outfitter "EC Misc"
+
+planet Korath
+	outfitter "EC Korath"

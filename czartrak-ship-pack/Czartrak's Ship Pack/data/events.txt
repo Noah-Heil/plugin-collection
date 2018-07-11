@@ -1,0 +1,197 @@
+event "navy using mark ii mod ships"
+	fleet "Large Republic"
+		add variant 1
+			"Gunboat (Mark II)" 2
+			"Battlecruiser (Mark II)" 
+		add variant 3
+			"Battlecruiser (Mark II)" 
+		add variant 2
+			"Battleship (Mark II)"
+		add variant 4
+			"Nesasio Mark II" 2
+		add variant 1
+			"Battlecruiser (Mark II)"
+			"Destroyer (Mark II)" 2
+		add variant 1
+			"Battleship (Mark II)"
+			"Nesasio Mark II" 2
+		add variant 4
+			"Destroyer (Mark II)" 3
+		add variant 2
+			"Rainmaker (Mark II)" 2
+			"Battleship (Mark II)"
+			
+mission "unlock mark ii mod ships"
+	landing
+	invisible
+	to offer
+		has "event: navy using mark ii ships"
+	on offer
+		event "navy using mark ii mod ships" 30
+		fail
+
+event "sentinel add event"
+	fleet "Large Syndicate"
+		add variant 2
+			"Sentinel"
+		add variant 1
+			"Manta (Proton)"
+			"Sentinel"
+		add variant 1
+			"Manta" 
+			"Sentinel (Plasma)"	
+		add variant 2
+			"Sentinel (Plasma)"
+		
+mission "sentinel add mission"
+	landing
+	invisible
+	to offer
+		has "FW Dreadnoughts Ready: offered"
+	on offer
+		event "sentinel add event" 20 
+		conversation
+			scene "scene/sentinel"
+			`As you walk through the Spaceport you notice an uncommonly high interest in an advertisement about the newest development from Syndicate Shipyards. You stop at a local bar with a large video screen, which just so happens to be playing the advertisement. You start watching.`
+			`	On screen a large Pirate Fleet has blown multiple ships to shreds until two large Syndicate military ships appear. At first you wrongly mistake them both as Vanguards, but as the camera moves closer you notice that one is much larger. The Syndicate ships open fire on the Pirates and just a few seconds later there is nothing left but space debris.
+			`	"The new Sentinel, a true Syndicate Masterpiece. Security for LIFE guaranteed!"`
+				
+		fail
+
+event "sentinel unlock event"
+	shipyard "Syndicate Advanced"
+		"Sentinel"
+	
+mission "sentinel unlock mission"
+	landing
+	invisible
+	to offer
+		has "event: syndicate tech available"
+	source
+		government Syndicate
+	on offer
+		event "sentinel unlock event"
+		fail
+		
+event "southern mod carriers 1"
+	shipyard "Southbound Advanced"
+		"Nest D"
+		"Bee"
+	fleet "Small Free Worlds"
+		fighters "free worlds fighters"
+		add variant 1
+			"Nest D"
+			"Bee" 
+			"Combat Drone"
+		add variant 1
+			"Nest D"
+			"Mockingjay" 2
+
+	fleet "Small Independent"
+		fighters "free worlds fighter"
+		add variant 1
+			"Nest D"
+			"Bee" 2
+
+event "southern mod carriers 3"
+	shipyard "Tarazed Basics"
+		"Bee"
+		"Mockingjay"
+	shipyard "Tarazed Advanced"
+		"Nest D"
+		"Roost D"
+		"Skein D"
+	fleet "Large Free Worlds"
+		drones "free worlds fighters"
+		add variant 2
+			"Roost D"
+			"Bee" 3
+			"Combat Drone"
+		add variant 2
+			"Skein D"
+			"Bee" 5
+			"Combat Drone"
+		add variant 1
+			"Roost D" 
+			"Mockingjay" 4
+		add variant 1
+			"Skein D" 2
+			"Bee" 9
+			"Combat Drone" 3
+			
+	fleet "Small Southern Pirates"
+		add variant 1
+			"Nest D"
+			"Bee" 2
+
+event "southern carriers mod 4"
+	fleet "Large Independent"
+		fighters "free worlds fighter"
+		add variant 2
+			"Roost D"
+			"Bee" 4
+	
+	fleet "Small Northern Pirates"
+		add variant 1
+			"Nest"
+			"Lance" 2
+
+	fleet "Large Northern Pirates"
+		add variant 1
+			"Roost D"
+			"Bee" 4
+			
+mission "Southern Carriers Mod Trigger"
+	landing
+	invisible
+	to offer
+		has "event: start of hostilities"
+		has "event: southern carriers 4"
+	on offer
+		event "southern mod carriers 1" 20
+		event "southern mod carriers 3" 40
+		event "southern mod carriers 4" 60
+		fail
+		
+mission "the navy dread"
+	landing
+	invisible
+	to offer
+		has "FW Dreadnoughts Ready: offered"
+	source
+		government "Free Worlds"
+	on offer
+		event "add navy dreads" 20 
+		conversation
+			scene "scene/ndread"
+			`You decide to drop by one of the local Free Worlds military meetings.`
+			`	The majority of the meeting is nothing special, mostly updates on fleet movements and such. The one point that catches your attention is a new navy ship.`
+			`	An image of the ship is projected on the wall. The ship is smaller than a carrier, but packs some decent firepower. It would seem that the navy has made their own Dreadnoughts.`
+				
+		fail
+
+event "navy dreads produced"
+	shipyard "Navy Advanced"
+		"Navy Dreadnought"
+	
+mission "navy dreads"
+	landing
+	invisible
+	to offer
+		has "event: syndicate tech available"
+	source
+		government "Free Worlds"
+	on offer
+		event "navy dreads produced"
+		fail
+		
+event "add navy dreads"
+	fleet "Large Republix"
+		add variant 2
+			"Navy Dreadnought" 2
+		add variant 1
+			"Navy Dreadnought"
+			"Cruiser (Mark II)" 2
+		add variant 1
+			"Navy Dreadnought" 2 
+			"Battleship (Mark II)"

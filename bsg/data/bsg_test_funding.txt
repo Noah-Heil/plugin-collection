@@ -1,0 +1,27 @@
+# Copyright (c) 2015 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+start
+	set "license: Ensign"
+	"tribute: Colonial Pay Ensign" += 250000
+	set "license: Captain"
+	"tribute: Colonial Pay Captain" += 250000
+	set "license: Major"
+	"tribute: Colonial Pay Major" += 250000
+	set "license: Lieutenant Colonel"
+	"tribute: Colonial Pay Lieutenant Colonel" += 250000
+	set "license: Colonel"
+	"tribute: Colonial Pay Colonel" += 250000
+	set "license: Commander"
+	"tribute: Colonial Pay Commander" += 500000
+	set "license: Rear Admiral"
+	"tribute: Colonial Pay Rear Admiral" += 750000
+	set "license: Admiral"
+	"tribute: Colonial Pay Admiral" += 1000000

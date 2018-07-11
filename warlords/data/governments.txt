@@ -1,0 +1,46 @@
+﻿
+government "Domyurre Gizan"
+	swizzle 4
+	color .0 .3 .69
+	language "Altay"
+	
+	"attitude toward"
+		"Morumatan" -.01
+		"Gurkani" -.01
+	
+	"player reputation" 1
+
+government "Gurkani"
+	swizzle 0
+	color .19 .38 .19
+	
+	"attitude toward"
+		"Xorezm" -.01
+		"Domyurre Gizan" -.01
+	
+	"player reputation" 1
+
+government "Morumatan"
+	swizzle 5
+	color 1 .8 .2
+	language "Altay"
+	
+	"attitude toward"
+		"Domyurre Gizan" -.01
+		"Xorezm" .01
+	
+	"player reputation" 1
+
+government "Xorezm"
+	swizzle 0
+	color .0 .59 .19
+	language "Altay"
+	
+	"attitude toward"
+		"Gurkani" -.01
+		"Morumatan" .01
+
+	"player reputation" 1
+
+government "Warlord Automata"
+	"player reputation" -1000

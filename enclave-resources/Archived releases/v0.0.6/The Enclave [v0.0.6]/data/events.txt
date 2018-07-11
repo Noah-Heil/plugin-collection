@@ -1,0 +1,29 @@
+event "enclave opens"
+	link Xenos Suhail
+	
+event "invasionK"
+	government "Kaltheim"
+		"attitude toward"
+			"Enclave" -500000
+			"XSZ Corporation" -500000
+			"Pug" 500000
+	government "Enclave"
+		"attitude toward"
+			"Kaltheim" -500000
+			"XSZ Corporation" 0
+	government "XSZ Corporation"
+		"attitude toward"
+			"Kaltheim" -500000
+			"Enclave" 0
+	link Daia Vo'jaerun
+	link Gautus Vo'jaerun
+	link Gautus Umba'draeuin
+	link Four Hrau'ngri'liadien
+	link Aetrus Hrau'ngri'liadien
+	unvisit Daia
+	unvisit Vo'jaerun
+	unvisit Gautus
+	unvisit Umba'draeuin
+	unvisit Four
+	unvist Hrau'ngri'liadien
+	unvisit Aetrus

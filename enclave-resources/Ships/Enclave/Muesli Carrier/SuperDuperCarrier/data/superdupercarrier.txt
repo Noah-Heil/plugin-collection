@@ -1,0 +1,61 @@
+ship "Super Duper Carrier"
+	sprite "ship/SuperDuperCarrier"
+	attributes
+		category "Heavy Warship"
+		"cost" 10000000
+		"shields" 21400
+		"hull" 8300
+		"required crew" 70
+		"bunks" 100
+		"mass" 900
+		"drag" 10
+		"heat dissipation" .6
+		"fuel capacity" 600
+		"cargo space" 70
+		"outfit space" 1000
+		"weapon capacity" 200
+		"engine capacity" 200
+		weapon
+			"blast radius" 120
+			"shield damage" 1200
+			"hull damage" 600
+			"hit force" 1800
+	outfits
+		"Heavy Anti-Missile Turret" 3
+		
+		"Fusion Reactor"
+		"LP288a Battery Pack"
+		"D94-YV Shield Generator"
+		"Water Coolant System"
+		
+		"X5700 Ion Thruster"
+		"X4200 Ion Steering"
+		"Hyperdrive"
+		
+	engine 13.5 152.5
+	engine -13.5 152.5
+	turret 0 90.5 "Heavy Anti-Missile Turret"
+	turret 0 32 "Heavy Anti-Missile Turret"
+	turret 0 -25.5 "Heavy Anti-Missile Turret"
+	fighter -75 -93.5 left
+	fighter -75 -55 left
+	fighter -75 -18 left
+	fighter -75 22 left
+	fighter -75 62 left
+	fighter -75 103 left
+	fighter 75 -93.5 right
+	fighter 75 -55 right
+	fighter 75 -18 right
+	fighter 75 22 right
+	fighter 75 62 right
+	fighter 75 103 right
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "big explosion" 40
+	explode "huge explosion" 10
+	description "##### there's a lot of fighter bays on this thing"
+	
+shipyard "Basic Ships"
+	"Super Duper Carrier"
+	

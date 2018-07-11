@@ -1,0 +1,159 @@
+# Weapons:
+
+outfit "Heat Redistribution Ray"
+	category "Turrets"
+	cost 500000
+	thumbnail "outfit/Heat Ray"
+	"mass" 35
+	"outfit space" -35
+	"weapon capacity" -35
+	"turret mounts" -1
+	weapon
+		sprite "projectile/banisher"
+			"frame rate" 60
+		sound "flamethrower"
+		"hit effect" "heat ray hit"
+		"inaccuracy" .4
+		"velocity" 590
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 3.3
+		"firing heat" -1
+		"shield damage" 0
+		"hull damage" .52
+		"heat damage" 100
+		"piercing" 1
+	description "The Heat Redistribution Ray is the Kaltheim's primary cooling method; by using some very complicated physics, they are able to trap superhot particles within a beam, which can then be fired at an enemy ship. The excess heat required for this weapon is sourced from the other outfits installed on a ship, providing the cooling effect."
+	description "	This weapon is entirely unhindered by shields, instead piercing through to transmit heat directly to the enemy ship's hull. As a result of the increased heat upon it, this often causes the hull to begin to warp, causing a small amount of damage."
+	
+effect "heat ray hit"
+	sprite "effect/explosion/medium"
+		"no repeat"
+		"frame rate" 15
+		"random start frame"
+	"lifetime" 28
+	"random angle" 360
+	"random spin" 3
+	"random frame rate" 5
+	"velocity scale" 0
+	
+	
+outfit "Phase Missile Launcher"
+	category "Secondary Weapons"
+	cost 5000000
+	thumbnail "outfit/Phase Launcher"
+	"mass" 30
+	"outfit space" -30
+	"weapon capacity" -30
+	"gun ports" -1
+	"phase capacity" 100
+	weapon
+		sprite "projectile/phase"
+			"random start frame"
+			"frame rate" 2
+		sound "pulse"
+		ammo "Phase Missile"
+		icon "icon/phase"
+		"fire effect" "ionic afterburner"
+		"hit effect" "seeker impact"
+		"inaccuracy" 4
+		"velocity" 12
+		"lifetime" 300
+		"reload" 30
+		"firing energy" 1
+		"firing heat" 15
+		"firing force" 250
+		"acceleration" 1.2
+		"drag" .1
+		"turn" 3
+		"homing" 4
+		"radar tracking" .9
+		"shield damage" 100
+		"ion damage" 15
+		"hull damage" 70
+		"hit force" 25
+		"missile strength" 0
+		"piercing" 1
+	description "The Phase Missile is a terrifying weapon designed by the Kaltheim to warp in and out of this plane of existence as it flies, allowing it to dodge anti-missile systems entirely. However, this universe-swap technology severely limits the projectile's range."
+	
+outfit "Phase Missile"
+	category "Ammunition"
+	cost 80000
+	thumbnail "outfit/Phase"
+	"mass" .2
+	"phase capacity" -1
+	description "The Phase Missile is ammunition for the Phase Missile Launcher- without the launcher, you cannot install Phase Missiles. Each launcher can store up to 100 Phase Missiles."
+
+	
+# Shields:	
+	
+outfit "Tundra-Class Shield Generator"
+	category "Systems"
+	cost 520000
+	thumbnail "outfit/tundra_shields"
+	"mass" 25
+	"outfit space" -25
+	"shield generation" 1.3
+	"shield energy" -3
+	"shield heat" -3
+	description "The Tundra-Class Shield Generator is the smallest Kaltheim shield system. Designed to absorb energy from the projectiles which it deflects, this allows smaller Kaltheim ships to operate only on relatively small generators. The dissipation effects used by Kaltheim shields also allow them to cool their ships when being fired on."
+	
+
+outfit "Glacial-Class Shield Generator"
+	category "Systems"
+	cost 1100000
+	thumbnail "outfit/glacial_shields"
+	"mass" 50
+	"outfit space" -50
+	"shield generation" 2.8
+	"shield energy" -7
+	"shield heat" -7
+	description "The Glacial-Class Shield Generator is the next step up in Kaltheim shielding technology. It employs better cooling, energy absorption and shield generation than Tundra shields in order to provide a more efficient shielding system for larger Kaltheim ships."
+
+
+outfit "Boreal-Class Shield Generator"
+	category "Systems"
+	cost 1650000
+	thumbnail "outfit/boreal_shields"
+	"mass" 75
+	"outfit space" -75
+	"shield generation" 4.4
+	"shield heat" -11.5
+	description "This is the largest set of shields devised by the Kaltheim so far."
+	
+
+# Power:
+
+outfit "Floe Reactor"
+	category "Power"
+	cost 2000000
+	thumbnail "outfit/floe_core"
+	"mass" 35
+	"outfit space" -35
+	"energy generation" 5.3
+	"cooling" 6
+	description "The Floe reactor is the Kaltheim's primary power source for their smaller ships. As with almost all Kaltheim outfits, it cools the ship it is installed on in addition to generating power."
+	
+
+outfit "Iceberg Reactor"
+	category "Power"
+	cost 15000000
+	thumbnail "outfit/iceberg_core"
+	"mass" 120
+	"outfit space" -120
+	"energy generation" 22
+	"cooling" 25
+	description "The Iceberg reactor is a typical Kaltheim system- equipped to cool the ship it's installed upon whilst performing its primary function. This is the largest reactor designed by the Kaltheim so far, beating out the older Floe reactor by an enormous margin."
+
+
+outfit "Polar Batteries"
+	category "Power"
+	cost 750000
+	thumbnail "outfit/polar_battery"
+	"mass" 50
+	"outfit space" -50
+	"energy capacity" 10000
+	description "The Kaltheim's Polar batteries are a simple energy storage unit, albeit far more efficient than human technology."
+	
+	
+# Ships:

@@ -1,0 +1,2 @@
+event "enclave opens"
+	link Xenos Suhail

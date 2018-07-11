@@ -1,0 +1,359 @@
+# Cylon Shipyard
+ 
+ship "Cylon Heavy Basestar"
+	sprite "ship/cylon_basestar_heavy"
+	"never disabled"
+#	licenses
+#		"Cylon"
+	attributes
+		category "Heavy Warship"
+		"cost" 10000
+		"shields" 96000
+		"hull" 1200000
+		"mass" 800000
+		"cargo space" 3000
+		"required crew" 5000
+		"bunks" 9000
+		"fuel capacity" 1000
+
+		"drag" 3000
+
+
+		"outfit space" 9450
+		"weapon capacity" 3000
+		"engine capacity" 2500
+
+		"hull repair rate" 10
+		"heat dissipation" .1
+		weapon
+			"blast radius" 9
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 80
+	outfits
+		"BGMN-793 Nemesis" 125
+
+		"Cylon HW01-R1-T1-J1" 5
+
+		"Pulse Rifle AR-MD86" 9000
+
+		"Cylon Tri-Core Grav-Reactor HBS2" 5
+
+		"Cylon ML03/48-8kN" 5
+
+		"Cylon Worker" 10000
+
+		"Cylon Anti-Missile Turret" 5
+		"Cylon Auto Cannon T16" 10
+		"Cylon Auto Cannon T72" 10
+
+
+	turret 190 349 "Cylon Auto Cannon T72"
+	turret 276 294 "Cylon Auto Cannon T72"
+	turret -190 349 "Cylon Auto Cannon T72"
+	turret -276 294 "Cylon Auto Cannon T72"
+	turret -386 -76 "Cylon Auto Cannon T72"
+	turret -356 -166 "Cylon Auto Cannon T72"
+	turret 386 -76 "Cylon Auto Cannon T72"
+	turret 356 -166 "Cylon Auto Cannon T72"
+	turret 40 -10 "Cylon Anti-Missile Turret"
+	turret 25 30 "Cylon Anti-Missile Turret"
+	turret 0 -40 "Cylon Anti-Missile Turret"
+	turret -25 30 "Cylon Anti-Missile Turret"
+	turret -40 -10 "Cylon Anti-Missile Turret"
+	turret 53 -386 "Cylon Auto Cannon T72"
+	turret -53 -386 "Cylon Auto Cannon T72"
+
+	turret 190 -349 "Cylon Auto Cannon T16"
+	turret 276 -294 "Cylon Auto Cannon T16"
+	turret -190 -349 "Cylon Auto Cannon T16"
+	turret -276 -294 "Cylon Auto Cannon T16"
+	turret -386 76 "Cylon Auto Cannon T16"
+	turret -356 166 "Cylon Auto Cannon T16"
+	turret 386 76 "Cylon Auto Cannon T16"
+	turret 356 166 "Cylon Auto Cannon T16"
+	turret 53 386 "Cylon Auto Cannon T16"
+	turret -53 386 "Cylon Auto Cannon T16"
+
+	gun 40 -10 "Cylon ML03/48-8kN"
+	gun 25 30 "Cylon ML03/48-8kN"
+	gun 0 -40 "Cylon ML03/48-8kN"
+	gun -25 30 "Cylon ML03/48-8kN"
+	gun -40 -10 "Cylon ML03/48-8kN"
+
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+
+	explode "tiny explosion" 20
+	explode "small explosion" 10
+	explode "medium explosion" 5
+	description "Cylon Basestar Heavy Armored Battle Fortress"
+ 
+ship "Cylon Fighter"
+	sprite "ship/cylon_fighter"
+	"never disabled"
+#	licenses
+#		"Cylon"
+	attributes
+		category "Fighter"
+		"cost" 10000
+		"shields" 6000
+		"hull" 4000
+		"mass" 500
+		"required crew" 3
+		"bunks" 3
+		"fuel capacity" 1000
+
+		"drag" 9.22
+
+		"outfit space" 641
+		"weapon capacity" 300
+		"engine capacity" 402
+
+		"hull repair rate" .1
+		"heat dissipation" .5
+		weapon
+			"blast radius" 9
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 80
+	outfits
+		"BGM-235 Havoc" 48
+		"Chaft/Flare Clip" 128
+
+		"Cylon F02-R1-T1-J1-A1"
+
+		"Cylon F02-A.C.-180C" 2
+
+		"Pulse Rifle AR-MD86" 3
+
+		"Cylon ML02-8K" 4
+
+		"DRADIS Array DPG/AESA-63"
+		"ECM/TEWS VN-23/N7A"
+		"FCS TN/VPS-18 MK10"
+		
+		"Cylon Flac Launcher CF64" 2
+		
+	engine -16 40
+	engine 16 40
+	gun -32 -44 "Cylon F02-A.C.-180C"
+	turret -8 4 "Cylon Flac Launcher CF64"
+	turret 8 4 "Cylon Flac Launcher CF64"
+	gun -20 -36 "Cylon ML02-8K"
+	gun -14 -36 "Cylon ML02-8K"
+	gun 14 -36 "Cylon ML02-8K"
+	gun 20 -36 "Cylon ML02-8K"
+	gun 32 -44 "Cylon F02-A.C.-180C"
+
+	explode "tiny explosion" 20
+	explode "small explosion" 10
+	explode "medium explosion" 5
+	description "Cylon Fighter"

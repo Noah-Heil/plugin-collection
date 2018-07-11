@@ -1,0 +1,74 @@
+﻿# Copyright (c) 2018 by Rafael Ramawadh
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+government "Gurkani (Republic)"
+	swizzle 4
+	color .0 .3 .69
+	language "Altay"
+
+	"player reputation" 1
+
+government Leyam
+	swizzle 0
+	color .19 .38 .19
+	language "Altay"
+
+	"player reputation" 1
+
+government "Gurkani (Empire)"
+	swizzle 0
+	color .19 .38 .19
+
+	"player reputation" 1
+
+government Turrani
+	swizzle 0
+	color .19 .38 .19
+	language "Altay"
+
+	"player reputation" 1
+
+government Syramur
+	swizzle 5
+	color 1 .8 .2
+	language "Altay"
+
+	"player reputation" 1
+
+government Hamax
+	swizzle 0
+	color .19 .38 .19
+	language "Altay"
+
+	"player reputation" 1
+
+government Kunduzgi
+	swizzle 3
+	color .24 .77 .1
+	language "Sakha"
+
+	"player reputation" 1
+
+government Baharad
+	swizzle 0
+	color .19 .38 .19
+	language "Altay"
+
+	"player reputation" 1
+
+government Chianxi
+	swizzle 0
+	color .0 .59 .19
+	language "Altay"
+
+	"player reputation" 1
+
+government "Warlord Automata"
+	"player reputation" -1000

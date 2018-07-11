@@ -1,0 +1,206 @@
+# Copyright (c) 2016 by Jonathan Steck
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+ship "Aerie" "Aerie (EC Merchant)"
+	outfits
+		"Torpedo Launcher" 2
+		Torpedo 60
+		"Heavy Laser Turret" 2
+		"Anti-Missile Turret"
+		"Fission Reactor"
+		Supercapacitor
+		"Liquid Nitrogen Cooler"
+		"D41-HY Shield Generator"
+		"Small Radar Jammer" 2
+		"Interference Plating" 2
+		"A370 Atomic Thruster"
+		"A375 Atomic Steering"
+		Hyperdrive
+
+ship "Argosy" "Argosy (EC Merchant)"
+	outfits
+		"Heavy Laser" 4
+		"Anti-Missile Turret"
+		"Fission Reactor"
+		Supercapacitor
+		"D23-QP Shield Generator"
+		"Liquid Nitrogen Cooler"
+		"Large Radar Jammer"
+		"Interference Plating" 2
+		"Mass Expansion" 2
+		"A250 Atomic Thruster"
+		"A375 Atomic Steering"
+		Hyperdrive
+
+ship "Behemoth" "Behemoth (EC Merchant)"
+	outfits
+		"Heavy Laser Turret" 2
+		"Anti-Missile Turret" 2
+		"Heavy Anti-Missile Turret" 2
+		"Breeder Reactor"
+		Supercapacitor
+		"D94-YV Shield Generator"
+		"Liquid Nitrogen Cooler"
+		"Interference Plating" 4
+		"Cargo Expansion" 2
+		"A250 Atomic Thruster"
+		"A125 Atomic Steering"
+		"A375 Atomic Steering"
+		"Scram Drive"
+
+ship "Blackbird" "Blackbird (EC Merchant)"
+	outfits
+		"Heavy Laser Turret" 2
+		"Fission Reactor"
+		Supercapacitor
+		"D23-QP Shield Generator"
+		"Liquid Nitrogen Cooler"
+		"Large Radar Jammer"
+		"Interference Plating" 2
+		"A370 Atomic Thruster"
+		"A125 Atomic Steering"
+		"A375 Atomic Steering"
+		Hyperdrive
+
+ship "Bulk Freighter" "Bulk Freighter (EC Merchant)"
+	outfits
+		"Heavy Laser Turret" 3
+		"Heavy Anti-Missile Turret" 2
+		"Fusion Reactor"
+		Supercapacitor
+		"D23-QP Shield Generator"
+		"Liquid Nitrogen Cooler"
+		"Interference Plating" 2
+		"Mass Expansion" 2
+		"A370 Atomic Thruster"
+		"A255 Atomic Steering"
+		"Scram Drive"
+
+ship "Clipper" "Clipper (EC Merchant)"
+	outfits
+		"Torpedo Launcher" 2
+		Torpedo 60
+		"Fission Reactor"
+		Supercapacitor
+		"D23-QP Shield Generator"
+		"Liquid Nitrogen Cooler"
+		"Interference Plating" 2
+		"A250 Atomic Thruster"
+		"A375 Atomic Steering"
+		Hyperdrive
+
+ship "Corvette" "Corvette (EC Merchant)"
+	outfits
+		"Proton Gun" 4
+		"Heavy Anti-Missile Turret"
+		"Fusion Reactor"
+		Supercapacitor
+		"D23-QP Shield Generator"
+		"Liquid Helium Cooler"
+		"Small Radar Jammer" 2
+		"Interference Plating" 2
+		"Mass Expansion"
+		"A370 Atomic Thruster"
+		"A375 Atomic Steering"
+		Hyperdrive
+
+ship "Freighter" "Freighter (EC Merchant)"
+	outfits
+		"Heavy Anti-Missile Turret" 2
+		"Fission Reactor"
+		Supercapacitor
+		"Liquid Nitrogen Cooler"
+		"Interference Plating" 3
+		"Fuel Pod" 2
+		"Mass Expansion"
+		"A250 Atomic Thruster"
+		"A255 Atomic Steering"
+		"Scram Drive"
+
+ship "Heavy Shuttle" "Heavy Shuttle (EC Merchant)"
+	outfits
+		"Gatling Gun"
+		"Gatling Gun Ammo" 3000
+		"Dwarf Core"
+		Supercapacitor
+		"Water Coolant System"
+		"Interference Plating"
+		"A120 Atomic Thruster"
+		"A125 Atomic Steering"
+		Hyperdrive
+
+ship "Osprey" "Osprey (EC Merchant)"
+	outfits
+		"Proton Gun" 4
+		"Anti-Missile Turret" 2
+		"Fusion Reactor"
+		"LP072a Battery Pack"
+		"D23-QP Shield Generator"
+		"Liquid Nitrogen Cooler"
+		"Water Coolant System"
+		"Mass Expansion"
+		"A370 Atomic Thruster"
+		"A125 Atomic Steering"
+		"A525 Atomic Steering"
+		Hyperdrive
+
+ship "Scout" "Scout (EC Merchant)"
+	outfits
+		"Gatling Gun" 2
+		"Gatling Gun Ammo" 6000
+		"Fission Reactor"
+		Supercapacitor
+		"Liquid Nitrogen Cooler"
+		"Fuel Pod" 2
+		"Mass Expansion"
+		"Interference Plating"
+		"A370 Atomic Thruster"
+		"A375 Atomic Steering"
+		Hyperdrive
+
+ship "Star Barge" "Star Barge (EC Merchant)"
+	outfits
+		"Dwarf Core"
+		Supercapacitor
+		"Water Coolant System"
+		"Interference Plating"
+		"Cargo Expansion"
+		"A120 Atomic Thruster"
+		"A125 Atomic Steering"
+		Hyperdrive
+
+ship "Quicksilver" "Quicksilver (EC Merchant)"
+	outfits
+		"Fission Reactor"
+		Supercapacitor
+		"Liquid Nitrogen Cooler"
+		"Interference Plating" 2
+		"Particle Cannon" 2
+		"A250 Atomic Thruster"
+		"A255 Atomic Steering"
+		Hyperdrive
+
+ship "Vanguard" "Vanguard (EC Merchant)"
+	outfits
+		"Sidewinder Missile Launcher" 7
+		"Sidewinder Missile" 700
+		"Sidewinder Missile Rack" 14
+		"Heavy Anti-Missile Turret"
+		"Breeder Reactor"
+		Supercapacitor
+		"D94-YV Shield Generator"
+		"Liquid Nitrogen Cooler"
+		"Water Coolant System"
+		"Large Radar Jammer" 2
+		"Interference Plating" 2
+		"Mass Expansion"
+		"A520 Atomic Thruster"
+		"A375 Atomic Steering"
+		Hyperdrive

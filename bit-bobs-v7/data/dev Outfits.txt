@@ -1,0 +1,160 @@
+outfit "Automaton-B-Gone"
+	category "Systems"
+	cost 0
+	thumbnail "outfit/nerve gas"
+	"automaton" -1
+	"bunks" 100
+	unplunderable 1
+
+outfit "Add Cargo"
+	category "Systems"
+	cost 0
+	thumbnail "outfit/small cargo"
+	"cargo space" 1
+	unplunderable 1
+	
+outfit "Add Outfit Space"
+	category "Systems"
+	cost 0
+	thumbnail "outfit/small cargo"
+	"outfit space" 1
+	unplunderable 1
+	
+outfit "Add Mass"
+	category "Systems"
+	cost 0
+	thumbnail "outfit/Ship Expansion"
+	"mass" 1
+	unplunderable 1
+	
+outfit "Add Engine"
+	category "Systems"
+	cost 0
+	thumbnail "outfit/Engine Expansion"
+	"engine capacity" 1
+	unplunderable 1
+	
+outfit "Add Weapon"
+	category "Systems"
+	cost 0
+	thumbnail "outfit/Weapon Expansion"
+	"weapon capacity" 1
+	unplunderable 1
+	
+outfit "Add Bunk"
+	category "Systems"
+	cost 0
+	thumbnail "outfit/bunk removal"
+	"bunks" 1
+	unplunderable 1
+
+outfit "Add Fuel"
+	category "Systems"
+	cost 0
+	thumbnail "outfit/fuel removal"
+	"fuel capacity" 50
+	unplunderable 1
+	
+outfit "Add Hull"
+	category "Systems"
+	cost 0
+	thumbnail "outfit/fuel removal"
+	unplunderable 1
+	"hull" 1
+
+outfit "Add Shield"
+	category "Systems"
+	cost 0
+	thumbnail "outfit/fuel removal"
+	unplunderable 1
+	"shields" 1
+	
+outfit "Hoovy Rocket Launcher"
+	category "Secondary Weapons"
+	cost 40000
+	thumbnail "outfit/rocket launcher"
+	"mass" 10
+	"outfit space" -20
+	"weapon capacity" -20
+	"gun ports" -1
+	"rocket capacity" 20
+	weapon
+		sprite "projectile/rocket"
+			"frame rate" 4
+		sound "rocket"
+		icon "icon/rocket"
+		"hit effect" "heavy rocket hit"
+		"die effect" "small explosion"
+		"inaccuracy" 15
+		"velocity" 8
+		"lifetime" 100
+		"reload" 0
+		"firing energy" 0
+		"firing heat" 0
+		"acceleration" .8
+		"drag" .1
+		"trigger radius" 30
+		"blast radius" 50
+		"shield damage" 700
+		"hull damage" 600
+		"hit force" 80
+		"missile strength" 16
+	description "Somehow significantly more effective when it's not you using them."
+
+outfit "Add Thrust"
+	category "Systems"
+	cost 0
+	thumbnail "outfit/afterburner"
+	unplunderable 1
+	"thrust" 2.5
+	
+outfit "Add Reverse Thrust"
+	category "Systems"
+	cost 0
+	thumbnail "outfit/afterburner"
+	unplunderable 1
+	"reverse thrust" 2.5
+	
+outfit "Add Steering"
+	category "Systems"
+	cost 0
+	thumbnail "outfit/afterburner"
+	unplunderable 1
+	"turn" 1.15
+	
+outfit "oof"
+	category "Secondary Weapons"
+	cost 15000
+	thumbnail "outfit/meteor launcher"
+	"mass" 3
+	"outfit space" -10
+	"weapon capacity" -10
+	"gun ports" -1
+	"meteor capacity" 35
+	weapon
+		sprite "projectile/meteor"
+			"no repeat"
+			"frame rate" .25
+		sound "meteor"
+		ammo "Meteor Missile"
+		icon "icon/meteor"
+		"fire effect" "meteor fire"
+		"die effect" "missile death"
+		"hit effect" "medium explosion"
+		"live effect" "missile death" 200
+		"inaccuracy" 10
+		"velocity" 9
+		"lifetime" 600
+		"reload" 1
+		"firing energy" 0
+		"firing heat" 0
+		"acceleration" .9
+		"drag" .1
+		"turn" 2
+		"homing" 3
+		"infrared tracking" .8
+		"shield damage" 130
+		"hull damage" 80
+		"hit force" 30
+		"missile strength" 4
+	description "The Meteor Missile is the cheapest and simplest homing weapon available in human space. The tracking system on these missiles is notoriously unreliable, and they are easily destroyed by anti-missile systems, but in large numbers or when fired at a slow-moving target they can be deadly."
